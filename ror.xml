@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:ror="http://rorweb.com/0.1/" >
+<channel>
+  <title>ROR Sitemap for https://www.ssobq.com/</title>
+  <link>https://www.ssobq.com/</link>
+
+<item>
+     <link>https://www.ssobq.com/</link>
+     <title>SSO - CRC Servicios de Salud Ocupacional</title>
+     <description>SSO - CRC Servicios de Salud Ocupacional es una IPS de mediana complejidad cuyo objetivo fundamental es la prestación de servicios 
+    integrales de seguridad y salud en el trabajo con una clara visión profesional y una audaz 
+    vocación como elemento importante en el mejoramiento continuo de nuestra institución y colaboradores.</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>0</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://www.ssobq.com/nosotros.php</link>
+     <title>Nosotros | SSO - CRC</title>
+     <description>SSO es una IPS de mediana complejidad cuyo objetivo fundamental es la prestación de servicios 
+    integrales de seguridad y salud en el trabajo con una clara visión profesional y una audaz 
+    vocación como elemento importante en el mejoramiento continuo de nuestra institución y colaboradores.</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>1</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://www.ssobq.com/servicios.php</link>
+     <title>Servicios | SSO - CRC</title>
+     <description>Servicios de salud ocupacional, nuestos servicios, Paquetes de exámenes, Exámenes Paraclínicos,
+    Exámenes de Laboratorio, Pruebas Psicológicas, Pruebas Covid-19, Vacunación, Salud Visual, Acompañamiento por nuestros especialistas en SST</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>1</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://www.ssobq.com/contacto.php</link>
+     <title>Contacto | SSO - CRC</title>
+     <description>Contacto de SSO - CRC servicios de salud ocupacional</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>1</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://www.ssobq.com/trabajaNosotros.php</link>
+     <title>Trabaja con nosotros | SSO - CRC</title>
+     <description>Trabaja con nosotros en SSO - CRC Servicios de Salud Ocupacional</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>1</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://www.ssobq.com/servicios/examenesOcupacional.php</link>
+     <title>Exámenes Ocupacional | SSO</title>
+     <description>Exámenes Ocupacional | SSO</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>2</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://www.ssobq.com/servicios/examenesParaclinicos.php</link>
+     <title>Exámenes paraclinicos | SSO</title>
+     <description>Exámenes paraclinicos | SSO</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>2</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://www.ssobq.com/servicios/examenesLaboratorio.php</link>
+     <title>Exámenes de laboratorio | SSO</title>
+     <description>Exámenes de laboratorio | SSO</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>2</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://www.ssobq.com/servicios/psicologica.php</link>
+     <title>Prueba psicológica | SSO</title>
+     <description>Prueba psicológica | SSO</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>2</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://www.ssobq.com/servicios/paquetes.php</link>
+     <title>Paquetes | SSO</title>
+     <description>Paquetes | SSO</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>2</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://www.ssobq.com/servicios/pruebasCovid.php</link>
+     <title>Pruebas Covid | SSO</title>
+     <description>Pruebas Covid | SSO</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>2</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://www.ssobq.com/servicios/vacunacion.php</link>
+     <title>Vacunación | SSO</title>
+     <description>Vacunación | SSO</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>2</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://www.ssobq.com/servicios/saludVisual.php</link>
+     <title>Salud Visual | SSO</title>
+     <description>Salud Visual | SSO</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>2</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://www.ssobq.com/servicios/SST.php</link>
+     <title>Acompañamiento por especialistas en SST | SSO</title>
+     <description>Acompañamiento por especialistas en SST | SSO</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>2</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+</channel>
+</rss>
+  

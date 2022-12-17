@@ -1,0 +1,273 @@
+/*Para cualquier que requiera color azul*/
+
+.colorAzul {
+    color: #17529B !important;
+}
+
+
+/*footer*/
+
+.colFooter {
+    padding-right: 0px !important;
+    padding-left: 0px !important;
+}
+
+
+/*Nav personalizado*/
+
+.colorBotonNav {
+    color: #929191 !important;
+}
+
+.colorBotonNav:hover {
+    color: #17529B !important;
+}
+
+.card-body {
+    padding: 0 !important;
+}
+
+
+/*Index*/
+
+#imgIndex {
+    width: 100%;
+}
+.imgServicio {
+    max-height: 100%;
+    width: 50%;
+}
+
+
+/*Nosotros*/
+
+#centerDiv {
+    width: 80%;
+}
+
+
+/*Servicios*/
+
+.imgServicios {
+    min-height: 150px;
+    width: 100%;
+}
+
+.imgServiciosCovid {
+    max-height: 400px;
+    width: 100%;
+}
+
+.thumbnail {
+    position: relative;
+}
+
+.caption {
+    position: absolute;
+    top: 45%;
+    left: 0;
+    width: 100%;
+}
+
+@media (max-width: 430px) {
+    .navbar-brand {
+        font-size: 1.2rem!important;
+    }
+    #sso {
+        width: 65px;
+        height: 45px;
+    }
+    .circulo {
+        max-width: 90%;
+        max-height: 90%;
+        min-width: 80%;
+        min-height: 80%;
+    }
+    .imgServicios {
+        min-height: 150px;
+        width: 70%;
+    }
+    .imgServiciosCovid {
+        min-height: 150px;
+        width: 70%;
+    }
+    #titulo-sso{
+        display: none;
+        visibility: hidden;
+    }
+    #titulo-sso-celular::before{
+        content: " SSO - CRC ";
+        visibility: visible;
+    }
+}
+
+@media (max-width: 576px) {
+    .navbar-brand {
+        font-size: .88rem!important;
+        margin-right: .1rem!important;
+    }
+    #sso {
+        width: 65px;
+        height: 45px;
+    }
+    .navbar-toggler {
+        padding: .2rem .7rem!important;
+        font-size: .75rem!important;
+    }
+    .circulo {
+        max-width: 90%;
+        max-height: 90%;
+        min-width: 80%;
+        min-height: 80%;
+    }
+    .imgServicios {
+        min-height: 150px;
+        width: 70%;
+    }
+    .imgServiciosCovid {
+        min-height: 150px;
+        width: 70%;
+    }
+}
+
+
+/* Medium devices (tablets, 768px and up)*/
+
+@media (max-width: 768px) {
+    .navbar-brand {
+        font-size: 1.25rem!important;
+    }
+    .circulo {
+        max-width: 90%;
+        max-height: 90%;
+        min-width: 80%;
+        min-height: 80%;
+    }
+    .imgServicios {
+        min-height: 150px;
+        width: 50%;
+    }
+    .imgServiciosCovid {
+        min-height: 150px;
+        width: 70%;
+    }
+}
+
+@media (min-width: 768px) {
+    .navbar-brand {
+        font-size: 1.25rem!important;
+    }
+    .circulo {
+        max-width: 90%;
+        max-height: 90%;
+        min-width: 80%;
+        min-height: 80%;
+    }
+}
+
+
+/* Large devices (desktops, 992px and up)*/
+
+@media (min-width: 992px) {
+    .navbar-brand {
+        font-size: 1.3rem!important;
+    }
+    .circulo {
+        max-width: 350px;
+        max-height: 350px;
+        min-width: 350px;
+        min-height: 350px;
+    }
+
+    .modal-lg {
+        max-width: 680px;
+    }
+}
+
+
+@media (min-width: 1200px){
+    footer div.container {
+        max-width: 1240px;
+    }
+
+}
+
+
+.circulo {
+    max-width: 310px;
+    max-height: 310px;
+    min-width: 310px;
+    min-height: 310px;
+}
+
+.carousel-fade .carousel-item {
+    opacity: 0;
+    transition-duration: .6s;
+    transition-property: opacity;
+}
+
+
+/*PRUEBA PSICOLOGICA*/
+
+#bodyPsi {
+    padding-top: 56px;
+    background-image: url("/img/servicios/psicologia/fondo.jpg");
+    background-color: transparent;
+    background-attachment: fixed;
+    /*para que sea estático*/
+    background-repeat: no-repeat;
+    /*que no se repita el fondo*/
+    background-size: cover;
+}
+
+
+/*SALUD VISUAL*/
+
+#carousel-control-prevSV {
+    right: 0 !important;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    z-index: 1;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    width: 15%;
+    color: #fff;
+    text-align: center;
+    opacity: .5;
+    transition: opacity .15s ease;
+}
+
+#carousel-control-nextSV {
+    left: 0 !important;
+}
+
+.SiteLock {
+    width: 70px;
+    position: fixed;
+    top: 50px;
+    right: 0;
+    /**/
+    top: 108%;
+    height: 205px;
+    margin-top: -100px;
+    z-index: 100;
+}
+
+.SiteLock img {
+    width: 70px;
+    height: 50px;
+    padding: 2px 0;
+}
+
+/*Modal*/
+
+.modal-body{
+    padding: 0rem !important;
+}
+.modal-header {
+    padding: .5rem !important;}

@@ -1,0 +1,23 @@
+# Grupo 1
+User-agent: Googlebot
+User-agent: *
+Disallow: /nogooglebot/
+Disallow: /about/
+Disallow: /services/
+Disallow: /contact/
+Disallow: /img/
+Disallow: /html/servicios
+Disallow: /html
+
+User-agent: * Disallow: https://www.ssobq.com/contact
+User-agent: * Disallow: https://ssobq.com/contact
+User-agent: * Disallow: https://www.ssobq.com/about
+User-agent: * Disallow: https://ssobq.com/about
+User-agent: * Disallow: https://www.ssobq.com/services
+User-agent: * Disallow: https://ssobq.com/services
+User-agent: * Disallow: https://ssobq.com/html/servicios/
+
+
+# Grupo 2
+User-agent: *
+Allow: /

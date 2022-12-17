@@ -1,0 +1,180 @@
+<!doctype html>
+<html lang="es">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="shortcut icon" sizes="16x16 24x24 32x32 48x48 64x64"  href="img/logo.ico" />
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+    <!-- Personalizado CSS -->
+    <link rel="stylesheet" href="css/stylo.css">
+
+
+
+    <!-- Metadatos Informacion-->
+    <meta name="description" content="SSO es una IPS de mediana complejidad cuyo objetivo fundamental es la prestación de servicios 
+    integrales de seguridad y salud en el trabajo con una clara visión profesional y una audaz 
+    vocación como elemento importante en el mejoramiento continuo de nuestra institución y colaboradores.">
+    <meta name="keywords" content="SSO, sso, Sso, Servicios de salud ocupacional, Servicios de Salud Ocupacional,CRC, crc Salud Ocupacional, seguridad en el trabajo, sst, SST, medicina en el trabajo, ssobq, ssobqcom, salud en el trabajo, sso barranquilla, salud ocupacional barranquilla, sso Barranquilla, salud ocupacional Barranquilla">
+
+    <!--Google search-->
+    <meta name="google-site-verification" content="PMbjD96NUeb_WmZZaNueqxxDQiH_kU5IXAGHMon5BQ0" />
+
+    <!-- Iconos font-awesome -->
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+
+    <title>Nosotros | SSO - CRC</title>
+</head>
+
+<body>
+
+
+    <?php
+    include 'html/nav.html';
+    ?>
+
+    <!-- contenido de la pagina -->
+    <div class="container-fluid" id="centerDiv">
+
+
+        <!-- FILA 1-->
+        <div class="row">
+
+
+            <div class="col-lg-7">
+                <br><br>
+                <div class="row">
+                    <div class="col-lg-11">
+                        <h2 class="font-weight-bold text-primary colorAzul text-center">SSO - CRC Servicios de Salud Ocupacional S.A.S.</h2>
+                    </div>
+                </div>
+                <div class="row">
+
+                    <div class="col-lg-11">
+                        <p>Es una IPS de mediana complejidad cuyo objetivo
+                            fundamental es la prestación de servicios integrales de seguridad y
+                            salud en el trabajo con una clara visión profesional y una audaz vocación como
+                            elemento importante en el mejoramiento continuo de nuestra institución y
+                            colaboradores. </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-5">
+                <div class="row justify-content-center">
+                    <img class="rounded" src="img/nosotros/SSO-CRC-Servicios-Salud-Ocupacional-exterior.jpg" alt="SSO - CRC Servicios de Salud Ocupacional Exterior" height="100%" width="100%">
+                </div>
+            </div>
+
+        </div>
+        <br>
+        <hr id="hr">
+        <br>
+        
+        <!-- FILA 2-->
+        <div class="row">
+
+
+            <div class="col-lg-6">
+                <h2 class="font-weight-bold text-primary colorAzul text-center">MISIÓN</h2>
+
+                <p class="text-center ">Somos Una IPS de mediana complejidad líder en la Región Caribe,
+                    que contribuye con experiencia y conocimiento en la implementación, el desarrollo y
+                    el seguimiento de la seguridad, salud en el trabajo y seguridad vial de nuestros clientes. </p>
+            </div>
+
+            <div class="col-lg-6">
+                <h2 class="font-weight-bold text-primary colorAzul text-center">VISIÓN</h2>
+
+                <p class="text-center ">Ser en el 2027 una IPS líder a nivel nacional en seguridad, 
+                    salud en el trabajo y seguridad vial, por nuestros servicios innovadores que generan confianza a
+                    nuestros usuarios a través de procesos efectivos y confiables. </p>
+            </div>
+
+        </div>
+        <br>
+        <hr id="hr">
+        <br>
+        <!-- FILA 3-->
+        <div class="row">
+            <div class="col-lg-12">
+                <h2 class="font-weight-bold text-primary colorAzul text-center">NUESTROS VALORES</h2>
+                <BR>
+                <h4 class="text-center ">Humanización<br><br>Oportunidad<br><br>Innovación<br><br>Ética<br><br>Experiencia<h4>
+            </div>
+
+        </div>
+        
+        <br>
+        <hr id="hr">
+        <br>
+        
+        <!-- FILA 3-->
+        <div class="row">
+            <div class="col-lg-12">
+                <h2 class="font-weight-bold text-primary colorAzul text-center">POLÍTICA DE CALIDAD</h2>
+                <BR>
+                <div class="row">
+                    <div class="col-lg-4">
+                    </div>
+                    <div class="col-lg-4">
+                        <img class="img-fluid rounded center" src="img/nosotros/icontec-ssobq.jpg" alt="">
+                    </div>
+                    <div class="col-lg-4">
+                    </div>
+                </div>
+                <br>
+                <div class="row">
+
+                    <div class="col-lg-12">
+
+                        <p class="text-justify">Contribuir con experiencia y conocimiento a nuestras partes interesadas
+                            para la implementación, el desarrollo y el seguimiento de la seguridad y
+                            salud en el trabajo, a través de la prestación de servicios médicos
+                            especializados y SSO formación. Así mismo, realizar las acciones
+                            necesarias para identificar las necesidades y requisitos de los candidatos
+                            que quieran obtener su certificado de Aptitud Física, Mental y
+                            Coordinación Motriz en la categoría requerida dentro de la normatividad
+                            vigente, y expedir y/o refrendar su Licencia de Conducción garantizando
+                            la satisfacción, confidencialidad e imparcialidad en los servicios prestados.
+                            <br><br>
+                            Nuestra política tiene como fundamento proporcionar los recursos físicos,
+                            tecnológicos y el personal competente necesarios para apuntar siempre a
+                            la mejora continua, promover la responsabilidad social preservando el
+                            medio ambiente y trabajando de la mano con las comunidades para su
+                            beneficio, garantizar el mejoramiento continuo e identificación de riesgos
+                            de los procesos que permiten brindar la prestación del servicio en
+                            condiciones seguras, y de esta manera asegurar la sostenibilidad y
+                            crecimiento de la institución.</p>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <hr id="hr">
+
+
+    </div>
+    <?php
+    include 'html/footer.html';
+    ?>
+
+
+    <!-- estilo css para nav -->
+    <style type="text/css">
+        #nosotrosNav {
+            color: #17529B !important;
+        }
+    </style>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+</body>
+
+</html>

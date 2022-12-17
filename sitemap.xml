@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
+
+<url>
+  <loc>https://www.ssobq.com/</loc>
+  <lastmod>2022-12-07T18:59:57+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://www.ssobq.com/nosotros.php</loc>
+  <lastmod>2022-12-07T18:59:57+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.ssobq.com/servicios.php</loc>
+  <lastmod>2022-12-07T18:59:57+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.ssobq.com/contacto.php</loc>
+  <lastmod>2022-12-07T18:59:57+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.ssobq.com/trabajaNosotros.php</loc>
+  <lastmod>2022-12-07T18:59:57+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.ssobq.com/servicios/examenesOcupacional.php</loc>
+  <lastmod>2022-12-07T18:59:57+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.ssobq.com/servicios/examenesParaclinicos.php</loc>
+  <lastmod>2022-12-07T18:59:57+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.ssobq.com/servicios/examenesLaboratorio.php</loc>
+  <lastmod>2022-12-07T18:59:57+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.ssobq.com/servicios/psicologica.php</loc>
+  <lastmod>2022-12-07T18:59:57+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.ssobq.com/servicios/paquetes.php</loc>
+  <lastmod>2022-12-07T18:59:57+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.ssobq.com/servicios/pruebasCovid.php</loc>
+  <lastmod>2022-12-07T18:59:57+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.ssobq.com/servicios/vacunacion.php</loc>
+  <lastmod>2022-12-07T18:59:57+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.ssobq.com/servicios/saludVisual.php</loc>
+  <lastmod>2022-12-07T18:59:57+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.ssobq.com/servicios/SST.php</loc>
+  <lastmod>2022-12-07T18:59:57+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+
+
+</urlset>
