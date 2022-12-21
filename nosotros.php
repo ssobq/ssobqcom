@@ -55,7 +55,7 @@
                 <div class="row">
 
                     <div class="col-lg-11">
-                        <p>Es una IPS de mediana complejidad cuyo objetivo
+                        <p>Somos una IPS de mediana complejidad cuyo objetivo
                             fundamental es la prestación de servicios integrales de seguridad y
                             salud en el trabajo con una clara visión profesional y una audaz vocación como
                             elemento importante en el mejoramiento continuo de nuestra institución y
