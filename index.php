@@ -11,6 +11,9 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <!--link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous"-->
 
+    <!-- Animacion CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
     <!-- Personalizado CSS -->
     <link rel="stylesheet" href="css/stylo.css">
     <link rel="stylesheet" href="css/index-servicio.css">
@@ -157,7 +160,7 @@
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-2 align-items-stretch mb-5 mb-lg-0">
-                    <div class="icon-box aos-init aos-animate" data-aos="fade-up" data-aos-delay="400">
+                    <div class="icon-box aos-init aos-animate" data-aos="fade-up" data-aos-delay="500">
                         <a href="https://www.ssobq.com/servicios/pruebasCovid.php">
                             <div class="icon text-center"> <img class="img-fluid imgServicio" src="img/servicios/menu/Pruebas-Covid-19-sso-crc.svg" alt="Pruebas Covid-19 sso - crc">
                             </div>
@@ -167,7 +170,7 @@
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-2 align-items-stretch mb-5 mb-lg-0">
-                    <div class="icon-box aos-init aos-animate" data-aos="fade-up" data-aos-delay="400">
+                    <div class="icon-box aos-init aos-animate" data-aos="fade-up" data-aos-delay="600">
                         <a href="https://www.ssobq.com/servicios.php">
                             <div class="icon text-center"> <img class="img-fluid imgServicio" src="img/servicios/menu/mas-sso-crc.svg" alt="Servicios sso - crc">
                             </div>
@@ -188,7 +191,7 @@
                 <div class="row multi-columns-row">
 
                     <div class="col-md-4 col-sm-6 col-xs-12">
-                        <div class="content-box">
+                        <div class="content-box" data-aos="fade-right" data-aos-delay="200">
                             <div class="content-box-image card border-0 shadow rounded-xs pt-3">
                                 <div class="card-body ">
                                     <i class="fa-solid fa-clock-rotate-left icon-fon"></i>
@@ -211,9 +214,9 @@
                     </div>
 
                     <div class="col-md-4 col-sm-6 col-xs-12">
-                        <div class="content-box">
+                        <div class="content-box" data-aos="fade-right" data-aos-delay="400">
                             <div class="content-box-image card border-0 shadow rounded-xs pt-3">
-                                <div class="card-body ">
+                                <div class="card-body">
                                     <i class="fa-solid fa-file-waveform icon-fon"></i>
                                     <h2 class="content-box-title font-serif text-light font-weight-bold">Certificados de Aptitud en Línea</h2>
                                     <p class=" justify-content  text-light" style="padding: 0 2%;"> Descarga de manera INMEDIATA los certificados de aptitud de los trabajadores evaluados,
@@ -229,7 +232,7 @@
 
 
                     <div class="col-md-4 col-sm-6 col-xs-12">
-                        <div class="content-box">
+                        <div class="content-box" data-aos="fade-right" data-aos-delay="600">
                             <div class="content-box-image card border-0 shadow rounded-xs pt-3">
                                 <div class="card-body ">
                                     <i class="fa-solid fa-phone-volume icon-fon"></i>
@@ -242,15 +245,7 @@
                                         <br>Barranquilla - Atlántico
                                 </div>
                                 </p>
-
-
-
                             </div>
-
-
-
-
-
                         </div>
                     </div>
                 </div>
@@ -283,6 +278,13 @@
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
     <!--script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script-->
+
+
+    <!--script Animacion-->
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
 
     <script>
         $(document).ready(function() {
