@@ -45,6 +45,70 @@
     width: 80%;
 }
 
+.nosotros{
+    position: relative;
+    display: inline-block;
+    text-align: center;
+}
+
+.nosotros h2{
+    font-size: 3rem;
+}
+
+.nosotros p{
+font-size: 1.6rem;
+}
+
+.nosotros-text{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%; 
+    
+}
+
+
+.mision-vision img{
+    width:80%; 
+    display: block;
+    margin-left: auto;
+    margin-right: auto; 
+    margin-top:5%;
+    margin-bottom:5%;
+}
+
+.mision-vision{
+    position: relative;
+    display: inline-block;
+    text-align: center;
+}
+
+
+.mision-vision-text{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;    
+    vertical-align:text-top;
+
+}
+
+/*
+.mision-vision-text h2{
+
+    padding-bottom: 10%;
+}*/
+
+.mision-vision-text p{
+    padding: 0% 13%;
+    margin-left: auto;
+    margin-right: auto; 
+    margin-top:auto;
+    margin-bottom:auto;
+}
+
 
 /*Servicios*/
 
@@ -99,6 +163,15 @@
         content: " SSO - CRC ";
         visibility: visible;
     }
+
+    .nosotros h2{
+        font-size: 1rem;
+    }
+    
+    .nosotros p{
+    font-size: .6rem;
+    }
+
 }
 
 @media (max-width: 576px) {
@@ -128,6 +201,19 @@
         min-height: 150px;
         width: 70%;
     }
+
+    .nosotros h2{
+        font-size: 1rem;
+    }
+    
+    .nosotros p{
+    font-size: .8rem;
+    }
+
+    .mision-vision-text p{
+        padding: 0% 4%;
+    }
+
 }
 
 
@@ -151,6 +237,17 @@
         min-height: 150px;
         width: 70%;
     }
+
+
+    .nosotros h2{
+        font-size: 1.04rem;
+    }
+    
+    .nosotros p{
+    font-size: .6rem;
+    }
+
+
 }
 
 @media (min-width: 768px) {

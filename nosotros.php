@@ -5,15 +5,14 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <link rel="shortcut icon" sizes="16x16 24x24 32x32 48x48 64x64"  href="img/logo.ico" />
+    <link rel="shortcut icon" sizes="16x16 24x24 32x32 48x48 64x64" href="img/logo.ico" />
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
     <!-- Personalizado CSS -->
     <link rel="stylesheet" href="css/stylo.css">
-
-
 
     <!-- Metadatos Informacion-->
     <meta name="description" content="SSO es una IPS de mediana complejidad cuyo objetivo fundamental es la prestación de servicios 
@@ -37,82 +36,81 @@
     include 'html/nav.html';
     ?>
 
+    <header>
+        <div id="carouselExample" class="carousel slide nosotros" data-ride="carousel" data-interval="2700">
+            <div class="carousel-inner" role="listbox">
+                <!-- Slide One - Set the background image for this slide in the line below -->
+                <div class="carousel-item active">
+                    <img class="d-block w-100" src="img/nosotros/Sala-de-espera-sso-crc.jpg">
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100" src="img/nosotros/consultorio-sso-crc.jpg">
+                </div>
+
+                <div class="nosotros-text text-light">
+                    <h2 class="font-weight-bold text-center">SSO - CRC SERVICIOS DE SALUD OCUPACIONAL</h2>
+                    <p>CON MÁS DE 20 AÑOS BRINDANDO SEGURIDAD Y SALUD A EMPRESAS COLOMBIANAS</p>
+
+                </div>
+
+            </div>
+        </div>
+    </header>
+
+    <br>
     <!-- contenido de la pagina -->
     <div class="container-fluid" id="centerDiv">
-
-
         <!-- FILA 1-->
         <div class="row">
 
+            <div class="col-lg-12 col-md-12">
+                <p class="text-justify" style="font-size: 1.4rem;">Somos una IPS de mediana complejidad cuyo objetivo
+                    fundamental es la prestación de servicios integrales de seguridad y
+                    salud en el trabajo con una clara visión profesional y una audaz vocación como
+                    elemento importante en el mejoramiento continuo de nuestra institución y
+                    colaboradores.</p>
+            </div>
+        </div>
 
-            <div class="col-lg-7">
-                <br><br>
-                <div class="row">
-                    <div class="col-lg-11">
-                        <h2 class="font-weight-bold text-primary colorAzul text-center">SSO - CRC Servicios de Salud Ocupacional S.A.S.</h2>
-                    </div>
-                </div>
-                <div class="row">
+    </div>
+    <br>
 
-                    <div class="col-lg-11">
-                        <p>Somos una IPS de mediana complejidad cuyo objetivo
-                            fundamental es la prestación de servicios integrales de seguridad y
-                            salud en el trabajo con una clara visión profesional y una audaz vocación como
-                            elemento importante en el mejoramiento continuo de nuestra institución y
-                            colaboradores. </p>
-                    </div>
+    <div class="col-lg-12 col-md-12">
+        <div class="row" style="background-color: #00519D42;">
+            <div class="col-lg-6 col-md-12 mision-vision">
+                <img class="img-fluid rounded center " src="img/nosotros/ICONO-MISION-SSO-CRC.png" alt="">
+                <div class="mision-vision-text">
+                    <h2 class="font-weight-bold text-primary colorAzul text-center">MISIÓN</h2>
+                    <p class="text-justify">Somos Una IPS de mediana complejidad líder en la Región Caribe,
+                        que contribuye con experiencia y conocimiento en la implementación, el desarrollo y
+                        el seguimiento de la seguridad, salud en el trabajo y seguridad vial de nuestros clientes. </p>
                 </div>
             </div>
 
-            <div class="col-lg-5">
-                <div class="row justify-content-center">
-                    <img class="rounded" src="img/nosotros/SSO-CRC-Servicios-Salud-Ocupacional-exterior.jpg" alt="SSO - CRC Servicios de Salud Ocupacional Exterior" height="100%" width="100%">
+            <div class="col-lg-6 col-md-12 mision-vision">
+                <img class="img-fluid rounded center " src="img/nosotros/ICONO-VISION-SSO-CRC.png" alt="">
+                <div class="mision-vision-text"><br>
+                    <h2 class="font-weight-bold text-primary colorAzul text-center">VISIÓN</h2>
+                    <p class="text-justify">Ser en el 2027 una IPS líder a nivel nacional en seguridad,
+                        salud en el trabajo y seguridad vial, por nuestros servicios innovadores que generan confianza a
+                        nuestros usuarios a través de procesos efectivos y confiables.</p> <br>
                 </div>
             </div>
 
         </div>
-        <br>
-        <hr id="hr">
-        <br>
-        
-        <!-- FILA 2-->
-        <div class="row">
 
-
-            <div class="col-lg-6">
-                <h2 class="font-weight-bold text-primary colorAzul text-center">MISIÓN</h2>
-
-                <p class="text-center ">Somos Una IPS de mediana complejidad líder en la Región Caribe,
-                    que contribuye con experiencia y conocimiento en la implementación, el desarrollo y
-                    el seguimiento de la seguridad, salud en el trabajo y seguridad vial de nuestros clientes. </p>
-            </div>
-
-            <div class="col-lg-6">
-                <h2 class="font-weight-bold text-primary colorAzul text-center">VISIÓN</h2>
-
-                <p class="text-center ">Ser en el 2027 una IPS líder a nivel nacional en seguridad, 
-                    salud en el trabajo y seguridad vial, por nuestros servicios innovadores que generan confianza a
-                    nuestros usuarios a través de procesos efectivos y confiables. </p>
-            </div>
-
-        </div>
-        <br>
-        <hr id="hr">
-        <br>
         <!-- FILA 3-->
         <div class="row">
-            <div class="col-lg-12">
-                <h2 class="font-weight-bold text-primary colorAzul text-center">NUESTROS VALORES</h2>
-                <BR>
-                <h4 class="text-center ">Humanización<br><br>Oportunidad<br><br>Innovación<br><br>Ética<br><br>Experiencia<h4>
-            </div>
-
+            <img class="d-block w-100" src="img/nosotros/Valores-sso-crc.jpg">
         </div>
-        
+    </div>
+
+
+    <div class="container-fluid" id="centerDiv">
         <br>
         <hr id="hr">
         <br>
-        
+
         <!-- FILA 3-->
         <div class="row">
             <div class="col-lg-12">
@@ -149,7 +147,8 @@
                             beneficio, garantizar el mejoramiento continuo e identificación de riesgos
                             de los procesos que permiten brindar la prestación del servicio en
                             condiciones seguras, y de esta manera asegurar la sostenibilidad y
-                            crecimiento de la institución.</p>
+                            crecimiento de la institución.
+                        </p>
                     </div>
 
                 </div>
