@@ -33,6 +33,7 @@
 #imgIndex {
     width: 100%;
 }
+
 .imgServicio {
     max-height: 100%;
     width: 50%;
@@ -45,53 +46,53 @@
     width: 80%;
 }
 
-.nosotros{
+.nosotros {
     position: relative;
     display: inline-block;
     text-align: center;
 }
 
-.nosotros h2{
+.nosotros h2 {
     font-size: 3rem;
 }
 
-.nosotros p{
-font-size: 1.6rem;
+.nosotros p {
+    font-size: 1.6rem;
 }
 
-.nosotros-text{
+.nosotros-text {
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    width: 100%; 
-    
+    width: 100%;
+
 }
 
 
-.mision-vision img{
-    width:80%; 
+.mision-vision img {
+    width: 80%;
     display: block;
     margin-left: auto;
-    margin-right: auto; 
-    margin-top:5%;
-    margin-bottom:5%;
+    margin-right: auto;
+    margin-top: 5%;
+    margin-bottom: 5%;
 }
 
-.mision-vision{
+.mision-vision {
     position: relative;
     display: inline-block;
     text-align: center;
 }
 
 
-.mision-vision-text{
+.mision-vision-text {
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    width: 100%;    
-    vertical-align:text-top;
+    width: 100%;
+    vertical-align: text-top;
 
 }
 
@@ -101,13 +102,31 @@ font-size: 1.6rem;
     padding-bottom: 10%;
 }*/
 
-.mision-vision-text p{
+.mision-vision-text p {
     padding: 0% 13%;
     margin-left: auto;
-    margin-right: auto; 
-    margin-top:auto;
-    margin-bottom:auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
 }
+
+#politica-text p {
+    padding: 0% 0%;
+    margin-left: 400px;
+    font-size: 250%;
+}
+
+@media (max-width: 576px) {
+    #politica-text p {
+        margin-left: 99px;
+        font-size: 100%;
+    }
+}
+
+/*#politica-text h2{
+    text-align: center;
+
+}*/
 
 
 /*Servicios*/
@@ -135,82 +154,93 @@ font-size: 1.6rem;
 
 @media (max-width: 430px) {
     .navbar-brand {
-        font-size: 1.2rem!important;
+        font-size: 1.2rem !important;
     }
+
     #sso {
         width: 65px;
         height: 45px;
     }
+
     .circulo {
         max-width: 90%;
         max-height: 90%;
         min-width: 80%;
         min-height: 80%;
     }
+
     .imgServicios {
         min-height: 150px;
         width: 70%;
     }
+
     .imgServiciosCovid {
         min-height: 150px;
         width: 70%;
     }
-    #titulo-sso{
+
+    #titulo-sso {
         display: none;
         visibility: hidden;
     }
-    #titulo-sso-celular::before{
+
+    #titulo-sso-celular::before {
         content: " SSO - CRC ";
         visibility: visible;
     }
 
-    .nosotros h2{
+    .nosotros h2 {
         font-size: 1rem;
     }
-    
-    .nosotros p{
-    font-size: .6rem;
+
+    .nosotros p {
+        font-size: .6rem;
     }
 
 }
 
 @media (max-width: 576px) {
     .navbar-brand {
-        font-size: .88rem!important;
-        margin-right: .1rem!important;
+        font-size: .88rem !important;
+        margin-right: .1rem !important;
     }
+
     #sso {
         width: 65px;
         height: 45px;
     }
+
     .navbar-toggler {
-        padding: .2rem .7rem!important;
-        font-size: .75rem!important;
+        padding: .2rem .7rem !important;
+        font-size: .75rem !important;
     }
+
     .circulo {
         max-width: 90%;
         max-height: 90%;
         min-width: 80%;
         min-height: 80%;
     }
+
     .imgServicios {
         min-height: 150px;
         width: 70%;
     }
+
     .imgServiciosCovid {
         min-height: 150px;
         width: 70%;
     }
 
-    .nosotros h2{
+    .nosotros h2 {
         font-size: 1rem;
     }
-    
-    .nosotros p{
-    font-size: .8rem;
+
+    .nosotros p {
+        font-size: .8rem;
     }
 
-    .mision-vision-text p{
+    .mision-vision-text p {
         padding: 0% 4%;
     }
 
@@ -221,30 +251,33 @@ font-size: 1.6rem;
 
 @media (max-width: 768px) {
     .navbar-brand {
-        font-size: 1.25rem!important;
+        font-size: 1.25rem !important;
     }
+
     .circulo {
         max-width: 90%;
         max-height: 90%;
         min-width: 80%;
         min-height: 80%;
     }
+
     .imgServicios {
         min-height: 150px;
         width: 50%;
     }
+
     .imgServiciosCovid {
         min-height: 150px;
         width: 70%;
     }
 
 
-    .nosotros h2{
+    .nosotros h2 {
         font-size: 1.04rem;
     }
-    
-    .nosotros p{
-    font-size: .6rem;
+
+    .nosotros p {
+        font-size: .6rem;
     }
 
 
@@ -252,8 +285,9 @@ font-size: 1.6rem;
 
 @media (min-width: 768px) {
     .navbar-brand {
-        font-size: 1.25rem!important;
+        font-size: 1.25rem !important;
     }
+
     .circulo {
         max-width: 90%;
         max-height: 90%;
@@ -267,8 +301,9 @@ font-size: 1.6rem;
 
 @media (min-width: 992px) {
     .navbar-brand {
-        font-size: 1.3rem!important;
+        font-size: 1.3rem !important;
     }
+
     .circulo {
         max-width: 350px;
         max-height: 350px;
@@ -282,7 +317,7 @@ font-size: 1.6rem;
 }
 
 
-@media (min-width: 1200px){
+@media (min-width: 1200px) {
     footer div.container {
         max-width: 1240px;
     }
@@ -363,8 +398,10 @@ font-size: 1.6rem;
 
 /*Modal*/
 
-.modal-body{
+.modal-body {
     padding: 0rem !important;
 }
+
 .modal-header {
-    padding: .5rem !important;}
+    padding: .5rem !important;
+}

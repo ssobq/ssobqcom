@@ -155,9 +155,40 @@
             </div>
         </div>
         <hr id="hr">
+    </div>
 
+    <div class="col-lg-12 col-md-12">
+
+        <div class="row">
+            <img class="d-block w-100" src="img/politica/PTD.jpg" alt="Politica tratamiento de datos personales SSO - CRC">
+            <div class="mision-vision-text" id="politica-text">
+                <p class="font-weight-bold text-primary colorAzul text-center">
+                    <a href="#myModal" data-toggle="modal" class="colorAzul" id="OpenBtn">
+                        POLÍTICA DE TRATAMIENTO DE DATOS PERSONALES</a>
+                </p>
+            </div>
+
+        </div>
 
     </div>
+    <!-- Modal -->
+    <div class="modal fade" id="myModal" role="dialog" aria-hidden="true" style="padding-right: 0;">
+        <div class="modal-dialog  modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title text-primary colorAzul" id="h4modal">Politica de Tratamiento de Datos Personales SSO - CRC</h4>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <iframe src="/pdf/Politica de Tratamiento de Datos Personales.pdf" width="100%" height="500px"></iframe>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
     <?php
     include 'html/footer.html';
     ?>
@@ -169,6 +200,20 @@
             color: #17529B !important;
         }
     </style>
+
+    <!-- Script modal -->
+    <script>
+        $("#OpenBtn").click(function() {
+            $("#myModal").modal();
+        });
+
+
+        $("#CloseBtn").click(function() {
+            $("#myModal").modal(hide);
+        });
+    </script>
+
+
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
