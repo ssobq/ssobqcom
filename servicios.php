@@ -156,7 +156,7 @@
                 </div>
             </div>
 
-            <div class="col-lg-3 col-sm-6">
+            <!--div class="col-lg-3 col-sm-6">
                 <div class="row">
                     <div class="col-lg-3"></div>
                     <div class="col-lg-6 align-self-center text-center">
@@ -173,7 +173,7 @@
                         </a>
                     </div>
                 </div>
-            </div>
+            </div-->
 
             <div class="col-lg-3 col-sm-6">
                 <div class="row">
@@ -210,10 +210,6 @@
                     </div>
                 </div>
             </div>
-        </div>
-        <br><br>
-        <!-- FILA 4-->
-        <div class="row">
 
             <div class="col-lg-3 col-sm-6">
                 <div class="row">
@@ -233,6 +229,13 @@
                     </div>
                 </div>
             </div>
+            
+        </div>
+        <br><br>
+        <!-- FILA 4-->
+        <div class="row">
+
+            
         </div>
     </div>
 
