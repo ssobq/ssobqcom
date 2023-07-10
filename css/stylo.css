@@ -1,7 +1,7 @@
 /*Para cualquier que requiera color azul*/
 
 .colorAzul {
-    color: #17529B !important;
+    color: #00519d !important;
 }
 
 
@@ -405,3 +405,13 @@
 .modal-header {
     padding: .5rem !important;
 }
+
+
+/*CONTACTO*/
+
+.th {
+    background-color: #00519d !important; 
+    border-radius: 15px 15px 0px 0px; 
+    margin: 10% 10% 0 0;
+    color: white;
+  }
