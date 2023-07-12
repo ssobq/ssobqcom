@@ -128,8 +128,8 @@
                                         <td><a href="mailto:orden@ssobq.com" class="text-dark">orden@ssobq.com</a><br>301 522 0695 - 360 3103 ext.113</td>
                                     </tr>
                                     <tr>
-                                        <td>Conceptos</td>
-                                        <td>Solicitud o dudas en los resultados.</td>
+                                        <td>Resultados</td>
+                                        <td>Solicitud de resulatdos y ampliacion de informacion.</td>
                                         <td>Karen Guerra<br><p class="colorAzul">Gestora de Servicios</p></td>
                                         <td><a href="mailto:resultados@ssobq.com" class="text-dark">resultados@ssobq.com</a><br>304 272 5330 - 360 3103 ext.108</td>
                                     </tr>
@@ -141,7 +141,7 @@
                                     </tr>
                                     <tr>
                                         <td>Administrativa y Financiera</td>
-                                        <td>Solicitud certicaciones comerciales, información legal.</td>
+                                        <td>Solicitud certificaciones comerciales, información legal y convenios.</td>
                                         <td>Liliana Segrera<br><p class="colorAzul">Directora Administrativa y Financiera</p></td>
                                         <td><a href="mailto:administrativa@ssobq.com" class="text-dark">administrativa@ssobq.com</a><br>310 424 0457 - 360 3103 ext.105</td>
                                     </tr>
