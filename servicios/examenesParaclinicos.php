@@ -42,13 +42,16 @@
 
                 <br>
                 <ul>
-                    <li style="list-style: none; font-size: 1.2em;" class="colorAzul">Audiometría clínica</li>
                     <li style="list-style: none; font-size: 1.2em;" class="colorAzul">Audiometría vía aérea</li>
+                    <li style="list-style: none; font-size: 1.2em;" class="colorAzul">Audiometría clínica</li>
+                    <li style="list-style: none; font-size: 1.2em;" class="colorAzul">Visiometría</li>
                     <li style="list-style: none; font-size: 1.2em;" class="colorAzul">Electrocardiograma</li>
+                    <li style="list-style: none; font-size: 1.2em;" class="colorAzul">Espirometria</li>
                     <li style="list-style: none; font-size: 1.2em;" class="colorAzul">Optometría general</li>
+                    <li style="list-style: none; font-size: 1.2em;" class="colorAzul">Rayos X, ecografias, radigrafias de tórax lectura ILO.</li>
                     <li style="list-style: none; font-size: 1.2em;" class="colorAzul">Valoración por fisioterapeuta</li>
                     <li style="list-style: none; font-size: 1.2em;" class="colorAzul">Valoración foniátrica</li>
-                    <li style="list-style: none; font-size: 1.2em;" class="colorAzul">Visiometría</li>
+                    
                 </ul>
             </div>
             <div class="col-lg-3"></div>
