@@ -66,7 +66,9 @@
 
 <body>
 
-
+<?php
+    //include 'html/wa/index.html';
+    ?>
     <?php
     include 'html/nav.html';
     ?>
@@ -86,7 +88,7 @@
 
                 <!-- Slide One - Set the background image for this slide in the line below -->
                 <div class="carousel-item active">
-                    <img class="d-block w-100" src="img/index/Banner-1-sso-crc.jpg">
+                    <img class="d-block w-100" src="img/index/Banner-1-sso-crc.png">
                 </div>
                 <div class="carousel-item">
                     <img class="d-block w-100" src="img/index/Banner-2-sso-crc.png">
@@ -97,7 +99,7 @@
                 </div>
                 <!-- Slide Two - Set the background image for this slide in the line below -->
                 <div class="carousel-item">
-                    <img class="d-block w-100" src="img/index/Banner--horario-de-atencion--sso-crc.png">
+                    <img class="d-block w-100" src="img/index/Banner--horario-de-atencion--sso-crc.jpg">
                 </div>
 
             </div>
