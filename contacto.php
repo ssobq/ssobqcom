@@ -102,7 +102,8 @@
                 <div class="row justify-content-center">
 
                     <div class="col-lg-12">
-                        <div class="bd-example">
+                        <div class="bd-example table-responsive">
+                            
                             <table class="table table-striped table-hover ">
                                 <thead>
                                     <tr>
