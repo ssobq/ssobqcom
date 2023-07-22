@@ -36,30 +36,15 @@
     include 'html/nav.html';
     ?>
 
-    <header>
-        <div id="carouselExample" class="carousel slide nosotros" data-ride="carousel" data-interval="2700">
-            <div class="carousel-inner" role="listbox">
-                <!-- Slide One - Set the background image for this slide in the line below -->
-                <div class="carousel-item active">
-                    <img class="d-block w-100" src="img/nosotros/Sala-de-espera-sso-crc.jpg">
-                </div>
-                <div class="carousel-item">
-                    <img class="d-block w-100" src="img/nosotros/consultorio-sso-crc.jpg">
-                </div>
-
-                <div class="nosotros-text text-light">
-                    <h2 class="font-weight-bold text-center">SSO - CRC SERVICIOS DE SALUD OCUPACIONAL</h2>
-                    <p>CON MÁS DE 20 AÑOS BRINDANDO SEGURIDAD Y SALUD A EMPRESAS COLOMBIANAS</p>
-
-                </div>
-
-            </div>
-        </div>
-    </header>
+    
 
     <br>
     <!-- contenido de la pagina -->
     <div class="container-fluid" id="centerDiv">
+
+    <header>
+    <iframe  width="100%" height="500" src="https://www.youtube.com/embed/87dLhBcr_m0?&autoplay=1"  title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    </header>
         <!-- FILA 1-->
         <div class="row">
 
