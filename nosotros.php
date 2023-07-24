@@ -36,15 +36,15 @@
     include 'html/nav.html';
     ?>
 
-    
+
 
     <br>
     <!-- contenido de la pagina -->
     <div class="container-fluid" id="centerDiv">
 
-    <header>
-    <iframe  width="100%" height="500" src="https://youtu.be/qvT-5ffEzcU?&autoplay=1"  title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-    </header>
+        <header>
+            <iframe width="100%" height="500" src="https://www.youtube.com/embed/qvT-5ffEzcU?&autoplay=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </header>
         <!-- FILA 1-->
         <div class="row">
 
