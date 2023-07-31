@@ -17,12 +17,12 @@
     <!-- Metadatos Informacion-->
     <meta name="description" content="Servicios de salud ocupacional, nuestos servicios, Paquetes de exámenes, Exámenes Paraclínicos,
     Exámenes de Laboratorio, Pruebas Psicológicas, Pruebas Covid-19, Vacunación, Salud Visual, Acompañamiento por nuestros especialistas en SST">
-    
+
     <meta name="keywords" content="SSO, sso, Sso, Servicios de salud ocupacional, SSO - CRC Servicios de Salud Ocupacional, Servicios de Salud Ocupacional, CRC, crc Salud Ocupacional, seguridad en el trabajo, sst, SST, 
     medicina en el trabajo, ssobq, ssobqcom, salud en el trabajo, sso barranquilla, salud ocupacional barranquilla, sso Barranquilla, salud ocupacional Barranquilla">
-    
+
     <link rel="canonical" href="https://www.ssobq.com/servicios.php">
-    
+
     <meta property="og:locale" content="es_ES">
     <meta property="og:site_name" content="SSO - CRC Servicios de Salud Ocupacional">
     <meta property="og:type" content="website">
@@ -56,15 +56,13 @@
         <br><br>
         <!-- FILA 2-->
         <div class="row">
-            <div class="col-lg-3 col-sm-6">
-                <div class="row">
-                    <div class="col-lg-3"></div>
-                    <div class="col-lg-6 align-self-center text-center">
-                    <a href="/servicios/examenesOcupacional.php">
-                        <img class="img-fluid rounded center imgServicios" src="img/servicios/menu/Exámenes-Ocupacionales-sso-crc.svg" alt="Exámenes Ocupacionales sso - crc">
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-3 col-xxl-3">
+                <div class="row justify-content-center">
+                    <div class="col-lg-6 col-xl-8 col-xxl-8 align-self-center text-center">
+                        <a href="/servicios/examenesOcupacional.php">
+                            <img class="img-fluid rounded center imgServicios" src="img/servicios/menu/Exámenes-Ocupacionales-sso-crc.svg" alt="Exámenes Ocupacionales sso - crc">
                         </a>
                     </div>
-                    <div class="col-lg-3"></div>
                 </div>
                 <div class="row">
                     <div class="col-lg-12">
@@ -75,15 +73,13 @@
                 </div>
             </div>
 
-            <div class="col-lg-3 col-sm-6">
-                <div class="row">
-                    <div class="col-lg-3"></div>
-                    <div class="col-lg-6 align-self-center text-center">
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-3 col-xxl-3">
+                <div class="row justify-content-center">
+                    <div class="col-lg-6 col-xl-8 col-xxl-8 align-self-center text-center">
                         <a href="/servicios/examenesParaclinicos.php">
-                        <img class="img-fluid rounded center imgServicios" src="img/servicios/menu/Exámenes-Paraclínicos-sso-crc.svg" alt="Exámenes Paraclínicos sso - crc">
+                            <img class="img-fluid rounded center imgServicios" src="img/servicios/menu/Exámenes-Paraclínicos-sso-crc.svg" alt="Exámenes Paraclínicos sso - crc">
                         </a>
                     </div>
-                    <div class="col-lg-3"></div>
                 </div>
                 <div class="row">
                     <div class="col-lg-12">
@@ -94,15 +90,13 @@
                 </div>
             </div>
 
-            <div class="col-lg-3 col-sm-6">
-                <div class="row">
-                    <div class="col-lg-3"></div>
-                    <div class="col-lg-6 align-self-center text-center">
-                    <a href="/servicios/examenesLaboratorio.php">
-                        <img class="img-fluid rounded center imgServicios" src="img/servicios/menu/Exámenes-de-Laboratorio-sso-crc.svg" alt="Exámenes de Laboratorio SSO - CRC">
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-3 col-xxl-3">
+                <div class="row justify-content-center">
+                    <div class="col-lg-6 col-xl-8 col-xxl-8 align-self-center text-center">
+                        <a href="/servicios/examenesLaboratorio.php">
+                            <img class="img-fluid rounded center imgServicios" src="img/servicios/menu/Exámenes-de-Laboratorio-sso-crc.svg" alt="Exámenes de Laboratorio SSO - CRC">
                         </a>
                     </div>
-                    <div class="col-lg-3"></div>
                 </div>
                 <div class="row">
                     <div class="col-lg-12">
@@ -113,15 +107,13 @@
                 </div>
             </div>
 
-            <div class="col-lg-3 col-sm-6">
-                <div class="row">
-                    <div class="col-lg-3"></div>
-                    <div class="col-lg-6 align-self-center text-center">
-                    <a href="/servicios/psicologica.php">
-                        <img class="img-fluid rounded center imgServicios" src="img/servicios/menu/Pruebas-Psicológicas-sso-crc.svg" alt="Pruebas Psicológicas SSO - CRC">
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-3 col-xxl-3">
+                <div class="row justify-content-center">
+                    <div class="col-lg-6 col-xl-8 col-xxl-8 align-self-center text-center">
+                        <a href="/servicios/psicologica.php">
+                            <img class="img-fluid rounded center imgServicios" src="img/servicios/menu/Pruebas-Psicológicas-sso-crc.svg" alt="Pruebas Psicológicas SSO - CRC">
                         </a>
                     </div>
-                    <div class="col-lg-3"></div>
                 </div>
                 <div class="row">
                     <div class="col-lg-12">
@@ -132,20 +124,13 @@
                 </div>
             </div>
 
-        </div>
-        <br><br>
-
-        <!-- FILA 3-->
-        <div class="row">
-            <div class="col-lg-3 col-sm-6">
-                <div class="row">
-                    <div class="col-lg-3"></div>
-                    <div class="col-lg-6 align-self-center text-center">
-                    <a href="/servicios/paquetes.php">
-                        <img class="img-fluid rounded center imgServicios" src="img/servicios/menu/Paquetes-de-Exámenes-sso-crc.svg" alt="Paquetes de Exámenes SSO - CRC">
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-3 col-xxl-3">
+                <div class="row justify-content-center">
+                    <div class="col-lg-6 col-xl-8 col-xxl-8 align-self-center text-center">
+                        <a href="/servicios/paquetes.php">
+                            <img class="img-fluid rounded center imgServicios" src="img/servicios/menu/Paquetes-de-Exámenes-sso-crc.svg" alt="Paquetes de Exámenes SSO - CRC">
                         </a>
                     </div>
-                    <div class="col-lg-3"></div>
                 </div>
                 <div class="row">
                     <div class="col-lg-12">
@@ -156,15 +141,15 @@
                 </div>
             </div>
 
-            <!--div class="col-lg-3 col-sm-6">
+            <!--div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-3 col-xxl-3">
                 <div class="row">
-                    <div class="col-lg-3"></div>
-                    <div class="col-lg-6 align-self-center text-center">
+                    
+                    <div class="col-lg-6 col-xl-8 col-xxl-8 align-self-center text-center">
                     <a href="/servicios/pruebasCovid.php">
                         <img class="img-fluid rounded center imgServicios" src="img/servicios/menu/Pruebas-Covid-19-sso-crc.svg" alt="Pruebas Covid-19 SSO - CRC ">
                         </a>
                     </div>
-                    <div class="col-lg-3"></div>
+                    
                 </div>
                 <div class="row">
                     <div class="col-lg-12">
@@ -175,15 +160,14 @@
                 </div>
             </div-->
 
-            <div class="col-lg-3 col-sm-6">
-                <div class="row">
-                    <div class="col-lg-3"></div>
-                    <div class="col-lg-6 align-self-center text-center">
-                    <a href="/servicios/vacunacion.php">
-                        <img class="img-fluid rounded center imgServicios" src="img/servicios/menu/Vacunación-sso-crc.svg" alt="Vacunación sso - crc">
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-3 col-xxl-3">
+                <div class="row justify-content-center">                    
+                    <div class="col-lg-6 col-xl-8 col-xxl-8 align-self-center text-center">
+                        <a href="/servicios/vacunacion.php">
+                            <img class="img-fluid rounded center imgServicios" src="img/servicios/menu/Vacunación-sso-crc.svg" alt="Vacunación sso - crc">
                         </a>
                     </div>
-                    <div class="col-lg-3"></div>
+                    
                 </div>
                 <div class="row">
                     <div class="col-lg-12"><a href="/servicios/vacunacion.php">
@@ -192,15 +176,15 @@
                 </div>
             </div>
 
-            <div class="col-lg-3 col-sm-6">
-                <div class="row">
-                    <div class="col-lg-3"></div>
-                    <div class="col-lg-6 align-self-center text-center">
-                    <a href="/servicios/saludVisual.php">
-                        <img class="img-fluid rounded center imgServicios" src="img/servicios/menu/Salud-Visual-sso-crc.svg" alt="Salud Visual sso - crc">
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-3 col-xxl-3">
+                <div class="row justify-content-center">
+                    
+                    <div class="col-lg-6 col-xl-8 col-xxl-8 align-self-center text-center">
+                        <a href="/servicios/saludVisual.php">
+                            <img class="img-fluid rounded center imgServicios" src="img/servicios/menu/Salud-Visual-sso-crc.svg" alt="Salud Visual sso - crc">
                         </a>
                     </div>
-                    <div class="col-lg-3"></div>
+                    
                 </div>
                 <div class="row">
                     <div class="col-lg-12">
@@ -211,15 +195,15 @@
                 </div>
             </div>
 
-            <div class="col-lg-3 col-sm-6">
-                <div class="row">
-                    <div class="col-lg-3"></div>
-                    <div class="col-lg-6 align-self-center text-center">
-                    <a href="/servicios/SST.php">
-                        <img class="img-fluid rounded center imgServicios" src="img/servicios/menu/Acompañamiento-por-nuestros-especialistas-en-sst-ssobq-crc.svg" alt="Acompañamiento por nuestros especialistas en SST sso - crc">
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-3 col-xxl-3">
+                <div class="row justify-content-center">
+                    
+                    <div class="col-lg-6 col-xl-8 col-xxl-8 align-self-center text-center">
+                        <a href="/servicios/SST.php">
+                            <img class="img-fluid rounded center imgServicios" src="img/servicios/menu/Acompañamiento-por-nuestros-especialistas-en-sst-ssobq-crc.svg" alt="Acompañamiento por nuestros especialistas en SST sso - crc">
                         </a>
                     </div>
-                    <div class="col-lg-3"></div>
+                    
                 </div>
                 <div class="row">
                     <div class="col-lg-12">
@@ -229,13 +213,20 @@
                     </div>
                 </div>
             </div>
+
+        </div>
+        <br><br>
+
+        <!-- FILA 3-->
+        <div class="row">
             
+
         </div>
         <br><br>
         <!-- FILA 4-->
         <div class="row">
 
-            
+
         </div>
     </div>
 
