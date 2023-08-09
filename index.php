@@ -80,6 +80,7 @@
                 <li data-target="#carouselExample" data-slide-to="1"></li>
                 <li data-target="#carouselExample" data-slide-to="2"></li>
                 <li data-target="#carouselExample" data-slide-to="3"></li>
+                <li data-target="#carouselExample" data-slide-to="4"></li>
 
             </ol>
 
@@ -88,6 +89,9 @@
 
                 <!-- Slide One - Set the background image for this slide in the line below -->
                 <div class="carousel-item active">
+                    <img class="d-block w-100" src="img/index/Banner-plan-estrategico-sso-crc.png">
+                </div>
+                <div class="carousel-item">
                     <img class="d-block w-100" src="img/index/Banner-1-sso-crc.png">
                 </div>
                 <div class="carousel-item">
