@@ -106,10 +106,10 @@
                                     <li style="list-style: square; font-size: 1em;" class="colorAzul">Examen médico ocupacional énfasis osteomuscular</li>
                                     <li style="list-style: square; font-size: 1em;" class="colorAzul">Audiometría</li>
                                     <li style="list-style: square; font-size: 1em;" class="colorAzul">Optometria</li>
-                                    <li style="list-style: square; font-size: 1em;" class="colorAzul">Prueba psicosensométrica</li>
-                                    <li style="list-style: square; font-size: 1em;" class="colorAzul">V. psicologica conductor / Informe psicologico conductor</li>
+                                    <li style="list-style: square; font-size: 1em;" class="colorAzul">Prueba de coordinación motriz psicológica</li>
+                                    <li style="list-style: square; font-size: 1em;" class="colorAzul">Valoración psicológica conductor / Informe psicológico conductor</li>
                                     <li style="list-style: square; font-size: 1em; color:#929191;">Glicemia</li>
-                                    <li style="list-style: square; font-size: 1em; color:#929191;">Perfil lipidico</li>
+                                    <li style="list-style: square; font-size: 1em; color:#929191;">Perfil lipídico</li>
                                 </ul>
                             </div>
                         </div>
@@ -156,7 +156,8 @@
                                 <ul>
                                     <li style="list-style: square; font-size: 1em;" class="colorAzul">Examen médico con énfasis en espacios confinados</li>
                                     <li style="list-style: square; font-size: 1em;" class="colorAzul">Audiometría</li>
-                                    <li style="list-style: square; font-size: 1em;" class="colorAzul">Visiometría</li>
+                                    <li style="list-style: square; font-size: 1em;" class="colorAzul">Optometría</li>
+                                    <li style="list-style: square; font-size: 1em;" class="colorAzul">Espirometría</li>
                                     <li style="list-style: square; font-size: 1em;" class="colorAzul">Perfil lipídico</li>
                                     <li style="list-style: square; font-size: 1em;" class="colorAzul">Glicemia</li>
                                     <li style="list-style: square; font-size: 1em;" class="colorAzul">Hemograma</li>
@@ -182,6 +183,7 @@
                                     <li style="list-style: square; font-size: 1em;" class="colorAzul">KOH uñas</li>
                                     <li style="list-style: square; font-size: 1em;" class="colorAzul">Coprológico</li>
                                     <li style="list-style: square; font-size: 1em;" class="colorAzul">Frotis de garganta</li>
+                                    <li style="list-style: square; font-size: 1em;" class="colorAzul">Curso de manipulación de alimentos</li>
                                     <li style="list-style: square; font-size: 1em; color:#929191;">Carnet manipulación de alimentos</li>
                                     <li style="list-style: square; font-size: 1em; color:#929191;">Electromiografía de mano dominante</li>
                                 </ul>
@@ -208,16 +210,16 @@
                             <div class="col-lg-12">
                                 <br>
                                 <ul>
-                                    <li style="list-style: square; font-size: 1em;" class="colorAzul">Examen médico ocupacional énfasis osteomuscular</li>
+                                    <li style="list-style: square; font-size: 1em;" class="colorAzul">Examen médico ocupacional énfasis en altura</li>
                                     <li style="list-style: square; font-size: 1em;" class="colorAzul">Audiometría</li>
                                     <li style="list-style: square; font-size: 1em;" class="colorAzul">Optometría</li>
                                     <li style="list-style: square; font-size: 1em;" class="colorAzul">Perfil lipídico</li>
                                     <li style="list-style: square; font-size: 1em;" class="colorAzul">Glicemia</li>
                                     <li style="list-style: square; font-size: 1em;" class="colorAzul">Hemograma</li>
-                                    <li style="list-style: square; font-size: 1em;" class="colorAzul">Psicosensométrica</li>
+                                    <li style="list-style: square; font-size: 1em;" class="colorAzul">Prueba de coordinación motriz psicológica</li>
                                     <li style="list-style: square; font-size: 1em;" class="colorAzul">Electrocardiograma (a partir de 40 años)</li>
                                     <li style="list-style: square; font-size: 1em;" class="colorAzul">Valoración psicológica para trabajo en altura / informe psicotécnico</li>
-                                    <li style="list-style: square; font-size: 1em; color:#929191;">V. psicología conductor / Informe psicológico conductor</li>
+                                    <li style="list-style: square; font-size: 1em; color:#929191;">Valoración psicológica conductor / Informe psicológico conductor</li>
                                 </ul>
                             </div>
                         </div>

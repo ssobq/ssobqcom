@@ -42,41 +42,44 @@
             <div class="col-lg-2"> </div>
             <div class="col-lg-4">
                 <ul>
-                    <li style="list-style: none; font-size: 1.1em;" class="colorAzul">Alcohol</li>
-                    <li style="list-style: none; font-size: 1.1em;" class="colorAzul">Alcoholimetría</li>
-                    <li style="list-style: none; font-size: 1.1em;" class="colorAzul">Antígeno prostatico</li>
-                    <li style="list-style: none; font-size: 1.1em;" class="colorAzul">Basc (cocaina - marihuana)</li>
-                    <li style="list-style: none; font-size: 1.1em;" class="colorAzul">Basc 5</li>
-                    <li style="list-style: none; font-size: 1.1em;" class="colorAzul">Bilirrubina total y directa</li>
-                    <li style="list-style: none; font-size: 1.1em;" class="colorAzul">Bun</li>
-                    <li style="list-style: none; font-size: 1.1em;" class="colorAzul">Colesterol de alta desindad (HDL)</li>
-                    <li style="list-style: none; font-size: 1.1em;" class="colorAzul">Colesterol de baja desindad (LDL)</li>
-                    <li style="list-style: none; font-size: 1.1em;" class="colorAzul">Colesterol de muy baja desindad (VLDL)</li>
-                    <li style="list-style: none; font-size: 1.1em;" class="colorAzul">Colesterol total</li>
-                    <li style="list-style: none; font-size: 1.1em;" class="colorAzul">Colinesterasa sérica</li>
-                    <li style="list-style: none; font-size: 1.1em;" class="colorAzul">Coprológico</li>
+                    <li style="list-style: square; font-size: 1.1em;" class="colorAzul">Pruebas de alcohol en sangre o en saliva</li>
+                    <li style="list-style: square; font-size: 1.1em;" class="colorAzul">Antígeno prostático</li>
+                    <li style="list-style: square; font-size: 1.1em;" class="colorAzul">Bilirrubina total y directa</li>
+                    <li style="list-style: square; font-size: 1.1em;" class="colorAzul">Bun</li>
+                    <li style="list-style: square; font-size: 1.1em;" class="colorAzul">Basc 2 drogas (cocaina - marihuana)</li>
+                    <li style="list-style: square; font-size: 1.1em;" class="colorAzul">Basc 3 drogas (cocaina - marihuana - anfetaminas)</li>
+                    <li style="list-style: square; font-size: 1.1em;" class="colorAzul">Basc 5 drogas (cocaina - marihuana - anfetamina - opiacidos - metanfetaminas)</li>
+                    <li style="list-style: square; font-size: 1.1em;" class="colorAzul">Basc 10 drogas (amp - bar - bzo - coc - mdma - met - mtd - opi - tca - thc)</li>
+                    <li style="list-style: square; font-size: 1.1em;" class="colorAzul">Creatinina</li>
+                    <li style="list-style: square; font-size: 1.1em;" class="colorAzul">Colesterol total</li>
+
+
                 </ul>
             </div>
             <div class="col-lg-4">
                 <ul>
-                    <li style="list-style: none; font-size: 1.1em;" class="colorAzul">Extendido de sangre periferica</li>
-                    <li style="list-style: none; font-size: 1.1em;" class="colorAzul">Frotis garganta</li>
-                    <li style="list-style: none; font-size: 1.1em;" class="colorAzul">Glicemia</li>
-                    <li style="list-style: none; font-size: 1.1em;" class="colorAzul">Grupo sanguíneo factor RH</li>
-                    <li style="list-style: none; font-size: 1.1em;" class="colorAzul">HCG</li>
-                    <li style="list-style: none; font-size: 1.1em;" class="colorAzul">Hemograma tipo IV</li>
-                    <li style="list-style: none; font-size: 1.1em;" class="colorAzul">KOH de uñas</li>
-                    <li style="list-style: none; font-size: 1.1em;" class="colorAzul">Parcial de orina</li>
-                    <li style="list-style: none; font-size: 1.1em;" class="colorAzul">Perfil lipídico</li>
-                    <li style="list-style: none; font-size: 1.1em;" class="colorAzul">Serología VDRL (KAHN)</li>
-                    <li style="list-style: none; font-size: 1.1em;" class="colorAzul">Transaminasa GOT</li>
-                    <li style="list-style: none; font-size: 1.1em;" class="colorAzul">Transaminasa GPT</li>
-                    <li style="list-style: none; font-size: 1.1em;" class="colorAzul">Triglicéridos</li>
+                    <li style="list-style: square; font-size: 1.1em;" class="colorAzul">Glicemia</li>
+                    <li style="list-style: square; font-size: 1.1em;" class="colorAzul">Triglicéridos</li>
+                    <li style="list-style: square; font-size: 1.1em;" class="colorAzul">Colinesterasa sérica.</li>
+                    <li style="list-style: square; font-size: 1.1em;" class="colorAzul">Colinesterasa eritrocitaria.</li>
+                    <li style="list-style: square; font-size: 1.1em;" class="colorAzul">Coprológico.</li>
+                    <li style="list-style: square; font-size: 1.1em;" class="colorAzul">Extendido de sangre periférica.</li>
+                    <li style="list-style: square; font-size: 1.1em;" class="colorAzul">Frotis garganta.</li>
+                    <li style="list-style: square; font-size: 1.1em;" class="colorAzul">Grupo sanguíneo factor RH.</li>
+                    <li style="list-style: square; font-size: 1.1em;" class="colorAzul">Hemograma tipo IV.</li>
+                    <li style="list-style: square; font-size: 1.1em;" class="colorAzul">KOH de uñas.</li>
+                    <li style="list-style: square; font-size: 1.1em;" class="colorAzul">Parcial de orina.</li>
+                    <li style="list-style: square; font-size: 1.1em;" class="colorAzul">Perfil lipídico.</li>
+                    <li style="list-style: square; font-size: 1.1em;" class="colorAzul">Serología VDRL (KAHN).</li>
+                    <li style="list-style: square; font-size: 1.1em;" class="colorAzul">Transaminasa GOT.</li>
+                    <li style="list-style: square; font-size: 1.1em;" class="colorAzul">Transaminasa GPT.</li>
+                    <li style="list-style: square; font-size: 1.1em;" class="colorAzul">Otros.</li>
+
                 </ul>
             </div>
             <div class="col-lg-2"></div>
         </div>
-        </div>
+    </div>
 
     <br>
 
@@ -104,7 +107,6 @@
             que no se repita el fondo*/
             background-size: cover;
         }
-
     </style>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->

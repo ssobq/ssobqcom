@@ -43,12 +43,15 @@
             <div class="col-lg-7">
                 <br>
                 <ul>
-                    <li style="list-style: square; font-size: 1.2em;" class="colorAzul">Examen médico ocupacional de retiro</li>
-                    <li style="list-style: square; font-size: 1.2em;" class="colorAzul">Examen médico ocupacional de ingreso énfasis osteomuscular</li>
-                    <li style="list-style: square; font-size: 1.2em;" class="colorAzul">Examen médico ocupacional ingreso énfasis altura</li>
-                    <li style="list-style: square; font-size: 1.2em;" class="colorAzul">Examen médico ocupacional periódico énfasis osteomuscular</li>
-                    <li style="list-style: square; font-size: 1.2em;" class="colorAzul">Examen médico ocupacional periódico énfasis altura</li>
-                    <li style="list-style: square; font-size: 1.2em;" class="colorAzul">Examen post incapacidad</li>
+                    <li style="list-style: square; font-size: 1.2em;" class="colorAzul">Examen médico ocupacional de ingreso.</li>
+                    <li style="list-style: square; font-size: 1.2em;" class="colorAzul">Examen médico ocupacional periódico.</li>
+                    <li style="list-style: square; font-size: 1.2em;" class="colorAzul">Examen médico ocupacional de egreso.</li>
+                    <li style="list-style: square; font-size: 1.2em;" class="colorAzul">Examen post incapacidad y/o valoraciones seguimiento de recomendaciones.</li>
+                    <li style="list-style: square; font-size: 1.2em;" class="colorAzul">Énfasis osteomuscular.</li>
+                    <li style="list-style: square; font-size: 1.2em;" class="colorAzul">Énfasis, altura y/o espacios confinados.</li>
+                    <li style="list-style: square; font-size: 1.2em;" class="colorAzul">Énfasis conductores.</li>
+                    <li style="list-style: square; font-size: 1.2em;" class="colorAzul">Énfasis manipulación de alimentos.</li>
+                    <li style="list-style: square; font-size: 1.2em;" class="colorAzul">Énfasis medicamentos y/o sustancias químicas.</li>
                 </ul>
             </div>
             <div class="col-lg-5">

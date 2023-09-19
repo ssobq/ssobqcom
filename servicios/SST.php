@@ -43,9 +43,14 @@
                 <br>
                 <br>
                 <ul>
+
                     <li style="list-style: square; font-size: 1.2em;" class="colorAzul">Asesoría, implementación y seguimiento en SG-SST (Sistema de gestión en seguridad y salud en el trabajo).</li>
                     <li style="list-style: square; font-size: 1.2em;" class="colorAzul">Aplicación de batería de riesgos psicosociales.</li>
                     <li style="list-style: square; font-size: 1.2em;" class="colorAzul">Análisis de puestos de trabajo.</li>
+                    <li style="list-style: square; font-size: 1.2em;" class="colorAzul">Profesiogramas.</li>
+                    <li style="list-style: square; font-size: 1.2em;" class="colorAzul">Tamizaje cardiovascular.</li>
+                    <li style="list-style: square; font-size: 1.2em;" class="colorAzul">Diagnósticos de condiciones de salud.</li>
+
                 </ul>
             </div>
             <div class="col-lg-5">

@@ -50,22 +50,22 @@
                             <!-- Example single  button -->
                             <div class="btn-group  float-left">
                                 <button type="button" class="btn btn-psi dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                    VALORACIONES&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+                                    VALORACIÓN PSICOLÓGICA&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
                                 </button>
                                 <div class="dropdown-menu">
-                                    <a class="dropdown-item" href="#">Valoración psicológica altura</a>
+                                    <a class="dropdown-item" href="#">Altura</a>
                                     <div class="dropdown-divider"></div>
-                                    <a class="dropdown-item" href="#">Valoración psicológica ansiedad</a>
+                                    <a class="dropdown-item" href="#">Ansiedad</a>
                                     <div class="dropdown-divider"></div>
-                                    <a class="dropdown-item" href="#">Valoración psicológica cargos medios</a>
+                                    <a class="dropdown-item" href="#">Cargos medios</a>
                                     <div class="dropdown-divider"></div>
-                                    <a class="dropdown-item" href="#">Valoración psicológica conductor</a>
+                                    <a class="dropdown-item" href="#">Conductor</a>
                                     <div class="dropdown-divider"></div>
-                                    <a class="dropdown-item" href="#">Valoración psicológica espacios confinados</a>
+                                    <a class="dropdown-item" href="#">Espacios confinados</a>
                                     <div class="dropdown-divider"></div>
-                                    <a class="dropdown-item" href="#">Valoración psicológica estudiantil</a>
+                                    <a class="dropdown-item" href="#">Estudiantil</a>
                                     <div class="dropdown-divider"></div>
-                                    <a class="dropdown-item" href="#">Valoración psicológica mental - social</a>
+                                    <a class="dropdown-item" href="#">Mental - social</a>
                                 </div>
                             </div>
                         </div>
@@ -76,20 +76,40 @@
                             <div class="col-lg-10 col-md-10 col-sm-6 col-xs-12">
                                 <div class="btn-group float-right">
                                     <button type="button" class="btn btn-psi dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                        INFORMES&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+                                        INFORME PSICOTÉCNICO&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
                                     </button>
                                     <div class="dropdown-menu">
-                                        <a class="dropdown-item" href="#">Informe psicotécnico para cargos medios</a>
+                                        <a class="dropdown-item" href="#">Cargos medios</a>
                                         <div class="dropdown-divider"></div>
-                                        <a class="dropdown-item" href="#">Informe psicotécnico para conductores</a>
+                                        <a class="dropdown-item" href="#">Conductores</a>
                                         <div class="dropdown-divider"></div>
-                                        <a class="dropdown-item" href="#">Informe psicotécnico para especialistas</a>
+                                        <a class="dropdown-item" href="#">Especializadas</a>
                                         <div class="dropdown-divider"></div>
-                                        <a class="dropdown-item" href="#">Informe psicotécnico para trabajo en altura</a>
+                                        <a class="dropdown-item" href="#">Altura y/o Confinados</a>
                                     </div>
                                 </div>
                             </div>
                         </div>
+                        <br>
+                        <br>
+                        <div class="row justify-content-center h-100">
+                            <!-- Example single  button -->
+                            <div class="btn-group  float-left">
+                                <button type="button" class="btn btn-psi dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    DESARROLLO ORGANIZACIONAL&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+                                </button>
+                                <div class="dropdown-menu">
+                                    <a class="dropdown-item" href="#">Evaluación de desempeño</a>
+                                    <div class="dropdown-divider"></div>
+                                    <a class="dropdown-item" href="#">Programa de bienestar</a>
+                                    <div class="dropdown-divider"></div>
+                                    <a class="dropdown-item" href="#">Estudio de clima laboral</a>
+                                    <div class="dropdown-divider"></div>
+                                    <a class="dropdown-item" href="#">Evaluación de coordinación motriz</a>
+                                </div>
+                            </div>
+                        </div>
+
 
                     </div>
                 </div>
