@@ -26,7 +26,7 @@
     <?php
     include '../html/nav.html';
     ?>
-   
+
     <!-- contenido de la pagina -->
     <div class="container" id="centerDiv">
         <br>
@@ -78,9 +78,13 @@
                 </div>
                 <div class="row">
                     <div class="col-lg-12">
-                        <br>
                         <ul>
-                            <li style="list-style: square; font-size: 1.3em;" class="colorAzul">Generalmente se aplica en 2, 3 inyecciones durante 1 a 6 meses. Al mes la segunda dosis y a los seis meses, la tercera dosis.</li>
+                            <li style="list-style: none; font-size: 1.3em;" class="colorAzul">
+                            Primera Dosis: Inicio de esquema de vacunación
+                            <br>Segunda Dosis: Al mes de la primera dosis
+                            <br>Tercera Dosis: Al mes de la segunda dosis
+                            <br>Refuerzo: Al año de la tercera dosis.
+                            <br>Un refuerzo cada 5 años</li>
                         </ul>
 
                     </div>
@@ -131,7 +135,7 @@
                             <li style="list-style: square; font-size: 1.3em;" class="colorAzul">No es recomendable aplicar una vacuna contra la influenza sobre otra.</li>
                             <li style="list-style: square; font-size: 1.3em;" class="colorAzul">Es importante es que todas las personas a partir de los 6 meses en adelante se vacunen contra la influenza todos los años.</li>
                             <li style="list-style: square; font-size: 1.3em;" class="colorAzul">La vacuna está aprobada para usar en personas con enfermedades cardiacas y otras afecciones de salud.</li>
-
+                            <li style="list-style: square; font-size: 1.3em;" class="colorAzul">La inmunidad de origen vacunal se atenúa con el tiempo, por lo que se recomienda la vacunación anual.</li>
                         </ul>
                     </div>
                 </div>
@@ -168,8 +172,6 @@
         #serviciosNav {
             color: #17529B !important;
         }
-
-      
     </style>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
