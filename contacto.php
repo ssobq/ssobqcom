@@ -126,7 +126,7 @@
                                         <td>Admisiones</td>
                                         <td>Solicitud de programación para citas.</td>
                                         <td>Brandon Navarro<br><p class="colorAzul">Coordinador de Admisiones</p></td>
-                                        <td><a href="mailto:orden@ssobq.com" class="text-dark">orden@ssobq.com</a><br>301 522 0695 - 360 3103 ext.113</td>
+                                        <td><a href="mailto:orden@ssobq.com" class="text-dark">orden@ssobq.com</a><br>301 522 0695 - 360 3103 ext.101</td>
                                     </tr>
                                     <tr>
                                         <td>CRC</td>
@@ -167,7 +167,7 @@
                                     <tr>
                                         <td>Regionales</td>
                                         <td>Atención red nacional</td>
-                                        <td>Keilly Schoonewol<br><p class="colorAzul">Atención al Usuario</p></td>
+                                        <td>Sandry Valencia<br><p class="colorAzul">Atención al Usuario</p></td>
                                         <td><a href="mailto:regional@ssobq.com" class="text-dark">regional@ssobq.com</a><br>314 616 2308 - 360 3103 ext.104</td>
 
                                     </tr>
