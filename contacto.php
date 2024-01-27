@@ -129,14 +129,14 @@
                                         <td><a href="mailto:orden@ssobq.com" class="text-dark">orden@ssobq.com</a><br>301 522 0695 - 360 3103 ext.101</td>
                                     </tr>
                                     <tr>
-                                        <td>CRC</td>
-                                        <td>Solicitud de programación para citas CRC.</td>
+                                        <td>Centro de Reconocimiento de Conductores - CRC</td>
+                                        <td>Solicitud de programación para citas.</td>
                                         <td>Jesus Donado<br><p class="colorAzul">Certificado</p></td>
-                                        <td><a href="mailto:administracioncrc@ssobq.com" class="text-dark">administracioncrc@ssobq.com</a><br>315 740 0411 - 360 3103</td>
+                                        <td><a href="mailto:administracioncrc@ssobq.com" class="text-dark">administracioncrc@ssobq.com</a><br>315 740 0411 - 360 3103 ext. 104</td>
                                     </tr>
                                     <tr>
                                         <td>Conceptos</td>
-                                        <td>Solicitud o dudas en los resultados.</td>
+                                        <td>Solicitud de resultados o certificados de aptitud ocupacional.</td>
                                         <td>Karen Guerra<br><p class="colorAzul">Gestora de Servicios</p></td>
                                         <td><a href="mailto:resultados@ssobq.com" class="text-dark">resultados@ssobq.com</a><br>304 272 5330 - 360 3103 ext.108</td>
                                     </tr>
