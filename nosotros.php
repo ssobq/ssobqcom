@@ -51,8 +51,8 @@
 
             <div class="col-lg-12 col-md-12">
                 <p class="text-justify" style="font-size: 1.4rem;">Somos una IPS de mediana complejidad cuyo objetivo
-                    fundamental es la prestación de servicios integrales de seguridad y
-                    salud en el trabajo con una clara visión profesional y una audaz vocación como
+                    fundamental es la prestación de servicios integrales de seguridad,
+                    salud en el trabajo y seguridad vial con una clara visión profesional y una audaz vocación como
                     elemento importante en el mejoramiento continuo de nuestra institución y
                     colaboradores.</p>
             </div>
