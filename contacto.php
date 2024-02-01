@@ -161,7 +161,7 @@
                                     <tr>
                                         <td>Cartera</td>
                                         <td>Estados de cuenta y envío de soportes de pago</td>
-                                        <td>Maiden Ojeda<br><p class="colorAzul">Asistente Administrativa y Financiera</p></td>
+                                        <td>Sergio Orozco<br><p class="colorAzul">Asistente Administrativo y Financiero</p></td>
                                         <td><a href="mailto:cartera@ssobq.com" class="text-dark">cartera@ssobq.com</a><br>304 272 5329 - 360 3103 ext.115</td>
                                     </tr>
                                     <tr>
