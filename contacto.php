@@ -131,7 +131,7 @@
                                     <tr>
                                         <td>Centro de Reconocimiento de Conductores - CRC</td>
                                         <td>Solicitud de programación para citas.</td>
-                                        <td>Jesus Donado<br><p class="colorAzul">Certificado</p></td>
+                                        <td>Jesus Donado<br><p class="colorAzul">Certificador</p></td>
                                         <td><a href="mailto:administracioncrc@ssobq.com" class="text-dark">administracioncrc@ssobq.com</a><br>315 740 0411 - 360 3103 ext. 104</td>
                                     </tr>
                                     <tr>
