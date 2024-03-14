@@ -68,8 +68,8 @@
 
 <body>
 
-<?php
-    //include 'html/wa/index.html';
+    <?php
+    include 'html/wa/index.html';
     ?>
     <?php
     include 'html/nav.html';
@@ -169,10 +169,10 @@
                 </div>
                 <div class="col-md-6 col-lg-2 align-items-stretch mb-5 mb-lg-0">
                     <div class="icon-box aos-init aos-animate" data-aos="fade-up" data-aos-delay="500">
-                        <a href="https://www.ssobq.com/servicios/pruebasCovid.php">
-                            <div class="icon text-center"> <img class="img-fluid imgServicio" src="img/servicios/menu/Pruebas-Covid-19-sso-crc.svg" alt="Pruebas Covid-19 sso - crc">
+                        <a href="https://www.ssobq.com/servicios/psicologica.php">
+                            <div class="icon text-center"> <img class="img-fluid imgServicio" src="img/servicios/menu/Pruebas-Psicológicas-sso-crc.svg" alt="Pruebas Covid-19 sso - crc">
                             </div>
-                            <h4 class="title">Pruebas Covid-19</h4>
+                            <h4 class="title">Pruebas Psicológicas</h4>
                             <p class="description">Conoce más >>></p>
                         </a>
                     </div>
@@ -209,7 +209,7 @@
 
                                             <h5 class=" text-light">Lunes a Viernes</h5>
                                             <p class=" text-light"> 6:45 am. – 4:30 pm.</p>
-                                            
+
                                             <h5 class=" text-light">Sábado</h5>
                                             <p class=" text-light"> 6:45 am. – 11:00 am.</p>
 
@@ -245,14 +245,14 @@
                                 <div class="card-body ">
                                     <i class="fa-solid fa-phone-volume icon-fon"></i>
                                     <h2 class="content-box-title font-serif text-light font-weight-bold">Servicio al Cliente</h2>
-                                    <br>
-                                    <h5 class=" text-light" style="padding: 0 3%;">Tel. (605)3603103</h5>
-                                    <p class=" text-light" style="padding: 0 3%;">
-                                        Cel. 301 522 06 95
-                                        <br>Carera 49 #74 - 77,91
-                                        <br>Barranquilla - Atlántico
+
+                                    <h5 class="text-light" style="padding: 0 3%;">Tel. (605)3603103</h5>
+                                    <h5 class=" text-light" style="padding: 0 3%;">Atencion al Usuario </h5>
+                                    <p class=" text-light" style="padding: 0 3%;">Cel. 301 522 06 95 </p>
+                                    <h5 class=" text-light" style="padding: 0 3%;">Gestion Comercial</h5>
+                                    <p class=" text-light" style="padding: 0 3%;"> Cel. 315 360 36 21</p>
+
                                 </div>
-                                </p>
                             </div>
                         </div>
                     </div>
@@ -274,7 +274,7 @@
 
     <!-- Modal -->
     <?php
-    include 'html/modal.html';
+    //include 'html/modal.html';
     ?>
     <!-- Fin Modal -->
 

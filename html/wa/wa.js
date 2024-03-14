@@ -34,6 +34,35 @@ $('#example').czmChatSupport({
             /* Copy for more representatives [::Start Copy::] */
             {
                 avatar: {
+                    src: '<img src="/html/wa/logo_sso.png">', /* Font, Image or SVG */
+                    backgroundColor: "#FFFFF", /* Html color code */
+                    onlineCircle: true /* Avatar online circle. To remove, (onlineCircle:false) */
+                },
+                text: {
+                    title: "Atencion al Usuario SSO", /* Writing is required */
+                    description: "Servicios de Salud Ocupacional", /* Custom text or false. To remove, (description:false) */
+                    online: "En Linea", /* Custom text or false. To remove, (online:false) */
+                    offline: "Fuera de Linea" /* Custom text or false. To remove, (offline:false) */
+                },
+                link: {
+                    desktop: "https://web.whatsapp.com/send?phone=+573015220695&text=Hola.....", /* Writing is required */
+                    mobile: "https://wa.me/+573015220695/?text=Hola...." /* If it is hidden desktop link will be valid. To remove, (mobile:false) */
+                },
+                onlineDay: {
+                    /* Change the day you are offline like this. (sunday:false) */
+                    monday: "06:40-17:00",
+                    tuesday: "06:40-17:00",
+                    wednesday: "06:40-17:00",
+                    thursday: "06:40-17:00",
+                    friday: "06:40-17:00",
+                    saturday: "06:40-11:00"
+                }
+            },
+            /* [::End Copy::] */
+
+            /* Copy for more representatives [::Start Copy::] */
+            {
+                avatar: {
                     src: '<img src="/html/wa/logo_crc.png" alt="CRC - SSO">', /* Image, Icon or SVG */
                     backgroundColor: "#FFFFF", /* Html color code */
                     onlineCircle: true /* Avatar online circle. To remove, (onlineCircle:false) */
@@ -60,22 +89,23 @@ $('#example').czmChatSupport({
             },
             /* [::End Copy::] */
 
+            
             /* Copy for more representatives [::Start Copy::] */
             {
                 avatar: {
-                    src: '<img src="/html/wa/logo_sso.png">', /* Font, Image or SVG */
+                    src: '<img src="/html/wa/logo-para-celulares.png">', /* Font, Image or SVG */
                     backgroundColor: "#FFFFF", /* Html color code */
                     onlineCircle: true /* Avatar online circle. To remove, (onlineCircle:false) */
                 },
                 text: {
-                    title: "Atencion al Usuario SSO", /* Writing is required */
-                    description: "Servicios de Salud Ocupacional", /* Custom text or false. To remove, (description:false) */
+                    title: "Gestion Comercial", /* Writing is required */
+                    description: "Cotizaciones e información de nuestros servicios, actividades y jornadas de salud.", /* Custom text or false. To remove, (description:false) */
                     online: "En Linea", /* Custom text or false. To remove, (online:false) */
                     offline: "Fuera de Linea" /* Custom text or false. To remove, (offline:false) */
                 },
                 link: {
-                    desktop: "https://web.whatsapp.com/send?phone=+573135464664&text=Hola.....", /* Writing is required */
-                    mobile: "https://wa.me/+573135464664/?text=Hola...." /* If it is hidden desktop link will be valid. To remove, (mobile:false) */
+                    desktop: "https://web.whatsapp.com/send?phone=+573153603621&text=Hola.....", /* Writing is required */
+                    mobile: "https://wa.me/+573153603621/?text=Hola...." /* If it is hidden desktop link will be valid. To remove, (mobile:false) */
                 },
                 onlineDay: {
                     /* Change the day you are offline like this. (sunday:false) */

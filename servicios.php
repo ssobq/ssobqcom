@@ -240,7 +240,8 @@
     <!-- estilo css para nav -->
     <style type="text/css">
         #serviciosNav {
-            color: #17529B !important;
+            color: #FF0000 !important;
+            font-weight: bold;
         }
     </style>
 
