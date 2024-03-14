@@ -45,8 +45,8 @@ $('#example').czmChatSupport({
                     offline: "Fuera de Linea" /* Custom text or false. To remove, (offline:false) */
                 },
                 link: {
-                    desktop: "https://web.whatsapp.com/send?phone=+573015220695&text=Hola.....", /* Writing is required */
-                    mobile: "https://wa.me/+573015220695/?text=Hola...." /* If it is hidden desktop link will be valid. To remove, (mobile:false) */
+                    desktop: "https://web.whatsapp.com/send?phone=+573015220695&text=Buen día, Necesito agendar una para examenes médicos ocupacionales!", /* Writing is required */
+                    mobile: "https://wa.me/+573015220695/?text=Buen día, Necesito agendar una para examenes médicos ocupacionales!" /* If it is hidden desktop link will be valid. To remove, (mobile:false) */
                 },
                 onlineDay: {
                     /* Change the day you are offline like this. (sunday:false) */
@@ -74,8 +74,8 @@ $('#example').czmChatSupport({
                     offline: "Fuera de Linea" /* To remove, (offline:false) */
                 },
                 link: {
-                    desktop: "https://web.whatsapp.com/send?phone=+573157400411&text=Hola....!", /* Writing is required */
-                    mobile: "https://wa.me/+573157400411/?text=Hola....!" /* If it is hidden desktop link will be valid. To remove, (mobile:false) */
+                    desktop: "https://web.whatsapp.com/send?phone=+573157400411&text=Buen día. SSO – CRC Servicios De Salud Ocupacional, estoy interesado/a en los exámenes médicos para renovar, recategorizar la licencia de conducción.", /* Writing is required */
+                    mobile: "https://wa.me/+573157400411/?text=Buen día. SSO – CRC Servicios De Salud Ocupacional, estoy interesado/a en los exámenes médicos para renovar, recategorizar la licencia de conducción." /* If it is hidden desktop link will be valid. To remove, (mobile:false) */
                 },
                 onlineDay: {
                     /* Change the day you are offline like this. (sunday:false) */
@@ -104,8 +104,8 @@ $('#example').czmChatSupport({
                     offline: "Fuera de Linea" /* Custom text or false. To remove, (offline:false) */
                 },
                 link: {
-                    desktop: "https://web.whatsapp.com/send?phone=+573153603621&text=Hola.....", /* Writing is required */
-                    mobile: "https://wa.me/+573153603621/?text=Hola...." /* If it is hidden desktop link will be valid. To remove, (mobile:false) */
+                    desktop: "https://web.whatsapp.com/send?phone=+573153603621&text=Buen día, Requiero información sobre sus servicios", /* Writing is required */
+                    mobile: "https://wa.me/+573153603621/?text=Buen día, Requiero información sobre sus servicios" /* If it is hidden desktop link will be valid. To remove, (mobile:false) */
                 },
                 onlineDay: {
                     /* Change the day you are offline like this. (sunday:false) */
