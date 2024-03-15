@@ -39,7 +39,7 @@ $('#example').czmChatSupport({
                     onlineCircle: true /* Avatar online circle. To remove, (onlineCircle:false) */
                 },
                 text: {
-                    title: "Atencion al Usuario SSO", /* Writing is required */
+                    title: "Atención al Usuario SSO", /* Writing is required */
                     description: "Servicios de Salud Ocupacional", /* Custom text or false. To remove, (description:false) */
                     online: "En Linea", /* Custom text or false. To remove, (online:false) */
                     offline: "Fuera de Linea" /* Custom text or false. To remove, (offline:false) */
@@ -69,7 +69,7 @@ $('#example').czmChatSupport({
                 },
                 text: {
                     title: "CRC", /* Writing is required */
-                    description: "Centro de Reconocimiento para Conductores", /* To remove, (description:false) */
+                    description: "Centro de Reconocimiento de Conductores", /* To remove, (description:false) */
                     online: "En Linea", /* To remove, (online:false) */
                     offline: "Fuera de Linea" /* To remove, (offline:false) */
                 },
@@ -98,7 +98,7 @@ $('#example').czmChatSupport({
                     onlineCircle: true /* Avatar online circle. To remove, (onlineCircle:false) */
                 },
                 text: {
-                    title: "Gestion Comercial", /* Writing is required */
+                    title: "Gestión Comercial", /* Writing is required */
                     description: "Cotizaciones e información de nuestros servicios, actividades y jornadas de salud.", /* Custom text or false. To remove, (description:false) */
                     online: "En Linea", /* Custom text or false. To remove, (online:false) */
                     offline: "Fuera de Linea" /* Custom text or false. To remove, (offline:false) */
