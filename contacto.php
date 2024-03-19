@@ -126,56 +126,56 @@
                                         <td>Admisiones</td>
                                         <td>Solicitud de programación para citas.</td>
                                         <td>Brandon Navarro<br><p class="colorAzul">Coordinador de Admisiones</p></td>
-                                        <td><a href="mailto:orden@ssobq.com" class="text-dark">orden@ssobq.com</a><br>301 522 0695 - 360 3103 ext.101</td>
+                                        <td><a href="mailto:orden@ssobq.com" class="text-dark">orden@ssobq.com</a><br>301 522 0695 - (605) 360 3103 ext.101</td>
                                     </tr>
                                     <tr>
                                         <td>Centro de Reconocimiento de Conductores - CRC</td>
                                         <td>Solicitud de programación para citas.</td>
                                         <td>Jesus Donado<br><p class="colorAzul">Certificador</p></td>
-                                        <td><a href="mailto:administracioncrc@ssobq.com" class="text-dark">administracioncrc@ssobq.com</a><br>315 740 0411 - 360 3103 ext. 104</td>
+                                        <td><a href="mailto:administracioncrc@ssobq.com" class="text-dark">administracioncrc@ssobq.com</a><br>315 740 0411 - (605) 360 3103 ext. 104</td>
                                     </tr>
                                     <tr>
                                         <td>Conceptos</td>
                                         <td>Solicitud de resultados o certificados de aptitud ocupacional.</td>
                                         <td>Karen Guerra<br><p class="colorAzul">Gestora de Servicios</p></td>
-                                        <td><a href="mailto:resultados@ssobq.com" class="text-dark">resultados@ssobq.com</a><br>304 272 5330 - 360 3103 ext.108</td>
+                                        <td><a href="mailto:resultados@ssobq.com" class="text-dark">resultados@ssobq.com</a><br>304 272 5330 - (605) 360 3103 ext.108</td>
                                     </tr>
                                     <tr>
                                         <td>Servicios</td>
                                         <td>Atención VIP y casos particulares del servicio.</td>
                                         <td>Adriana Leal<br><p class="colorAzul">Directora de Servicios</p></td>
-                                        <td><a href="mailto:dir.servicios@ssobq.com" class="text-dark">dir.servicios@ssobq.com</a><br>313 546 4664 - 360 3103 ext.107</td>
+                                        <td><a href="mailto:dir.servicios@ssobq.com" class="text-dark">dir.servicios@ssobq.com</a><br>313 546 4664 - (605) 360 3103 ext.107</td>
                                     </tr>
                                     <tr>
                                         <td>Administrativa y Financiera</td>
                                         <td>Solicitud certificaciones comerciales, información legal.</td>
                                         <td>Liliana Segrera<br><p class="colorAzul">Directora Administrativa y Financiera</p></td>
-                                        <td><a href="mailto:administrativa@ssobq.com" class="text-dark">administrativa@ssobq.com</a><br>310 424 0457 - 360 3103 ext.105</td>
+                                        <td><a href="mailto:administrativa@ssobq.com" class="text-dark">administrativa@ssobq.com</a><br>310 424 0457 - (605) 360 3103 ext.105</td>
                                     </tr>
                                     <tr>
                                         <td>Gestion comercial </td>
                                         <td>Cotizaciones e información de nuestros servicios, actividades y jornadas de salud</td>
                                         <td>Alexandra Molinares<br><p class="colorAzul">Gestor de Comercial</p></td>
-                                        <td><a href="mailto:gestioncomercial@ssobq.com" class="text-dark">gestioncomercial@ssobq.com</a><br>315 360 3621 - 360 3103 ext.115</td>
+                                        <td><a href="mailto:gestioncomercial@ssobq.com" class="text-dark">gestioncomercial@ssobq.com</a><br>315 360 3621 - (605) 360 3103 ext.115</td>
                                     </tr>
                                     <tr>
                                         <td>Cartera</td>
                                         <td>Estados de cuenta y envío de soportes de pago</td>
                                         <td>Sergio Orozco<br><p class="colorAzul">Asistente Administrativo y Financiero</p></td>
-                                        <td><a href="mailto:cartera@ssobq.com" class="text-dark">cartera@ssobq.com</a><br>304 272 5329 - 360 3103 ext.115</td>
+                                        <td><a href="mailto:cartera@ssobq.com" class="text-dark">cartera@ssobq.com</a><br>304 272 5329 - (605) 360 3103 ext.115</td>
                                     </tr>
                                     <tr>
                                         <td>Regionales</td>
                                         <td>Atención red nacional</td>
                                         <td>Sandry Valencia<br><p class="colorAzul">Atención al Usuario</p></td>
-                                        <td><a href="mailto:regional@ssobq.com" class="text-dark">regional@ssobq.com</a><br>314 616 2308 - 360 3103 ext.104</td>
+                                        <td><a href="mailto:regional@ssobq.com" class="text-dark">regional@ssobq.com</a><br>314 616 2308 - (605) 360 3103 ext.104</td>
 
                                     </tr>
                                     <tr>
                                         <td>Procesos y Desarrollo Corporativo</td>
                                         <td>Atención de quejas sugerencias y comentarios.</td>
                                         <td>Estefanny Jimenez<br><p class="colorAzul">Directora de Procesos y Desarrollo Corporativo</p></td>
-                                        <td><a href="mailto:procesos@ssobq.com" class="text-dark">procesos@ssobq.com</a><br>313 546 4664 - 360 3103</td>
+                                        <td><a href="mailto:procesos@ssobq.com" class="text-dark">procesos@ssobq.com</a><br>313 546 4664 - (605) 360 3103</td>
                                     </tr>
                                 </tbody>
 

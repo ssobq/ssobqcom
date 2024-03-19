@@ -244,6 +244,16 @@
         padding: 0% 4%;
     }
 
+    #titulo-sso {
+        display: none;
+        visibility: hidden;
+    }
+
+    #titulo-sso-celular::before {
+        content: " SSO - CRC ";
+        visibility: visible;
+    }
+
 }
 
 
