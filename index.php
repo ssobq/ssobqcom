@@ -101,7 +101,7 @@
                 </div>
 
                 <div class="carousel-item">
-                    <img class="d-block w-100" src="img/index/Banner-20-años-sso-crc.png">
+                    <img class="d-block w-100" src="img/index/Banner-23-años-sso.png">
                 </div>
                 <!-- Slide Two - Set the background image for this slide in the line below-->
                 <div class="carousel-item">
@@ -274,7 +274,7 @@
 
     <!-- Modal -->
     <?php
-    //include 'html/modal.html';
+    include 'html/modal.html';
     ?>
     <!-- Fin Modal -->
 
