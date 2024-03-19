@@ -90,10 +90,10 @@
 
 
                 <!-- Slide One - Set the background image for this slide in the line below -->
-                <div class="carousel-item active">
+                <div class="carousel-item">
                     <img class="d-block w-100" src="img/index/Banner-plan-estrategico-sso-crc.png">
                 </div>
-                <div class="carousel-item">
+                <div class="carousel-item active">
                     <img class="d-block w-100" src="img/index/Banner-calidad-sso-crc.png" alt="Calidad SSO">
                 </div>
                 <div class="carousel-item">
