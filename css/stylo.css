@@ -1,8 +1,18 @@
-/*Para cualquier que requiera color azul*/
+:root{
+    --azul_sso: #00519d;
+    --rojo_sso: #e10109;
 
-.colorAzul {
-    color: #00519d !important;
 }
+/*Para cualquier que requiera color azul*/
+.colorAzul {
+    color: var(--azul_sso) !important;
+}
+
+/*Para cualquier que requiera color azul*/
+.colorRojo {
+    color: var(--rojo_sso) !important;
+}
+
 
 
 /*footer*/

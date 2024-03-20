@@ -105,7 +105,7 @@
                 </div>
                 <!-- Slide Two - Set the background image for this slide in the line below-->
                 <div class="carousel-item">
-                    <img class="d-block w-100" src="img/index/Banner--horario-de-atencion--sso-crc.jpg">
+                    <img class="d-block w-100" src="img/index/Banner--horario-de-atencion--sso-crc.png">
                 </div>
 
             </div>

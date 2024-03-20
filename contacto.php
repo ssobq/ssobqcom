@@ -198,7 +198,7 @@
     <!-- estilo css para nav -->
     <style type="text/css">
         #contactoNav {
-            color: #FF0000 !important;
+            color: #e10109 !important;
             font-weight: bold;
         }
     </style>

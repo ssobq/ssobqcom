@@ -114,7 +114,7 @@
     }
 
     #trabajaNosotrosNav {
-        color: #FF0000 !important;
+        color: #e10109 !important;
         font-weight: bold;
     }
 </style>
