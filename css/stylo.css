@@ -435,3 +435,37 @@
     margin: 10% 10% 0 0;
     color: white;
   }
+
+  /*CRC*/
+
+  .imgCRC {
+    max-height: 500px;
+}
+
+.tituloExamCRC {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 40px;
+    padding: 10px;
+    min-width: 100px;
+    color: var(--azul_sso);
+}
+
+.agendaCitaCRC {
+    font-size: 1rem !important;
+    font-weight: bold;
+}
+
+.h6CRC{
+    font-size: 0.95rem !important;
+    font-weight: bold;
+}
+
+
+.hrCRC {
+    border: none;
+    width: 95%;
+    height: 50px;
+    box-shadow: 0 20px 20px -20px #333;
+    margin: -50px auto 10px;
+}   
