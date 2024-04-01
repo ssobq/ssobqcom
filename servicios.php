@@ -175,7 +175,7 @@
                 </div>
             </a>
 
-            <a href="/servicios/plan_estrategico.php" class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-3 col-xxl-3">
+            <a href="/servicios/planEstrategico.php" class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-3 col-xxl-3">
                 <div class="row justify-content-center">
                     <div class="col-lg-6 col-xl-8 col-xxl-8 align-self-center text-center">
                         <img class="img-fluid rounded center imgServicios" src="img/servicios/menu/PLAN-ESTRATÉGICO-sso-crc.svg" alt="Plan estrategico seguridad vial SSO - CRC ">
