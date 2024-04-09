@@ -169,10 +169,10 @@
                 </div>
                 <div class="col-md-6 col-lg-2 align-items-stretch mb-5 mb-lg-0">
                     <div class="icon-box aos-init aos-animate" data-aos="fade-up" data-aos-delay="500">
-                        <a href="https://www.ssobq.com/servicios/psicologica.php">
-                            <div class="icon text-center"> <img class="img-fluid imgServicio" src="img/servicios/menu/Pruebas-Psicológicas-sso-crc.svg" alt="Pruebas Covid-19 sso - crc">
+                        <a href="https://www.ssobq.com/servicios/CRC.php">
+                            <div class="icon text-center"> <img class="img-fluid imgServicio" src="img/servicios/menu/CRC-sso-crc.svg" alt="CRC sso - crc">
                             </div>
-                            <h4 class="title">Pruebas Psicológicas</h4>
+                            <h4 class="title">CRC</h4><br>
                             <p class="description">Conoce más >>></p>
                         </a>
                     </div>

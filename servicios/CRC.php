@@ -32,7 +32,18 @@
     <div class="container">
 
         <!-- FILA 1-->
-        <br><br>
+        <br>
+        <div class="row">
+            <p>Somos una IPS acreditada por <strong>ONAC</strong> para la realización de los exámenes médicos requeridos, para Expedir,
+                Renovar y Recategorizar la Licencia de Conducción, cumpliendo con la normatividad vigente (Resolución 0217 de 2014).
+                Con equipos y tecnología de vanguardia, nuestro personal altamente capacitado y experimentado realiza los procesos de
+                evaluación de manera ágil, asegurando que los conductores reciban los resultados al instante.
+                <br><br>
+                Nuestras instalaciones están diseñadas pensando en la comodidad y privacidad de quienes nos visitan. Disponemos de espacios 
+                limpios y bien equipados, donde los conductores pueden realizar los diferentes exámenes y evaluaciones de manera confortable.
+            </p>
+        </div>
+        <br>
         <!-- FILA 2-->
         <div class="row">
             <div class="col-lg-3">

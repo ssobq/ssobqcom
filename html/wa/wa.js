@@ -45,6 +45,34 @@ $('#example').czmChatSupport({
                     offline: "Fuera de Linea" /* Custom text or false. To remove, (offline:false) */
                 },
                 link: {
+                    desktop: "https://web.whatsapp.com/send?phone=+573135464664&text=Buen día, requiero información", /* Writing is required */
+                    mobile: "https://wa.me/+573135464664/?text=Buen día, requiero información!" /* If it is hidden desktop link will be valid. To remove, (mobile:false) */
+                },
+                onlineDay: {
+                    /* Change the day you are offline like this. (sunday:false) */
+                    monday: "06:40-17:00",
+                    tuesday: "06:40-17:00",
+                    wednesday: "06:40-17:00",
+                    thursday: "06:40-17:00",
+                    friday: "06:40-17:00",
+                    saturday: "06:40-11:00"
+                }
+            },
+
+            /* Copy for more representatives [::Start Copy::] */
+            {
+                avatar: {
+                    src: '<img src="/html/wa/logo-para-celulares.png">', /* Font, Image or SVG */
+                    backgroundColor: "#FFFFF", /* Html color code */
+                    onlineCircle: true /* Avatar online circle. To remove, (onlineCircle:false) */
+                },
+                text: {
+                    title: "Admisiones", /* Writing is required */
+                    description: "Solicitud de programación para citas.", /* Custom text or false. To remove, (description:false) */
+                    online: "En Linea", /* Custom text or false. To remove, (online:false) */
+                    offline: "Fuera de Linea" /* Custom text or false. To remove, (offline:false) */
+                },
+                link: {
                     desktop: "https://web.whatsapp.com/send?phone=+573015220695&text=Buen día, Necesito agendar una para examenes médicos ocupacionales!", /* Writing is required */
                     mobile: "https://wa.me/+573015220695/?text=Buen día, Necesito agendar una para examenes médicos ocupacionales!" /* If it is hidden desktop link will be valid. To remove, (mobile:false) */
                 },
@@ -89,7 +117,7 @@ $('#example').czmChatSupport({
             },
             /* [::End Copy::] */
 
-            
+
             /* Copy for more representatives [::Start Copy::] */
             {
                 avatar: {
@@ -122,4 +150,4 @@ $('#example').czmChatSupport({
         ]
     },
 
-    });
+});

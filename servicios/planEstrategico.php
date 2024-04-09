@@ -71,16 +71,10 @@
                 <img class="img-fluid rounded center " src="/img/servicios/planEstrategico/PESV_sso-crc.png">
             </div>
         </div>
-
     </div>
-
-
-
     <?php
     include '../html/footer.html';
     ?>
-
-
     <!-- estilo css para nav -->
     <style type="text/css">
         #serviciosNav {
