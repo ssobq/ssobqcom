@@ -1,8 +1,9 @@
-:root{
+:root {
     --azul_sso: #00519d;
     --rojo_sso: #e10109;
 
 }
+
 /*Para cualquier que requiera color azul*/
 .colorAzul {
     color: var(--azul_sso) !important;
@@ -436,15 +437,15 @@
 /*CONTACTO*/
 
 .th {
-    background-color: #00519d !important; 
-    border-radius: 15px 15px 0px 0px; 
+    background-color: #00519d !important;
+    border-radius: 15px 15px 0px 0px;
     margin: 10% 10% 0 0;
     color: white;
-  }
+}
 
-  /*CRC*/
+/*CRC*/
 
-  .imgCRC {
+.imgCRC {
     max-height: 500px;
 }
 
@@ -462,7 +463,7 @@
     font-weight: bold;
 }
 
-.h6CRC{
+.h6CRC {
     font-size: 0.95rem !important;
     font-weight: bold;
 }
@@ -474,7 +475,7 @@
     height: 50px;
     box-shadow: 0 20px 20px -20px #333;
     margin: -50px auto 10px;
-}   
+}
 
 /*PLAN ESTRATEGICO*/
 
@@ -489,7 +490,7 @@
     /* Define el signo "+" como el marcador */
     margin-right: 5px;
     /* Espacio entre el signo "+" y el texto */
-    color:var(--azul_sso);
+    color: var(--azul_sso);
     font-weight: bold;
     font-size: 1.4em;
 }
@@ -529,6 +530,7 @@
     #centerDivBat {
         top: 7%;
     }
+
     #imgBateria {
         min-height: 2200px;
     }
@@ -538,6 +540,7 @@
     #centerDivBat {
         top: 11%;
     }
+
     #imgBateria {
         min-height: 2000px;
     }
@@ -547,6 +550,7 @@
     #centerDivBat {
         top: 13%;
     }
+
     #imgBateria {
         min-height: 2000px;
     }
@@ -556,6 +560,7 @@
     #centerDivBat {
         top: 15%;
     }
+
     #imgBateria {
         min-height: 2100px;
     }
@@ -566,6 +571,7 @@
     #centerDivBat {
         top: 32%;
     }
+
     #imgBateria {
         min-height: 1500px;
     }
@@ -585,5 +591,12 @@
     margin-right: 5px;
     color: var(--azul_sso);
     font-weight: bold;
-    font-size: 1.4em;
+    font-size: 1em;
+}
+
+#hrAPT {
+    height: 5px;
+    background-color: red;
+    border-radius: 30px;
+    margin-top: 0 !important;
 }

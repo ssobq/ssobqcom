@@ -26,52 +26,67 @@
     <?php
     include '../html/nav.html';
     ?>
-            <!-- contenido de la pagina -->
-        <div class="container" id="centerDiv">
-            <br>
-            <!-- FILA 1-->
-            <div class="row">
-                <div class="col-lg-12">
-                    <h1 class="font-weight-bold text-center colorAzul">Análisis de puestos de trabajo</h1>
+    <!-- contenido de la pagina -->
+    <div class="container">
+        <br>
+        <div class="row">
+            <div class="col-lg-7">
+                <!-- FILA 1-->
+                <div class="row">
+                    <div class="col-lg-12">
+                        <h1 class="font-weight-bold text-center colorAzul">ANÁLISIS DE PUESTO DE TRABAJO O APT</h1>
+                    </div>
                 </div>
+                <div class="row">
+                    <div class="col-lg-7">
+                        <hr id="hrAPT"/>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-lg-12">
+                        <p style="font-size: 1em;" class="text-dark text-justify">El Análisis de Puestos de Trabajo o APT es un procedimiento sistemático,
+                            participativo, riguroso y ético llevado a cabo por un profesional con licencia en Seguridad y Salud en el trabajo o salud
+                            ocupacional a través del cual se realiza la recolección, evaluación y organización de información del contexto del
+                            individuo y de la(s) actividad(es) laboral(es) de un trabajador. <br><br>
+                            El APT está encaminado a la verificación de las condiciones de los sitios de trabajo, determinando los factores y elementos
+                            de riesgo generadores de los posibles efectos nocivos en la salud de los trabajadores dentro de su entorno laboral, con el
+                            fin de proporcionar recomendaciones en el desarrollo de las actividades asignadas</p>
+                        <br>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-12">
+                        <h5 class="colorAzul">Según la naturaleza del Análisis de Puesto de Trabajo, estos se pueden clasificar en:</h5>
+                        <ul class="plus-listAPT text-dark">
+                            <li>Análisis de Puesto de Trabajo (APT) para Calificación de Origen</li>
+                            <li>Análisis de Puesto de Trabajo (APT) para Reincorporación Laboral</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-12">
+                        <h5 class="colorAzul">Tipos de Análisis de Puestos de Trabajo o APT</h5>
+                        <ul class="plus-listAPT text-dark">
+                            <li>Biomecánico o Ergonómicos</li>
+                            <li>Psicosocial</li>
+                        </ul>
+                    </div>
+                </div>
+
             </div>
 
-            <div class="row">
-                <div class="col-lg-12">
-                    <p style="font-size: 1.1em;" class="text-dark">SSO – CRC Servicios de Salud Ocupacional SAS, cuenta con Psicólogos Especialistas en seguridad y salud en el trabajo, para la aplicación de la batería de riesgo psicosocial.
-                        La batería de riesgo psicosocial es una herramienta diseñada para evaluar diversos aspectos relacionados con el entorno laboral que podrían afectar la salud mental y emocional de sus empleados. Algunos de los factores que analizamos incluyen el estrés laboral, la carga de trabajo, el apoyo social en el trabajo y el equilibrio entre la vida laboral y personal, entre otros.
-                    </p>
-                </div>
+            <div class="col-lg-5">
+                <br><br>
+                <img class="img-fluid rounded center " src="/img/servicios/APT/apt2.jpg">
             </div>
-            <div class="row">
-                <div class="col-lg-12">
-                    <h3 class="colorAzul">Nuestros servicios:</h3>
-                    <ul class="plus-listAPT text-dark">
-                        <li>Diagnóstico en riesgo psicosocial (aplicación de la batería de riesgo psicosocial).</li>
-                        <li>Interpretación los resultados de la batería.</li>
-                        <li>Construcción del informe.</li>
-                        <li>Entrega del informe.</li>
-                    </ul>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-lg-12">
-                    <h3 class="colorAzul">Beneficios:</h3>
-                    <ul class="plus-listAPT text-dark">
-                        <li>Apoyamos a su empresa en el cumplimiento de la Resolución 2404 de 2019.</li>
-                        <li>Mejora del clima laboral al abordar áreas problemáticas.</li>
-                        <li>Reducción del ausentismo y la rotación de personal.</li>
-                        <li>Mejora del compromiso y la satisfacción laboral de los empleados.</li>
-                        <li>Aumento del compromiso y la productividad: Al promover el bienestar de sus empleados, también promueve su compromiso y productividad en el trabajo</li>
-                    </ul>
-                </div>
-            </div>
-            <div class="row">
-                <h3 class="colorAzul"><em>En SSO – CRC cuidamos el bienestar de sus colaboradores…</em></h3>
-            </div>
-
-
         </div>
+        <br><br>
+        <div class="row">
+            <h4 class="colorAzul"><em>SSO – CRC Servicios de salud ocupacional, cuenta con profesionales especialistas en seguridad
+                    y salud en el trabajo, para la realización de análisis de puestos de trabajo (APT).</em></h4>
+        </div>
+
     </div>
     <?php
     include '../html/footer.html';
@@ -81,8 +96,6 @@
         #serviciosNav {
             color: #17529B !important;
         }
-
-        
     </style>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
