@@ -26,7 +26,7 @@
     <?php
     include '../html/nav.html';
     ?>
-    <div id="imgBateria"> <img class="img-fluid rounded center " src="/img/servicios/bateria/bateriaa-4-sso-crc.jpg">
+    <div> <img class="img-fluid rounded center " src="/img/servicios/bateria/bateriaa-4-sso-crc.jpg">
 
         <!-- contenido de la pagina -->
         <div class="container" id="centerDivBat" style="background: white;">
