@@ -261,19 +261,19 @@
     </div>
 <br><br>
 
-    <div class="row rowInstagram">
+    <div class="row rowInstagram" data-aos="flip-up">
         <div class="container">
-            <div class="col-12 col-md-12 col-sm-12 col-xs-12">
+            <div class="col-12 col-md-12 col-sm-12 col-xs-12" data-aos="zoom-in-up" data-aos-duration="900">
                 <div class="text-center">
                     <h3 class="colorAzul">Últimas publicaciones en Instagram</h3>
                 </div>
             </div>
 
             <hr id="hrIndex">
-            <div class="col-12 col-md-12 col-sm-12 col-xs-12 text-center mt-3 text-primary font-weight-bold">@ssobq 
+            <div class="col-12 col-md-12 col-sm-12 col-xs-12 text-center mt-3 text-primary font-weight-bold" data-aos="zoom-out-down" data-aos-duration="1500">@ssobq 
                 <a href="https://www.instagram.com/ssobq/" class="btn btn-primary" ><i class="fa-brands fa-instagram"></i> Follow</a>
             </div>
-            <div class="col-12 col-md-12 col-sm-12 col-xs-12 mt-3">
+            <div class="col-12 col-md-12 col-sm-12 col-xs-12 mt-3" data-aos="zoom-out-down" data-aos-duration="1500">
                 <!-- SnapWidget -->
                 <iframe src="https://snapwidget.com/embed/1071190" class="snapwidget-widget" allowtransparency="true" frameborder="0" scrolling="no" style="border:none; overflow:hidden;  width:100%; " title="hola"></iframe>
             </div>
