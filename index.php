@@ -287,7 +287,7 @@
 
     <!-- Modal -->
     <?php
-    //include 'html/modal.html';
+    include 'html/modal.html';
     ?>
     <!-- Fin Modal -->
 
