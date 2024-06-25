@@ -259,13 +259,26 @@
                 </div>
             </div>
     </div>
-    </div>
+<br><br>
 
+    <div class="row rowInstagram">
+        <div class="container">
+            <div class="col-12 col-md-12 col-sm-12 col-xs-12">
+                <div class="text-center">
+                    <h3 class="colorAzul">Últimas publicaciones en Instagram</h3>
+                </div>
+            </div>
 
-    </div>
+            <hr id="hrIndex">
+            <div class="col-12 col-md-12 col-sm-12 col-xs-12 text-center mt-3 text-primary font-weight-bold">@ssobq 
+                <a href="https://www.instagram.com/ssobq/" class="btn btn-primary" ><i class="fa-brands fa-instagram"></i> Follow</a>
+            </div>
+            <div class="col-12 col-md-12 col-sm-12 col-xs-12 mt-3">
+                <!-- SnapWidget -->
+                <iframe src="https://snapwidget.com/embed/1071190" class="snapwidget-widget" allowtransparency="true" frameborder="0" scrolling="no" style="border:none; overflow:hidden;  width:100%; " title="hola"></iframe>
+            </div>
+        </div>
 
-
-    </section>
     </div>
 
     <?php
@@ -274,10 +287,14 @@
 
     <!-- Modal -->
     <?php
-    include 'html/modal.html';
+    //include 'html/modal.html';
     ?>
     <!-- Fin Modal -->
 
+    <!-- SnapWidget -->
+    <script src="https://snapwidget.com/js/snapwidget.js"></script>
+
+    <script src="https://static.elfsight.com/platform/platform.js" data-use-service-core defer></script>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="js/bootstrap.js"></script>
