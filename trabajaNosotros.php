@@ -81,11 +81,11 @@
 
                 <div class="row">
                     <div class="col text-center">
-                        <a href="https://www.instagram.com/ssobq/?hl=es-la" target="_blank" class="text-primary"><img src="/img/iconos/Instagram.svg" width="50px"></a>
-                        <a href="https://x.com/SSOBQ" target="_blank" class="text-primary"><img src="/img/iconos/X.svg" width="50px"></a>
-                        <a href="https://www.facebook.com/ssobq/" target="_blank" class="text-primary"><img src="/img/iconos/Facebook.svg" width="50px"></a>
-                        <a href="https://www.youtube.com/channel/UCwUs508YaoV4XL9YUQcdtag?view_as=subscriber" target="_blank" class="text-primary"><img src="/img/iconos/Youtube.svg" width="50px"></a>
-                        <a href="https://www.linkedin.com/company/sso-servicios-de-salud-ocupacional/" target="_blank" class="text-primary"><img src="/img/iconos/Linkedin.svg" width="50px"></a>
+                        <a href="https://www.instagram.com/ssobq/?hl=es-la" target="_blank" class="text-primary"><img src="/img/iconos/Instagram-01.svg" width="50px"></a>
+                        <a href="https://x.com/SSOBQ" target="_blank" class="text-primary"><img src="/img/iconos/X-06.svg" width="50px"></a>
+                        <a href="https://www.facebook.com/ssobq/" target="_blank" class="text-primary"><img src="/img/iconos/Facebook-03.svg" width="50px"></a>
+                        <a href="https://www.youtube.com/channel/UCwUs508YaoV4XL9YUQcdtag?view_as=subscriber" target="_blank" class="text-primary"><img src="/img/iconos/Youtube-05.svg" width="50px"></a>
+                        <a href="https://www.linkedin.com/company/sso-servicios-de-salud-ocupacional/" target="_blank" class="text-primary"><img src="/img/iconos/Linkedin-04.svg" width="50px"></a>
                     </div>
                 </div>
 
