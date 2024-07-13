@@ -208,10 +208,10 @@
                                         <div class="col-12 text-center">
 
                                             <h5 class=" text-light">Lunes a Viernes</h5>
-                                            <p class=" text-light"> 6:45 am. – 4:30 pm.</p>
+                                            <p class=" text-light"> 6:40 am. – 4:00 pm.</p>
 
                                             <h5 class=" text-light">Sábado</h5>
-                                            <p class=" text-light"> 6:45 am. – 11:00 am.</p>
+                                            <p class=" text-light"> 6:40 am. – 11:00 am.</p>
 
 
                                         </div>
