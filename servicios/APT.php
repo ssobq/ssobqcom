@@ -68,8 +68,9 @@
                     <div class="col-lg-12">
                         <h5 class="colorAzul">Tipos de Análisis de Puestos de Trabajo o APT</h5>
                         <ul class="plus-listAPT text-dark">
-                            <li>Biomecánico o Ergonómicos</li>
+                            <li>Osteomuscular</li>
                             <li>Psicosocial</li>
+                            <li>Auditivo</li>
                         </ul>
                     </div>
                 </div>
