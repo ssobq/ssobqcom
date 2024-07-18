@@ -24,7 +24,7 @@
 
 
     <?php
-    include '../html/nav.html';
+    include '../html/nav.html'; 
     ?>
     <!-- contenido de la pagina -->
     <div class="container">
