@@ -185,16 +185,10 @@
                 </div>
             </div>
         </div>
-
-
     </div>
-
-
-
     <?php
     include 'html/footer.html';
     ?>
-
     <!-- estilo css para nav -->
     <style type="text/css">
         #contactoNav {
