@@ -131,7 +131,7 @@
                                     <tr>
                                         <td>Centro de Reconocimiento de Conductores - CRC</td>
                                         <td>Solicitud de programación para citas.</td>
-                                        <td>Daniel Galindo<br><p class="colorAzul">Atención al Usuario</p></td>
+                                        <td>Fabian Ramírez<br><p class="colorAzul">Atención al Usuario</p></td>
                                         <td><a href="mailto:administracioncrc@ssobq.com" class="text-dark">administracioncrc@ssobq.com</a><br>315 740 0411 - (605) 360 3103 ext. 104</td>
                                     </tr>
                                     <tr>
@@ -169,7 +169,6 @@
                                         <td>Atención red nacional</td>
                                         <td>Sheyla Carrillo<br><p class="colorAzul">Atención al Usuario</p></td>
                                         <td><a href="mailto:regional@ssobq.com" class="text-dark">regional@ssobq.com</a><br>314 616 2308 - (605) 360 3103 ext.104</td>
-
                                     </tr>
                                     <tr>
                                         <td>Procesos y Desarrollo Corporativo</td>
@@ -178,7 +177,6 @@
                                         <td><a href="mailto:procesos@ssobq.com" class="text-dark">procesos@ssobq.com</a><br>313 546 4664 - (605) 360 3103</td>
                                     </tr>
                                 </tbody>
-
                             </table>
                         </div>
                     </div>
