@@ -246,7 +246,7 @@
                                     <i class="fa-solid fa-phone-volume icon-fon"></i>
                                     <h2 class="content-box-title font-serif text-light font-weight-bold">Servicio al Cliente</h2>
 
-                                    <h5 class="text-light" style="padding: 0 3%;">Tel. (605)3603103</h5>
+                                    <h5 class="text-light" style="padding: 0 3%;">Tel. (605)3327294</h5>
                                     <h5 class=" text-light" style="padding: 0 3%;">Atencion al Usuario </h5>
                                     <p class=" text-light" style="padding: 0 3%;">Cel. 301 522 06 95 </p>
                                     <h5 class=" text-light" style="padding: 0 3%;">Gestion Comercial</h5>

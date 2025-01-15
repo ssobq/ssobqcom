@@ -72,7 +72,7 @@
                             <br>Comunícate con nosotros:
                             <br>
                             <br>Cel. 313 546 4664
-                            <br>Tel. 605 360 3103
+                            <br>Tel. 605 332 7294
                             <br>
                             <br>Redes sociales
                         </p>
