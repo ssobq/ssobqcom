@@ -97,7 +97,7 @@
                     <img class="d-block w-100" src="img/index/Banner-calidad-sso-crc.png" alt="Calidad SSO">
                 </div>
                 <div class="carousel-item">
-                    <img class="d-block w-100" src="img/index/Banner-2-sso-crc.png">
+                    <img class="d-block w-100" src="img/index/Banner-vacunas.jpg">
                 </div>
 
                 <div class="carousel-item">
