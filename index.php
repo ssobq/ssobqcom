@@ -83,6 +83,7 @@
                 <li data-target="#carouselExample" data-slide-to="2"></li>
                 <li data-target="#carouselExample" data-slide-to="3"></li>
                 <li data-target="#carouselExample" data-slide-to="4"></li>
+                <li data-target="#carouselExample" data-slide-to="5"></li>
 
             </ol>
 
@@ -91,7 +92,7 @@
 
                 <!-- Slide One - Set the background image for this slide in the line below -->
                 <div class="carousel-item">
-                    <img class="d-block w-100" src="img/index/Banner-plan-estrategico-sso-crc.png">
+                    <img class="d-block w-100" src="img/index/PESV.png">
                 </div>
                 <div class="carousel-item active">
                     <img class="d-block w-100" src="img/index/Banner-calidad-sso-crc.png" alt="Calidad SSO">
@@ -106,6 +107,9 @@
                 <!-- Slide Two - Set the background image for this slide in the line below-->
                 <div class="carousel-item">
                     <img class="d-block w-100" src="img/index/Banner--horario-de-atencion--sso-crc.png">
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100" src="img/index/manipulacion-de-alimentos.png">
                 </div>
 
             </div>

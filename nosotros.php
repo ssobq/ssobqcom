@@ -147,10 +147,21 @@
 
         <div class="row">
             <img class="d-block w-100" src="img/politica/PTD.jpg" alt="Politica tratamiento de datos personales SSO - CRC">
+            <div>
+
+            </div>
             <div class="mision-vision-text" id="politica-text">
-                <p class="font-weight-bold text-primary colorAzul text-center">
-                    <a href="#myModal" data-toggle="modal" class="colorAzul" id="OpenBtn">
-                        POLÍTICA DE TRATAMIENTO DE DATOS PERSONALES</a>
+                <p class="font-weight-bold text-primary colorAzul text-lefth">
+                    <a href="#myModal" data-toggle="modal" class="colorAzul" id="OpenBtn"">
+                        - POLÍTICA DE TRATAMIENTO DE DATOS PERSONALES</a>
+                        <br>
+                        
+                        <!--<a href="#myModal-2" data-toggle="modal" class="colorAzul" id="OpenBtn">
+                        - CERTIFICACIÓN ICONTEC ISO 9001:2015</a>
+                        <br>
+
+                        <a href="#myModal-3" data-toggle="modal" class="colorAzul" id="OpenBtn">
+                        - ACREDITACIÓN ONAC NTC-ISO/IEC 17024</a>-->
                 </p>
             </div>
 
@@ -173,6 +184,43 @@
             </div>
         </div>
     </div>
+
+
+    <!--<div class="modal fade" id="myModal-2" role="dialog" aria-hidden="true" style="padding-right: 0;">
+        <div class="modal-dialog  modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title text-primary colorAzul" id="h4modal">Certificacion Icontec SSO - CRC</h4>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <iframe src="/pdf/Certificacion Icontec.pdf" width="100%" height="500px"></iframe>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="myModal-3" role="dialog" aria-hidden="true" style="padding-right: 0;">
+        <div class="modal-dialog  modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title text-primary colorAzul" id="h4modal">Acreditación ONAC SSO - CRC</h4>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <iframe src="/pdf/Acreditación ONAC.pdf" width="100%" height="500px"></iframe>
+                </div>
+            </div>
+        </div>
+    </div>-->
+
+    
+
+    
 
 
     <?php
