@@ -92,7 +92,10 @@
 
                 <!-- Slide One - Set the background image for this slide in the line below -->
                 <div class="carousel-item">
-                    <img class="d-block w-100" src="img/index/PESV.png">
+                    <img class="d-block w-100" src="img/index/manipulacion-de-alimentos.png" alt="first slide">
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100" src="img/index/PESV.png" alt="second slide">
                 </div>
                 <div class="carousel-item active">
                     <img class="d-block w-100" src="img/index/Banner-calidad-sso-crc.png" alt="Calidad SSO">
@@ -100,7 +103,6 @@
                 <div class="carousel-item">
                     <img class="d-block w-100" src="img/index/Banner-vacunas.jpg">
                 </div>
-
                 <div class="carousel-item">
                     <img class="d-block w-100" src="img/index/Banner-23-años-sso.png">
                 </div>
@@ -108,9 +110,7 @@
                 <div class="carousel-item">
                     <img class="d-block w-100" src="img/index/Banner--horario-de-atencion--sso-crc.png">
                 </div>
-                <div class="carousel-item">
-                    <img class="d-block w-100" src="img/index/manipulacion-de-alimentos.png">
-                </div>
+                
 
             </div>
             <a class="carousel-control-prev" href="#carouselExample" role="button" data-slide="prev">
