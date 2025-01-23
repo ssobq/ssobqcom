@@ -91,14 +91,14 @@
 
 
                 <!-- Slide One - Set the background image for this slide in the line below -->
-                <div class="carousel-item">
-                    <img class="d-block w-100" src="img/index/manipulacion-de-alimentos.png" alt="first slide">
-                </div>
-                <div class="carousel-item">
-                    <img class="d-block w-100" src="img/index/PESV.png" alt="second slide">
-                </div>
                 <div class="carousel-item active">
-                    <img class="d-block w-100" src="img/index/Banner-calidad-sso-crc.png" alt="Calidad SSO">
+                    <img class="d-block w-100" src="img/index/manipulacion-de-alimentos.png" alt="First slide">
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100" src="img/index/PESV.png">
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100" src="img/index/Banner-calidad-sso-crc.png">
                 </div>
                 <div class="carousel-item">
                     <img class="d-block w-100" src="img/index/Banner-vacunas.jpg">
