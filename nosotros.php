@@ -179,7 +179,7 @@
                     </button>
                 </div>
                 <div class="modal-body">
-                    <iframe src="/pdf/Politica de Tratamiento de Datos Personales.pdf" width="100%" height="500px"></iframe>
+                    <iframe src="pdf\Politica de Tratamiento de Datos PersonalesV2.pdf" width="100%" height="500px"></iframe>
                 </div>
             </div>
         </div>
