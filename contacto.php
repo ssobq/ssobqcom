@@ -155,7 +155,7 @@
                                     <tr>
                                         <td>Gestion comercial </td>
                                         <td>Cotizaciones e información de nuestros servicios, actividades y jornadas de salud</td>
-                                        <td>Tatiana Hernández<br><p class="colorAzul">Gestor de Comercial</p></td>
+                                        <td>Alexandra Molinares<br><p class="colorAzul">Gestor de Comercial</p></td>
                                         <td><a href="mailto:gestioncomercial@ssobq.com" class="text-dark">gestioncomercial@ssobq.com</a><br>315 360 3621 - (605) 332 7294 ext.115</td>
                                     </tr>
                                     <tr>
