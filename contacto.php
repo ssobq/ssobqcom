@@ -125,7 +125,7 @@
                                     <tr>
                                         <td>Admisiones</td>
                                         <td>Solicitud de programación para citas.</td>
-                                        <td>Daniel Galindo<br><p class="colorAzul">Asistente Administrativo y Financiero</p></td>
+                                        <td>Daniel Galindo<br><p class="colorAzul">Líder de admisiones</p></td>
                                         <td><a href="mailto:orden@ssobq.com" class="text-dark">orden@ssobq.com</a><br>301 522 0695 - (605) 332 7294 ext.101</td>
                                     </tr>
                                     <tr>
@@ -149,7 +149,7 @@
                                     <tr>
                                         <td>Administrativa y Financiera</td>
                                         <td>Solicitud certificaciones comerciales, información legal.</td>
-                                        <td>Liliana Segrera<br><p class="colorAzul">Administrativa y Financiera</p></td>
+                                        <td>Liliana Segrera<br><p class="colorAzul">Directora administrativa y financiera</p></td>
                                         <td><a href="mailto:administrativa@ssobq.com" class="text-dark">administrativa@ssobq.com</a><br>310 424 0457 - (605) 332 7294 ext.105</td>
                                     </tr>
                                     <tr>
