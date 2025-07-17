@@ -84,7 +84,7 @@
                 <li data-target="#carouselExample" data-slide-to="3"></li>
                 <li data-target="#carouselExample" data-slide-to="4"></li>
                 <li data-target="#carouselExample" data-slide-to="5"></li>
-                <li data-target="#carouselExample" data-slide-to="6"></li>
+                <!--<li data-target="#carouselExample" data-slide-to="6"></li>-->
 
             </ol>
 
@@ -92,10 +92,10 @@
 
 
                 <!-- Slide One - Set the background image for this slide in the line below -->
-                <div class="carousel-item active">
+                <!--<div class="carousel-item active">
                     <img class="d-block w-100" src="img/index/Banner-15anos-certificado.png" alt="First slide">
-                </div>
-                <div class="carousel-item">
+                </div> -->
+                <div class="carousel-item active">
                     <img class="d-block w-100" src="img/index/manipulacion-de-alimentos.png">
                 </div>
                 <div class="carousel-item">
