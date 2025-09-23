@@ -125,7 +125,7 @@
                                     <tr>
                                         <td>Admisiones</td>
                                         <td>Solicitud de programación para citas.</td>
-                                        <td>Daniel Galindo<br><p class="colorAzul">Líder de admisiones</p></td>
+                                        <td>Juan Madrid<br><p class="colorAzul">Líder de admisiones</p></td>
                                         <td><a href="mailto:orden@ssobq.com" class="text-dark">orden@ssobq.com</a><br>301 522 0695 - (605) 332 7294 ext.101</td>
                                     </tr>
                                     <tr>
