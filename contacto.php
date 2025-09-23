@@ -170,12 +170,12 @@
                                         <td>Sheyla Carrillo<br><p class="colorAzul">Atención al Usuario</p></td>
                                         <td><a href="mailto:regional@ssobq.com" class="text-dark">regional@ssobq.com</a><br>314 616 2308 - (605) 332 7294 ext.104</td>
                                     </tr>
-                                    <tr>
+                                    <!--<tr>
                                         <td>Procesos y Desarrollo Corporativo</td>
                                         <td>Atención de quejas sugerencias y comentarios.</td>
                                         <td>Estefanny Jimenez<br><p class="colorAzul">Directora de Procesos y Desarrollo Corporativo</p></td>
                                         <td><a href="mailto:procesos@ssobq.com" class="text-dark">procesos@ssobq.com</a><br>313 546 4664 - (605) 332 7294</td>
-                                    </tr>
+                                    </tr>-->
                                 </tbody>
                             </table>
                         </div>
