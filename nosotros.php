@@ -196,7 +196,7 @@
                     </button>
                 </div>
                 <div class="modal-body">
-                    <iframe src="/pdf/Certificacion Icontec.pdf" width="100%" height="500px"></iframe>
+                    <iframe src="/pdf/Certificacion Icontec 2025.pdf" width="100%" height="500px"></iframe>
                 </div>
             </div>
         </div>
