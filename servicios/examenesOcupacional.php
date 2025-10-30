@@ -46,12 +46,15 @@
                     <li style="list-style: square; font-size: 1.2em;" class="colorAzul">Examen médico ocupacional de ingreso.</li>
                     <li style="list-style: square; font-size: 1.2em;" class="colorAzul">Examen médico ocupacional periódico.</li>
                     <li style="list-style: square; font-size: 1.2em;" class="colorAzul">Examen médico ocupacional de egreso.</li>
+                    <li style="list-style: square; font-size: 1.2em;" class="colorAzul">Evaluación médica por retorno laboral.</li>
                     <li style="list-style: square; font-size: 1.2em;" class="colorAzul">Examen post incapacidad y/o valoraciones seguimiento de recomendaciones.</li>
                     <li style="list-style: square; font-size: 1.2em;" class="colorAzul">Énfasis osteomuscular.</li>
                     <li style="list-style: square; font-size: 1.2em;" class="colorAzul">Énfasis, altura y/o espacios confinados.</li>
                     <li style="list-style: square; font-size: 1.2em;" class="colorAzul">Énfasis conductores.</li>
                     <li style="list-style: square; font-size: 1.2em;" class="colorAzul">Énfasis manipulación de alimentos.</li>
                     <li style="list-style: square; font-size: 1.2em;" class="colorAzul">Énfasis medicamentos y/o sustancias químicas.</li>
+                    <li style="list-style: square; font-size: 1.2em;" class="colorAzul">Énfasis riesgo eléctrico o maniobras eléctricas.</li>
+                    <li style="list-style: square; font-size: 1.2em;" class="colorAzul">Énfasis Cardiovascular y/o respiratorio.</li>
                 </ul>
             </div>
             <div class="col-lg-5">
