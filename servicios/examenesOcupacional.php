@@ -43,7 +43,7 @@
             <div class="col-lg-7">
                 <br>
                 <ul>
-                    <li style="list-style: square; font-size: 1.2em;" class="colorAzul">Examen médico ocupacional de ingreso.</li>
+                    <li style="list-style: square; font-size: 1.2em;" class="colorAzul">Examen médico ocupacional de pre-ingreso.</li>
                     <li style="list-style: square; font-size: 1.2em;" class="colorAzul">Examen médico ocupacional periódico.</li>
                     <li style="list-style: square; font-size: 1.2em;" class="colorAzul">Examen médico ocupacional de egreso.</li>
                     <li style="list-style: square; font-size: 1.2em;" class="colorAzul">Evaluación médica por retorno laboral.</li>
