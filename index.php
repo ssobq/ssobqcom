@@ -112,7 +112,7 @@
                 </div>
                 <!-- Slide Two - Set the background image for this slide in the line below-->
                 <div class="carousel-item">
-                    <img class="d-block w-100" src="img/index/Banner--horario-de-atencion--sso-crc.png">
+                    <img class="d-block w-100" src="img/index/Banner--horario-de-atencion--sso-crc-20-11-2025.jpg">
                 </div>
                 
 
@@ -211,12 +211,12 @@
                             <div class="content-box-image card border-0 shadow rounded-xs pt-3">
                                 <div class="card-body ">
                                     <i class="fa-solid fa-clock-rotate-left icon-fon"></i>
-                                    <h2 class="content-box-title font-serif text-light font-weight-bold">Horarios de Atención</h2>
+                                    <h2 class="content-box-title font-serif text-light font-weight-bold">Horarios de atención al público</h2>
                                     <div class="row">
                                         <div class="col-12 text-center">
 
                                             <h5 class=" text-light">Lunes a Viernes</h5>
-                                            <p class=" text-light"> 6:40 am. – 4:00 pm.</p>
+                                            <p class=" text-light"> 6:40 am. – 3:30 pm.</p>
 
                                             <h5 class=" text-light">Sábado</h5>
                                             <p class=" text-light"> 6:40 am. – 11:00 am.</p>

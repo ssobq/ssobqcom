@@ -34,14 +34,18 @@
         <!-- FILA 1-->
         <br>
         <div class="row">
-            <p>Somos una IPS acreditada por <strong>ONAC</strong> para la realización de los exámenes médicos requeridos, para Expedir,
-                Renovar y Recategorizar la Licencia de Conducción, cumpliendo con la normatividad vigente (Resolución 0217 de 2014).
-                Con equipos y tecnología de vanguardia, nuestro personal altamente capacitado y experimentado realiza los procesos de
-                evaluación de manera ágil, asegurando que los conductores reciban los resultados al instante.
-                <br><br>
-                Nuestras instalaciones están diseñadas pensando en la comodidad y privacidad de quienes nos visitan. Disponemos de espacios 
-                limpios y bien equipados, donde los conductores pueden realizar los diferentes exámenes y evaluaciones de manera confortable.
-            </p>
+            <p>Somos una IPS acreditada por <strong>ONAC</strong> para la realización de los exámenes médicos requeridos,
+             para Expedir, Renovar y Recategorizar la Licencia de Conducción, cumpliendo con la normatividad vigente (Resolución 0217 de 2014  y Resolución 30355 del 2022).
+              Con equipos y tecnología de vanguardia, nuestro personal altamente capacitado y experimentado realiza los procesos de evaluación de manera ágil, asegurando
+               que los conductores reciban los resultados al instante.
+            <BR></BR>
+            Nuestras instalaciones están diseñadas pensando en la comodidad y privacidad de quienes nos visitan. Disponemos
+             de espacios limpios y bien equipados, donde los conductores pueden realizar los diferentes exámenes y evaluaciones
+              de manera confortable.
+
+
+            </p>        
+            
         </div>
         <br>
         <!-- FILA 2-->
@@ -145,7 +149,7 @@
                         <a href="mailto:administracioncrc@ssobq.com" class="colorAzul">E-mail: administracioncrc@ssobq.com</a>
                     </div>
                     <div class="row colorAzul">
-                        <a class="colorAzul" href="tel:+576053603103">Tel. 6053603103</a>&nbsp;/&nbsp;<a class="colorAzul" href="tel:+573157400411">Cel. 3157400411</a>&nbsp;-&nbsp;
+                        <a class="colorAzul" href="tel:+576053603103">Tel. 6053327294</a>&nbsp;/&nbsp;<a class="colorAzul" href="tel:+573157400411">Cel. 3157400411</a>&nbsp;-&nbsp;
                         <a class="colorAzul" href="tel:+573135464664">3135464664</a>
                     </div>
                 </div>
@@ -156,7 +160,7 @@
         </div>
         <!-- Footer Links -->
         <!-- Copyright -->
-        <div class="footer-copyright text-center py-1">© 2022 Todos los derechos reservados, Copyright:
+        <div class="footer-copyright text-center py-1">© 2024 Todos los derechos reservados, Copyright:
             <a class="font-weight-bold colorAzul" href="https://ssobq.com"> ssobq.com</a>
         </div>
         <!-- Copyright -->
