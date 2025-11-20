@@ -130,8 +130,8 @@
                                     </tr>
                                     <tr>
                                         <td>Centro de Reconocimiento de Conductores - CRC</td>
-                                        <td>Solicitud de programación para citas.</td>
-                                        <td>Fabian Ramírez<br><p class="colorAzul">Atención al Usuario</p></td>
+                                        <td>Coordinación citas y certificados</td>
+                                        <td>Jesus Donado<br><p class="colorAzul">CRC</p></td>
                                         <td><a href="mailto:administracioncrc@ssobq.com" class="text-dark">administracioncrc@ssobq.com</a><br>315 740 0411 - (605) 332 7294 ext. 104</td>
                                     </tr>
                                     <tr>
