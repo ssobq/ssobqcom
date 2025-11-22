@@ -138,7 +138,7 @@
                 <div class="col-4 text-center">
 
                     <p>
-                        <img src="/img/iconos/Telefono.svg" width="39px" alt="Redes sociales SSO - CRC">
+                        <img src="/img/iconos/Telefonos.svg" width="39px" alt="Redes sociales SSO - CRC">
                         <a class="colorAzul agendaCitaCRC" href="tel:+573157400411">&nbsp; &nbsp;AGENDA TU CITA</a>
                     </p>
                 </div>
