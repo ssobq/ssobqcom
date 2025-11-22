@@ -112,7 +112,7 @@
                 </div>
                 <!-- Slide Two - Set the background image for this slide in the line below-->
                 <div class="carousel-item">
-                    <img class="d-block w-100" src="img/index/Banner--horario-de-atencion--sso-crc-20-11-2025.jpg">
+                    <img class="d-block w-100" src="img/index/Banner-horario-de-atencion22-11-2025.png">
                 </div>
                 
 
