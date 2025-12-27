@@ -130,7 +130,7 @@
                                     </tr>
                                     <tr>
                                         <td>Centro de Reconocimiento de Conductores - CRC</td>
-                                        <td>Atencón al cliente CRC</td>
+                                        <td>Atención al cliente CRC</td>
                                         <td>Daniel Galindo<br><p class="colorAzul">CRC</p></td>
                                         <td><a href="mailto:administracioncrc@ssobq.com" class="text-dark">administracioncrc@ssobq.com</a><br>315 740 0411 - (605) 332 7294 ext. 104</td>
                                     </tr>
