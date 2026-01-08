@@ -131,7 +131,7 @@
                                     <tr>
                                         <td>Centro de Reconocimiento de Conductores - CRC</td>
                                         <td>Atención al cliente CRC</td>
-                                        <td>Daniel Galindo<br><p class="colorAzul">CRC</p></td>
+                                        <td>Fabian Ramirez<br><p class="colorAzul">CRC</p></td>
                                         <td><a href="mailto:administracioncrc@ssobq.com" class="text-dark">administracioncrc@ssobq.com</a><br>315 740 0411 - (605) 332 7294 ext. 104</td>
                                     </tr>
                                     <tr>
@@ -155,13 +155,13 @@
                                     <tr>
                                         <td>Gestion comercial </td>
                                         <td>Cotizaciones e información de nuestros servicios, actividades y jornadas de salud</td>
-                                        <td>Alexandra Molinares<br><p class="colorAzul">Gestor de Comercial</p></td>
+                                        <td>Liliana Segrera<br><p class="colorAzul">Gestor de Comercial</p></td>
                                         <td><a href="mailto:gestioncomercial@ssobq.com" class="text-dark">gestioncomercial@ssobq.com</a><br>315 360 3621 - (605) 332 7294 ext.115</td>
                                     </tr>
                                     <tr>
                                         <td>Cartera</td>
                                         <td>Estados de cuenta y envío de soportes de pago</td>
-                                        <td>Sergio Orozco<br><p class="colorAzul">Asistente Administrativo y Financiero</p></td>
+                                        <td>Alexandra Molinares<br><p class="colorAzul">Asistente Administrativo y Financiero</p></td>
                                         <td><a href="mailto:cartera@ssobq.com" class="text-dark">cartera@ssobq.com</a><br>304 272 5329 - (605) 332 7294 ext.115</td>
                                     </tr>
                                     <tr>
