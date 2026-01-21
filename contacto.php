@@ -108,7 +108,7 @@
                                 <thead>
                                     <tr>
                                         <th scope="col" class="text-center th text-light">
-                                            <h4>Departamentos</h4>
+                                            <h4>Área</h4>
                                         </th>
                                         <th scope="col" class="text-center th text-light">
                                             <h4>Tipo de Solicitud</h4>
@@ -123,10 +123,22 @@
                                 </thead>
                                 <tbody class="text-center">
                                     <tr>
+                                        <td>Administrativa y Financiera</td>
+                                        <td>Solicitud certificaciones comerciales, información legal.</td>
+                                        <td>Daniel Badillo<br><p class="colorAzul">Director Administrativo y Financiero</p></td>
+                                        <td><a href="mailto:administrativa@ssobq.com" class="text-dark">administrativa@ssobq.com</a><br>310 424 0457 - (605) 332 7294 ext.105</td>
+                                    </tr>
+                                    <tr>
                                         <td>Admisiones</td>
                                         <td>Solicitud de programación para citas.</td>
                                         <td>Juan Madrid<br><p class="colorAzul">Líder de admisiones</p></td>
                                         <td><a href="mailto:orden@ssobq.com" class="text-dark">orden@ssobq.com</a><br>301 522 0695 - (605) 332 7294 ext.101</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Cartera</td>
+                                        <td>Estados de cuenta y envío de soportes de pago</td>
+                                        <td>Sergio Orozco<br><p class="colorAzul">Asistente Administrativo y Financiero</p></td>
+                                        <td><a href="mailto:cartera@ssobq.com" class="text-dark">cartera@ssobq.com</a><br>304 272 5329 - (605) 332 7294 ext.115</td>
                                     </tr>
                                     <tr>
                                         <td>Centro de Reconocimiento de Conductores - CRC</td>
@@ -141,34 +153,22 @@
                                         <td><a href="mailto:resultados@ssobq.com" class="text-dark">resultados@ssobq.com</a><br>304 272 5330 - (605) 332 7294 ext.108</td>
                                     </tr>
                                     <tr>
-                                        <td>Servicios</td>
-                                        <td>Atención VIP y casos particulares del servicio.</td>
-                                        <td>Adriana Leal<br><p class="colorAzul">Directora de Servicios</p></td>
-                                        <td><a href="mailto:dir.servicios@ssobq.com" class="text-dark">dir.servicios@ssobq.com</a><br>313 546 4664 - (605) 332 7294 ext.107</td>
-                                    </tr>
-                                    <tr>
-                                        <td>Administrativa y Financiera</td>
-                                        <td>Solicitud certificaciones comerciales, información legal.</td>
-                                        <td>Daniel Badillo<br><p class="colorAzul">Director Administrativo y Financiero</p></td>
-                                        <td><a href="mailto:administrativa@ssobq.com" class="text-dark">administrativa@ssobq.com</a><br>310 424 0457 - (605) 332 7294 ext.105</td>
-                                    </tr>
-                                    <tr>
                                         <td>Gestion comercial </td>
                                         <td>Cotizaciones e información de nuestros servicios, actividades y jornadas de salud</td>
-                                        <td>Alexandra Molinares<br><p class="colorAzul">Asistente Administrativo y Financiero</p></td>
+                                        <td>Alexandra Molinares<br><p class="colorAzul">Gestora Comercial</p></td>
                                         <td><a href="mailto:gestioncomercial@ssobq.com" class="text-dark">gestioncomercial@ssobq.com</a><br>315 360 3621 - (605) 332 7294 ext.115</td>
-                                    </tr>
-                                    <tr>
-                                        <td>Cartera</td>
-                                        <td>Estados de cuenta y envío de soportes de pago</td>
-                                        <td>Sergio Orozco<br><p class="colorAzul">Asistente Administrativo y Financiero</p></td>
-                                        <td><a href="mailto:cartera@ssobq.com" class="text-dark">cartera@ssobq.com</a><br>304 272 5329 - (605) 332 7294 ext.115</td>
                                     </tr>
                                     <tr>
                                         <td>Regionales</td>
                                         <td>Atención red nacional</td>
                                         <td>Sheyla Carrillo<br><p class="colorAzul">Atención al Usuario</p></td>
                                         <td><a href="mailto:regional@ssobq.com" class="text-dark">regional@ssobq.com</a><br>314 616 2308 - (605) 332 7294 ext.104</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Servicios</td>
+                                        <td>Atención VIP y casos particulares del servicio.</td>
+                                        <td>Adriana Leal<br><p class="colorAzul">Directora de Servicios</p></td>
+                                        <td><a href="mailto:dir.servicios@ssobq.com" class="text-dark">dir.servicios@ssobq.com</a><br>313 546 4664 - (605) 332 7294 ext.107</td>
                                     </tr>
                                     <!--<tr>
                                         <td>Procesos y Desarrollo Corporativo</td>
