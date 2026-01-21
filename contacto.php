@@ -149,19 +149,19 @@
                                     <tr>
                                         <td>Administrativa y Financiera</td>
                                         <td>Solicitud certificaciones comerciales, información legal.</td>
-                                        <td>Liliana Segrera<br><p class="colorAzul">Directora Administrativa y Financiera</p></td>
+                                        <td>Daniel Badillo<br><p class="colorAzul">Director Administrativa y Financiera</p></td>
                                         <td><a href="mailto:administrativa@ssobq.com" class="text-dark">administrativa@ssobq.com</a><br>310 424 0457 - (605) 332 7294 ext.105</td>
                                     </tr>
                                     <tr>
                                         <td>Gestion comercial </td>
                                         <td>Cotizaciones e información de nuestros servicios, actividades y jornadas de salud</td>
-                                        <td>Liliana Segrera<br><p class="colorAzul">Gestor de Comercial</p></td>
+                                        <td>Alexandra Molinares<br><p class="colorAzul">Asistente Administrativo y Financiero</p></td>
                                         <td><a href="mailto:gestioncomercial@ssobq.com" class="text-dark">gestioncomercial@ssobq.com</a><br>315 360 3621 - (605) 332 7294 ext.115</td>
                                     </tr>
                                     <tr>
                                         <td>Cartera</td>
                                         <td>Estados de cuenta y envío de soportes de pago</td>
-                                        <td>Alexandra Molinares<br><p class="colorAzul">Asistente Administrativo y Financiero</p></td>
+                                        <td>Sergio Orozco<br><p class="colorAzul">Asistente Administrativo y Financiero</p></td>
                                         <td><a href="mailto:cartera@ssobq.com" class="text-dark">cartera@ssobq.com</a><br>304 272 5329 - (605) 332 7294 ext.115</td>
                                     </tr>
                                     <tr>
