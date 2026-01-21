@@ -149,7 +149,7 @@
                                     <tr>
                                         <td>Administrativa y Financiera</td>
                                         <td>Solicitud certificaciones comerciales, información legal.</td>
-                                        <td>Daniel Badillo<br><p class="colorAzul">Director Administrativa y Financiera</p></td>
+                                        <td>Daniel Badillo<br><p class="colorAzul">Director Administrativo y Financiero</p></td>
                                         <td><a href="mailto:administrativa@ssobq.com" class="text-dark">administrativa@ssobq.com</a><br>310 424 0457 - (605) 332 7294 ext.105</td>
                                     </tr>
                                     <tr>
