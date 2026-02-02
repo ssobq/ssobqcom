@@ -185,7 +185,7 @@
                                         <td>Adriana Leal<br><p class="colorAzul">Directora de Servicios</p></td>
                                         <td><a href="mailto:dir.servicios@ssobq.com" class="text-dark">dir.servicios@ssobq.com</a>
                                         <br>
-                                        <a href="https://wa.me/573135464664" target="_blank">313 546 4664</a> - (605) 332 7294 ext.107</td>
+                                        <a href="https://wa.me/573157562998" target="_blank">315 756 2998</a> - (605) 332 7294 ext.107</td>
                                     </tr>
                                     <!--<tr>
                                         <td>Procesos y Desarrollo Corporativo</td>
