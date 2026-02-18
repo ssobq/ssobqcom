@@ -96,10 +96,11 @@
                     <img class="d-block w-100" src="img/index/Banner-15anos-certificado.png" alt="First slide">
                 </div> -->
                 <div class="carousel-item active">
-                    <img class="d-block w-100" src="img/index/manipulacion-de-alimentos.png">
+                    <img class="d-block w-100" src="img/index/PESV.png">
+                    
                 </div>
                 <div class="carousel-item">
-                    <img class="d-block w-100" src="img/index/PESV.png">
+                    <img class="d-block w-100" src="img/index/manipulacion-de-alimentos.jpg">
                 </div>
                 <div class="carousel-item">
                     <img class="d-block w-100" src="img/index/Banner-calidad-sso-crc.png">
