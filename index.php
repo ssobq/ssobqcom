@@ -320,11 +320,14 @@
         AOS.init();
     </script>
 
+
     <script>
-        $(document).ready(function() {
-            $('#myModal').modal('toggle')
-        });
+    $(document).ready(function() {
+        // Hace que el modal aparezca automáticamente al cargar la página
+        $('#modalComunicado').modal('show');
+    });
     </script>
+    
 
 </body>
 

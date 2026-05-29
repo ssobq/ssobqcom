@@ -68,7 +68,7 @@
 
                         <br>
                         <h5>Cra. 49 # 74 - 77/91</h5>
-                        <h5>Barrio: Las Americas</h5>
+                        <h5>Barrio: América</h5>
                         <h5>Barranquilla, Atlántico - Colombia</h5>
 
                     </div>
