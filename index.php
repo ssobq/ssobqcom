@@ -213,9 +213,9 @@
                                 <i class="fa-solid fa-clock-rotate-left fa-3x mb-3 text-white"></i>
                                 <h4 class="content-box-title text-white font-weight-bold mb-4">Horarios de atención</h4>
                                 <div class="text-light">
-                                    <h6 class="font-weight-bold text-uppercase mb-1" style="color: #e10109;">Lunes a Viernes</h6>
+                                    <h6 class="font-weight-bold text-uppercase mb-1" style="color: #ffffff;">Lunes a Viernes</h6>
                                     <p class="mb-3">6:40 am. – 3:30 pm.</p>
-                                    <h6 class="font-weight-bold text-uppercase mb-1" style="color: #e10109;">Sábados</h6>
+                                    <h6 class="font-weight-bold text-uppercase mb-1" style="color: #ffffff;">Sábados</h6>
                                     <p class="mb-0">6:40 am. – 11:00 am.</p>
                                 </div>
                             </div>
@@ -241,9 +241,9 @@
                                 <i class="fa-solid fa-phone-volume fa-3x mb-3 text-white"></i>
                                 <h4 class="content-box-title text-white font-weight-bold mb-4">Servicio al Cliente</h4>
                                 <div class="text-light">
-                                    <h6 class="font-weight-bold text-uppercase mb-1" style="color: #e10109;">Atención al Usuario</h6>
+                                    <h6 class="font-weight-bold text-uppercase mb-1" style="color: #ffffff;">Atención al Usuario</h6>
                                     <p class="mb-3">Tel. (605) 332 7294<br>Cel. 301 522 06 95</p>
-                                    <h6 class="font-weight-bold text-uppercase mb-1" style="color: #e10109;">Gestión Comercial</h6>
+                                    <h6 class="font-weight-bold text-uppercase mb-1" style="color: #ffffff;">Gestión Comercial</h6>
                                     <p class="mb-0">Cel. 315 360 36 21</p>
                                 </div>
                             </div>
