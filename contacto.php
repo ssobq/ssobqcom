@@ -2,220 +2,285 @@
 <html lang="es">
 
 <head>
-    <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="shortcut icon" href="img/logo.ico" />
 
-    <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 
-    <!-- Personalizado CSS -->
     <link rel="stylesheet" href="css/stylo.css">
 
-    <!-- Metadatos Informacion-->
-    <meta name="description" content="Contacto de SSO - CRC servicios de salud ocupacional">
+    <meta name="description" content="Directorio y datos de contacto de SSO - CRC Servicios de Salud Ocupacional en Barranquilla.">
+    <meta name="keywords" content="SSO, contacto sso, Sso, Servicios de salud ocupacional, SSO - CRC, directorio sso, salud en el trabajo, sso barranquilla, salud ocupacional barranquilla">
 
-    <meta name="keywords" content="SSO, sso, Sso, Servicios de salud ocupacional, SSO - CRC Servicios de Salud Ocupacional, Servicios de Salud Ocupacional, CRC, crc Salud Ocupacional, seguridad en el trabajo, sst, SST, 
-    medicina en el trabajo, ssobq, ssobqcom, salud en el trabajo, sso barranquilla, salud ocupacional barranquilla, sso Barranquilla, salud ocupacional Barranquilla">
-
-    <link rel="canonical" href="https://www.ssobq.com/">
+    <link rel="canonical" href="https://www.ssobq.com/contacto.php">
 
     <meta property="og:locale" content="es_ES">
     <meta property="og:site_name" content="SSO - CRC Servicios de Salud Ocupacional">
     <meta property="og:type" content="website">
-    <meta property="og:title" content="SSO - CRC Servicios de Salud Ocupacional">
-    <meta property="og:description" content="SSO - CRC es una IPS de mediana complejidad cuyo objetivo fundamental es la prestación de servicios integrales de seguridad y salud en el trabajo con una clara visión profesional y una audaz vocación como elemento importante en el mejoramiento continuo de nuestra institución y colaboradores">
-    <meta property="og:url" content="https://www.ssobq.com/">
+    <meta property="og:title" content="Contacto | SSO - CRC">
+    <meta property="og:description" content="Comuníquese con nuestros diferentes departamentos. En SSO - CRC estamos listos para atender sus solicitudes en salud ocupacional.">
+    <meta property="og:url" content="https://www.ssobq.com/contacto.php">
     <meta property="og:image" content="https://www.ssobq.com/img/logo.png">
-    <meta property="og:image:secure_url" content="https://www.ssobq.com/img/logo.png">
 
-
-
-
-    <!--Google search-->
     <meta name="google-site-verification" content="PMbjD96NUeb_WmZZaNueqxxDQiH_kU5IXAGHMon5BQ0" />
 
-    <!-- Iconos font-awesome -->
     <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/cf867249a1.js" crossorigin="anonymous"></script>
 
     <title>Contacto | SSO - CRC</title>
-</head>
 
-<body>
-
-
-    <?php
-    include 'html/nav.html';
-    ?>
-
-    <!-- contenido de la pagina -->
-    <div class="container" id="centerDiv">
-        <br>
-
-        <!-- FILA 1-->
-        <div class="row">
-
-            <div class="col-lg-6">
-                <br>
-                <div class="row">
-                    <div class="col-lg-12">
-                        <h2 class="font-weight-bold colorAzul">SEDE PRINCIPAL</h2>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-lg-12">
-
-                        <br>
-                        <h5>Cra. 49 # 74 - 77/91</h5>
-                        <h5>Barrio: América</h5>
-                        <h5>Barranquilla, Atlántico - Colombia</h5>
-
-                    </div>
-                </div>
-                <br>
-
-            </div>
-
-            <div class="col-lg-6">
-                <div class="row justify-content-center">
-                    <div class="col-lg-12">
-                        <!-- Embedded Google Map -->
-                        <iframe class="rounded" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15666.17460198895!2d-74.8067933!3d10.9977773!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x8509e5903c8308f!2sSERVICIOS+DE+SALUD+OCUPACIONAL+S.A.S.!5e0!3m2!1ses!2sco!4v1564246619674!5m2!1ses!2sco" width="100%" height="300px" frameborder="0" style="border:0" scrolling="no" marginheight="0" marginwidth="0" allowfullscreen></iframe>
-                    </div>
-                </div>
-            </div>
-
-        </div>
-        <br>
-        <hr id="hr">
-        <br>
-
-        <!-- FILA 2-->
-        <div class="row">
-            <div class="col-lg-12">
-                <div class="row">
-                    <div class="col-lg-12">
-                        <h1 class="font-weight-bold text-center colorAzul">INFORMACION DE CONTACTO</h1>
-                    </div>
-                </div>
-                <div class="row justify-content-center">
-
-                    <div class="col-lg-12">
-                        <div class="bd-example table-responsive">
-                            
-                            <table class="table table-striped table-hover ">
-                                <thead>
-                                    <tr>
-                                        <th scope="col" class="text-center th text-light">
-                                            <h4>Área</h4>
-                                        </th>
-                                        <th scope="col" class="text-center th text-light">
-                                            <h4>Tipo de Solicitud</h4>
-                                        </th>
-                                        <th scope="col" class="text-center th text-light">
-                                            <h4>Persona Contacto</h4>
-                                        </th>
-                                        <th scope="col" class="text-center th text-light">
-                                            <h4>Contacto</h4>
-                                        </th>
-                                    </tr>
-                                </thead>
-                                <tbody class="text-center">                                    
-                                    <tr>
-                                        <td>Administrativa y Financiera</td>
-                                        <td>Solicitud certificaciones comerciales, información legal.</td>
-                                        <td>Daniel Badillo<br><p class="colorAzul">Director Administrativo y Financiero</p></td>
-                                        <td><a href="mailto:administrativa@ssobq.com" class="text-dark">administrativa@ssobq.com</a>
-                                        <br>
-                                        <a href="https://wa.me/573104240457" target="_blank">310 424 0457</a> - (605) 332 7294 ext.105</td>
-                                        
-                                    </tr>
-                                    <tr>
-                                        <td>Admisiones</td>
-                                        <td>Solicitud de programación para citas.</td>
-                                        <td>Juan Madrid<br><p class="colorAzul">Líder de admisiones</p></td>
-                                        <td><a href="mailto:orden@ssobq.com" class="text-dark">orden@ssobq.com</a>
-                                        <br>
-                                        <a href="https://wa.me/573015220695" target="_blank">301 522 0695</a> - (605) 332 7294 ext.101</td>
-                                    </tr>
-                                    <tr>
-                                        <td>Cartera</td>
-                                        <td>Estados de cuenta y envío de soportes de pago</td>
-                                        <td>Sergio Orozco<br><p class="colorAzul">Asistente Administrativo y Financiero</p></td>
-                                        <td><a href="mailto:cartera@ssobq.com" class="text-dark">cartera@ssobq.com</a>
-                                        <br>
-                                        <a href="https://wa.me/573042725329" target="_blank">304 272 5329</a> - (605) 332 7294 ext.115</td>
-                                    </tr>
-                                    <tr>
-                                        <td>Centro de Reconocimiento de Conductores - CRC</td>
-                                        <td>Atención al cliente CRC</td>
-                                        <td>Fabian Ramirez<br><p class="colorAzul">CRC</p></td>
-                                        <td><a href="mailto:administracioncrc@ssobq.com" class="text-dark">administracioncrc@ssobq.com</a>
-                                        <br>
-                                        <a href="https://wa.me/573157400411" target="_blank">315 740 0411</a> - (605) 332 7294 ext.104</td>
-                                    </tr>
-                                    <tr>
-                                        <td>Conceptos</td>
-                                        <td>Solicitud de resultados o certificados de aptitud ocupacional.</td>
-                                        <td>Karen Guerra<br><p class="colorAzul">Gestora de Servicios</p></td>
-                                        <td><a href="mailto:resultados@ssobq.com" class="text-dark">resultados@ssobq.com</a>
-                                        <br>
-                                        <a href="https://wa.me/573042725330" target="_blank">304 272 5330</a> - (605) 332 7294 ext.108</td>
-                                    </tr>
-                                    <tr>
-                                        <td>Gestion comercial </td>
-                                        <td>Cotizaciones e información de nuestros servicios, actividades y jornadas de salud</td>
-                                        <td>Alexandra Molinares<br><p class="colorAzul">Gestora Comercial</p></td>
-                                        <td><a href="mailto:gestioncomercial@ssobq.com" class="text-dark">gestioncomercial@ssobq.com</a>
-                                        <br>
-                                        <a href="https://wa.me/573153603621" target="_blank">315 360 3621</a> - (605) 332 7294 ext.115</td>
-                                    </tr>
-                                    <tr>
-                                        <td>Regionales</td>
-                                        <td>Atención red nacional</td>
-                                        <td>Sheyla Carrillo<br><p class="colorAzul">Atención al Usuario</p></td>
-                                        <td><a href="mailto:regional@ssobq.com" class="text-dark">regional@ssobq.com</a>
-                                        <br>
-                                        <a href="https://wa.me/573146162308" target="_blank">314 616 2308</a> - (605) 332 7294 ext.104</td>
-                                    </tr>
-                                    <tr>
-                                        <td>Servicios</td>
-                                        <td>Atención VIP y casos particulares del servicio.</td>
-                                        <td>Adriana Leal<br><p class="colorAzul">Directora de Servicios</p></td>
-                                        <td><a href="mailto:dir.servicios@ssobq.com" class="text-dark">dir.servicios@ssobq.com</a>
-                                        <br>
-                                        <a href="https://wa.me/573157562998" target="_blank">315 756 2998</a> - (605) 332 7294 ext.107</td>
-                                    </tr>
-                                    <!--<tr>
-                                        <td>Procesos y Desarrollo Corporativo</td>
-                                        <td>Atención de quejas sugerencias y comentarios.</td>
-                                        <td>Estefanny Jimenez<br><p class="colorAzul">Directora de Procesos y Desarrollo Corporativo</p></td>
-                                        <td><a href="mailto:procesos@ssobq.com" class="text-dark">procesos@ssobq.com</a><br>313 546 4664 - (605) 332 7294</td>
-                                    </tr>-->
-                                </tbody>
-                            </table>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <?php
-    include 'html/footer.html';
-    ?>
-    <!-- estilo css para nav -->
-    <style type="text/css">
+    <style>
+        /* Estilos específicos de esta página */
         #contactoNav {
             color: #e10109 !important;
             font-weight: bold;
         }
+
+        .contact-card {
+            border-radius: 12px;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            border-top: 4px solid #004085;
+        }
+
+        .contact-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 20px rgba(0, 64, 133, 0.1) !important;
+        }
+
+        .quick-link {
+            transition: color 0.2s ease;
+        }
+
+        .quick-link:hover {
+            color: #e10109 !important;
+            text-decoration: none;
+        }
     </style>
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+</head>
+
+<body class="bg-light">
+
+    <?php include 'html/nav.html'; ?>
+
+    <main class="container my-5">
+        
+        <div class="row mb-5 text-center">
+            <div class="col-12">
+                <h1 class="display-4 font-weight-bold" style="color: #004085;">Contacto</h1>
+                <p class="lead text-muted mt-3">Estamos aquí para brindarle la mejor atención. Seleccione el área que necesita.</p>
+                <hr class="mx-auto" style="border: 2px solid #e10109; width: 80px;">
+            </div>
+        </div>
+
+        <section class="row mb-5 align-items-stretch">
+            
+            <div class="col-12 col-lg-5 mb-4 mb-lg-0 d-flex">
+                <div class="card border-0 shadow-sm w-100 p-4 p-md-5" style="border-radius: 15px; background-color: #004085; color: white;">
+                    <div class="d-flex align-items-center mb-4">
+                        <i class="fa-solid fa-building fa-3x mr-3 text-white"></i>
+                        <h2 class="font-weight-bold mb-0">Sede Principal</h2>
+                    </div>
+                    
+                    <div class="mt-2">
+                        <div class="d-flex mb-3 align-items-start">
+                            <i class="fa-solid fa-location-dot mt-1 mr-3" style="font-size: 1.5rem; color: #e10109;"></i>
+                            <div>
+                                <h5 class="mb-1 font-weight-bold">Dirección</h5>
+                                <p class="mb-0 text-light" style="font-size: 1.1rem;">Cra. 49 # 74 - 77 / 91<br>Barrio: América<br>Barranquilla, Atlántico - Colombia</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12 col-lg-7 d-flex">
+                <div class="w-100 shadow-sm" style="border-radius: 15px; overflow: hidden; background: #fff; min-height: 300px;">
+                    <div class="embed-responsive embed-responsive-16by9 h-100">
+                        <iframe class="embed-responsive-item" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15666.17460198895!2d-74.8067933!3d10.9977773!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x8509e5903c8308f!2sSERVICIOS+DE+SALUD+OCUPACIONAL+S.A.S.!5e0!3m2!1ses!2sco!4v1564246619674!5m2!1ses!2sco" frameborder="0" style="border:0" allowfullscreen></iframe>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+        <div class="row mt-5 mb-4">
+            <div class="col-12 text-center">
+                <h2 class="font-weight-bold text-uppercase mb-4" style="color: #004085;">Directorio de Áreas</h2>
+            </div>
+        </div>
+
+        <div class="row align-items-stretch">
+            
+            <div class="col-12 col-md-6 col-xl-4 mb-4">
+                <div class="card contact-card border-0 shadow-sm h-100 p-3">
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="font-weight-bold mb-1" style="color: #004085;">Administrativa y Financiera</h5>
+                        <p class="text-muted small mb-3 border-bottom pb-2">Solicitud certificaciones comerciales, información legal.</p>
+                        
+                        <div class="mb-3">
+                            <span class="font-weight-bold d-block text-dark">Daniel Badillo</span>
+                            <span class="small text-secondary">Director Administrativo y Financiero</span>
+                        </div>
+                        
+                        <div class="mt-auto">
+                            <a href="mailto:administrativa@ssobq.com" class="d-block mb-2 text-dark quick-link"><i class="fa-solid fa-envelope mr-2 text-danger"></i> administrativa@ssobq.com</a>
+                            <a href="https://wa.me/573104240457" target="_blank" class="d-block mb-1 text-dark quick-link"><i class="fa-brands fa-whatsapp mr-2 text-success"></i> 310 424 0457</a>
+                            <span class="text-muted small"><i class="fa-solid fa-phone mr-1"></i> (605) 332 7294 - Ext. 105</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12 col-md-6 col-xl-4 mb-4">
+                <div class="card contact-card border-0 shadow-sm h-100 p-3">
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="font-weight-bold mb-1" style="color: #004085;">Admisiones</h5>
+                        <p class="text-muted small mb-3 border-bottom pb-2">Solicitud de programación para citas.</p>
+                        
+                        <div class="mb-3">
+                            <span class="font-weight-bold d-block text-dark">Juan Madrid</span>
+                            <span class="small text-secondary">Líder de admisiones</span>
+                        </div>
+                        
+                        <div class="mt-auto">
+                            <a href="mailto:orden@ssobq.com" class="d-block mb-2 text-dark quick-link"><i class="fa-solid fa-envelope mr-2 text-danger"></i> orden@ssobq.com</a>
+                            <a href="https://wa.me/573015220695" target="_blank" class="d-block mb-1 text-dark quick-link"><i class="fa-brands fa-whatsapp mr-2 text-success"></i> 301 522 0695</a>
+                            <span class="text-muted small"><i class="fa-solid fa-phone mr-1"></i> (605) 332 7294 - Ext. 101</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12 col-md-6 col-xl-4 mb-4">
+                <div class="card contact-card border-0 shadow-sm h-100 p-3">
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="font-weight-bold mb-1" style="color: #004085;">Cartera</h5>
+                        <p class="text-muted small mb-3 border-bottom pb-2">Estados de cuenta y envío de soportes de pago.</p>
+                        
+                        <div class="mb-3">
+                            <span class="font-weight-bold d-block text-dark">Sergio Orozco</span>
+                            <span class="small text-secondary">Asistente Administrativo y Financiero</span>
+                        </div>
+                        
+                        <div class="mt-auto">
+                            <a href="mailto:cartera@ssobq.com" class="d-block mb-2 text-dark quick-link"><i class="fa-solid fa-envelope mr-2 text-danger"></i> cartera@ssobq.com</a>
+                            <a href="https://wa.me/573042725329" target="_blank" class="d-block mb-1 text-dark quick-link"><i class="fa-brands fa-whatsapp mr-2 text-success"></i> 304 272 5329</a>
+                            <span class="text-muted small"><i class="fa-solid fa-phone mr-1"></i> (605) 332 7294 - Ext. 115</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12 col-md-6 col-xl-4 mb-4">
+                <div class="card contact-card border-0 shadow-sm h-100 p-3">
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="font-weight-bold mb-1" style="color: #004085;">CRC (Conductores)</h5>
+                        <p class="text-muted small mb-3 border-bottom pb-2">Atención al cliente Centro de Reconocimiento.</p>
+                        
+                        <div class="mb-3">
+                            <span class="font-weight-bold d-block text-dark">Fabian Ramirez</span>
+                            <span class="small text-secondary">Coordinador CRC</span>
+                        </div>
+                        
+                        <div class="mt-auto">
+                            <a href="mailto:administracioncrc@ssobq.com" class="d-block mb-2 text-dark quick-link"><i class="fa-solid fa-envelope mr-2 text-danger"></i> administracioncrc@ssobq.com</a>
+                            <a href="https://wa.me/573157400411" target="_blank" class="d-block mb-1 text-dark quick-link"><i class="fa-brands fa-whatsapp mr-2 text-success"></i> 315 740 0411</a>
+                            <span class="text-muted small"><i class="fa-solid fa-phone mr-1"></i> (605) 332 7294 - Ext. 104</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12 col-md-6 col-xl-4 mb-4">
+                <div class="card contact-card border-0 shadow-sm h-100 p-3">
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="font-weight-bold mb-1" style="color: #004085;">Conceptos</h5>
+                        <p class="text-muted small mb-3 border-bottom pb-2">Solicitud de resultados o certificados de aptitud.</p>
+                        
+                        <div class="mb-3">
+                            <span class="font-weight-bold d-block text-dark">Karen Guerra</span>
+                            <span class="small text-secondary">Gestora de Servicios</span>
+                        </div>
+                        
+                        <div class="mt-auto">
+                            <a href="mailto:resultados@ssobq.com" class="d-block mb-2 text-dark quick-link"><i class="fa-solid fa-envelope mr-2 text-danger"></i> resultados@ssobq.com</a>
+                            <a href="https://wa.me/573042725330" target="_blank" class="d-block mb-1 text-dark quick-link"><i class="fa-brands fa-whatsapp mr-2 text-success"></i> 304 272 5330</a>
+                            <span class="text-muted small"><i class="fa-solid fa-phone mr-1"></i> (605) 332 7294 - Ext. 108</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12 col-md-6 col-xl-4 mb-4">
+                <div class="card contact-card border-0 shadow-sm h-100 p-3">
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="font-weight-bold mb-1" style="color: #004085;">Gestión Comercial</h5>
+                        <p class="text-muted small mb-3 border-bottom pb-2">Cotizaciones y jornadas de salud empresarial.</p>
+                        
+                        <div class="mb-3">
+                            <span class="font-weight-bold d-block text-dark">Alexandra Molinares</span>
+                            <span class="small text-secondary">Gestora Comercial</span>
+                        </div>
+                        
+                        <div class="mt-auto">
+                            <a href="mailto:gestioncomercial@ssobq.com" class="d-block mb-2 text-dark quick-link"><i class="fa-solid fa-envelope mr-2 text-danger"></i> gestioncomercial@ssobq.com</a>
+                            <a href="https://wa.me/573153603621" target="_blank" class="d-block mb-1 text-dark quick-link"><i class="fa-brands fa-whatsapp mr-2 text-success"></i> 315 360 3621</a>
+                            <span class="text-muted small"><i class="fa-solid fa-phone mr-1"></i> (605) 332 7294 - Ext. 115</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12 col-md-6 col-xl-4 mb-4">
+                <div class="card contact-card border-0 shadow-sm h-100 p-3">
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="font-weight-bold mb-1" style="color: #004085;">Regionales</h5>
+                        <p class="text-muted small mb-3 border-bottom pb-2">Atención para la red nacional.</p>
+                        
+                        <div class="mb-3">
+                            <span class="font-weight-bold d-block text-dark">Sheyla Carrillo</span>
+                            <span class="small text-secondary">Atención al Usuario</span>
+                        </div>
+                        
+                        <div class="mt-auto">
+                            <a href="mailto:regional@ssobq.com" class="d-block mb-2 text-dark quick-link"><i class="fa-solid fa-envelope mr-2 text-danger"></i> regional@ssobq.com</a>
+                            <a href="https://wa.me/573146162308" target="_blank" class="d-block mb-1 text-dark quick-link"><i class="fa-brands fa-whatsapp mr-2 text-success"></i> 314 616 2308</a>
+                            <span class="text-muted small"><i class="fa-solid fa-phone mr-1"></i> (605) 332 7294 - Ext. 104</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12 col-md-6 col-xl-4 mb-4">
+                <div class="card contact-card border-0 shadow-sm h-100 p-3">
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="font-weight-bold mb-1" style="color: #004085;">Servicios</h5>
+                        <p class="text-muted small mb-3 border-bottom pb-2">Atención VIP y casos particulares del servicio.</p>
+                        
+                        <div class="mb-3">
+                            <span class="font-weight-bold d-block text-dark">Adriana Leal</span>
+                            <span class="small text-secondary">Directora de Servicios</span>
+                        </div>
+                        
+                        <div class="mt-auto">
+                            <a href="mailto:dir.servicios@ssobq.com" class="d-block mb-2 text-dark quick-link"><i class="fa-solid fa-envelope mr-2 text-danger"></i> dir.servicios@ssobq.com</a>
+                            <a href="https://wa.me/573157562998" target="_blank" class="d-block mb-1 text-dark quick-link"><i class="fa-brands fa-whatsapp mr-2 text-success"></i> 315 756 2998</a>
+                            <span class="text-muted small"><i class="fa-solid fa-phone mr-1"></i> (605) 332 7294 - Ext. 107</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </main>
+
+    <?php include 'html/footer.html'; ?>
+
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
-</body>
 
+</body>
 </html>
