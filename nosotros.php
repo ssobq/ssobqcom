@@ -100,20 +100,15 @@
         </section>
 
         <section class="row mb-4 align-items-center">
+
             <div class="col-12 col-md-6 mb-4 mb-md-0">
-                <img class="img-fluid rounded shadow-sm w-100" src="img/politica/PTD.jpg" alt="Política de Tratamiento de Datos Personales">
+                <img class="img-fluid rounded shadow-sm w-100" src="img/politica/PTD.png" alt="Política de Tratamiento de Datos Personales">
             </div>
             
             <div class="col-12 col-md-6">
                 <h4 class="font-weight-bold mb-4 px-2" style="color: #004085;">Documentos y Certificaciones:</h4>
                 
                 <div class="list-group list-group-flush px-2">
-                    <a href="#myModal" data-toggle="modal" class="list-group-item list-group-item-action d-flex align-items-center custom-list-item mb-2 py-3 border rounded">
-                        <i class="fa-solid fa-shield-halved mr-3 text-corporate-red fa-lg"></i>
-                        <span class="font-weight-bold text-dark-blue small-text-mobile">Política de Tratamiento de Datos Personales</span>
-                        <i class="fa-solid fa-chevron-right ml-auto text-muted"></i>
-                    </a>
-                    
                     <a href="#myModal-2" data-toggle="modal" class="list-group-item list-group-item-action d-flex align-items-center custom-list-item mb-2 py-3 border rounded">
                         <i class="fa-solid fa-certificate mr-3 text-corporate-red fa-lg"></i>
                         <span class="font-weight-bold text-dark-blue small-text-mobile">Certificación ICONTEC ISO 9001:2015</span>
@@ -125,6 +120,17 @@
                         <span class="font-weight-bold text-dark-blue small-text-mobile">Acreditación ONAC NTC-ISO/IEC 17024</span>
                         <i class="fa-solid fa-chevron-right ml-auto text-muted"></i>
                     </a>
+                    <a href="#myModal" data-toggle="modal" class="list-group-item list-group-item-action d-flex align-items-center custom-list-item mb-2 py-3 border rounded">
+                        <i class="fa-solid fa-shield-halved mr-3 text-corporate-red fa-lg"></i>
+                        <span class="font-weight-bold text-dark-blue small-text-mobile">Política de Tratamiento de Datos Personales</span>
+                        <i class="fa-solid fa-chevron-right ml-auto text-muted"></i>
+                    </a>
+
+                    <a href="#myModal-4" data-toggle="modal" class="list-group-item list-group-item-action d-flex align-items-center custom-list-item mb-2 py-3 border rounded">
+                        <i class="fa-solid fa-handshake-angle mr-3 text-corporate-red fa-lg"></i>
+                        <span class="font-weight-bold text-dark-blue small-text-mobile">Derechos y deberes de los usuarios</span>
+                        <i class="fa-solid fa-chevron-right ml-auto text-muted"></i>
+                    </a>                                                           
                 </div>
             </div>
         </section>
@@ -174,6 +180,22 @@
                 </div>
                 <div class="modal-body p-0">
                     <iframe src="pdf/Acreditación ONAC 2026-03-08.pdf" width="100%" height="550px" style="border: none;"></iframe>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="myModal-4" role="dialog" aria-hidden="true" style="padding-right: 0;">
+        <div class="modal-dialog modal-lg modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title font-weight-bold text-primary colorAzul">Derechos y deberes de los usuarios</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body p-0">
+                    <iframe src="pdf/Derechos y deberes del paciente SSO.pdf" width="100%" height="550px" style="border: none;"></iframe>
                 </div>
             </div>
         </div>
