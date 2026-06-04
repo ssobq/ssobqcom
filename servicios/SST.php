@@ -2,79 +2,94 @@
 <html lang="es">
 
 <head>
-    <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="shortcut icon" href="/img/logo.ico" />
-
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-
-    <!-- Personalizado CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
     <link rel="stylesheet" href="/css/stylo.css">
+    <script src="https://kit.fontawesome.com/cf867249a1.js" crossorigin="anonymous"></script>
 
+    <title>Asesoría Especializada en SST | SSO - CRC</title>
 
-    <!-- Iconos font-awesome -->
-    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+    <style>
+        #serviciosNav { color: #e10109 !important; font-weight: bold; }
+        .text-corporate-blue { color: #004085; }
+        .text-corporate-red { color: #e10109; }
 
-    <title>Acompañamiento por especialistas en SST | SSO</title>
+        .service-card {
+            border-radius: 15px;
+            border-left: 5px solid #004085;
+            transition: all 0.3s ease;
+            background: #fff;
+            padding: 20px;
+            margin-bottom: 20px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+        }
+        .service-card:hover { transform: translateX(10px); border-left-color: #e10109; }
+        .service-icon { font-size: 1.5rem; color: #004085; margin-right: 15px; }
+    </style>
 </head>
 
-<body>
+<body class="bg-light">
 
+    <?php include '../html/nav.html'; ?>
 
-    <?php
-    include '../html/nav.html';
-    ?>
-    <!-- contenido de la pagina -->
-    <div class="container" id="centerDiv">
-        <br>
-        <!-- FILA 1-->
-        <div class="row">
-            <div class="col-lg-12">
-                <h1 class="font-weight-bold text-center colorAzul">ACOMPAÑAMIENTO POR NUESTROS ESPECIALISTAS EN SST</h1>
+    <main class="container my-5">
+        <div class="row mb-5 text-center">
+            <div class="col-12">
+                <h1 class="display-4 font-weight-bold text-corporate-blue">Asesoría Integral en SST</h1>
+                <p class="lead text-muted mt-3">Acompañamiento experto para garantizar un entorno de trabajo seguro y normativo.</p>
+                <hr class="mx-auto" style="border: 2px solid #e10109; width: 80px;">
             </div>
         </div>
-        <!-- FILA 2-->
-        <div class="row">
+
+        <div class="row align-items-center">
             <div class="col-lg-7">
-                <br>
-                <br>
-                <br>
-                <ul>
+                
+                <div class="service-card">
+                    <div class="d-flex align-items-center">
+                        <i class="fa-solid fa-clipboard-check service-icon"></i>
+                        <h5 class="font-weight-bold text-corporate-blue mb-0">SG-SST (Sistema de Gestión)</h5>
+                    </div>
+                    <p class="mt-2 text-muted mb-0 pl-5">Asesoría, implementación y seguimiento continuo para el cumplimiento legal de su empresa.</p>
+                </div>
 
-                    <li style="list-style: square; font-size: 1.2em;" class="colorAzul">Asesoría, implementación y seguimiento en SG-SST (Sistema de gestión en seguridad y salud en el trabajo).</li>
-                    <!--li style="list-style: square; font-size: 1.2em;" class="colorAzul">Aplicación de batería de riesgos psicosociales.</li>
-                    <li style="list-style: square; font-size: 1.2em;" class="colorAzul">Análisis de puestos de trabajo.</li-->
-                    <li style="list-style: square; font-size: 1.2em;" class="colorAzul">Profesiogramas.</li>
-                    <li style="list-style: square; font-size: 1.2em;" class="colorAzul">Tamizaje cardiovascular.</li>
-                    <li style="list-style: square; font-size: 1.2em;" class="colorAzul">Diagnósticos de condiciones de salud.</li>
+                <div class="service-card">
+                    <div class="d-flex align-items-center">
+                        <i class="fa-solid fa-file-signature service-icon"></i>
+                        <h5 class="font-weight-bold text-corporate-blue mb-0">Profesiogramas</h5>
+                    </div>
+                    <p class="mt-2 text-muted mb-0 pl-5">Definición de perfiles ocupacionales alineados con los riesgos específicos de su actividad.</p>
+                </div>
 
-                </ul>
+                <div class="service-card">
+                    <div class="d-flex align-items-center">
+                        <i class="fa-solid fa-heart-pulse service-icon"></i>
+                        <h5 class="font-weight-bold text-corporate-blue mb-0">Tamizaje Cardiovascular</h5>
+                    </div>
+                    <p class="mt-2 text-muted mb-0 pl-5">Evaluación preventiva para identificar riesgos de salud en su personal colaborador.</p>
+                </div>
+
+                <div class="service-card">
+                    <div class="d-flex align-items-center">
+                        <i class="fa-solid fa-file-medical service-icon"></i>
+                        <h5 class="font-weight-bold text-corporate-blue mb-0">Diagnóstico de Salud</h5>
+                    </div>
+                    <p class="mt-2 text-muted mb-0 pl-5">Análisis exhaustivo de las condiciones de salud poblacional dentro de su organización.</p>
+                </div>
             </div>
-            <div class="col-lg-5">
-                <img class="img-fluid rounded center " src="/img/servicios/sst/compania-sst-ssobq.jpg">
+
+            <div class="col-lg-5 mt-4 mt-lg-0">
+                <div class="shadow-sm rounded overflow-hidden">
+                    <img class="img-fluid w-100" src="/img/servicios/sst/compania-sst-ssobq.jpg" alt="Especialistas en SST SSO - CRC">
+                </div>
+                <div class="alert mt-3 text-center" style="background-color: #004085; color: white;">
+                    <i class="fa-solid fa-user-doctor mr-2"></i> <strong>Equipo experto a su servicio</strong>
+                </div>
             </div>
         </div>
-    </div>
+    </main>
 
-    <?php
-    include '../html/footer.html';
-    ?>
-
-    <!-- estilo css para nav -->
-    <style type="text/css">
-        #serviciosNav {
-            color: #17529B !important;
-        }
-    </style>
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
-
-
+    <?php include '../html/footer.html'; ?>
 </body>
-
 </html>

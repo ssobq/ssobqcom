@@ -183,36 +183,45 @@
 
     <?php include 'html/footer.html'; ?>
 
+    
     <style type="text/css">
-        /* Color institucional */
-        .text-color-corporate {
-            color: #004085;
-            transition: color 0.3s ease;
-        }
+    /* Color institucional */
+    .text-color-corporate {
+        color: #004085;
+        transition: color 0.3s ease;
+    }
 
-        /* Efecto flotante de las tarjetas */
-        .service-card {
-            border-radius: 12px;
-            transition: transform 0.3s ease, box-shadow 0.3s ease;
-        }
-        
-        .service-card:hover {
-            transform: translateY(-8px);
-            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1) !important;
-            cursor: pointer;
-        }
+    /* Mejora para los iconos */
+    .imgServicios {
+        transition: transform 0.4s ease, filter 0.3s ease;
+        filter: grayscale(20%) brightness(1.1); /* Les da un toque más profesional */
+    }
 
-        /* Cambio de color del texto al pasar el cursor */
-        .service-card:hover .text-color-corporate {
-            color: #e10109 !important;
-        }
+    /* Efecto flotante y de color al pasar el mouse */
+    .service-card {
+        border-radius: 12px;
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+    
+    .service-card:hover {
+        transform: translateY(-8px);
+        box-shadow: 0 15px 30px rgba(0, 64, 133, 0.15) !important;
+    }
 
-        /* Activar visualmente el botón del menú de navegación */
-        #serviciosNav {
-            color: #e10109 !important;
-            font-weight: bold;
-        }
-    </style>
+    .service-card:hover .imgServicios {
+        transform: scale(1.15);
+        filter: grayscale(0%) brightness(1); /* Se vuelven vibrantes al pasar el mouse */
+    }
+
+    .service-card:hover .text-color-corporate {
+        color: #e10109 !important;
+    }
+
+    #serviciosNav {
+        color: #e10109 !important;
+        font-weight: bold;
+    }
+</style>
 
     <script src="js/bootstrap.js"></script>
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>

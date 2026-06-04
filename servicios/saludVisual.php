@@ -2,105 +2,100 @@
 <html lang="es">
 
 <head>
-    <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="shortcut icon" href="/img/logo.ico" />
-
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-
-    <!-- Personalizado CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
     <link rel="stylesheet" href="/css/stylo.css">
-    <script src="/js/bootstrap.js"></script>
+    <script src="https://kit.fontawesome.com/cf867249a1.js" crossorigin="anonymous"></script>
 
+    <title>Salud Visual | SSO - CRC</title>
 
+    <style>
+        #serviciosNav { color: #e10109 !important; font-weight: bold; }
+        .text-corporate-blue { color: #004085; }
+        .text-corporate-red { color: #e10109; }
+        
+        .visual-card {
+            border-radius: 15px;
+            border: none;
+            background: #fff;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+            padding: 25px;
+            height: 100%;
+        }
 
-    <!-- Iconos font-awesome -->
-    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
-
-    <title>Salud Visual | SSO</title>
+        .visual-icon { font-size: 2rem; color: #e10109; margin-bottom: 15px; }
+        
+        .item-list { list-style: none; padding: 0; }
+        .item-list li {
+            padding: 8px 0;
+            border-bottom: 1px solid #f8f9fa;
+            color: #495057;
+            font-weight: 500;
+        }
+        .item-list li i { margin-right: 10px; color: #004085; font-size: 0.7rem; }
+    </style>
 </head>
 
-<body>
+<body class="bg-light">
 
+    <?php include '../html/nav.html'; ?>
 
-    <?php
-    include '../html/nav.html';
-    ?>
-    <!-- contenido de la pagina -->
-    <div class="container" id="centerDiv">
-        <br>
-        <!-- FILA 1-->
-        <div class="row">
-            <div class="col-lg-12">
-                <h1 class="font-weight-bold text-center colorAzul">SALUD VISUAL</h1>
+    <main class="container my-5">
+        <div class="row mb-5 text-center">
+            <div class="col-12">
+                <h1 class="display-4 font-weight-bold text-corporate-blue">Salud Visual</h1>
+                <p class="lead text-muted mt-3">Las mejores alternativas para tu visión y estilo.</p>
+                <hr class="mx-auto" style="border: 2px solid #e10109; width: 80px;">
             </div>
         </div>
-        <br>
-        <br>
-        <!-- FILA 2-->
-        <div class="row">
-            <div class="col-lg-4">
-                <img class="img-fluid rounded center " src="/img/servicios/saludVisual/valor-de-optometria-ssobq.jpg">
-            </div>
-            <div class="col-lg-8">
-                <br>
-                <br>
-                <h2 style="font-style: italic;" class="colorAzul">Las mejores alternativas para tu salud visual</h2>
-                <div class="row">
-                    <div class="col-lg-6">
-                        <br>
-                        <ul>
-                            <li style="list-style: square; font-size: 1.3em;" class="colorAzul">lentes Monofocales</li>
-                            <li style="list-style: square; font-size: 1.3em;" class="colorAzul">lentes Bifocales</li>
-                            <li style="list-style: square; font-size: 1.3em;" class="colorAzul">Lentes Progresivos</li>
 
-                        </ul>
+        <div class="row align-items-center mb-5">
+            <div class="col-lg-4 mb-4 mb-lg-0">
+                <img class="img-fluid rounded shadow-sm w-100" src="/img/servicios/saludVisual/valor-de-optometria-ssobq.jpg" alt="Optometría">
+            </div>
+
+            <div class="col-lg-8">
+                <div class="row">
+                    <div class="col-md-6 mb-4">
+                        <div class="card visual-card shadow-sm">
+                            <i class="fa-solid fa-glasses visual-icon"></i>
+                            <h4 class="text-corporate-blue font-weight-bold">Tipos de Lentes</h4>
+                            <ul class="item-list">
+                                <li><i class="fa-solid fa-chevron-right"></i> Lentes Monofocales</li>
+                                <li><i class="fa-solid fa-chevron-right"></i> Lentes Bifocales</li>
+                                <li><i class="fa-solid fa-chevron-right"></i> Lentes Progresivos</li>
+                            </ul>
+                        </div>
                     </div>
 
-                    <div class="col-lg-6">
-                        <br>
-                        <ul>
-                            <li style="list-style: square; font-size: 1.3em;" class="colorAzul">Policarbonato</li>
-                            <li style="list-style: square; font-size: 1.3em;" class="colorAzul">Antireflejos</li>
-                            <li style="list-style: square; font-size: 1.3em;" class="colorAzul">Antireflejo Blue</li>
-                            <li style="list-style: square; font-size: 1.3em;" class="colorAzul">Fotocromático</li>
-                            <li style="list-style: square; font-size: 1.3em;" class="colorAzul">Transitions</li>
-                        </ul>
+                    <div class="col-md-6 mb-4">
+                        <div class="card visual-card shadow-sm">
+                            <i class="fa-solid fa-shield-halved visual-icon"></i>
+                            <h4 class="text-corporate-blue font-weight-bold">Tratamientos</h4>
+                            <ul class="item-list">
+                                <li><i class="fa-solid fa-chevron-right"></i> Policarbonato</li>
+                                <li><i class="fa-solid fa-chevron-right"></i> Antireflejos</li>
+                                <li><i class="fa-solid fa-chevron-right"></i> Antireflejo Blue</li>
+                                <li><i class="fa-solid fa-chevron-right"></i> Fotocromático</li>
+                                <li><i class="fa-solid fa-chevron-right"></i> Transitions</li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
 
-        <!-- FILA 5-->
-        <div class="row" style="background:#C3C1C1;">
-            <img id="imgIndex" src="/img/servicios/saludVisual/monturas-de-gafas-ssobq.jpg">
+        <div class="row mt-4">
+            <div class="col-12">
+                <div class="card border-0 shadow-sm overflow-hidden" style="border-radius: 15px;">
+                    <img class="img-fluid w-100" src="/img/servicios/saludVisual/monturas-de-gafas-ssobq.jpg" alt="Monturas de gafas">
+                </div>
+            </div>
         </div>
+    </main>
 
-    </div>
-
-
-
-    <?php
-    include '../html/footer.html';
-    ?>
-
-
-    <!-- estilo css para nav -->
-    <style type="text/css">
-        #serviciosNav {
-            color: #17529B !important;
-        }
-    </style>
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
-
-
-
+    <?php include '../html/footer.html'; ?>
 </body>
-
 </html>

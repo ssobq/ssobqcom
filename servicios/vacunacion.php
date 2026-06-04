@@ -2,184 +2,118 @@
 <html lang="es">
 
 <head>
-    <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="shortcut icon" href="/img/logo.ico" />
-
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-
-    <!-- Personalizado CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
     <link rel="stylesheet" href="/css/stylo.css">
+    <script src="https://kit.fontawesome.com/cf867249a1.js" crossorigin="anonymous"></script>
 
+    <title>Vacunación | SSO - CRC</title>
 
-    <!-- Iconos font-awesome -->
-    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+    <style>
+        #serviciosNav { color: #e10109 !important; font-weight: bold; }
+        .text-corporate-blue { color: #004085; }
+        
+        .vac-card {
+            border-radius: 15px;
+            border: none;
+            background: #fff;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+            padding: 25px;
+            margin-bottom: 25px;
+            border-left: 5px solid #004085;
+        }
 
-    <title>Vacunación | SSO</title>
+        .vac-icon { font-size: 2rem; color: #004085; margin-bottom: 15px; }
+        
+        .vac-list { list-style: none; padding: 0; }
+        .vac-list li {
+            padding: 8px 0;
+            border-bottom: 1px solid #f8f9fa;
+            color: #555;
+            display: flex;
+            align-items: flex-start;
+        }
+        .vac-list li i { margin-top: 6px; margin-right: 12px; color: #e10109; font-size: 0.8rem; }
+    </style>
 </head>
 
-<body>
+<body class="bg-light">
 
+    <?php include '../html/nav.html'; ?>
 
-    <?php
-    include '../html/nav.html';
-    ?>
-
-    <!-- contenido de la pagina -->
-    <div class="container" id="centerDiv">
-        <br>
-        <!-- FILA 1-->
-        <div class="row">
-            <div class="col-lg-12">
-                <h1 class="font-weight-bold text-center colorAzul">VACUNAS</h1>
-            </div>
-        </div>
-        <br>
-        <br>
-        <!-- FILA 2-->
-        <div class="row">
-            <div class="col-lg-12">
-                <div class="row">
-                    <div class="col-lg-2">
-                        <h3 class="font-weight-bold text-light text-center" style="background:#17529B;">VACUNA</h3>
-                    </div>
-                    <div class="col-lg-">
-                        <h3 class="font-weight-bold colorAzul">TÉTANOS</h3>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-lg-12">
-                        <br>
-                        <ul>
-                            <li style="list-style: square; font-size: 1.3em;" class="colorAzul">Vía intramuscular (En el hombro -deltoides-)</li>
-                            <li style="list-style: square; font-size: 1.3em;" class="colorAzul">Apta en niños</li>
-                            <li style="list-style: square; font-size: 1.3em;" class="colorAzul">Apta en embarazo</li>
-                            <li style="list-style: square; font-size: 1.3em;" class="colorAzul">Son 3 dosis de vacuna Td, que dan una protección de 10 años.</li>
-                            <li style="list-style: square; font-size: 1.3em;" class="colorAzul">Adultos no vacunados: Se administrarían 3 dosis de vacuna Td con la siguiente pauta: 1ª dosis tan pronto como sea posible, 2ª dosis al menos 4 semanas tras la primera, 3ª dosis al menos 6 meses tras la segunda.</li>
-                        </ul>
-                    </div>
-                </div>
+    <main class="container my-5">
+        <div class="row mb-5 text-center">
+            <div class="col-12">
+                <h1 class="display-4 font-weight-bold text-corporate-blue">Servicios de Vacunación</h1>
+                <p class="lead text-muted mt-3">Protección preventiva para su salud y la de su equipo.</p>
+                <hr class="mx-auto" style="border: 2px solid #e10109; width: 80px;">
             </div>
         </div>
 
-        <br>
-        <!-- FILA 3-->
         <div class="row">
-            <div class="col-lg-12">
-                <div class="row">
-                    <div class="col-lg-2">
-                        <h3 class="font-weight-bold text-light text-center" style="background:#17529B;">VACUNA</h3>
-                    </div>
-                    <div class="col-lg-">
-                        <h3 class="font-weight-bold colorAzul">HEPATITIS B</h3>
-                    </div>
+            <div class="col-12 col-md-6">
+                <div class="card vac-card">
+                    <i class="fa-solid fa-shield-virus vac-icon"></i>
+                    <h4 class="text-corporate-blue font-weight-bold">Tétanos</h4>
+                    <ul class="vac-list">
+                        <li><i class="fa-solid fa-check"></i> Vía intramuscular (Deltoides).</li>
+                        <li><i class="fa-solid fa-check"></i> Apta en niños y mujeres en embarazo.</li>
+                        <li><i class="fa-solid fa-check"></i> Esquema de 3 dosis (protección por 10 años).</li>
+                        <li><i class="fa-solid fa-check"></i> Adultos no vacunados: Esquema de 0, 1 y 6 meses.</li>
+                    </ul>
                 </div>
-                <div class="row">
-                    <div class="col-lg-12">
-                        <ul>
-                            <li style="list-style: none; font-size: 1.3em;" class="colorAzul">
-                            Primera Dosis: Inicio de esquema de vacunación
-                            <br>Segunda Dosis: Al mes de la primera dosis
-                            <br>Tercera Dosis: Al mes de la segunda dosis
-                            <br>Refuerzo: Al año de la tercera dosis.
-                            <br>Un refuerzo cada 5 años</li>
-                        </ul>
+            </div>
 
-                    </div>
+            <div class="col-12 col-md-6">
+                <div class="card vac-card">
+                    <i class="fa-solid fa-virus vac-icon"></i>
+                    <h4 class="text-corporate-blue font-weight-bold">Hepatitis B</h4>
+                    <ul class="vac-list">
+                        <li><i class="fa-solid fa-check"></i> 1ª Dosis: Inicio de esquema.</li>
+                        <li><i class="fa-solid fa-check"></i> 2ª Dosis: Al mes de la primera.</li>
+                        <li><i class="fa-solid fa-check"></i> 3ª Dosis: Al mes de la segunda.</li>
+                        <li><i class="fa-solid fa-check"></i> Refuerzo: Al año de la 3ª dosis y cada 5 años.</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="col-12 col-md-6">
+                <div class="card vac-card">
+                    <i class="fa-solid fa-mosquito vac-icon"></i>
+                    <h4 class="text-corporate-blue font-weight-bold">Fiebre Amarilla</h4>
+                    <ul class="vac-list">
+                        <li><i class="fa-solid fa-check"></i> Inmunidad de por vida.</li>
+                        <li><i class="fa-solid fa-check"></i> Recomendada para zonas de riesgo y viajes internacionales.</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="col-12 col-md-6">
+                <div class="card vac-card">
+                    <i class="fa-solid fa-temperature-low vac-icon"></i>
+                    <h4 class="text-corporate-blue font-weight-bold">Influenza</h4>
+                    <ul class="vac-list">
+                        <li><i class="fa-solid fa-check"></i> Vacunación anual obligatoria (a partir de 6 meses).</li>
+                        <li><i class="fa-solid fa-check"></i> Aprobada para personas con patologías cardiacas.</li>
+                        <li><i class="fa-solid fa-check"></i> La inmunidad se atenúa con el tiempo, requiere refuerzo anual.</li>
+                    </ul>
                 </div>
             </div>
         </div>
 
-        <br>
-        <!-- FILA 4-->
-        <div class="row">
-            <div class="col-lg-12">
-                <div class="row">
-                    <div class="col-lg-2">
-                        <h3 class="font-weight-bold text-light text-center" style="background:#17529B;">VACUNA</h3>
-                    </div>
-                    <div class="col-lg-">
-                        <h3 class="font-weight-bold colorAzul">FIEBRE AMARILLA</h3>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-lg-12">
-                        <br>
-                        <ul>
-                            <li style="list-style: square; font-size: 1.3em;" class="colorAzul">Vacuna contra la fiebre amarilla garantiza una inmunidad de por vida y que no es necesario vacunarse cada diez años cuando se vive o viaja a zonas de riesgo, como es la práctica actual.</li>
-
-                        </ul>
-                    </div>
+        <div class="row mt-4">
+            <div class="col-12">
+                <div class="alert alert-danger shadow-sm text-center p-4" style="border-radius: 15px; border: none; background-color: #e10109; color: white;">
+                    <i class="fa-solid fa-triangle-exclamation fa-2x mb-3"></i>
+                    <h4 class="font-weight-bold">IMPORTANTE</h4>
+                    <p class="mb-0 font-weight-bold">Para validar su esquema de vacunación, es indispensable presentar su carnet físico al momento de la atención.</p>
                 </div>
             </div>
         </div>
+    </main>
 
-        <br>
-        <!-- FILA 5-->
-        <div class="row">
-            <div class="col-lg-12">
-                <div class="row">
-                    <div class="col-lg-2">
-                        <h3 class="font-weight-bold text-light text-center" style="background:#17529B;">VACUNA</h3>
-                    </div>
-                    <div class="col-lg-">
-                        <h3 class="font-weight-bold colorAzul">INFLUENZA</h3>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-lg-12">
-                        <br>
-                        <ul>
-                            <li style="list-style: square; font-size: 1.3em;" class="colorAzul">No es recomendable aplicar una vacuna contra la influenza sobre otra.</li>
-                            <li style="list-style: square; font-size: 1.3em;" class="colorAzul">Es importante es que todas las personas a partir de los 6 meses en adelante se vacunen contra la influenza todos los años.</li>
-                            <li style="list-style: square; font-size: 1.3em;" class="colorAzul">La vacuna está aprobada para usar en personas con enfermedades cardiacas y otras afecciones de salud.</li>
-                            <li style="list-style: square; font-size: 1.3em;" class="colorAzul">La inmunidad de origen vacunal se atenúa con el tiempo, por lo que se recomienda la vacunación anual.</li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <br>
-        <!-- FILA 6-->
-        <div class="row">
-            <div class="col-lg-12">
-                <div class="row justify-content-center" id="box-search">
-                    <div class="thumbnail text-center">
-                        <img src="/img/servicios/menu/vacunacion-ssobq.jpg" alt="" class="img-responsive">
-                        <div class="caption">
-                            <h3 style="color:#C63939;  opacity: 0.5;" class="font-weight-bold">IMPORTANTE: <br>
-                                Para validar esquema es necesario que presentes tu carnet de vacunación.
-                            </h3>
-                        </div>
-                    </div>
-                </div>
-
-            </div>
-        </div>
-
-    </div>
-
-
-    <?php
-    include '../html/footer.html';
-    ?>
-
-    <!-- estilo css para nav -->
-    <style type="text/css">
-        #serviciosNav {
-            color: #17529B !important;
-        }
-    </style>
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
-
-
+    <?php include '../html/footer.html'; ?>
 </body>
-
 </html>
