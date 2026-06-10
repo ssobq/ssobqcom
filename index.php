@@ -40,7 +40,10 @@
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-163788233-1"></script>
     <script>
         window.dataLayer = window.dataLayer || [];
-        function gtag() { dataLayer.push(arguments); }
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
         gtag('js', new Date());
         gtag('config', 'UA-163788233-1');
     </script>
@@ -51,11 +54,13 @@
             transition: transform 0.3s ease, box-shadow 0.3s ease;
             border: 1px solid transparent;
         }
+
         .service-hover-card:hover {
             transform: translateY(-8px);
             box-shadow: 0 10px 20px rgba(0, 0, 0, 0.08) !important;
             border-color: rgba(225, 1, 9, 0.2);
         }
+
         .service-hover-card:hover .title {
             color: #e10109 !important;
         }
@@ -63,16 +68,19 @@
         .info-card-hover {
             transition: transform 0.3s ease, box-shadow 0.3s ease;
         }
+
         .info-card-hover:hover {
             transform: translateY(-5px);
-            box-shadow: 0 15px 30px rgba(0, 64, 133, 0.4) !important;
+            box-shadow: 0 15px 30px #00519d !important;
         }
 
         .btn-portal {
             transition: all 0.3s ease;
         }
+
         .btn-portal:hover {
-            background-color: #b30006 !important; /* Rojo más oscuro */
+            background-color: #e10109 !important;
+            /* Rojo más oscuro */
             transform: scale(1.05);
             box-shadow: 0 4px 10px rgba(225, 1, 9, 0.3);
         }
@@ -81,7 +89,7 @@
             background-color: #ffffff;
             border-radius: 15px;
             padding: 20px;
-            box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
         }
     </style>
 </head>
@@ -137,12 +145,12 @@
         <div class="container" data-aos="fade-up">
             <!-- Agregado justify-content-center para centrar los 5 elementos -->
             <div class="row text-center d-flex align-items-stretch justify-content-center">
-                
+
                 <div class="col-12 col-sm-6 col-md-4 col-lg-2 mb-4">
                     <div class="icon-box bg-white h-100 p-3 shadow-sm rounded service-hover-card" data-aos="fade-up" data-aos-delay="100">
                         <a href="https://www.ssobq.com/servicios/examenesOcupacional.php" class="text-decoration-none text-dark">
                             <div class="icon text-center mb-3"><img class="img-fluid imgServicio" src="img/servicios/menu/Exámenes-Ocupacionales-sso-crc.svg" alt="Exámenes Ocupacionales sso - crc" style="max-height: 60px;"></div>
-                            <h5 class="title font-weight-bold" style="color: #004085; transition: color 0.3s;">Exámenes Ocupacionales</h5>
+                            <h5 class="title font-weight-bold" style="color: #00519d; transition: color 0.3s;">Exámenes Ocupacionales</h5>
                             <p class="description small text-danger font-weight-bold mb-0 mt-2">Conoce más >></p>
                         </a>
                     </div>
@@ -152,7 +160,7 @@
                     <div class="icon-box bg-white h-100 p-3 shadow-sm rounded service-hover-card" data-aos="fade-up" data-aos-delay="200">
                         <a href="https://www.ssobq.com/servicios/examenesLaboratorio.php" class="text-decoration-none text-dark">
                             <div class="icon text-center mb-3"><img class="img-fluid imgServicio" src="img/servicios/menu/Exámenes-de-Laboratorio-sso-crc.svg" alt="Exámenes de Laboratorio SSO - CRC" style="max-height: 60px;"></div>
-                            <h5 class="title font-weight-bold" style="color: #004085; transition: color 0.3s;">Exámenes de Laboratorio</h5>
+                            <h5 class="title font-weight-bold" style="color: #00519d; transition: color 0.3s;">Exámenes de Laboratorio</h5>
                             <p class="description small text-danger font-weight-bold mb-0 mt-2">Conoce más >></p>
                         </a>
                     </div>
@@ -162,7 +170,7 @@
                     <div class="icon-box bg-white h-100 p-3 shadow-sm rounded service-hover-card" data-aos="fade-up" data-aos-delay="300">
                         <a href="https://www.ssobq.com/servicios/vacunacion.php" class="text-decoration-none text-dark">
                             <div class="icon text-center mb-3"><img class="img-fluid imgServicio" src="img/servicios/menu/Vacunación-sso-crc.svg" alt="Vacunación sso - crc" style="max-height: 60px;"></div>
-                            <h5 class="title font-weight-bold" style="color: #004085; transition: color 0.3s;">Vacunación</h5>
+                            <h5 class="title font-weight-bold" style="color: #00519d; transition: color 0.3s;">Vacunación</h5>
                             <p class="description small text-danger font-weight-bold mb-0 mt-2">Conoce más >></p>
                         </a>
                     </div>
@@ -172,7 +180,7 @@
                     <div class="icon-box bg-white h-100 p-3 shadow-sm rounded service-hover-card" data-aos="fade-up" data-aos-delay="400">
                         <a href="https://www.ssobq.com/servicios/saludVisual.php" class="text-decoration-none text-dark">
                             <div class="icon text-center mb-3"> <img class="img-fluid imgServicio" src="img/servicios/menu/Salud-Visual-sso-crc.svg" alt="Salud Visual sso - crc" style="max-height: 60px;"></div>
-                            <h5 class="title font-weight-bold" style="color: #004085; transition: color 0.3s;">Exámenes Visuales</h5>
+                            <h5 class="title font-weight-bold" style="color: #00519d; transition: color 0.3s;">Exámenes Visuales</h5>
                             <p class="description small text-danger font-weight-bold mb-0 mt-2">Conoce más >></p>
                         </a>
                     </div>
@@ -182,7 +190,7 @@
                     <div class="icon-box bg-white h-100 p-3 shadow-sm rounded service-hover-card" data-aos="fade-up" data-aos-delay="500">
                         <a href="https://www.ssobq.com/servicios/CRC.php" class="text-decoration-none text-dark">
                             <div class="icon text-center mb-3"> <img class="img-fluid imgServicio" src="img/servicios/menu/CRC-sso-crc.svg" alt="CRC sso - crc" style="max-height: 60px;"></div>
-                            <h5 class="title font-weight-bold" style="color: #004085; transition: color 0.3s;">Trámites CRC</h5>
+                            <h5 class="title font-weight-bold" style="color: #00519d; transition: color 0.3s;">Trámites CRC</h5>
                             <p class="description small text-danger font-weight-bold mb-0 mt-2">Conoce más >></p>
                         </a>
                     </div>
@@ -192,7 +200,7 @@
                     <div class="icon-box bg-white h-100 p-3 shadow-sm rounded service-hover-card" data-aos="fade-up" data-aos-delay="600">
                         <a href="https://www.ssobq.com/servicios.php" class="text-decoration-none text-dark">
                             <div class="icon text-center mb-3"> <img class="img-fluid imgServicio" src="img/servicios/menu/mas-sso-crc.svg" alt="Servicios sso - crc" style="max-height: 60px;"></div>
-                            <h5 class="title font-weight-bold" style="color: #004085; transition: color 0.3s;">Todos nuestros servicios</h5>
+                            <h5 class="title font-weight-bold" style="color: #00519d; transition: color 0.3s;">Todos nuestros servicios</h5>
                             <p class="description small text-danger font-weight-bold mb-0 mt-2">Conoce más >></p>
                         </a>
                     </div>
@@ -205,11 +213,11 @@
     <div class="showcase-page mt-3 mb-5">
         <section class="module-medium" id="demos">
             <div class="container">
-                <div class="row align-items-stretch"> 
-                    
+                <div class="row align-items-stretch">
+
                     <div class="col-12 col-md-4 mb-4">
                         <div class="content-box h-100" data-aos="fade-right" data-aos-delay="200">
-                            <div class="content-box-image card border-0 shadow rounded pt-4 pb-3 px-3 h-100 d-flex flex-column justify-content-center text-center info-card-hover" style="background-color: #004085;">
+                            <div class="content-box-image card border-0 shadow rounded pt-4 pb-3 px-3 h-100 d-flex flex-column justify-content-center text-center info-card-hover" style="background-color: #00519d;">
                                 <i class="fa-solid fa-clock-rotate-left fa-3x mb-3 text-white"></i>
                                 <h4 class="content-box-title text-white font-weight-bold mb-4">Horarios de atención</h4>
                                 <div class="text-light">
@@ -224,20 +232,20 @@
 
                     <div class="col-12 col-md-4 mb-4">
                         <div class="content-box h-100" data-aos="fade-right" data-aos-delay="400">
-                            <div class="content-box-image card border-0 shadow rounded pt-4 pb-3 px-3 h-100 d-flex flex-column justify-content-between text-center info-card-hover" style="background-color: #004085;">
+                            <div class="content-box-image card border-0 shadow rounded pt-4 pb-3 px-3 h-100 d-flex flex-column justify-content-between text-center info-card-hover" style="background-color: #00519d;">
                                 <div>
                                     <i class="fa-solid fa-file-waveform fa-3x mb-3 text-white"></i>
                                     <h4 class="content-box-title text-white font-weight-bold mb-3">Certificados en Línea</h4>
-                                    <p class="text-light small text-justify px-2">Descarga de manera INMEDIATA los certificados de aptitud de los trabajadores evaluados por fecha, número de cédula y/o empresa.<br><strong class="text-warning">¡Disponible las 24 horas del día!</strong></p>
+                                    <p class="text-light small text-justify px-2">Acceda a nuestro portal web para gestionar solicitudes de citas y descargar certificados de aptitud de manera inmediata, filtrando por fecha, cédula o empresa.<br><strong class="text-warning">¡Disponible las 24 horas del día!</strong></p>
                                 </div>
-                                <a id="certif" href="https://app.biofile.com.co/api/integracionweb/2V8gpgwwo%7CcfXhKumIcw~A==" target="_blank" class="btn btn-block font-weight-bold mt-3 rounded-pill btn-portal" style="background-color: #e10109; color: white;">Portal de empresas</a>
+                                <a id="certif" href="https://app.biofile.com.co/api/integracionweb/2V8gpgwwo%7CcfXhKumIcw~A==" target="_blank" class="btn btn-block font-weight-bold mt-3 rounded-pill btn-portal" style="background-color: #e10109; color: white;">Portal Web</a>
                             </div>
                         </div>
                     </div>
 
                     <div class="col-12 col-md-4 mb-4">
                         <div class="content-box h-100" data-aos="fade-right" data-aos-delay="600">
-                            <div class="content-box-image card border-0 shadow rounded pt-4 pb-3 px-3 h-100 d-flex flex-column justify-content-center text-center info-card-hover" style="background-color: #004085;">
+                            <div class="content-box-image card border-0 shadow rounded pt-4 pb-3 px-3 h-100 d-flex flex-column justify-content-center text-center info-card-hover" style="background-color: #00519d;">
                                 <i class="fa-solid fa-phone-volume fa-3x mb-3 text-white"></i>
                                 <h4 class="content-box-title text-white font-weight-bold mb-4">Servicio al Cliente</h4>
                                 <div class="text-light">
@@ -258,9 +266,9 @@
     <!-- Sección de Instagram unificada en caja blanca -->
     <div class="row rowInstagram my-5" data-aos="flip-up">
         <div class="container">
-            
+
             <div class="col-12 text-center" data-aos="zoom-in-up" data-aos-duration="900">
-                <h3 class="font-weight-bold colorAzul">Últimas publicaciones en Instagram</h3>
+                <h3 class="font-weight-bold #00519d">Últimas publicaciones en Instagram</h3>
                 <hr class="mx-auto" style="border: 2px solid #e10109; width: 60px;">
             </div>
 
@@ -270,7 +278,7 @@
                     <i class="fa-brands fa-instagram mr-1"></i> Seguir
                 </a>
             </div>
-            
+
             <div class="col-12" data-aos="zoom-out-down" data-aos-duration="1500">
                 <div class="instagram-wrapper">
                     <iframe src="https://snapwidget.com/embed/1071190" class="snapwidget-widget" allowtransparency="true" frameborder="0" scrolling="no" style="border:none; overflow:hidden; width:100%; height: auto; min-height: 350px;" title="Instagram Feed SSO"></iframe>
@@ -291,14 +299,17 @@
 
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script>
-        AOS.init({ once: true }); // 'once: true' evita que la animación parpadee al hacer scroll arriba y abajo repetidamente
+        AOS.init({
+            once: true
+        }); // 'once: true' evita que la animación parpadee al hacer scroll arriba y abajo repetidamente
     </script>
 
     <script>
-    $(document).ready(function() {
-        $('#modalComunicado').modal('show');
-    });
+        $(document).ready(function() {
+            $('#modalComunicado').modal('show');
+        });
     </script>
 
 </body>
+
 </html>

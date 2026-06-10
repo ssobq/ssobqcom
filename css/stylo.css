@@ -31,7 +31,7 @@
 }
 
 .colorBotonNav:hover {
-    color: #17529B !important;
+    color: #00519d !important;
 }
 
 .card-body {
@@ -545,3 +545,21 @@
     border-radius: 30px;
     margin-top: 0 !important;
 }
+
+/* Desplegar menú al pasar el puntero (hover) */
+@media (min-width: 992px) {
+    .dropdown:hover > .dropdown-menu {
+        display: block;
+        margin-top: 0; /* Ajuste para que no haya salto al pasar el mouse */
+    }
+}
+
+/* Ajuste de margen para evitar que se cierre el menú al moverse */
+.dropdown-menu {
+    margin-top: 0 !important;
+}
+
+.dropdown:hover > .dropdown-menu {
+    display: block;
+}
+

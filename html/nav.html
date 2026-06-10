@@ -1,75 +1,177 @@
-<nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm sticky-top py-2" id="mainNav">
-    <div class="container">
-        
-        <a class="navbar-brand d-flex align-items-center" href="/">
-            <img src="/img/logo-sso-crc-servicios-salud-ocupacional.png" id="sso" alt="SSO - CRC Servicios de Salud Ocupacional" width="85" height="55" class="mr-2">
-            
-            <div class="d-flex flex-column justify-content-center">
-                <span class="font-weight-bold mb-0" style="color: #004085; font-size: 1.2rem; line-height: 1.1;">SSO - CRC</span>
-                <span class="d-none d-sm-block text-muted" style="font-size: 0.85rem; font-weight: 500;">Servicios de Salud Ocupacional</span>
-            </div>
-        </a>
+<nav
+  class="navbar navbar-expand-lg navbar-light bg-white shadow-sm sticky-top py-2"
+  id="mainNav"
+>
+  <div class="container">
+    <a class="navbar-brand d-flex align-items-center" href="/">
+      <img
+        src="/img/logo-sso-crc-servicios-salud-ocupacional.png"
+        id="sso"
+        alt="SSO - CRC Servicios de Salud Ocupacional"
+        width="85"
+        height="55"
+        class="mr-2"
+      />
 
-        <button class="navbar-toggler border-0" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Navegación">
-            <span class="navbar-toggler-icon"></span>
-        </button>
+      <div class="d-flex flex-column justify-content-center">
+        <span
+          class="font-weight-bold mb-0"
+          style="color: #00519d; font-size: 1.2rem; line-height: 1.1"
+          >SSO - CRC</span
+        >
+        <span
+          class="d-none d-sm-block text-muted"
+          style="font-size: 0.85rem; font-weight: 500"
+          >Servicios de Salud Ocupacional</span
+        >
+      </div>
+    </a>
 
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav ml-auto align-items-center">
+    <button
+      class="navbar-toggler border-0"
+      type="button"
+      data-toggle="collapse"
+      data-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent"
+      aria-expanded="false"
+      aria-label="Navegación"
+    >
+      <span class="navbar-toggler-icon"></span>
+    </button>
 
-                <li class="nav-item mx-lg-1">
-                    <a class="nav-link font-weight-bold menu-link" id="nosotrosNav" href="/nosotros.php">Nosotros</a>
-                </li>
-                <li class="nav-item mx-lg-1">
-                    <a class="nav-link font-weight-bold menu-link" id="serviciosNav" href="/servicios.php">Servicios</a>
-                </li>
-                <li class="nav-item mx-lg-1">
-                    <a class="nav-link font-weight-bold menu-link" id="boletinesNav" href="/boletines.php">Boletines</a>
-                </li>
-                <li class="nav-item mx-lg-1">
-                    <a class="nav-link font-weight-bold menu-link text-center" id="trabajaNosotrosNav" href="/trabajaNosotros.php">Trabaja con nosotros</a>
-                </li>
-                <li class="nav-item mx-lg-1">
-                    <a class="nav-link font-weight-bold menu-link" id="contactoNav" href="/contacto.php">Contacto</a>
-                </li>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ml-auto align-items-center">
+        <li class="nav-item mx-lg-1">
+          <a
+            class="nav-link font-weight-bold menu-link"
+            id="nosotrosNav"
+            href="/nosotros.php"
+            >Nosotros</a
+          >
+        </li>
+        <li class="nav-item dropdown mx-lg-1">
+          <a
+            class="nav-link font-weight-bold menu-link dropdown-toggle"
+            href="#"
+            id="serviciosNav"
+            role="button"
+            data-toggle="dropdown"
+            aria-haspopup="true"
+            aria-expanded="false"
+          >
+            Servicios
+          </a>
+          <div
+            class="dropdown-menu shadow-sm border-0 mt-2"
+            aria-labelledby="serviciosNav"
+          >
+            <a class="dropdown-item" href="/servicios/examenesOcupacional.php"
+              >Exámenes Ocupacionales</a
+            >
+            <a class="dropdown-item" href="/servicios/examenesParaclinicos.php"
+              >Exámenes Paraclínicos</a
+            >
+            <a class="dropdown-item" href="/servicios/examenesLaboratorio.php"
+              >Exámenes de Laboratorio</a
+            >
+            <a class="dropdown-item" href="/servicios/psicologica.php"
+              >Pruebas Psicológicas</a
+            >
+            <a class="dropdown-item" href="/servicios/paquetes.php"
+              >Paquetes de Exámenes</a
+            >
+            <a class="dropdown-item" href="/servicios/vacunacion.php"
+              >Vacunación</a
+            >
+            <a class="dropdown-item" href="/servicios/saludVisual.php"
+              >Salud Visual</a
+            >
+            <a class="dropdown-item" href="/servicios/CRC.php"
+              >CRC (Conductores)</a
+            >
+            <a class="dropdown-item" href="/servicios/APT.php"
+              >Análisis Puestos Trabajo (APT)</a
+            >
+            <a class="dropdown-item" href="/servicios/planEstrategico.php"
+              >Plan Estratégico (P.E.S.V.)</a
+            >
+            <a class="dropdown-item" href="/servicios/bateria.php"
+              >Riesgos Psicosociales</a
+            >
+            <a class="dropdown-item" href="/servicios/SST.php"
+              >Acompañamiento SST</a
+            >
+          </div>
+        </li>
+        <li class="nav-item mx-lg-1">
+          <a
+            class="nav-link font-weight-bold menu-link"
+            id="boletinesNav"
+            href="/boletines.php"
+            >Boletines</a
+          >
+        </li>
+        <li class="nav-item mx-lg-1">
+          <a
+            class="nav-link font-weight-bold menu-link text-center"
+            id="trabajaNosotrosNav"
+            href="/trabajaNosotros.php"
+            >Trabaja con nosotros</a
+          >
+        </li>
+        <li class="nav-item mx-lg-1">
+          <a
+            class="nav-link font-weight-bold menu-link"
+            id="contactoNav"
+            href="/contacto.php"
+            >Contacto</a
+          >
+        </li>
 
-                <li class="nav-item ml-lg-4 mt-3 mt-lg-0 mb-2 mb-lg-0">
-                    <a class="btn font-weight-bold text-white px-4 py-2 rounded-pill shadow-sm btn-resultados" href="https://app.biofile.com.co/api/integracionweb/2V8gpgwwo%7CcfXhKumIcw~A==" target="_blank" style="background-color: #e10109;">
-                        <i class="fa fa-download mr-1"></i> Resultados
-                    </a>
-                </li>
-
-            </ul>
-        </div>
+        <li class="nav-item ml-lg-4 mt-3 mt-lg-0 mb-2 mb-lg-0">
+          <a
+            class="btn font-weight-bold text-white px-4 py-2 rounded-pill shadow-sm btn-resultados"
+            href="https://app.biofile.com.co/api/integracionweb/2V8gpgwwo%7CcfXhKumIcw~A=="
+            target="_blank"
+            style="background-color: #e10109"
+          >
+            <i class="fa fa-external-link mr-1"></i> Portal Web
+          </a>
+        </li>
+      </ul>
     </div>
+  </div>
 </nav>
 
 <style>
-    /* Transición suave para todos los enlaces */
-    .menu-link {
-        color: #004085 !important; /* Azul por defecto */
-        position: relative;
-        transition: color 0.3s ease;
-    }
+  /* Transición suave para todos los enlaces */
+  .menu-link {
+    color: #00519d !important; /* Azul por defecto */
+    position: relative;
+    transition: color 0.3s ease;
+  }
 
-    /* Efecto Hover: Cambia a rojo al pasar el cursor */
-    .menu-link:hover {
-        color: #e10109 !important; 
-    }
+  /* Efecto Hover: Cambia a rojo al pasar el cursor */
+  .menu-link:hover {
+    color: #e10109 !important;
+  }
 
-    /* Quita el borde feo que sale en los celulares cuando tocas el menú hamburguesa */
-    .navbar-toggler:focus, .navbar-toggler:active {
-        outline: none;
-        box-shadow: none;
-    }
+  /* Quita el borde feo que sale en los celulares cuando tocas el menú hamburguesa */
+  .navbar-toggler:focus,
+  .navbar-toggler:active {
+    outline: none;
+    box-shadow: none;
+  }
 
-    /* Animación del botón rojo de Resultados */
-    .btn-resultados {
-        transition: transform 0.2s ease, box-shadow 0.2s ease;
-    }
-    .btn-resultados:hover {
-        transform: translateY(-2px);
-        box-shadow: 0 6px 12px rgba(225, 1, 9, 0.3) !important;
-        color: white !important;
-    }
+  /* Animación del botón rojo de Resultados */
+  .btn-resultados {
+    transition:
+      transform 0.2s ease,
+      box-shadow 0.2s ease;
+  }
+  .btn-resultados:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 12px #e10109 !important;
+    color: white !important;
+  }
 </style>
