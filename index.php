@@ -112,22 +112,22 @@
 
             <div class="carousel-inner" role="listbox">
                 <div class="carousel-item active">
-                    <img class="d-block w-100" src="img/index/PESV.png" alt="Plan Estratégico de Seguridad Vial">
+                    <img class="d-block w-100" src="img/index/PSVE2026.webp" alt="Plan Estratégico de Seguridad Vial">
                 </div>
                 <div class="carousel-item">
-                    <img class="d-block w-100" src="img/index/manipulacion-de-alimentos.jpg" alt="Manipulación de alimentos">
+                    <img class="d-block w-100" src="img/index/alimentos2026.webp" alt="Manipulación de alimentos">
                 </div>
                 <div class="carousel-item">
-                    <img class="d-block w-100" src="img/index/Banner-calidad-sso-crc.png" alt="Calidad SSO CRC">
+                    <img class="d-block w-100" src="img/index/calidad2026.webp" alt="Calidad SSO CRC">
                 </div>
                 <div class="carousel-item">
-                    <img class="d-block w-100" src="img/index/Banner-vacunas.jpg" alt="Vacunas">
+                    <img class="d-block w-100" src="img/index/vacunacion2026.webp" alt="Vacunas">
                 </div>
                 <div class="carousel-item">
-                    <img class="d-block w-100" src="img/index/Banner-23-años-sso.png" alt="23 años SSO">
+                    <img class="d-block w-100" src="img/index/fachada2026.webp" alt="23 años SSO">
                 </div>
                 <div class="carousel-item">
-                    <img class="d-block w-100" src="img/index/Banner-horario-de-atencion22-11-2025.png" alt="Horario de atención">
+                    <img class="d-block w-100" src="img/index/horario2026.webp" alt="Horario de atención">
                 </div>
             </div>
             <a class="carousel-control-prev" href="#carouselExample" role="button" data-slide="prev">
