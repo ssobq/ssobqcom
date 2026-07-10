@@ -40,11 +40,11 @@
                     <div class="card-body d-flex flex-column text-center p-4">
 
                         <!-- Aquí insertas tu miniatura -->
-                        <img src="/img/portada-boletines/portada-boletin-53.jpg" alt="Boletín 53" class="boletin-img">
+                        <img src="/img/portada-boletines/portada-boletin-54.jpg" alt="Boletín 54" class="boletin-img">
 
-                        <h5 class="card-title font-weight-bold" style="color: #004085;">Boletín edición N. 53</h5>
-                        <p class="card-text text-secondary flex-grow-1" style="font-size: 0.95rem;">Conoce estrategias prácticas, pausas activas y técnicas para manejar el estrés en nuestra Edición N° 53. ¡Fortalece tu cultura preventiva hoy!</p>
-                        <span class="text-muted small mb-4 d-block font-weight-bold"><i class="fa fa-calendar text-corporate-red mr-1"></i> Publicado: Junio, 2026</span>
+                        <h5 class="card-title font-weight-bold" style="color: #004085;">Boletín edición N. 54</h5>
+                        <p class="card-text text-secondary flex-grow-1" style="font-size: 0.95rem;">Descubra cómo transformar la seguridad del trabajador en un pilar de productividad y cumplimiento legal para su empresa en nuestra Edición N° 54.</p>
+                        <span class="text-muted small mb-4 d-block font-weight-bold"><i class="fa fa-calendar text-corporate-red mr-1"></i> Publicado: Julio, 2026</span>
 
                         <a href="#modalBoletin1" data-toggle="modal" class="btn btn-block text-white font-weight-bold rounded-pill shadow-sm transition-btn mt-auto" style="background-color: #004085; padding: 10px 0;">
                             <i class="fa fa-eye mr-1"></i> Visualizar Boletín
@@ -60,11 +60,11 @@
                     <div class="card-body d-flex flex-column text-center p-4">
 
                         <!-- Aquí insertas tu miniatura -->
-                        <img src="/img/portada-boletines/portada-boletin-52.jpg" alt="Boletín 53" class="boletin-img">
+                        <img src="/img/portada-boletines/portada-boletin-53.jpg" alt="Boletín 53" class="boletin-img">
 
-                        <h5 class="card-title font-weight-bold" style="color: #004085;">Boletín edición N. 52</h5>
-                        <p class="card-text text-secondary flex-grow-1" style="font-size: 0.95rem;">Descubra las claves para una comunicación asertiva, el poder del lenguaje corporal y cómo alcanzar la excelencia en el servicio al usuario.</p>
-                        <span class="text-muted small mb-4 d-block font-weight-bold"><i class="fa fa-calendar text-corporate-red mr-1"></i> Publicado: Mayo, 2026</span>
+                        <h5 class="card-title font-weight-bold" style="color: #004085;">Boletín edición N. 53</h5>
+                        <p class="card-text text-secondary flex-grow-1" style="font-size: 0.95rem;">Conoce estrategias prácticas, pausas activas y técnicas para manejar el estrés en nuestra Edición N° 53. ¡Fortalece tu cultura preventiva hoy!</p>
+                        <span class="text-muted small mb-4 d-block font-weight-bold"><i class="fa fa-calendar text-corporate-red mr-1"></i> Publicado: Junio, 2026</span>
 
                         <a href="#modalBoletin2" data-toggle="modal" class="btn btn-block text-white font-weight-bold rounded-pill shadow-sm transition-btn mt-auto" style="background-color: #004085; padding: 10px 0;">
                             <i class="fa fa-eye mr-1"></i> Visualizar Boletín
@@ -80,11 +80,11 @@
                     <div class="card-body d-flex flex-column text-center p-4">
 
                         <!-- Aquí insertas tu miniatura -->
-                        <img src="/img/portada-boletines/portada-boletin-51.jpg" alt="Boletín 53" class="boletin-img">
+                        <img src="/img/portada-boletines/portada-boletin-52.jpg" alt="Boletín 52" class="boletin-img">
 
-                        <h5 class="card-title font-weight-bold" style="color: #004085;">Boletín edición N. 51</h5>
-                        <p class="card-text text-secondary flex-grow-1" style="font-size: 0.95rem;">Conozca la importancia de los exámenes médicos periódicos, el análisis ergonómico de su puesto de trabajo y consejos para su salud cardiovascular.</p>
-                        <span class="text-muted small mb-4 d-block font-weight-bold"><i class="fa fa-calendar text-corporate-red mr-1"></i> Publicado: Abril, 2026</span>
+                        <h5 class="card-title font-weight-bold" style="color: #004085;">Boletín edición N. 52</h5>
+                        <p class="card-text text-secondary flex-grow-1" style="font-size: 0.95rem;">Descubra las claves para una comunicación asertiva, el poder del lenguaje corporal y cómo alcanzar la excelencia en el servicio al usuario.</p>
+                        <span class="text-muted small mb-4 d-block font-weight-bold"><i class="fa fa-calendar text-corporate-red mr-1"></i> Publicado: Mayo, 2026</span>
 
                         <a href="#modalBoletin3" data-toggle="modal" class="btn btn-block text-white font-weight-bold rounded-pill shadow-sm transition-btn mt-auto" style="background-color: #004085; padding: 10px 0;">
                             <i class="fa fa-eye mr-1"></i> Visualizar Boletín
@@ -106,13 +106,13 @@
         <div class="modal-dialog modal-lg modal-dialog-centered">
             <div class="modal-content" style="border-radius: 12px; overflow: hidden;">
                 <div class="modal-header">
-                    <h5 class="modal-title text-primary colorAzul font-weight-bold">Boletín Edición N. 52 - SSO</h5>
+                    <h5 class="modal-title text-primary colorAzul font-weight-bold">Boletín Edición N. 54 - SSO</h5>
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                         <span aria-hidden="true">&times;</span>
                     </button>
                 </div>
                 <div class="modal-body p-0">
-                    <iframe src="pdf/Boletines/boletin-junio-2026-53.pdf" width="100%" height="600px" style="border: none;"></iframe>
+                    <iframe src="pdf/Boletines/boletin-julio-2026.pdf" width="100%" height="600px" style="border: none;"></iframe>
                 </div>
             </div>
         </div>
@@ -125,13 +125,13 @@
         <div class="modal-dialog modal-lg modal-dialog-centered">
             <div class="modal-content" style="border-radius: 12px; overflow: hidden;">
                 <div class="modal-header">
-                    <h5 class="modal-title text-primary colorAzul font-weight-bold">Boletín Edición N. 51 - SSO</h5>
+                    <h5 class="modal-title text-primary colorAzul font-weight-bold">Boletín Edición N. 53 - SSO</h5>
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                         <span aria-hidden="true">&times;</span>
                     </button>
                 </div>
                 <div class="modal-body p-0">
-                    <iframe src="pdf/Boletines/boletin-mayo-2026.pdf" width="100%" height="600px" style="border: none;"></iframe>
+                    <iframe src="pdf/Boletines/boletin-junio-2026-53.pdf" width="100%" height="600px" style="border: none;"></iframe>
                 </div>
             </div>
         </div>
@@ -143,13 +143,13 @@
         <div class="modal-dialog modal-lg modal-dialog-centered">
             <div class="modal-content" style="border-radius: 12px; overflow: hidden;">
                 <div class="modal-header">
-                    <h5 class="modal-title text-primary colorAzul font-weight-bold">Boletín Edición N. 53 - SSO</h5>
+                    <h5 class="modal-title text-primary colorAzul font-weight-bold">Boletín Edición N. 52 - SSO</h5>
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                         <span aria-hidden="true">&times;</span>
                     </button>
                 </div>
                 <div class="modal-body p-0">
-                    <iframe src="pdf/Boletines/boletin-abril-2026_144dpi_50.pdf" width="100%" height="600px" style="border: none;"></iframe>
+                    <iframe src="pdf/Boletines/boletin-mayo-2026.pdf" width="100%" height="600px" style="border: none;"></iframe>
                 </div>
             </div>
         </div>
