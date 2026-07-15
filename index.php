@@ -223,7 +223,7 @@
                                 <div class="text-light">
                                     <h6 class="font-weight-bold text-uppercase mb-1" style="color: #ffffff;">Lunes</h6>
                                     <p class="mb-3">6:40 am. – 1:00 pm.</p>
-                                    <h6 class="font-weight-bold text-uppercase mb-1" style="color: #ffffff;">Jueves a Viernes</h6>
+                                    <h6 class="font-weight-bold text-uppercase mb-1" style="color: #ffffff;">Martes a Viernes</h6>
                                     <p class="mb-3">6:40 am. – 3:30 pm.</p>
                                     <h6 class="font-weight-bold text-uppercase mb-1" style="color: #ffffff;">Sábados</h6>
                                     <p class="mb-0">6:40 am. – 10:45 am.</p>
