@@ -127,7 +127,7 @@
                     <img class="d-block w-100" src="img/index/fachada2026.webp" alt="23 años SSO">
                 </div>
                 <div class="carousel-item">
-                    <img class="d-block w-100" src="img/index/horario2026.webp" alt="Horario de atención">
+                    <img class="d-block w-100" src="img/index/horario2026-julio.webp" alt="Horario de atención">
                 </div>
             </div>
             <a class="carousel-control-prev" href="#carouselExample" role="button" data-slide="prev">
@@ -221,10 +221,12 @@
                                 <i class="fa-solid fa-clock-rotate-left fa-3x mb-3 text-white"></i>
                                 <h4 class="content-box-title text-white font-weight-bold mb-4">Horarios de atención</h4>
                                 <div class="text-light">
-                                    <h6 class="font-weight-bold text-uppercase mb-1" style="color: #ffffff;">Lunes a Viernes</h6>
+                                    <h6 class="font-weight-bold text-uppercase mb-1" style="color: #ffffff;">Lunes</h6>
+                                    <p class="mb-3">6:40 am. – 2:00 pm.</p>
+                                    <h6 class="font-weight-bold text-uppercase mb-1" style="color: #ffffff;">Jueves a Viernes</h6>
                                     <p class="mb-3">6:40 am. – 3:30 pm.</p>
                                     <h6 class="font-weight-bold text-uppercase mb-1" style="color: #ffffff;">Sábados</h6>
-                                    <p class="mb-0">6:40 am. – 11:00 am.</p>
+                                    <p class="mb-0">6:40 am. – 10:45 am.</p>
                                 </div>
                             </div>
                         </div>
