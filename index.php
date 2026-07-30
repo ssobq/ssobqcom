@@ -37,16 +37,7 @@
     <meta name="sitelock-site-verification" content="7947" />
     <meta name="google-site-verification" content="PMbjD96NUeb_WmZZaNueqxxDQiH_kU5IXAGHMon5BQ0" />
 
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-163788233-1"></script>
-    <script>
-        window.dataLayer = window.dataLayer || [];
-
-        function gtag() {
-            dataLayer.push(arguments);
-        }
-        gtag('js', new Date());
-        gtag('config', 'UA-163788233-1');
-    </script>
+    <?php include 'html/analytics.html'; ?>
 
     <style>
         /* Estilos de modernización e interacción */

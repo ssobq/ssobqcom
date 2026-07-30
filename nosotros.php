@@ -2,6 +2,7 @@
 <html lang="es">
 
 <head>
+    <?php include 'html/analytics.html'; ?>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link class="rounded" rel="shortcut icon" sizes="16x16 24x24 32x32 48x48 64x64" href="img/logo.ico" />
