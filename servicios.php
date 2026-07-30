@@ -25,7 +25,6 @@
     <meta property="og:url" content="https://www.ssobq.com/">
     <meta property="og:image" content="https://www.ssobq.com/img/logo.png">
 
-    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
     <script src="https://kit.fontawesome.com/cf867249a1.js" crossorigin="anonymous"></script>
 
     <title>Servicios | SSO - CRC</title>

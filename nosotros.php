@@ -9,7 +9,6 @@
     <link rel="shortcut icon" href="img/favicon.ico" />
 
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
     <link rel="stylesheet" href="css/stylo.css">
 
@@ -18,7 +17,6 @@
 
     <meta name="google-site-verification" content="PMbjD96NUeb_WmZZaNueqxxDQiH_kU5IXAGHMon5BQ0" />
 
-    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
     <script src="https://kit.fontawesome.com/cf867249a1.js" crossorigin="anonymous"></script>
 
     <title>Nosotros | SSO - CRC</title>
@@ -29,7 +27,8 @@
     <?php include 'html/nav.html'; ?>
 
     <main class="container my-5 bg-white shadow-sm p-4 p-md-5" style="border-radius: 12px;">
-        
+        <h1 class="sr-only">Nosotros | SSO - CRC Servicios de Salud Ocupacional</h1>
+
         <section class="row mb-5 justify-content-center">
             <div class="col-12 col-lg-10">
                 <div class="embed-responsive embed-responsive-16by9 rounded shadow-sm">

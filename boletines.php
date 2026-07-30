@@ -12,7 +12,6 @@
 
     <link rel="stylesheet" href="css/stylo.css">
 
-    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
     <script src="https://kit.fontawesome.com/cf867249a1.js" crossorigin="anonymous"></script>
 
     <title>Boletines Informativos | SSO - CRC</title>
@@ -45,10 +44,10 @@
 
                         <h5 class="card-title font-weight-bold" style="color: #004085;">Boletín edición N. 54</h5>
                         <p class="card-text text-secondary flex-grow-1" style="font-size: 0.95rem;">Descubra cómo transformar la seguridad del trabajador en un pilar de productividad y cumplimiento legal para su empresa en nuestra Edición N° 54.</p>
-                        <span class="text-muted small mb-4 d-block font-weight-bold"><i class="fa fa-calendar text-corporate-red mr-1"></i> Publicado: Julio, 2026</span>
+                        <span class="text-muted small mb-4 d-block font-weight-bold"><i class="fa-solid fa-calendar text-corporate-red mr-1"></i> Publicado: Julio, 2026</span>
 
                         <a href="#modalBoletin1" data-toggle="modal" class="btn btn-block text-white font-weight-bold rounded-pill shadow-sm transition-btn mt-auto" style="background-color: #004085; padding: 10px 0;">
-                            <i class="fa fa-eye mr-1"></i> Visualizar Boletín
+                            <i class="fa-solid fa-eye mr-1"></i> Visualizar Boletín
                         </a>
                     </div>
                 </div>
@@ -65,10 +64,10 @@
 
                         <h5 class="card-title font-weight-bold" style="color: #004085;">Boletín edición N. 53</h5>
                         <p class="card-text text-secondary flex-grow-1" style="font-size: 0.95rem;">Conoce estrategias prácticas, pausas activas y técnicas para manejar el estrés en nuestra Edición N° 53. ¡Fortalece tu cultura preventiva hoy!</p>
-                        <span class="text-muted small mb-4 d-block font-weight-bold"><i class="fa fa-calendar text-corporate-red mr-1"></i> Publicado: Junio, 2026</span>
+                        <span class="text-muted small mb-4 d-block font-weight-bold"><i class="fa-solid fa-calendar text-corporate-red mr-1"></i> Publicado: Junio, 2026</span>
 
                         <a href="#modalBoletin2" data-toggle="modal" class="btn btn-block text-white font-weight-bold rounded-pill shadow-sm transition-btn mt-auto" style="background-color: #004085; padding: 10px 0;">
-                            <i class="fa fa-eye mr-1"></i> Visualizar Boletín
+                            <i class="fa-solid fa-eye mr-1"></i> Visualizar Boletín
                         </a>
                     </div>
                 </div>
@@ -85,10 +84,10 @@
 
                         <h5 class="card-title font-weight-bold" style="color: #004085;">Boletín edición N. 52</h5>
                         <p class="card-text text-secondary flex-grow-1" style="font-size: 0.95rem;">Descubra las claves para una comunicación asertiva, el poder del lenguaje corporal y cómo alcanzar la excelencia en el servicio al usuario.</p>
-                        <span class="text-muted small mb-4 d-block font-weight-bold"><i class="fa fa-calendar text-corporate-red mr-1"></i> Publicado: Mayo, 2026</span>
+                        <span class="text-muted small mb-4 d-block font-weight-bold"><i class="fa-solid fa-calendar text-corporate-red mr-1"></i> Publicado: Mayo, 2026</span>
 
                         <a href="#modalBoletin3" data-toggle="modal" class="btn btn-block text-white font-weight-bold rounded-pill shadow-sm transition-btn mt-auto" style="background-color: #004085; padding: 10px 0;">
-                            <i class="fa fa-eye mr-1"></i> Visualizar Boletín
+                            <i class="fa-solid fa-eye mr-1"></i> Visualizar Boletín
                         </a>
                     </div>
                 </div>

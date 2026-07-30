@@ -11,7 +11,6 @@
 
     <link rel="stylesheet" href="/css/stylo.css">
 
-    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
     <script src="https://kit.fontawesome.com/cf867249a1.js" crossorigin="anonymous"></script>
 
     <title>Análisis de Puesto de Trabajo (APT) | SSO - CRC</title>
