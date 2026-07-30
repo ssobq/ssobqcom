@@ -40,7 +40,7 @@
                     <div class="card-body d-flex flex-column text-center p-4">
 
                         <!-- Aquí insertas tu miniatura -->
-                        <img src="/img/portada-boletines/portada-boletin-54.jpg" alt="Boletín 54" class="boletin-img">
+                        <img src="/img/portada-boletines/portada-boletin-54.jpg" alt="Boletín 54" class="boletin-img" loading="lazy">
 
                         <h5 class="card-title font-weight-bold" style="color: #004085;">Boletín edición N. 54</h5>
                         <p class="card-text text-secondary flex-grow-1" style="font-size: 0.95rem;">Descubra cómo transformar la seguridad del trabajador en un pilar de productividad y cumplimiento legal para su empresa en nuestra Edición N° 54.</p>
@@ -60,7 +60,7 @@
                     <div class="card-body d-flex flex-column text-center p-4">
 
                         <!-- Aquí insertas tu miniatura -->
-                        <img src="/img/portada-boletines/portada-boletin-53.jpg" alt="Boletín 53" class="boletin-img">
+                        <img src="/img/portada-boletines/portada-boletin-53.jpg" alt="Boletín 53" class="boletin-img" loading="lazy">
 
                         <h5 class="card-title font-weight-bold" style="color: #004085;">Boletín edición N. 53</h5>
                         <p class="card-text text-secondary flex-grow-1" style="font-size: 0.95rem;">Conoce estrategias prácticas, pausas activas y técnicas para manejar el estrés en nuestra Edición N° 53. ¡Fortalece tu cultura preventiva hoy!</p>
@@ -80,7 +80,7 @@
                     <div class="card-body d-flex flex-column text-center p-4">
 
                         <!-- Aquí insertas tu miniatura -->
-                        <img src="/img/portada-boletines/portada-boletin-52.jpg" alt="Boletín 52" class="boletin-img">
+                        <img src="/img/portada-boletines/portada-boletin-52.jpg" alt="Boletín 52" class="boletin-img" loading="lazy">
 
                         <h5 class="card-title font-weight-bold" style="color: #004085;">Boletín edición N. 52</h5>
                         <p class="card-text text-secondary flex-grow-1" style="font-size: 0.95rem;">Descubra las claves para una comunicación asertiva, el poder del lenguaje corporal y cómo alcanzar la excelencia en el servicio al usuario.</p>

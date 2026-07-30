@@ -141,7 +141,7 @@
                 <div class="col-12 col-sm-6 col-md-4 col-lg-2 mb-4">
                     <div class="icon-box bg-white h-100 p-3 shadow-sm rounded service-hover-card" data-aos="fade-up" data-aos-delay="100">
                         <a href="https://www.ssobq.com/servicios/examenesOcupacional.php" class="text-decoration-none text-dark">
-                            <div class="icon text-center mb-3"><img class="img-fluid imgServicio" src="img/servicios/menu/Exámenes-Ocupacionales-sso-crc.svg" alt="Exámenes Ocupacionales sso - crc" style="max-height: 60px;"></div>
+                            <div class="icon text-center mb-3"><img class="img-fluid imgServicio" src="img/servicios/menu/Exámenes-Ocupacionales-sso-crc.svg" alt="Exámenes Ocupacionales sso - crc" style="max-height: 60px;" loading="lazy"></div>
                             <h5 class="title font-weight-bold" style="color: #00519d; transition: color 0.3s;">Exámenes Ocupacionales</h5>
                             <p class="description small text-danger font-weight-bold mb-0 mt-2">Conoce más >></p>
                         </a>
@@ -151,7 +151,7 @@
                 <div class="col-12 col-sm-6 col-md-4 col-lg-2 mb-4">
                     <div class="icon-box bg-white h-100 p-3 shadow-sm rounded service-hover-card" data-aos="fade-up" data-aos-delay="200">
                         <a href="https://www.ssobq.com/servicios/examenesLaboratorio.php" class="text-decoration-none text-dark">
-                            <div class="icon text-center mb-3"><img class="img-fluid imgServicio" src="img/servicios/menu/Exámenes-de-Laboratorio-sso-crc.svg" alt="Exámenes de Laboratorio SSO - CRC" style="max-height: 60px;"></div>
+                            <div class="icon text-center mb-3"><img class="img-fluid imgServicio" src="img/servicios/menu/Exámenes-de-Laboratorio-sso-crc.svg" alt="Exámenes de Laboratorio SSO - CRC" style="max-height: 60px;" loading="lazy"></div>
                             <h5 class="title font-weight-bold" style="color: #00519d; transition: color 0.3s;">Exámenes de Laboratorio</h5>
                             <p class="description small text-danger font-weight-bold mb-0 mt-2">Conoce más >></p>
                         </a>
@@ -161,7 +161,7 @@
                 <div class="col-12 col-sm-6 col-md-4 col-lg-2 mb-4">
                     <div class="icon-box bg-white h-100 p-3 shadow-sm rounded service-hover-card" data-aos="fade-up" data-aos-delay="300">
                         <a href="https://www.ssobq.com/servicios/vacunacion.php" class="text-decoration-none text-dark">
-                            <div class="icon text-center mb-3"><img class="img-fluid imgServicio" src="img/servicios/menu/Vacunación-sso-crc.svg" alt="Vacunación sso - crc" style="max-height: 60px;"></div>
+                            <div class="icon text-center mb-3"><img class="img-fluid imgServicio" src="img/servicios/menu/Vacunación-sso-crc.svg" alt="Vacunación sso - crc" style="max-height: 60px;" loading="lazy"></div>
                             <h5 class="title font-weight-bold" style="color: #00519d; transition: color 0.3s;">Vacunación</h5>
                             <p class="description small text-danger font-weight-bold mb-0 mt-2">Conoce más >></p>
                         </a>
@@ -171,7 +171,7 @@
                 <div class="col-12 col-sm-6 col-md-4 col-lg-2 mb-4">
                     <div class="icon-box bg-white h-100 p-3 shadow-sm rounded service-hover-card" data-aos="fade-up" data-aos-delay="400">
                         <a href="https://www.ssobq.com/servicios/saludVisual.php" class="text-decoration-none text-dark">
-                            <div class="icon text-center mb-3"> <img class="img-fluid imgServicio" src="img/servicios/menu/Salud-Visual-sso-crc.svg" alt="Salud Visual sso - crc" style="max-height: 60px;"></div>
+                            <div class="icon text-center mb-3"> <img class="img-fluid imgServicio" src="img/servicios/menu/Salud-Visual-sso-crc.svg" alt="Salud Visual sso - crc" style="max-height: 60px;" loading="lazy"></div>
                             <h5 class="title font-weight-bold" style="color: #00519d; transition: color 0.3s;">Exámenes Visuales</h5>
                             <p class="description small text-danger font-weight-bold mb-0 mt-2">Conoce más >></p>
                         </a>
@@ -181,7 +181,7 @@
                 <div class="col-12 col-sm-6 col-md-4 col-lg-2 mb-4">
                     <div class="icon-box bg-white h-100 p-3 shadow-sm rounded service-hover-card" data-aos="fade-up" data-aos-delay="500">
                         <a href="https://www.ssobq.com/servicios/CRC.php" class="text-decoration-none text-dark">
-                            <div class="icon text-center mb-3"> <img class="img-fluid imgServicio" src="img/servicios/menu/CRC-sso-crc.svg" alt="CRC sso - crc" style="max-height: 60px;"></div>
+                            <div class="icon text-center mb-3"> <img class="img-fluid imgServicio" src="img/servicios/menu/CRC-sso-crc.svg" alt="CRC sso - crc" style="max-height: 60px;" loading="lazy"></div>
                             <h5 class="title font-weight-bold" style="color: #00519d; transition: color 0.3s;">Trámites CRC</h5>
                             <p class="description small text-danger font-weight-bold mb-0 mt-2">Conoce más >></p>
                         </a>
@@ -191,7 +191,7 @@
                 <div class="col-12 col-sm-6 col-md-4 col-lg-2 mb-4">
                     <div class="icon-box bg-white h-100 p-3 shadow-sm rounded service-hover-card" data-aos="fade-up" data-aos-delay="600">
                         <a href="https://www.ssobq.com/servicios.php" class="text-decoration-none text-dark">
-                            <div class="icon text-center mb-3"> <img class="img-fluid imgServicio" src="img/servicios/menu/mas-sso-crc.svg" alt="Servicios sso - crc" style="max-height: 60px;"></div>
+                            <div class="icon text-center mb-3"> <img class="img-fluid imgServicio" src="img/servicios/menu/mas-sso-crc.svg" alt="Servicios sso - crc" style="max-height: 60px;" loading="lazy"></div>
                             <h5 class="title font-weight-bold" style="color: #00519d; transition: color 0.3s;">Todos nuestros servicios</h5>
                             <p class="description small text-danger font-weight-bold mb-0 mt-2">Conoce más >></p>
                         </a>

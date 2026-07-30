@@ -56,7 +56,7 @@
         
         <div class="row mb-5">
             <div class="col-12">
-                <img class="img-fluid w-100 shadow-sm" src="/img/servicios/bateria/bateriaa-4-sso-crc.jpg" alt="Batería de riesgo psicosocial" style="border-radius: 15px; object-fit: cover; max-height: 350px;">
+                <img class="img-fluid w-100 shadow-sm" src="/img/servicios/bateria/bateriaa-4-sso-crc.jpg" alt="Batería de riesgo psicosocial" style="border-radius: 15px; object-fit: cover; max-height: 350px;" loading="lazy">
             </div>
         </div>
 
@@ -77,7 +77,7 @@
 
         <div class="row mb-5 align-items-center">
             <div class="col-12 col-md-6 mb-4 mb-md-0">
-                <img class="img-fluid img-section w-100" src="/img/servicios/bateria/bateriaa-2-sso-crc.jpg" alt="Servicios Psicosociales SSO">
+                <img class="img-fluid img-section w-100" src="/img/servicios/bateria/bateriaa-2-sso-crc.jpg" alt="Servicios Psicosociales SSO" loading="lazy">
             </div>
             <div class="col-12 col-md-6 px-lg-5">
                 <h3 class="font-weight-bold text-corporate-blue mb-4">Nuestros servicios:</h3>
@@ -129,7 +129,7 @@
                 </div>
             </div>
             <div class="col-12 col-md-6 mb-4 mb-md-0 order-1 order-md-2">
-                <img src="/img/servicios/bateria/bateriaa-3-sso-crc.jpg" class="img-fluid img-section w-100" alt="Beneficios Batería Psicosocial">
+                <img src="/img/servicios/bateria/bateriaa-3-sso-crc.jpg" class="img-fluid img-section w-100" alt="Beneficios Batería Psicosocial" loading="lazy">
             </div>
         </div>
 

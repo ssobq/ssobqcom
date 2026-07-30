@@ -139,7 +139,7 @@
 
             <div class="col-12 col-lg-5 d-flex">
                 <div class="w-100 shadow-sm" style="border-radius: 15px; overflow: hidden; height: 100%;">
-                    <img class="img-fluid w-100 h-100" style="object-fit: cover; min-height: 350px;" src="/img/servicios/examenOcupacional/examen-ocupacional-ssobq.jpg" alt="Exámenes Ocupacionales SSO - CRC">
+                    <img class="img-fluid w-100 h-100" style="object-fit: cover; min-height: 350px;" src="/img/servicios/examenOcupacional/examen-ocupacional-ssobq.jpg" alt="Exámenes Ocupacionales SSO - CRC" loading="lazy">
                 </div>
             </div>
 

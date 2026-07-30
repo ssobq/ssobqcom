@@ -102,7 +102,7 @@
             <!-- Columna Izquierda: Imagen -->
             <div class="col-12 col-lg-6 mb-4 mb-lg-0">
                 <div class="h-100 shadow-sm" style="border-radius: 15px; overflow: hidden;">
-                    <img class="img-fluid w-100 h-100" style="object-fit: cover;" src="img/trabajaNosotros/trabaja-con-nosotros.jpg" alt="Trabaja en SSO - CRC">
+                    <img class="img-fluid w-100 h-100" style="object-fit: cover;" src="img/trabajaNosotros/trabaja-con-nosotros.jpg" alt="Trabaja en SSO - CRC" loading="lazy">
                 </div>
             </div>
 
@@ -150,19 +150,19 @@
                             <h6 class="font-weight-bold text-uppercase mb-3" style="color: #004085;">Nuestras Redes Sociales</h6>
                             <div class="d-flex justify-content-center justify-content-lg-start flex-wrap">
                                 <a href="https://www.instagram.com/ssobq/?hl=es-la" target="_blank" class="mx-2 mb-2 social-icon-wrapper">
-                                    <img src="/img/iconos/Instagram-01.svg" width="45px" alt="Instagram SSO">
+                                    <img src="/img/iconos/Instagram-01.svg" width="45px" alt="Instagram SSO" loading="lazy">
                                 </a>
                                 <a href="https://x.com/SSOBQ" target="_blank" class="mx-2 mb-2 social-icon-wrapper">
-                                    <img src="/img/iconos/X-06.svg" width="45px" alt="X SSO">
+                                    <img src="/img/iconos/X-06.svg" width="45px" alt="X SSO" loading="lazy">
                                 </a>
                                 <a href="https://www.facebook.com/ssobq/" target="_blank" class="mx-2 mb-2 social-icon-wrapper">
-                                    <img src="/img/iconos/Facebook-03.svg" width="45px" alt="Facebook SSO">
+                                    <img src="/img/iconos/Facebook-03.svg" width="45px" alt="Facebook SSO" loading="lazy">
                                 </a>
                                 <a href="https://www.youtube.com/channel/UCwUs508YaoV4XL9YUQcdtag?view_as=subscriber" target="_blank" class="mx-2 mb-2 social-icon-wrapper">
-                                    <img src="/img/iconos/Youtube-05.svg" width="45px" alt="YouTube SSO">
+                                    <img src="/img/iconos/Youtube-05.svg" width="45px" alt="YouTube SSO" loading="lazy">
                                 </a>
                                 <a href="https://www.linkedin.com/company/sso-servicios-de-salud-ocupacional/" target="_blank" class="mx-2 mb-2 social-icon-wrapper">
-                                    <img src="/img/iconos/Linkedin-04.svg" width="45px" alt="LinkedIn SSO">
+                                    <img src="/img/iconos/Linkedin-04.svg" width="45px" alt="LinkedIn SSO" loading="lazy">
                                 </a>
                             </div>
                         </div>

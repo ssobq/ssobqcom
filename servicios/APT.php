@@ -118,7 +118,7 @@
 
             <div class="col-12 col-lg-5 d-flex">
                 <div class="w-100 shadow-sm" style="border-radius: 15px; overflow: hidden;">
-                    <img class="img-fluid w-100 h-100" style="object-fit: cover;" src="/img/servicios/APT/apt2.jpg" alt="Evaluación APT">
+                    <img class="img-fluid w-100 h-100" style="object-fit: cover;" src="/img/servicios/APT/apt2.jpg" alt="Evaluación APT" loading="lazy">
                 </div>
             </div>
 

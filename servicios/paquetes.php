@@ -101,7 +101,7 @@
 
             <div class="col-12 col-md-6 col-xl-4 mb-4">
                 <div class="card border-0 shadow-sm h-100 package-card bg-white">
-                    <img class="package-img" src="/img/servicios/paquetes/Administrativo.jpg" alt="Paquete Administrativo">
+                    <img class="package-img" src="/img/servicios/paquetes/Administrativo.jpg" alt="Paquete Administrativo" loading="lazy">
                     <h5 class="card-title text-center text-corporate-blue font-weight-bold py-3 mb-0 border-bottom mx-3">Perfil Administrativo</h5>
                     <div class="card-body">
                         <div class="pack-list-item text-dark">
@@ -122,7 +122,7 @@
 
             <div class="col-12 col-md-6 col-xl-4 mb-4">
                 <div class="card border-0 shadow-sm h-100 package-card bg-white">
-                    <img class="package-img" src="/img/servicios/paquetes/altura.jpg" alt="Paquete Alturas">
+                    <img class="package-img" src="/img/servicios/paquetes/altura.jpg" alt="Paquete Alturas" loading="lazy">
                     <h5 class="card-title text-center text-corporate-blue font-weight-bold py-3 mb-0 border-bottom mx-3">Trabajo en Alturas</h5>
                     <div class="card-body">
                         <div class="pack-list-item text-dark">
@@ -146,7 +146,7 @@
 
             <div class="col-12 col-md-6 col-xl-4 mb-4">
                 <div class="card border-0 shadow-sm h-100 package-card bg-white">
-                    <img class="package-img" src="/img/servicios/paquetes/CONDUCTOR.jpg" alt="Paquete Conductor">
+                    <img class="package-img" src="/img/servicios/paquetes/CONDUCTOR.jpg" alt="Paquete Conductor" loading="lazy">
                     <h5 class="card-title text-center text-corporate-blue font-weight-bold py-3 mb-0 border-bottom mx-3">Perfil Conductor</h5>
                     <div class="card-body">
                         <div class="pack-list-item text-dark">
@@ -173,7 +173,7 @@
 
             <div class="col-12 col-md-6 col-xl-4 mb-4">
                 <div class="card border-0 shadow-sm h-100 package-card bg-white">
-                    <img class="package-img" src="/img/servicios/paquetes/docente-call-center.jpg" alt="Paquete Docente Call Center">
+                    <img class="package-img" src="/img/servicios/paquetes/docente-call-center.jpg" alt="Paquete Docente Call Center" loading="lazy">
                     <h5 class="card-title text-center text-corporate-blue font-weight-bold py-3 mb-0 border-bottom mx-3">Docente / Call Center</h5>
                     <div class="card-body">
                         <div class="pack-list-item text-dark">
@@ -194,7 +194,7 @@
 
             <div class="col-12 col-md-6 col-xl-4 mb-4">
                 <div class="card border-0 shadow-sm h-100 package-card bg-white">
-                    <img class="package-img" src="/img/servicios/paquetes/Espacios-confinados.jpg" alt="Paquete Espacios Confinados">
+                    <img class="package-img" src="/img/servicios/paquetes/Espacios-confinados.jpg" alt="Paquete Espacios Confinados" loading="lazy">
                     <h5 class="card-title text-center text-corporate-blue font-weight-bold py-3 mb-0 border-bottom mx-3">Espacios Confinados</h5>
                     <div class="card-body">
                         <div class="pack-list-item text-dark">
@@ -221,7 +221,7 @@
 
             <div class="col-12 col-md-6 col-xl-4 mb-4">
                 <div class="card border-0 shadow-sm h-100 package-card bg-white">
-                    <img class="package-img" src="/img/servicios/paquetes/manipulacion-de-alimentos.jpg" alt="Paquete Manipulación de Alimentos">
+                    <img class="package-img" src="/img/servicios/paquetes/manipulacion-de-alimentos.jpg" alt="Paquete Manipulación de Alimentos" loading="lazy">
                     <h5 class="card-title text-center text-corporate-blue font-weight-bold py-3 mb-0 border-bottom mx-3">Manipulación de Alimentos</h5>
                     <div class="card-body">
                         <div class="pack-list-item text-dark">
@@ -245,7 +245,7 @@
 
             <div class="col-12 col-md-6 col-xl-4 mb-4">
                 <div class="card border-0 shadow-sm h-100 package-card bg-white">
-                    <img class="package-img" src="/img/servicios/paquetes/altura-conductor.jpg" alt="Paquete Altura y Conductor">
+                    <img class="package-img" src="/img/servicios/paquetes/altura-conductor.jpg" alt="Paquete Altura y Conductor" loading="lazy">
                     <h5 class="card-title text-center text-corporate-blue font-weight-bold py-3 mb-0 border-bottom mx-3">Alturas + Conductor</h5>
                     <div class="card-body">
                         <div class="pack-list-item text-dark">
@@ -275,7 +275,7 @@
 
             <div class="col-12 col-md-6 col-xl-4 mb-4">
                 <div class="card border-0 shadow-sm h-100 package-card bg-white">
-                    <img class="package-img" src="/img/servicios/paquetes/escolar.jpg" alt="Paquete Escolar">
+                    <img class="package-img" src="/img/servicios/paquetes/escolar.jpg" alt="Paquete Escolar" loading="lazy">
                     <h5 class="card-title text-center text-corporate-blue font-weight-bold py-3 mb-0 border-bottom mx-3">Perfil Escolar</h5>
                     <div class="card-body">
                         <div class="pack-list-item text-dark">

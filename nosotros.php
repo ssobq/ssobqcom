@@ -51,7 +51,7 @@
             <div class="col-12 col-md-6 mb-4 mb-md-0 d-flex">
                 <div class="card border-0 w-100 text-center p-4 shadow-xs" style="background-color: #00519d0d; border-radius: 10px;">
                     <div class="card-body d-flex flex-column align-items-center">
-                        <img class="img-fluid mb-3" src="img/nosotros/ICONO-MISION-SSO-CRC.png" alt="Misión SSO" style="max-height: 70px;">
+                        <img class="img-fluid mb-3" src="img/nosotros/ICONO-MISION-SSO-CRC.png" alt="Misión SSO" style="max-height: 70px;" loading="lazy">
                         <h3 class="font-weight-bold mb-3" style="color: #004085;">MISIÓN</h3>
                         <p class="text-justify text-secondary mb-0">
                             Somos una IPS de mediana complejidad líder en la Región Caribe, que contribuye con experiencia y conocimiento en la implementación, el desarrollo y el seguimiento de la seguridad, salud en el trabajo y seguridad vial de nuestros clientes.
@@ -63,7 +63,7 @@
             <div class="col-12 col-md-6 d-flex">
                 <div class="card border-0 w-100 text-center p-4 shadow-xs" style="background-color: #00519d0d; border-radius: 10px;">
                     <div class="card-body d-flex flex-column align-items-center">
-                        <img class="img-fluid mb-3" src="img/nosotros/ICONO-VISION-SSO-CRC.png" alt="Visión SSO" style="max-height: 70px;">
+                        <img class="img-fluid mb-3" src="img/nosotros/ICONO-VISION-SSO-CRC.png" alt="Visión SSO" style="max-height: 70px;" loading="lazy">
                         <h3 class="font-weight-bold mb-3" style="color: #004085;">VISIÓN</h3>
                         <p class="text-justify text-secondary mb-0">
                             Ser en el 2027 una IPS líder a nivel nacional en seguridad, salud en el trabajo y seguridad vial, por nuestros servicios innovadores que generan confianza a nuestros usuarios a través de procesos efectivos y confiables.
@@ -75,7 +75,7 @@
 
         <section class="row mb-5 text-center">
             <div class="col-12">
-                <img class="img-fluid rounded shadow-sm w-100" src="img/nosotros/Valores-sso-crc.jpg" alt="Valores Corporativos SSO - CRC">
+                <img class="img-fluid rounded shadow-sm w-100" src="img/nosotros/Valores-sso-crc.jpg" alt="Valores Corporativos SSO - CRC" loading="lazy">
             </div>
         </section>
 
@@ -86,7 +86,7 @@
                 
                 <div class="row align-items-center mt-4">
                     <div class="col-12 col-md-4 mb-4 mb-md-0 text-center">
-                        <img class="img-fluid rounded shadow-xs" src="img/nosotros/icontec-ssobq.jpg" alt="Icontec Certificación" style="max-width: 200px;">
+                        <img class="img-fluid rounded shadow-xs" src="img/nosotros/icontec-ssobq.jpg" alt="Icontec Certificación" style="max-width: 200px;" loading="lazy">
                     </div>
                     <div class="col-12 col-md-8">
                         <p class="text-justify text-muted" style="font-size: 1rem; line-height: 1.6;">
@@ -102,7 +102,7 @@
         <section class="row mb-4 align-items-center">
 
             <div class="col-12 col-md-6 mb-4 mb-md-0">
-                <img class="img-fluid rounded shadow-sm w-100" src="img/politica/PTD.png" alt="Política de Tratamiento de Datos Personales">
+                <img class="img-fluid rounded shadow-sm w-100" src="img/politica/PTD.png" alt="Política de Tratamiento de Datos Personales" loading="lazy">
             </div>
             
             <div class="col-12 col-md-6">
