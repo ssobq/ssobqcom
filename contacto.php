@@ -56,6 +56,14 @@
             color: #e10109 !important;
             text-decoration: none;
         }
+
+        .campo-trampa {
+            position: absolute;
+            left: -9999px;
+            width: 1px;
+            height: 1px;
+            overflow: hidden;
+        }
     </style>
 </head>
 
@@ -72,6 +80,80 @@
                 <hr class="mx-auto" style="border: 2px solid #e10109; width: 80px;">
             </div>
         </div>
+
+        <?php if (($_GET['estado'] ?? '') === 'enviado'): ?>
+            <div class="row mb-4">
+                <div class="col-12 col-lg-8 mx-auto">
+                    <div class="alert alert-success text-center" role="alert">
+                        <i class="fa-solid fa-circle-check mr-2"></i>
+                        ¡Mensaje enviado! Te responderemos lo antes posible.
+                    </div>
+                </div>
+            </div>
+        <?php elseif (($_GET['estado'] ?? '') === 'error'): ?>
+            <div class="row mb-4">
+                <div class="col-12 col-lg-8 mx-auto">
+                    <div class="alert alert-danger text-center" role="alert">
+                        <i class="fa-solid fa-triangle-exclamation mr-2"></i>
+                        No se pudo enviar el mensaje. Revisa los datos e intenta de nuevo, o escríbenos directo a una de las áreas de abajo.
+                    </div>
+                </div>
+            </div>
+        <?php endif; ?>
+
+        <section id="formulario-contacto" class="row mb-5 justify-content-center">
+            <div class="col-12 col-lg-8">
+                <div class="card border-0 shadow-sm p-4 p-md-5" style="border-radius: 15px;">
+                    <h2 class="font-weight-bold text-center mb-4" style="color: #004085;">Escríbenos</h2>
+                    <form action="procesar-contacto.php" method="POST" novalidate>
+                        <div class="form-row">
+                            <div class="form-group col-md-6">
+                                <label for="nombre">Nombre completo *</label>
+                                <input type="text" class="form-control" id="nombre" name="nombre" required maxlength="120">
+                            </div>
+                            <div class="form-group col-md-6">
+                                <label for="correo">Correo electrónico *</label>
+                                <input type="email" class="form-control" id="correo" name="correo" required maxlength="150">
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group col-md-6">
+                                <label for="telefono">Teléfono (opcional)</label>
+                                <input type="tel" class="form-control" id="telefono" name="telefono" maxlength="30">
+                            </div>
+                            <div class="form-group col-md-6">
+                                <label for="area">¿A qué área te diriges? *</label>
+                                <select class="form-control" id="area" name="area" required>
+                                    <option value="" selected disabled>Selecciona un área</option>
+                                    <option value="administrativa">Administrativa y Financiera</option>
+                                    <option value="admisiones">Admisiones (citas)</option>
+                                    <option value="cartera">Cartera</option>
+                                    <option value="crc">CRC (Conductores)</option>
+                                    <option value="conceptos">Conceptos / Certificados de aptitud</option>
+                                    <option value="comercial">Gestión Comercial</option>
+                                    <option value="regionales">Regionales</option>
+                                    <option value="servicios">Servicios / Atención VIP</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="mensaje">Mensaje *</label>
+                            <textarea class="form-control" id="mensaje" name="mensaje" rows="4" required maxlength="2000"></textarea>
+                        </div>
+
+                        <!-- Campo trampa anti-spam: invisible para personas, los bots suelen llenarlo -->
+                        <div class="campo-trampa" aria-hidden="true">
+                            <label for="sitio_web">No llenar este campo</label>
+                            <input type="text" id="sitio_web" name="sitio_web" tabindex="-1" autocomplete="off">
+                        </div>
+
+                        <button type="submit" class="btn btn-block font-weight-bold rounded-pill shadow-sm" style="background-color: #e10109; color: white; padding: 12px 0;">
+                            <i class="fa-solid fa-paper-plane mr-2"></i> Enviar mensaje
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </section>
 
         <section class="row mb-5 align-items-stretch">
             
