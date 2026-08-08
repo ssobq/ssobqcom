@@ -31,9 +31,31 @@
             </div>
         </div>
 
-        <!-- Tarjeta boletin 1 -->
+        
 
         <div class="row align-items-stretch">
+
+            <!-- Tarjeta boletin 55 -->
+
+            <div class="col-12 col-md-6 col-lg-4 mb-4">
+                <div class="card h-100 shadow-sm border-0 doc-card" style="border-radius: 15px;">
+                    <div class="card-body d-flex flex-column text-center p-4">
+
+                        <!-- Aquí insertas tu miniatura -->
+                        <img src="/img/portada-boletines/portada-boletin-55.jpg" alt="Boletín 52" class="boletin-img">
+
+                        <h5 class="card-title font-weight-bold" style="color: #004085;">Boletín edición N. 55</h5>
+                        <p class="card-text text-secondary flex-grow-1" style="font-size: 0.95rem;">Descubra las claves para una comunicación asertiva, el poder del lenguaje corporal y cómo alcanzar la excelencia en el servicio al usuario.</p>
+                        <span class="text-muted small mb-4 d-block font-weight-bold"><i class="fa fa-calendar text-corporate-red mr-1"></i> Publicado: Agosto, 2026</span>
+
+                        <a href="#modalBoletin1" data-toggle="modal" class="btn btn-block text-white font-weight-bold rounded-pill shadow-sm transition-btn mt-auto" style="background-color: #004085; padding: 10px 0;">
+                            <i class="fa fa-eye mr-1"></i> Visualizar Boletín
+                        </a>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Tarjeta boletin 54 -->
 
             <div class="col-12 col-md-6 col-lg-4 mb-4">
                 <div class="card h-100 shadow-sm border-0 doc-card" style="border-radius: 15px;">
@@ -53,7 +75,7 @@
                 </div>
             </div>
 
-            <!-- Tarjeta boletin 2 -->
+            <!-- Tarjeta boletin 53 -->
 
             <div class="col-12 col-md-6 col-lg-4 mb-4">
                 <div class="card h-100 shadow-sm border-0 doc-card" style="border-radius: 15px;">
@@ -73,25 +95,7 @@
                 </div>
             </div>
 
-            <!-- Tarjeta boletin 3 -->
-
-            <div class="col-12 col-md-6 col-lg-4 mb-4">
-                <div class="card h-100 shadow-sm border-0 doc-card" style="border-radius: 15px;">
-                    <div class="card-body d-flex flex-column text-center p-4">
-
-                        <!-- Aquí insertas tu miniatura -->
-                        <img src="/img/portada-boletines/portada-boletin-52.jpg" alt="Boletín 52" class="boletin-img">
-
-                        <h5 class="card-title font-weight-bold" style="color: #004085;">Boletín edición N. 52</h5>
-                        <p class="card-text text-secondary flex-grow-1" style="font-size: 0.95rem;">Descubra las claves para una comunicación asertiva, el poder del lenguaje corporal y cómo alcanzar la excelencia en el servicio al usuario.</p>
-                        <span class="text-muted small mb-4 d-block font-weight-bold"><i class="fa fa-calendar text-corporate-red mr-1"></i> Publicado: Mayo, 2026</span>
-
-                        <a href="#modalBoletin3" data-toggle="modal" class="btn btn-block text-white font-weight-bold rounded-pill shadow-sm transition-btn mt-auto" style="background-color: #004085; padding: 10px 0;">
-                            <i class="fa fa-eye mr-1"></i> Visualizar Boletín
-                        </a>
-                    </div>
-                </div>
-            </div>
+            
         </div>
     </main>
 
@@ -100,9 +104,27 @@
     <!-- iframe para mostrar PDF -->
 
 
-    <!-- Modal 1 -->
-
+    <!-- Modal 3 - boletín 55-->
     <div class="modal fade" id="modalBoletin1" role="dialog" aria-hidden="true" style="padding-right: 0;">
+        <div class="modal-dialog modal-lg modal-dialog-centered">
+            <div class="modal-content" style="border-radius: 12px; overflow: hidden;">
+                <div class="modal-header">
+                    <h5 class="modal-title text-primary colorAzul font-weight-bold">Boletín Edición N. 55 - SSO</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body p-0">
+                    <iframe src="pdf/Boletines/boletin-agosto-2026-55.pdf" width="100%" height="600px" style="border: none;"></iframe>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Modal 1 - boletín 54 -->
+
+    <div class="modal fade" id="modalBoletin2" role="dialog" aria-hidden="true" style="padding-right: 0;">
         <div class="modal-dialog modal-lg modal-dialog-centered">
             <div class="modal-content" style="border-radius: 12px; overflow: hidden;">
                 <div class="modal-header">
@@ -119,9 +141,9 @@
     </div>
 
 
-    <!-- Modal 2 -->
+    <!-- Modal 2 - boletín 53 -->
 
-    <div class="modal fade" id="modalBoletin2" role="dialog" aria-hidden="true" style="padding-right: 0;">
+    <div class="modal fade" id="modalBoletin3" role="dialog" aria-hidden="true" style="padding-right: 0;">
         <div class="modal-dialog modal-lg modal-dialog-centered">
             <div class="modal-content" style="border-radius: 12px; overflow: hidden;">
                 <div class="modal-header">
@@ -138,22 +160,7 @@
     </div>
 
 
-    <!-- Modal 3 -->
-    <div class="modal fade" id="modalBoletin3" role="dialog" aria-hidden="true" style="padding-right: 0;">
-        <div class="modal-dialog modal-lg modal-dialog-centered">
-            <div class="modal-content" style="border-radius: 12px; overflow: hidden;">
-                <div class="modal-header">
-                    <h5 class="modal-title text-primary colorAzul font-weight-bold">Boletín Edición N. 52 - SSO</h5>
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true">&times;</span>
-                    </button>
-                </div>
-                <div class="modal-body p-0">
-                    <iframe src="pdf/Boletines/boletin-mayo-2026.pdf" width="100%" height="600px" style="border: none;"></iframe>
-                </div>
-            </div>
-        </div>
-    </div>
+    
 
 
 
