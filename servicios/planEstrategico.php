@@ -2,6 +2,7 @@
 <html lang="es">
 
 <head>
+    <?php include '../html/analytics.html'; ?>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="shortcut icon" href="/img/logo.ico" />
@@ -10,7 +11,6 @@
 
     <link rel="stylesheet" href="/css/stylo.css">
 
-    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
     <script src="https://kit.fontawesome.com/cf867249a1.js" crossorigin="anonymous"></script>
 
     <title>Plan Estratégico de Seguridad Vial (PESV) | SSO - CRC</title>
@@ -123,7 +123,7 @@
 
             <div class="col-12 col-lg-5 d-flex">
                 <div class="w-100 shadow-sm" style="border-radius: 15px; overflow: hidden; background-color: #fff;">
-                    <img class="img-fluid w-100 h-100" style="object-fit: cover; min-height: 400px;" src="/img/servicios/planEstrategico/PESV_sso-crc.png" alt="Plan Estratégico de Seguridad Vial SSO - CRC">
+                    <img class="img-fluid w-100 h-100" style="object-fit: cover; min-height: 400px;" src="/img/servicios/planEstrategico/PESV_sso-crc.png" alt="Plan Estratégico de Seguridad Vial SSO - CRC" loading="lazy">
                 </div>
             </div>
 

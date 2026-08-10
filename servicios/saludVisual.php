@@ -2,6 +2,7 @@
 <html lang="es">
 
 <head>
+    <?php include '../html/analytics.html'; ?>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="shortcut icon" href="/img/logo.ico" />
@@ -53,7 +54,7 @@
 
         <div class="row align-items-center mb-5">
             <div class="col-lg-4 mb-4 mb-lg-0">
-                <img class="img-fluid rounded shadow-sm w-100" src="/img/servicios/saludVisual/valor-de-optometria-ssobq.jpg" alt="Optometría">
+                <img class="img-fluid rounded shadow-sm w-100" src="/img/servicios/saludVisual/valor-de-optometria-ssobq.jpg" alt="Optometría" loading="lazy">
             </div>
 
             <div class="col-lg-8">
@@ -90,7 +91,7 @@
         <div class="row mt-4">
             <div class="col-12">
                 <div class="card border-0 shadow-sm overflow-hidden" style="border-radius: 15px;">
-                    <img class="img-fluid w-100" src="/img/servicios/saludVisual/monturas-de-gafas-ssobq.jpg" alt="Monturas de gafas">
+                    <img class="img-fluid w-100" src="/img/servicios/saludVisual/monturas-de-gafas-ssobq.jpg" alt="Monturas de gafas" loading="lazy">
                 </div>
             </div>
         </div>

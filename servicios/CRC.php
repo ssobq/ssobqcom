@@ -2,6 +2,7 @@
 <html lang="es">
 
 <head>
+    <?php include '../html/analytics.html'; ?>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="shortcut icon" href="/img/logo.ico" />
@@ -10,7 +11,6 @@
 
     <link rel="stylesheet" href="/css/stylo.css">
 
-    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
     <script src="https://kit.fontawesome.com/cf867249a1.js" crossorigin="anonymous"></script>
 
     <title>Centro de Reconocimiento de Conductores (CRC) | SSO</title>
@@ -68,7 +68,7 @@
         
         <div class="row mb-5 text-center">
             <div class="col-12">
-                <img class="img-fluid shadow-sm" src="/img/servicios/CRC/CRC.png" alt="Centro de Reconocimiento de Conductores SSO" style="border-radius: 15px; width: 100%; max-height: 300px; object-fit: cover;">
+                <img class="img-fluid shadow-sm" src="/img/servicios/CRC/CRC.png" alt="Centro de Reconocimiento de Conductores SSO" style="border-radius: 15px; width: 100%; max-height: 300px; object-fit: cover;" loading="lazy">
             </div>
         </div>
 
@@ -97,28 +97,28 @@
             
             <div class="col-12 col-sm-6 col-lg-3 mb-4">
                 <div class="card bg-white border-0 shadow-sm h-100 p-4 exam-card">
-                    <img class="img-fluid mx-auto mb-3" src="/img/servicios/CRC/Psicosensometrica.png" alt="Psicología" style="max-height: 80px;">
+                    <img class="img-fluid mx-auto mb-3" src="/img/servicios/CRC/Psicosensometrica.png" alt="Psicología" style="max-height: 80px;" loading="lazy">
                     <h6 class="font-weight-bold text-corporate-blue mt-auto mb-0" style="transition: color 0.3s ease;">Psicología y Coordinación Motriz</h6>
                 </div>
             </div>
 
             <div class="col-12 col-sm-6 col-lg-3 mb-4">
                 <div class="card bg-white border-0 shadow-sm h-100 p-4 exam-card">
-                    <img class="img-fluid mx-auto mb-3" src="/img/servicios/CRC/optometria.png" alt="Optometría" style="max-height: 80px;">
+                    <img class="img-fluid mx-auto mb-3" src="/img/servicios/CRC/optometria.png" alt="Optometría" style="max-height: 80px;" loading="lazy">
                     <h6 class="font-weight-bold text-corporate-blue mt-auto mb-0" style="transition: color 0.3s ease;">Optometría</h6>
                 </div>
             </div>
 
             <div class="col-12 col-sm-6 col-lg-3 mb-4">
                 <div class="card bg-white border-0 shadow-sm h-100 p-4 exam-card">
-                    <img class="img-fluid mx-auto mb-3" src="/img/servicios/CRC/Audiometria.png" alt="Fonoaudiología" style="max-height: 80px;">
+                    <img class="img-fluid mx-auto mb-3" src="/img/servicios/CRC/Audiometria.png" alt="Fonoaudiología" style="max-height: 80px;" loading="lazy">
                     <h6 class="font-weight-bold text-corporate-blue mt-auto mb-0" style="transition: color 0.3s ease;">Fonoaudiología</h6>
                 </div>
             </div>
 
             <div class="col-12 col-sm-6 col-lg-3 mb-4">
                 <div class="card bg-white border-0 shadow-sm h-100 p-4 exam-card">
-                    <img class="img-fluid mx-auto mb-3" src="/img/servicios/CRC/Examen-medico.png" alt="Medicina General" style="max-height: 80px;">
+                    <img class="img-fluid mx-auto mb-3" src="/img/servicios/CRC/Examen-medico.png" alt="Medicina General" style="max-height: 80px;" loading="lazy">
                     <h6 class="font-weight-bold text-corporate-blue mt-auto mb-0" style="transition: color 0.3s ease;">Medicina General</h6>
                 </div>
             </div>

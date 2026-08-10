@@ -2,6 +2,7 @@
 <html lang="es">
 
 <head>
+    <?php include '../html/analytics.html'; ?>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="shortcut icon" href="/img/logo.ico" />
@@ -10,7 +11,6 @@
 
     <link rel="stylesheet" href="/css/stylo.css">
 
-    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
     <script src="https://kit.fontawesome.com/cf867249a1.js" crossorigin="anonymous"></script>
 
     <title>Exámenes Paraclínicos | SSO - CRC</title>

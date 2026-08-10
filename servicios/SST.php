@@ -2,6 +2,7 @@
 <html lang="es">
 
 <head>
+    <?php include '../html/analytics.html'; ?>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="shortcut icon" href="/img/logo.ico" />
@@ -81,7 +82,7 @@
 
             <div class="col-lg-5 mt-4 mt-lg-0">
                 <div class="shadow-sm rounded overflow-hidden">
-                    <img class="img-fluid w-100" src="/img/servicios/sst/compania-sst-ssobq.jpg" alt="Especialistas en SST SSO - CRC">
+                    <img class="img-fluid w-100" src="/img/servicios/sst/compania-sst-ssobq.jpg" alt="Especialistas en SST SSO - CRC" loading="lazy">
                 </div>
                 <div class="alert mt-3 text-center" style="background-color: #004085; color: white;">
                     <i class="fa-solid fa-user-doctor mr-2"></i> <strong>Equipo experto a su servicio</strong>

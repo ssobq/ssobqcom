@@ -2,6 +2,7 @@
 <html lang="es">
 
 <head>
+    <?php include 'html/analytics.html'; ?>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="shortcut icon" href="img/logo.ico" />
@@ -24,7 +25,6 @@
     <meta property="og:url" content="https://www.ssobq.com/">
     <meta property="og:image" content="https://www.ssobq.com/img/logo.png">
 
-    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
     <script src="https://kit.fontawesome.com/cf867249a1.js" crossorigin="anonymous"></script>
 
     <title>Servicios | SSO - CRC</title>
@@ -50,7 +50,7 @@
                 <a href="/servicios/examenesOcupacional.php" class="text-decoration-none text-dark h-100 d-block">
                     <div class="card service-card h-100 border-0 shadow-sm text-center px-2 py-4">
                         <div class="card-body d-flex flex-column justify-content-center align-items-center">
-                            <img class="img-fluid mb-3 imgServicios" src="img/servicios/menu/Exámenes-Ocupacionales-sso-crc.svg" alt="Exámenes Ocupacionales" style="height: 80px;">
+                            <img class="img-fluid mb-3 imgServicios" src="img/servicios/menu/Exámenes-Ocupacionales-sso-crc.svg" alt="Exámenes Ocupacionales" style="height: 80px;" loading="lazy">
                             <h5 class="font-weight-bold text-color-corporate mb-0">Exámenes Ocupacionales</h5>
                         </div>
                     </div>
@@ -61,7 +61,7 @@
                 <a href="/servicios/examenesParaclinicos.php" class="text-decoration-none text-dark h-100 d-block">
                     <div class="card service-card h-100 border-0 shadow-sm text-center px-2 py-4">
                         <div class="card-body d-flex flex-column justify-content-center align-items-center">
-                            <img class="img-fluid mb-3 imgServicios" src="img/servicios/menu/Exámenes-Paraclínicos-sso-crc.svg" alt="Exámenes Paraclínicos" style="height: 80px;">
+                            <img class="img-fluid mb-3 imgServicios" src="img/servicios/menu/Exámenes-Paraclínicos-sso-crc.svg" alt="Exámenes Paraclínicos" style="height: 80px;" loading="lazy">
                             <h5 class="font-weight-bold text-color-corporate mb-0">Exámenes Paraclínicos</h5>
                         </div>
                     </div>
@@ -72,7 +72,7 @@
                 <a href="/servicios/examenesLaboratorio.php" class="text-decoration-none text-dark h-100 d-block">
                     <div class="card service-card h-100 border-0 shadow-sm text-center px-2 py-4">
                         <div class="card-body d-flex flex-column justify-content-center align-items-center">
-                            <img class="img-fluid mb-3 imgServicios" src="img/servicios/menu/Exámenes-de-Laboratorio-sso-crc.svg" alt="Exámenes de Laboratorio" style="height: 80px;">
+                            <img class="img-fluid mb-3 imgServicios" src="img/servicios/menu/Exámenes-de-Laboratorio-sso-crc.svg" alt="Exámenes de Laboratorio" style="height: 80px;" loading="lazy">
                             <h5 class="font-weight-bold text-color-corporate mb-0">Exámenes de Laboratorio</h5>
                         </div>
                     </div>
@@ -83,7 +83,7 @@
                 <a href="/servicios/psicologica.php" class="text-decoration-none text-dark h-100 d-block">
                     <div class="card service-card h-100 border-0 shadow-sm text-center px-2 py-4">
                         <div class="card-body d-flex flex-column justify-content-center align-items-center">
-                            <img class="img-fluid mb-3 imgServicios" src="img/servicios/menu/Pruebas-Psicológicas-sso-crc.svg" alt="Pruebas Psicológicas" style="height: 80px;">
+                            <img class="img-fluid mb-3 imgServicios" src="img/servicios/menu/Pruebas-Psicológicas-sso-crc.svg" alt="Pruebas Psicológicas" style="height: 80px;" loading="lazy">
                             <h5 class="font-weight-bold text-color-corporate mb-0">Pruebas Psicológicas</h5>
                         </div>
                     </div>
@@ -94,7 +94,7 @@
                 <a href="/servicios/paquetes.php" class="text-decoration-none text-dark h-100 d-block">
                     <div class="card service-card h-100 border-0 shadow-sm text-center px-2 py-4">
                         <div class="card-body d-flex flex-column justify-content-center align-items-center">
-                            <img class="img-fluid mb-3 imgServicios" src="img/servicios/menu/Paquetes-de-Exámenes-sso-crc.svg" alt="Paquetes de Exámenes" style="height: 80px;">
+                            <img class="img-fluid mb-3 imgServicios" src="img/servicios/menu/Paquetes-de-Exámenes-sso-crc.svg" alt="Paquetes de Exámenes" style="height: 80px;" loading="lazy">
                             <h5 class="font-weight-bold text-color-corporate mb-0">Paquetes de Exámenes</h5>
                         </div>
                     </div>
@@ -105,7 +105,7 @@
                 <a href="/servicios/vacunacion.php" class="text-decoration-none text-dark h-100 d-block">
                     <div class="card service-card h-100 border-0 shadow-sm text-center px-2 py-4">
                         <div class="card-body d-flex flex-column justify-content-center align-items-center">
-                            <img class="img-fluid mb-3 imgServicios" src="img/servicios/menu/Vacunación-sso-crc.svg" alt="Vacunación" style="height: 80px;">
+                            <img class="img-fluid mb-3 imgServicios" src="img/servicios/menu/Vacunación-sso-crc.svg" alt="Vacunación" style="height: 80px;" loading="lazy">
                             <h5 class="font-weight-bold text-color-corporate mb-0">Vacunación</h5>
                         </div>
                     </div>
@@ -116,7 +116,7 @@
                 <a href="/servicios/saludVisual.php" class="text-decoration-none text-dark h-100 d-block">
                     <div class="card service-card h-100 border-0 shadow-sm text-center px-2 py-4">
                         <div class="card-body d-flex flex-column justify-content-center align-items-center">
-                            <img class="img-fluid mb-3 imgServicios" src="img/servicios/menu/Salud-Visual-sso-crc.svg" alt="Salud Visual" style="height: 80px;">
+                            <img class="img-fluid mb-3 imgServicios" src="img/servicios/menu/Salud-Visual-sso-crc.svg" alt="Salud Visual" style="height: 80px;" loading="lazy">
                             <h5 class="font-weight-bold text-color-corporate mb-0">Salud Visual</h5>
                         </div>
                     </div>
@@ -127,7 +127,7 @@
                 <a href="/servicios/CRC.php" class="text-decoration-none text-dark h-100 d-block">
                     <div class="card service-card h-100 border-0 shadow-sm text-center px-2 py-4">
                         <div class="card-body d-flex flex-column justify-content-center align-items-center">
-                            <img class="img-fluid mb-3 imgServicios" src="img/servicios/menu/CRC-sso-crc.svg" alt="CRC" style="height: 80px;">
+                            <img class="img-fluid mb-3 imgServicios" src="img/servicios/menu/CRC-sso-crc.svg" alt="CRC" style="height: 80px;" loading="lazy">
                             <h5 class="font-weight-bold text-color-corporate mb-0">Reconocimiento de Conductores (CRC)</h5>
                         </div>
                     </div>
@@ -138,7 +138,7 @@
                 <a href="/servicios/APT.php" class="text-decoration-none text-dark h-100 d-block">
                     <div class="card service-card h-100 border-0 shadow-sm text-center px-2 py-4">
                         <div class="card-body d-flex flex-column justify-content-center align-items-center">
-                            <img class="img-fluid mb-3 imgServicios" src="img/servicios/menu/servicios-APT-sso-crc.svg" alt="Análisis puestos de trabajo" style="height: 80px;">
+                            <img class="img-fluid mb-3 imgServicios" src="img/servicios/menu/servicios-APT-sso-crc.svg" alt="Análisis puestos de trabajo" style="height: 80px;" loading="lazy">
                             <h5 class="font-weight-bold text-color-corporate mb-0">Análisis Puestos de Trabajo</h5>
                         </div>
                     </div>
@@ -149,7 +149,7 @@
                 <a href="/servicios/planEstrategico.php" class="text-decoration-none text-dark h-100 d-block">
                     <div class="card service-card h-100 border-0 shadow-sm text-center px-2 py-4">
                         <div class="card-body d-flex flex-column justify-content-center align-items-center">
-                            <img class="img-fluid mb-3 imgServicios" src="img/servicios/menu/PLAN-ESTRATÉGICO-sso-crc.svg" alt="Plan Estratégico Seguridad Vial" style="height: 80px;">
+                            <img class="img-fluid mb-3 imgServicios" src="img/servicios/menu/PLAN-ESTRATÉGICO-sso-crc.svg" alt="Plan Estratégico Seguridad Vial" style="height: 80px;" loading="lazy">
                             <h5 class="font-weight-bold text-color-corporate mb-0">Plan Estratégico Seguridad Vial</h5>
                         </div>
                     </div>
@@ -160,7 +160,7 @@
                 <a href="/servicios/bateria.php" class="text-decoration-none text-dark h-100 d-block">
                     <div class="card service-card h-100 border-0 shadow-sm text-center px-2 py-4">
                         <div class="card-body d-flex flex-column justify-content-center align-items-center">
-                            <img class="img-fluid mb-3 imgServicios" src="img/servicios/menu/BATERIA-RIESGO-PSICOSOCIAL-sso-crc.svg" alt="Riesgos Psicosociales" style="height: 80px;">
+                            <img class="img-fluid mb-3 imgServicios" src="img/servicios/menu/BATERIA-RIESGO-PSICOSOCIAL-sso-crc.svg" alt="Riesgos Psicosociales" style="height: 80px;" loading="lazy">
                             <h5 class="font-weight-bold text-color-corporate mb-0">Batería de Riesgos Psicosociales</h5>
                         </div>
                     </div>
@@ -171,7 +171,7 @@
                 <a href="/servicios/SST.php" class="text-decoration-none text-dark h-100 d-block">
                     <div class="card service-card h-100 border-0 shadow-sm text-center px-2 py-4">
                         <div class="card-body d-flex flex-column justify-content-center align-items-center">
-                            <img class="img-fluid mb-3 imgServicios" src="img/servicios/menu/Acompañamiento-por-nuestros-especialistas-en-sst-ssobq-crc.svg" alt="Acompañamiento SST" style="height: 80px;">
+                            <img class="img-fluid mb-3 imgServicios" src="img/servicios/menu/Acompañamiento-por-nuestros-especialistas-en-sst-ssobq-crc.svg" alt="Acompañamiento SST" style="height: 80px;" loading="lazy">
                             <h5 class="font-weight-bold text-color-corporate mb-0">Acompañamiento en SST</h5>
                         </div>
                     </div>

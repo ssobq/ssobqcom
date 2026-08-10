@@ -8,9 +8,9 @@
     <link rel="shortcut icon" href="img/favicon.ico" />
     <link rel="shortcut icon" href="img/favicon.png">
 
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 
-    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@2.3.4/dist/aos.css" />
 
     <link rel="stylesheet" href="css/stylo.css">
     <link rel="stylesheet" href="css/index-servicio.css">
@@ -29,7 +29,6 @@
     <meta property="og:image" content="https://www.ssobq.com/img/logo.png">
     <meta property="og:image:secure_url" content="https://www.ssobq.com/img/logo.png">
 
-    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
     <script src="https://kit.fontawesome.com/cf867249a1.js" crossorigin="anonymous"></script>
 
     <title>SSO - CRC Servicios de Salud Ocupacional</title>
@@ -37,16 +36,7 @@
     <meta name="sitelock-site-verification" content="7947" />
     <meta name="google-site-verification" content="PMbjD96NUeb_WmZZaNueqxxDQiH_kU5IXAGHMon5BQ0" />
 
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-163788233-1"></script>
-    <script>
-        window.dataLayer = window.dataLayer || [];
-
-        function gtag() {
-            dataLayer.push(arguments);
-        }
-        gtag('js', new Date());
-        gtag('config', 'UA-163788233-1');
-    </script>
+    <?php include 'html/analytics.html'; ?>
 
     <style>
         /* Estilos de modernización e interacción */
@@ -99,6 +89,8 @@
     <?php include 'html/wa/index.html'; ?>
     <?php include 'html/nav.html'; ?>
 
+    <h1 class="sr-only">SSO - CRC Servicios de Salud Ocupacional en Barranquilla</h1>
+
     <header>
         <div id="carouselExample" class="carousel slide shadow-sm" data-ride="carousel" data-interval="2700">
             <ol class="carousel-indicators">
@@ -149,7 +141,7 @@
                 <div class="col-12 col-sm-6 col-md-4 col-lg-2 mb-4">
                     <div class="icon-box bg-white h-100 p-3 shadow-sm rounded service-hover-card" data-aos="fade-up" data-aos-delay="100">
                         <a href="https://www.ssobq.com/servicios/examenesOcupacional.php" class="text-decoration-none text-dark">
-                            <div class="icon text-center mb-3"><img class="img-fluid imgServicio" src="img/servicios/menu/Exámenes-Ocupacionales-sso-crc.svg" alt="Exámenes Ocupacionales sso - crc" style="max-height: 60px;"></div>
+                            <div class="icon text-center mb-3"><img class="img-fluid imgServicio" src="img/servicios/menu/Exámenes-Ocupacionales-sso-crc.svg" alt="Exámenes Ocupacionales sso - crc" style="max-height: 60px;" loading="lazy"></div>
                             <h5 class="title font-weight-bold" style="color: #00519d; transition: color 0.3s;">Exámenes Ocupacionales</h5>
                             <p class="description small text-danger font-weight-bold mb-0 mt-2">Conoce más >></p>
                         </a>
@@ -159,7 +151,7 @@
                 <div class="col-12 col-sm-6 col-md-4 col-lg-2 mb-4">
                     <div class="icon-box bg-white h-100 p-3 shadow-sm rounded service-hover-card" data-aos="fade-up" data-aos-delay="200">
                         <a href="https://www.ssobq.com/servicios/examenesLaboratorio.php" class="text-decoration-none text-dark">
-                            <div class="icon text-center mb-3"><img class="img-fluid imgServicio" src="img/servicios/menu/Exámenes-de-Laboratorio-sso-crc.svg" alt="Exámenes de Laboratorio SSO - CRC" style="max-height: 60px;"></div>
+                            <div class="icon text-center mb-3"><img class="img-fluid imgServicio" src="img/servicios/menu/Exámenes-de-Laboratorio-sso-crc.svg" alt="Exámenes de Laboratorio SSO - CRC" style="max-height: 60px;" loading="lazy"></div>
                             <h5 class="title font-weight-bold" style="color: #00519d; transition: color 0.3s;">Exámenes de Laboratorio</h5>
                             <p class="description small text-danger font-weight-bold mb-0 mt-2">Conoce más >></p>
                         </a>
@@ -169,7 +161,7 @@
                 <div class="col-12 col-sm-6 col-md-4 col-lg-2 mb-4">
                     <div class="icon-box bg-white h-100 p-3 shadow-sm rounded service-hover-card" data-aos="fade-up" data-aos-delay="300">
                         <a href="https://www.ssobq.com/servicios/vacunacion.php" class="text-decoration-none text-dark">
-                            <div class="icon text-center mb-3"><img class="img-fluid imgServicio" src="img/servicios/menu/Vacunación-sso-crc.svg" alt="Vacunación sso - crc" style="max-height: 60px;"></div>
+                            <div class="icon text-center mb-3"><img class="img-fluid imgServicio" src="img/servicios/menu/Vacunación-sso-crc.svg" alt="Vacunación sso - crc" style="max-height: 60px;" loading="lazy"></div>
                             <h5 class="title font-weight-bold" style="color: #00519d; transition: color 0.3s;">Vacunación</h5>
                             <p class="description small text-danger font-weight-bold mb-0 mt-2">Conoce más >></p>
                         </a>
@@ -179,7 +171,7 @@
                 <div class="col-12 col-sm-6 col-md-4 col-lg-2 mb-4">
                     <div class="icon-box bg-white h-100 p-3 shadow-sm rounded service-hover-card" data-aos="fade-up" data-aos-delay="400">
                         <a href="https://www.ssobq.com/servicios/saludVisual.php" class="text-decoration-none text-dark">
-                            <div class="icon text-center mb-3"> <img class="img-fluid imgServicio" src="img/servicios/menu/Salud-Visual-sso-crc.svg" alt="Salud Visual sso - crc" style="max-height: 60px;"></div>
+                            <div class="icon text-center mb-3"> <img class="img-fluid imgServicio" src="img/servicios/menu/Salud-Visual-sso-crc.svg" alt="Salud Visual sso - crc" style="max-height: 60px;" loading="lazy"></div>
                             <h5 class="title font-weight-bold" style="color: #00519d; transition: color 0.3s;">Exámenes Visuales</h5>
                             <p class="description small text-danger font-weight-bold mb-0 mt-2">Conoce más >></p>
                         </a>
@@ -189,7 +181,7 @@
                 <div class="col-12 col-sm-6 col-md-4 col-lg-2 mb-4">
                     <div class="icon-box bg-white h-100 p-3 shadow-sm rounded service-hover-card" data-aos="fade-up" data-aos-delay="500">
                         <a href="https://www.ssobq.com/servicios/CRC.php" class="text-decoration-none text-dark">
-                            <div class="icon text-center mb-3"> <img class="img-fluid imgServicio" src="img/servicios/menu/CRC-sso-crc.svg" alt="CRC sso - crc" style="max-height: 60px;"></div>
+                            <div class="icon text-center mb-3"> <img class="img-fluid imgServicio" src="img/servicios/menu/CRC-sso-crc.svg" alt="CRC sso - crc" style="max-height: 60px;" loading="lazy"></div>
                             <h5 class="title font-weight-bold" style="color: #00519d; transition: color 0.3s;">Trámites CRC</h5>
                             <p class="description small text-danger font-weight-bold mb-0 mt-2">Conoce más >></p>
                         </a>
@@ -199,7 +191,7 @@
                 <div class="col-12 col-sm-6 col-md-4 col-lg-2 mb-4">
                     <div class="icon-box bg-white h-100 p-3 shadow-sm rounded service-hover-card" data-aos="fade-up" data-aos-delay="600">
                         <a href="https://www.ssobq.com/servicios.php" class="text-decoration-none text-dark">
-                            <div class="icon text-center mb-3"> <img class="img-fluid imgServicio" src="img/servicios/menu/mas-sso-crc.svg" alt="Servicios sso - crc" style="max-height: 60px;"></div>
+                            <div class="icon text-center mb-3"> <img class="img-fluid imgServicio" src="img/servicios/menu/mas-sso-crc.svg" alt="Servicios sso - crc" style="max-height: 60px;" loading="lazy"></div>
                             <h5 class="title font-weight-bold" style="color: #00519d; transition: color 0.3s;">Todos nuestros servicios</h5>
                             <p class="description small text-danger font-weight-bold mb-0 mt-2">Conoce más >></p>
                         </a>
@@ -297,9 +289,9 @@
     <script src="https://static.elfsight.com/platform/platform.js" data-use-service-core defer></script>
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
 
-    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
     <script>
         AOS.init({
             once: true

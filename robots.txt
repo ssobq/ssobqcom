@@ -5,9 +5,7 @@ Allow: /servicios/
 Allow: /html/
 
 # Bloqueamos solo lo que es estrictamente privado o de sistema
-Disallow: /html/servicios/
 Disallow: /nogooglebot/
-Disallow: /img/
 
 # Indicamos dónde está tu sitemap actualizado
 Sitemap: https://www.ssobq.com/sitemap.xml

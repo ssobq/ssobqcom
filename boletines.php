@@ -2,6 +2,7 @@
 <html lang="es">
 
 <head>
+    <?php include 'html/analytics.html'; ?>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="shortcut icon" sizes="16x16 24x24 32x32 48x48 64x64" href="img/logo.ico" />
@@ -11,7 +12,6 @@
 
     <link rel="stylesheet" href="css/stylo.css">
 
-    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
     <script src="https://kit.fontawesome.com/cf867249a1.js" crossorigin="anonymous"></script>
 
     <title>Boletines Informativos | SSO - CRC</title>
@@ -62,14 +62,14 @@
                     <div class="card-body d-flex flex-column text-center p-4">
 
                         <!-- Aquí insertas tu miniatura -->
-                        <img src="/img/portada-boletines/portada-boletin-54.jpg" alt="Boletín 54" class="boletin-img">
+                        <img src="/img/portada-boletines/portada-boletin-54.jpg" alt="Boletín 54" class="boletin-img" loading="lazy">
 
                         <h5 class="card-title font-weight-bold" style="color: #004085;">Boletín edición N. 54</h5>
                         <p class="card-text text-secondary flex-grow-1" style="font-size: 0.95rem;">Descubra cómo transformar la seguridad del trabajador en un pilar de productividad y cumplimiento legal para su empresa en nuestra Edición N° 54.</p>
-                        <span class="text-muted small mb-4 d-block font-weight-bold"><i class="fa fa-calendar text-corporate-red mr-1"></i> Publicado: Julio, 2026</span>
+                        <span class="text-muted small mb-4 d-block font-weight-bold"><i class="fa-solid fa-calendar text-corporate-red mr-1"></i> Publicado: Julio, 2026</span>
 
                         <a href="#modalBoletin1" data-toggle="modal" class="btn btn-block text-white font-weight-bold rounded-pill shadow-sm transition-btn mt-auto" style="background-color: #004085; padding: 10px 0;">
-                            <i class="fa fa-eye mr-1"></i> Visualizar Boletín
+                            <i class="fa-solid fa-eye mr-1"></i> Visualizar Boletín
                         </a>
                     </div>
                 </div>
@@ -82,20 +82,42 @@
                     <div class="card-body d-flex flex-column text-center p-4">
 
                         <!-- Aquí insertas tu miniatura -->
-                        <img src="/img/portada-boletines/portada-boletin-53.jpg" alt="Boletín 53" class="boletin-img">
+                        <img src="/img/portada-boletines/portada-boletin-53.jpg" alt="Boletín 53" class="boletin-img" loading="lazy">
 
                         <h5 class="card-title font-weight-bold" style="color: #004085;">Boletín edición N. 53</h5>
                         <p class="card-text text-secondary flex-grow-1" style="font-size: 0.95rem;">Conoce estrategias prácticas, pausas activas y técnicas para manejar el estrés en nuestra Edición N° 53. ¡Fortalece tu cultura preventiva hoy!</p>
-                        <span class="text-muted small mb-4 d-block font-weight-bold"><i class="fa fa-calendar text-corporate-red mr-1"></i> Publicado: Junio, 2026</span>
+                        <span class="text-muted small mb-4 d-block font-weight-bold"><i class="fa-solid fa-calendar text-corporate-red mr-1"></i> Publicado: Junio, 2026</span>
 
                         <a href="#modalBoletin2" data-toggle="modal" class="btn btn-block text-white font-weight-bold rounded-pill shadow-sm transition-btn mt-auto" style="background-color: #004085; padding: 10px 0;">
-                            <i class="fa fa-eye mr-1"></i> Visualizar Boletín
+                            <i class="fa-solid fa-eye mr-1"></i> Visualizar Boletín
                         </a>
                     </div>
                 </div>
             </div>
 
+<<<<<<< HEAD
             
+=======
+            <!-- Tarjeta boletin 3 -->
+
+            <div class="col-12 col-md-6 col-lg-4 mb-4">
+                <div class="card h-100 shadow-sm border-0 doc-card" style="border-radius: 15px;">
+                    <div class="card-body d-flex flex-column text-center p-4">
+
+                        <!-- Aquí insertas tu miniatura -->
+                        <img src="/img/portada-boletines/portada-boletin-52.jpg" alt="Boletín 52" class="boletin-img" loading="lazy">
+
+                        <h5 class="card-title font-weight-bold" style="color: #004085;">Boletín edición N. 52</h5>
+                        <p class="card-text text-secondary flex-grow-1" style="font-size: 0.95rem;">Descubra las claves para una comunicación asertiva, el poder del lenguaje corporal y cómo alcanzar la excelencia en el servicio al usuario.</p>
+                        <span class="text-muted small mb-4 d-block font-weight-bold"><i class="fa-solid fa-calendar text-corporate-red mr-1"></i> Publicado: Mayo, 2026</span>
+
+                        <a href="#modalBoletin3" data-toggle="modal" class="btn btn-block text-white font-weight-bold rounded-pill shadow-sm transition-btn mt-auto" style="background-color: #004085; padding: 10px 0;">
+                            <i class="fa-solid fa-eye mr-1"></i> Visualizar Boletín
+                        </a>
+                    </div>
+                </div>
+            </div>
+>>>>>>> df693760321dec199dcabfc54cabe35d26bcdec6
         </div>
     </main>
 
