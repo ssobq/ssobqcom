@@ -31,6 +31,36 @@
             </div>
         </div>
 
+        <!-- Bloque de suscripción al boletín -->
+        <div class="row justify-content-center mb-5">
+            <div class="col-12 col-lg-8">
+                <div class="card shadow-sm border-0" style="border-radius: 15px; background-color: #004085;">
+                    <div class="card-body p-4 text-center text-white">
+                        <h5 class="font-weight-bold mb-2"><i class="fa-solid fa-envelope-open-text mr-2"></i>Suscríbete a nuestro boletín</h5>
+                        <p class="mb-3" style="opacity: 0.9;">Recibe cada edición directamente en tu correo, apenas la publiquemos.</p>
+
+                        <form action="https://ssobq.us1.list-manage.com/subscribe/post?u=17a096bab8cc3043ce6babf55&amp;id=06342144e3&amp;f_id=0094c2e1f0" method="post" target="_blank" novalidate class="form-inline justify-content-center">
+                            <label for="mce-EMAIL" class="sr-only">Correo electrónico</label>
+                            <input type="email" name="EMAIL" id="mce-EMAIL" required
+                                class="form-control mr-2 mb-2 mb-md-0"
+                                placeholder="tu@correo.com"
+                                style="border-radius: 50px; min-width: 260px; border: none; padding: 10px 20px;">
+
+                            <!-- Campo anti-spam honeypot de Mailchimp (no tocar) -->
+                            <div style="position: absolute; left: -5000px;" aria-hidden="true">
+                                <input type="text" name="b_17a096bab8cc3043ce6babf55_06342144e3" tabindex="-1" value="">
+                            </div>
+
+                            <button type="submit" class="btn font-weight-bold rounded-pill shadow-sm transition-btn mb-2 mb-md-0"
+                                style="background-color: #e10109; color: #fff; padding: 10px 30px;">
+                                <i class="fa-solid fa-paper-plane mr-1"></i> Suscribirme
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+
         <!-- Tarjeta boletin 1 -->
 
         <div class="row align-items-stretch">
