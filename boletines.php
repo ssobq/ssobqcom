@@ -73,7 +73,7 @@
                     <div class="card-body d-flex flex-column text-center p-4">
 
                         <!-- Aquí insertas tu miniatura -->
-                        <img src="/img/portada-boletines/portada-boletin-55.jpg" alt="Boletín 52" class="boletin-img">
+                        <img src="/img/portada-boletines/portada-boletin-55.jpg" alt="Boletín 55" class="boletin-img">
 
                         <h5 class="card-title font-weight-bold" style="color: #004085;">Boletín edición N. 55</h5>
                         <p class="card-text text-secondary flex-grow-1" style="font-size: 0.95rem;">Descubra las claves para una comunicación asertiva, el poder del lenguaje corporal y cómo alcanzar la excelencia en el servicio al usuario.</p>
@@ -99,7 +99,7 @@
                         <p class="card-text text-secondary flex-grow-1" style="font-size: 0.95rem;">Descubra cómo transformar la seguridad del trabajador en un pilar de productividad y cumplimiento legal para su empresa en nuestra Edición N° 54.</p>
                         <span class="text-muted small mb-4 d-block font-weight-bold"><i class="fa-solid fa-calendar text-corporate-red mr-1"></i> Publicado: Julio, 2026</span>
 
-                        <a href="#modalBoletin1" data-toggle="modal" class="btn btn-block text-white font-weight-bold rounded-pill shadow-sm transition-btn mt-auto" style="background-color: #004085; padding: 10px 0;">
+                        <a href="#modalBoletin2" data-toggle="modal" class="btn btn-block text-white font-weight-bold rounded-pill shadow-sm transition-btn mt-auto" style="background-color: #004085; padding: 10px 0;">
                             <i class="fa-solid fa-eye mr-1"></i> Visualizar Boletín
                         </a>
                     </div>
@@ -119,7 +119,7 @@
                         <p class="card-text text-secondary flex-grow-1" style="font-size: 0.95rem;">Conoce estrategias prácticas, pausas activas y técnicas para manejar el estrés en nuestra Edición N° 53. ¡Fortalece tu cultura preventiva hoy!</p>
                         <span class="text-muted small mb-4 d-block font-weight-bold"><i class="fa-solid fa-calendar text-corporate-red mr-1"></i> Publicado: Junio, 2026</span>
 
-                        <a href="#modalBoletin2" data-toggle="modal" class="btn btn-block text-white font-weight-bold rounded-pill shadow-sm transition-btn mt-auto" style="background-color: #004085; padding: 10px 0;">
+                        <a href="#modalBoletin3" data-toggle="modal" class="btn btn-block text-white font-weight-bold rounded-pill shadow-sm transition-btn mt-auto" style="background-color: #004085; padding: 10px 0;">
                             <i class="fa-solid fa-eye mr-1"></i> Visualizar Boletín
                         </a>
                     </div>
