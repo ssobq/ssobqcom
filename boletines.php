@@ -145,7 +145,7 @@
                     </button>
                 </div>
                 <div class="modal-body p-0">
-                    <iframe src="pdf/Boletines/boletin-agosto-2026-55.pdf" width="100%" height="600px" style="border: none;"></iframe>
+                    <iframe src="pdf/Boletines/boletin-julio-2026.pdf" width="100%" height="600px" style="border: none;"></iframe>
                 </div>
             </div>
         </div>
@@ -164,7 +164,7 @@
                     </button>
                 </div>
                 <div class="modal-body p-0">
-                    <iframe src="pdf/Boletines/boletin-julio-2026.pdf" width="100%" height="600px" style="border: none;"></iframe>
+                    <iframe src="pdf/Boletines/boletin-julio-2026-original.pdf" width="100%" height="600px" style="border: none;"></iframe>
                 </div>
             </div>
         </div>
