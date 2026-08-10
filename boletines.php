@@ -124,28 +124,8 @@
                         </a>
                     </div>
                 </div>
-            </div>
-
-            
-            <!-- Tarjeta boletin 3 -->
-
-            <div class="col-12 col-md-6 col-lg-4 mb-4">
-                <div class="card h-100 shadow-sm border-0 doc-card" style="border-radius: 15px;">
-                    <div class="card-body d-flex flex-column text-center p-4">
-
-                        <!-- Aquí insertas tu miniatura -->
-                        <img src="/img/portada-boletines/portada-boletin-52.jpg" alt="Boletín 52" class="boletin-img" loading="lazy">
-
-                        <h5 class="card-title font-weight-bold" style="color: #004085;">Boletín edición N. 52</h5>
-                        <p class="card-text text-secondary flex-grow-1" style="font-size: 0.95rem;">Descubra las claves para una comunicación asertiva, el poder del lenguaje corporal y cómo alcanzar la excelencia en el servicio al usuario.</p>
-                        <span class="text-muted small mb-4 d-block font-weight-bold"><i class="fa-solid fa-calendar text-corporate-red mr-1"></i> Publicado: Mayo, 2026</span>
-
-                        <a href="#modalBoletin3" data-toggle="modal" class="btn btn-block text-white font-weight-bold rounded-pill shadow-sm transition-btn mt-auto" style="background-color: #004085; padding: 10px 0;">
-                            <i class="fa-solid fa-eye mr-1"></i> Visualizar Boletín
-                        </a>
-                    </div>
-                </div>
-            </div>
+            </div>            
+                        
         </div>
     </main>
 
