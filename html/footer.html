@@ -174,14 +174,32 @@
             if (el) el.style.display = 'none';
         }
 
+        function mostrar() {
+            var banner = document.getElementById('cookie-consent');
+            if (banner) banner.style.display = 'block';
+        }
+
         function init() {
             var banner = document.getElementById('cookie-consent');
             if (!banner) return;
-            banner.style.display = 'block';
+
             var aceptar = document.getElementById('cc-accept');
             var rechazar = document.getElementById('cc-reject');
             if (aceptar) aceptar.addEventListener('click', function () { guardar('aceptado'); ocultar(); });
             if (rechazar) rechazar.addEventListener('click', function () { guardar('rechazado'); ocultar(); });
+
+            // Si hay un comunicado modal en la página, esperamos a que se cierre
+            // para no encimar los dos avisos (se aprecia sobre todo en móvil).
+            var modal = document.getElementById('modalComunicado');
+            if (modal && window.jQuery) {
+                window.jQuery(modal).one('hidden.bs.modal', mostrar);
+                // Respaldo: si el modal no llega a abrirse, mostramos el banner igual.
+                setTimeout(function () {
+                    if (!modal.classList.contains('show')) mostrar();
+                }, 4000);
+            } else {
+                mostrar();
+            }
         }
 
         if (document.readyState === 'loading') {
