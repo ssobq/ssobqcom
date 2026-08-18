@@ -13,7 +13,8 @@
 
     <script src="https://kit.fontawesome.com/cf867249a1.js" crossorigin="anonymous"></script>
 
-    <title>Centro de Reconocimiento de Conductores (CRC) | SSO</title>
+    <title>Centro de Reconocimiento de Conductores (CRC) en Barranquilla</title>
+    <meta name="description" content="Certificado de aptitud para licencia de conducción en Barranquilla. Centro de Reconocimiento de Conductores (CRC) de SSO - CRC.">
 
     <style>
         #serviciosNav {

@@ -12,7 +12,7 @@
 
     <link rel="stylesheet" href="css/stylo.css">
 
-    <meta name="description" content="Servicios de salud ocupacional, nuestros servicios, Paquetes de exámenes, Exámenes Paraclínicos, Exámenes de Laboratorio, Pruebas Psicológicas, Pruebas Covid-19, Vacunación, Salud Visual, Acompañamiento por nuestros especialistas en SST">
+    <meta name="description" content="Todos los servicios de salud ocupacional en Barranquilla: exámenes médicos, laboratorio, paraclínicos, CRC, PESV, batería psicosocial y más.">
     <meta name="keywords" content="SSO, sso, Sso, Servicios de salud ocupacional, SSO - CRC Servicios de Salud Ocupacional, Servicios de Salud Ocupacional, CRC, crc Salud Ocupacional, seguridad en el trabajo, sst, SST, medicina en el trabajo, ssobq, ssobqcom, salud en el trabajo, sso barranquilla, salud ocupacional barranquilla, sso Barranquilla, salud ocupacional Barranquilla">
 
     <link rel="canonical" href="https://www.ssobq.com/servicios.php">
@@ -27,7 +27,7 @@
 
     <script src="https://kit.fontawesome.com/cf867249a1.js" crossorigin="anonymous"></script>
 
-    <title>Servicios | SSO - CRC</title>
+    <title>Servicios de Salud Ocupacional en Barranquilla | SSO - CRC</title>
 </head>
 
 <body class="bg-light">

@@ -13,7 +13,8 @@
 
     <script src="https://kit.fontawesome.com/cf867249a1.js" crossorigin="anonymous"></script>
 
-    <title>Baterías de riesgo psicosocial | SSO - CRC</title>
+    <title>Batería de Riesgo Psicosocial en Barranquilla | SSO - CRC</title>
+    <meta name="description" content="Aplicación de la batería de riesgo psicosocial en Barranquilla, según la Resolución 2646. Evaluación e informes con SSO - CRC.">
 
     <style>
         /* Estilos específicos de la página */

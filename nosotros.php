@@ -12,14 +12,14 @@
 
     <link rel="stylesheet" href="css/stylo.css">
 
-    <meta name="description" content="SSO es una IPS de mediana complejidad cuyo objetivo fundamental es la prestación de servicios integrales de seguridad y salud en el trabajo con una clara visión profesional y una audaz vocación como elemento importante en el mejoramiento continuo de nuestra institución y colaboradores.">
+    <meta name="description" content="Conoce a SSO - CRC, IPS de salud ocupacional en Barranquilla con experiencia en exámenes médicos, SST y seguridad y salud en el trabajo.">
     <meta name="keywords" content="SSO, sso, Sso, Servicios de salud ocupacional, Servicios de Salud Ocupacional,CRC, crc Salud Ocupacional, seguridad en el trabajo, sst, SST, medicina en el trabajo, ssobq, ssobqcom, salud en el trabajo, sso barranquilla, salud ocupacional barranquilla, sso Barranquilla, salud ocupacional Barranquilla">
 
     <meta name="google-site-verification" content="PMbjD96NUeb_WmZZaNueqxxDQiH_kU5IXAGHMon5BQ0" />
 
     <script src="https://kit.fontawesome.com/cf867249a1.js" crossorigin="anonymous"></script>
 
-    <title>Nosotros | SSO - CRC</title>
+    <title>Nosotros | IPS de Salud Ocupacional en Barranquilla — SSO - CRC</title>
 </head>
 
 <body class="bg-light">

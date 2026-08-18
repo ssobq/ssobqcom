@@ -13,7 +13,8 @@
 
     <script src="https://kit.fontawesome.com/cf867249a1.js" crossorigin="anonymous"></script>
 
-    <title>Exámenes Paraclínicos | SSO - CRC</title>
+    <title>Exámenes Paraclínicos en Barranquilla | SSO - CRC</title>
+    <meta name="description" content="Exámenes paraclínicos ocupacionales en Barranquilla: audiometría, optometría, espirometría, visiometría y electrocardiograma. SSO - CRC.">
 
     <style>
         #serviciosNav {

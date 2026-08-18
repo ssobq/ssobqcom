@@ -10,7 +10,8 @@
     <link rel="stylesheet" href="/css/stylo.css">
     <script src="https://kit.fontawesome.com/cf867249a1.js" crossorigin="anonymous"></script>
 
-    <title>Vacunación | SSO - CRC</title>
+    <title>Vacunación Ocupacional en Barranquilla | SSO - CRC</title>
+    <meta name="description" content="Servicios de vacunación ocupacional en Barranquilla: tétano, hepatitis B, influenza y más para empresas y trabajadores. SSO - CRC.">
 
     <style>
         #serviciosNav { color: #e10109 !important; font-weight: bold; }

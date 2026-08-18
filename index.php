@@ -15,7 +15,7 @@
     <link rel="stylesheet" href="css/stylo.css">
     <link rel="stylesheet" href="css/index-servicio.css">
 
-    <meta name="description" content="SSO - CRC Servicios de Salud Ocupacional es una IPS de mediana complejidad cuyo objetivo fundamental es la prestación de servicios integrales de seguridad y salud en el trabajo con una clara visión profesional y una audaz vocación como elemento importante en el mejoramiento continuo de nuestra institución y colaboradores.">
+    <meta name="description" content="IPS de salud ocupacional en Barranquilla. Exámenes médicos ocupacionales, laboratorio, CRC, batería psicosocial y SST. Agenda con SSO - CRC.">
     <meta name="keywords" content="SSO, sso, Sso, Servicios de salud ocupacional, SSO - CRC Servicios de Salud Ocupacional, Servicios de Salud Ocupacional, CRC, crc Salud Ocupacional, seguridad en el trabajo, sst, SST, medicina en el trabajo, ssobq, ssobqcom, salud en el trabajo, sso barranquilla, salud ocupacional barranquilla, sso Barranquilla, salud ocupacional Barranquilla">
 
     <link rel="canonical" href="https://www.ssobq.com/">
@@ -31,7 +31,7 @@
 
     <script src="https://kit.fontawesome.com/cf867249a1.js" crossorigin="anonymous"></script>
 
-    <title>SSO - CRC Servicios de Salud Ocupacional</title>
+    <title>SSO - CRC | Exámenes Médicos Ocupacionales en Barranquilla</title>
 
     <meta name="sitelock-site-verification" content="7947" />
     <meta name="google-site-verification" content="PMbjD96NUeb_WmZZaNueqxxDQiH_kU5IXAGHMon5BQ0" />

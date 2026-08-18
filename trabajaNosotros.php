@@ -15,7 +15,7 @@
     <link rel="stylesheet" href="css/stylo.css">
 
     <!-- Metadatos Informacion-->
-    <meta name="description" content="Trabaja con nosotros en SSO - CRC Servicios de Salud Ocupacional. Envía tu hoja de vida y únete a nuestro equipo.">
+    <meta name="description" content="Únete al equipo de SSO - CRC en Barranquilla. Envía tu hoja de vida y trabaja en salud ocupacional y seguridad y salud en el trabajo.">
     <meta name="keywords" content="SSO, sso, Sso, Servicios de salud ocupacional, SSO - CRC Servicios de Salud Ocupacional, Servicios de Salud Ocupacional, CRC, crc Salud Ocupacional, seguridad en el trabajo, sst, SST, medicina en el trabajo, ssobq, ssobqcom, salud en el trabajo, sso barranquilla, salud ocupacional barranquilla, sso Barranquilla, salud ocupacional Barranquilla">
     
     <link rel="canonical" href="https://www.ssobq.com/trabajaNosotros.php">
@@ -34,7 +34,7 @@
     <!-- Iconos FontAwesome Modernos -->
     <script src="https://kit.fontawesome.com/cf867249a1.js" crossorigin="anonymous"></script>
 
-    <title>Trabaja con nosotros | SSO - CRC</title>
+    <title>Trabaja con Nosotros | SSO - CRC Barranquilla</title>
 
     <!-- Estilos Inline de la sección -->
     <style>

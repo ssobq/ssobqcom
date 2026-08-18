@@ -13,7 +13,8 @@
 
     <script src="https://kit.fontawesome.com/cf867249a1.js" crossorigin="anonymous"></script>
 
-    <title>Exámenes Ocupacionales | SSO - CRC</title>
+    <title>Exámenes Médicos Ocupacionales en Barranquilla | SSO - CRC</title>
+    <meta name="description" content="Exámenes médicos ocupacionales de ingreso, periódicos y de retiro en Barranquilla. Resultados confiables con SSO - CRC. Agenda tu cita hoy.">
 
     <style>
         #serviciosNav {

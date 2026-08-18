@@ -13,7 +13,8 @@
 
     <script src="https://kit.fontawesome.com/cf867249a1.js" crossorigin="anonymous"></script>
 
-    <title>Plan Estratégico de Seguridad Vial (PESV) | SSO - CRC</title>
+    <title>Plan Estratégico de Seguridad Vial (PESV) en Barranquilla | SSO</title>
+    <meta name="description" content="Diseño e implementación del Plan Estratégico de Seguridad Vial (PESV) en Barranquilla. Cumple la normativa con SSO - CRC.">
 
     <style>
         #serviciosNav {

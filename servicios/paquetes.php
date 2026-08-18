@@ -13,7 +13,8 @@
 
     <script src="https://kit.fontawesome.com/cf867249a1.js" crossorigin="anonymous"></script>
 
-    <title>Paquetes de Servicios | SSO - CRC</title>
+    <title>Paquetes de Exámenes Ocupacionales en Barranquilla | SSO - CRC</title>
+    <meta name="description" content="Paquetes de exámenes médicos ocupacionales para empresas en Barranquilla. Optimiza tiempo y costos con SSO - CRC. Solicita tu cotización.">
 
     <style>
         #serviciosNav {

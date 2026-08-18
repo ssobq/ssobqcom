@@ -13,7 +13,8 @@
 
     <script src="https://kit.fontawesome.com/cf867249a1.js" crossorigin="anonymous"></script>
 
-    <title>Análisis de Puesto de Trabajo (APT) | SSO - CRC</title>
+    <title>Análisis de Puesto de Trabajo (APT) en Barranquilla | SSO - CRC</title>
+    <meta name="description" content="Análisis de puesto de trabajo (APT) en Barranquilla para prevención de riesgos y enfermedad laboral. Estudio ergonómico con SSO - CRC.">
 
     <style>
         /* Estilos específicos de la página */

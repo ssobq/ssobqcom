@@ -13,7 +13,8 @@
 
     <script src="https://kit.fontawesome.com/cf867249a1.js" crossorigin="anonymous"></script>
 
-    <title>Exámenes de Laboratorio | SSO - CRC</title>
+    <title>Exámenes de Laboratorio Clínico en Barranquilla | SSO - CRC</title>
+    <meta name="description" content="Exámenes de laboratorio clínico para procesos ocupacionales en Barranquilla: hemograma, glicemia, perfil lipídico y más. SSO - CRC.">
 
     <style>
         #serviciosNav {

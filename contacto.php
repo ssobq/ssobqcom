@@ -11,7 +11,7 @@
 
     <link rel="stylesheet" href="css/stylo.css">
 
-    <meta name="description" content="Directorio y datos de contacto de SSO - CRC Servicios de Salud Ocupacional en Barranquilla.">
+    <meta name="description" content="Contáctanos para agendar tus exámenes ocupacionales en Barranquilla. Teléfonos, WhatsApp y dirección de SSO - CRC Servicios de Salud Ocupacional.">
     <meta name="keywords" content="SSO, contacto sso, Sso, Servicios de salud ocupacional, SSO - CRC, directorio sso, salud en el trabajo, sso barranquilla, salud ocupacional barranquilla">
 
     <link rel="canonical" href="https://www.ssobq.com/contacto.php">
@@ -28,7 +28,7 @@
 
     <script src="https://kit.fontawesome.com/cf867249a1.js" crossorigin="anonymous"></script>
 
-    <title>Contacto | SSO - CRC</title>
+    <title>Contacto y Agendamiento en Barranquilla | SSO - CRC</title>
 
     <style>
         /* Estilos específicos de esta página */

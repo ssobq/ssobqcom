@@ -14,7 +14,8 @@
 
     <script src="https://kit.fontawesome.com/cf867249a1.js" crossorigin="anonymous"></script>
 
-    <title>Boletines Informativos | SSO - CRC</title>
+    <title>Boletines de Salud Ocupacional y SST | SSO - CRC</title>
+    <meta name="description" content="Boletines informativos de SSO - CRC sobre salud ocupacional, SST y seguridad y salud en el trabajo. Mantente al día con nuestras publicaciones.">
 </head>
 
 <body class="bg-light">
