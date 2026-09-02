@@ -1,0 +1,35 @@
+{
+    "max_visibles": 3,
+    "boletines": [
+        {
+            "id": "b_55",
+            "numero": 55,
+            "titulo": "Boletín edición N. 55",
+            "resumen": "Descubra las claves para una comunicación asertiva, el poder del lenguaje corporal y cómo alcanzar la excelencia en el servicio al usuario.",
+            "fecha_texto": "Agosto, 2026",
+            "pdf": "pdf\/Boletines\/boletin-julio-2026.pdf",
+            "portada": "img\/portada-boletines\/portada-boletin-55.jpg",
+            "creado_en": "2026-08-01"
+        },
+        {
+            "id": "b_54",
+            "numero": 54,
+            "titulo": "Boletín edición N. 54",
+            "resumen": "Descubra cómo transformar la seguridad del trabajador en un pilar de productividad y cumplimiento legal para su empresa en nuestra Edición N° 54.",
+            "fecha_texto": "Julio, 2026",
+            "pdf": "pdf\/Boletines\/boletin-julio-2026-original.pdf",
+            "portada": "img\/portada-boletines\/portada-boletin-54.jpg",
+            "creado_en": "2026-07-01"
+        },
+        {
+            "id": "b_53",
+            "numero": 53,
+            "titulo": "Boletín edición N. 53",
+            "resumen": "Conoce estrategias prácticas, pausas activas y técnicas para manejar el estrés en nuestra Edición N° 53. ¡Fortalece tu cultura preventiva hoy!",
+            "fecha_texto": "Junio, 2026",
+            "pdf": "pdf\/Boletines\/boletin-junio-2026-53.pdf",
+            "portada": "img\/portada-boletines\/portada-boletin-53.jpg",
+            "creado_en": "2026-06-01"
+        }
+    ]
+}

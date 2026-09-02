@@ -63,132 +63,52 @@
             </div>
         </div>
 
-        <!-- Tarjeta boletin 1 -->
-
+        <?php
+        $json_data = json_decode(file_get_contents(__DIR__ . '/data/boletines.json'), true);
+        $max_vis   = (int)($json_data['max_visibles'] ?? 3);
+        $boletines = array_slice($json_data['boletines'] ?? [], 0, $max_vis);
+        ?>
         <div class="row align-items-stretch">
-
-            <!-- Tarjeta boletin 55 -->
-
+        <?php foreach ($boletines as $idx => $bol): $mid = 'modal_' . htmlspecialchars($bol['id']); ?>
             <div class="col-12 col-md-6 col-lg-4 mb-4">
                 <div class="card h-100 shadow-sm border-0 doc-card" style="border-radius: 15px;">
                     <div class="card-body d-flex flex-column text-center p-4">
-
-                        <!-- Aquí insertas tu miniatura -->
-                        <img src="/img/portada-boletines/portada-boletin-55.jpg" alt="Boletín 55" class="boletin-img">
-
-                        <h5 class="card-title font-weight-bold" style="color: #004085;">Boletín edición N. 55</h5>
-                        <p class="card-text text-secondary flex-grow-1" style="font-size: 0.95rem;">Descubra las claves para una comunicación asertiva, el poder del lenguaje corporal y cómo alcanzar la excelencia en el servicio al usuario.</p>
-                        <span class="text-muted small mb-4 d-block font-weight-bold"><i class="fa fa-calendar text-corporate-red mr-1"></i> Publicado: Agosto, 2026</span>
-
-                        <a href="#modalBoletin1" data-toggle="modal" class="btn btn-block text-white font-weight-bold rounded-pill shadow-sm transition-btn mt-auto" style="background-color: #004085; padding: 10px 0;">
+                        <img src="/<?= htmlspecialchars($bol['portada']) ?>" alt="<?= htmlspecialchars($bol['titulo']) ?>" class="boletin-img" <?= $idx > 0 ? 'loading="lazy"' : '' ?>>
+                        <h5 class="card-title font-weight-bold" style="color: #004085;"><?= htmlspecialchars($bol['titulo']) ?></h5>
+                        <p class="card-text text-secondary flex-grow-1" style="font-size: 0.95rem;"><?= htmlspecialchars($bol['resumen']) ?></p>
+                        <span class="text-muted small mb-4 d-block font-weight-bold">
+                            <i class="fa fa-calendar text-corporate-red mr-1"></i> Publicado: <?= htmlspecialchars($bol['fecha_texto']) ?>
+                        </span>
+                        <a href="#<?= $mid ?>" data-toggle="modal" class="btn btn-block text-white font-weight-bold rounded-pill shadow-sm transition-btn mt-auto" style="background-color: #004085; padding: 10px 0;">
                             <i class="fa fa-eye mr-1"></i> Visualizar Boletín
                         </a>
                     </div>
                 </div>
             </div>
-            
-            <!-- Tarjeta boletin 54 -->
-
-            <div class="col-12 col-md-6 col-lg-4 mb-4">
-                <div class="card h-100 shadow-sm border-0 doc-card" style="border-radius: 15px;">
-                    <div class="card-body d-flex flex-column text-center p-4">
-
-                        <!-- Aquí insertas tu miniatura -->
-                        <img src="/img/portada-boletines/portada-boletin-54.jpg" alt="Boletín 54" class="boletin-img" loading="lazy">
-
-                        <h5 class="card-title font-weight-bold" style="color: #004085;">Boletín edición N. 54</h5>
-                        <p class="card-text text-secondary flex-grow-1" style="font-size: 0.95rem;">Descubra cómo transformar la seguridad del trabajador en un pilar de productividad y cumplimiento legal para su empresa en nuestra Edición N° 54.</p>
-                        <span class="text-muted small mb-4 d-block font-weight-bold"><i class="fa-solid fa-calendar text-corporate-red mr-1"></i> Publicado: Julio, 2026</span>
-
-                        <a href="#modalBoletin2" data-toggle="modal" class="btn btn-block text-white font-weight-bold rounded-pill shadow-sm transition-btn mt-auto" style="background-color: #004085; padding: 10px 0;">
-                            <i class="fa-solid fa-eye mr-1"></i> Visualizar Boletín
-                        </a>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Tarjeta boletin 53 -->
-
-            <div class="col-12 col-md-6 col-lg-4 mb-4">
-                <div class="card h-100 shadow-sm border-0 doc-card" style="border-radius: 15px;">
-                    <div class="card-body d-flex flex-column text-center p-4">
-
-                        <!-- Aquí insertas tu miniatura -->
-                        <img src="/img/portada-boletines/portada-boletin-53.jpg" alt="Boletín 53" class="boletin-img" loading="lazy">
-
-                        <h5 class="card-title font-weight-bold" style="color: #004085;">Boletín edición N. 53</h5>
-                        <p class="card-text text-secondary flex-grow-1" style="font-size: 0.95rem;">Conoce estrategias prácticas, pausas activas y técnicas para manejar el estrés en nuestra Edición N° 53. ¡Fortalece tu cultura preventiva hoy!</p>
-                        <span class="text-muted small mb-4 d-block font-weight-bold"><i class="fa-solid fa-calendar text-corporate-red mr-1"></i> Publicado: Junio, 2026</span>
-
-                        <a href="#modalBoletin3" data-toggle="modal" class="btn btn-block text-white font-weight-bold rounded-pill shadow-sm transition-btn mt-auto" style="background-color: #004085; padding: 10px 0;">
-                            <i class="fa-solid fa-eye mr-1"></i> Visualizar Boletín
-                        </a>
-                    </div>
-                </div>
-            </div>            
-                        
+        <?php endforeach; ?>
         </div>
     </main>
 
 
 
-    <!-- iframe para mostrar PDF -->
-
-
-    <!-- Modal 3 - boletín 55-->
-    <div class="modal fade" id="modalBoletin1" role="dialog" aria-hidden="true" style="padding-right: 0;">
+    <!-- Modales generados dinámicamente desde boletines.json -->
+    <?php foreach ($boletines as $bol): $mid = 'modal_' . htmlspecialchars($bol['id']); ?>
+    <div class="modal fade" id="<?= $mid ?>" role="dialog" aria-hidden="true" style="padding-right: 0;">
         <div class="modal-dialog modal-lg modal-dialog-centered">
             <div class="modal-content" style="border-radius: 12px; overflow: hidden;">
                 <div class="modal-header">
-                    <h5 class="modal-title text-primary colorAzul font-weight-bold">Boletín Edición N. 55 - SSO</h5>
+                    <h5 class="modal-title text-primary colorAzul font-weight-bold"><?= htmlspecialchars($bol['titulo']) ?> - SSO</h5>
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                         <span aria-hidden="true">&times;</span>
                     </button>
                 </div>
                 <div class="modal-body p-0">
-                    <iframe src="pdf/Boletines/boletin-julio-2026.pdf" width="100%" height="600px" style="border: none;"></iframe>
+                    <iframe src="/<?= htmlspecialchars($bol['pdf']) ?>" width="100%" height="600px" style="border: none;"></iframe>
                 </div>
             </div>
         </div>
     </div>
-
-
-    <!-- Modal 1 - boletín 54 -->
-
-    <div class="modal fade" id="modalBoletin2" role="dialog" aria-hidden="true" style="padding-right: 0;">
-        <div class="modal-dialog modal-lg modal-dialog-centered">
-            <div class="modal-content" style="border-radius: 12px; overflow: hidden;">
-                <div class="modal-header">
-                    <h5 class="modal-title text-primary colorAzul font-weight-bold">Boletín Edición N. 54 - SSO</h5>
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true">&times;</span>
-                    </button>
-                </div>
-                <div class="modal-body p-0">
-                    <iframe src="pdf/Boletines/boletin-julio-2026-original.pdf" width="100%" height="600px" style="border: none;"></iframe>
-                </div>
-            </div>
-        </div>
-    </div>
-
-
-    <!-- Modal 2 - boletín 53 -->
-
-    <div class="modal fade" id="modalBoletin3" role="dialog" aria-hidden="true" style="padding-right: 0;">
-        <div class="modal-dialog modal-lg modal-dialog-centered">
-            <div class="modal-content" style="border-radius: 12px; overflow: hidden;">
-                <div class="modal-header">
-                    <h5 class="modal-title text-primary colorAzul font-weight-bold">Boletín Edición N. 53 - SSO</h5>
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true">&times;</span>
-                    </button>
-                </div>
-                <div class="modal-body p-0">
-                    <iframe src="pdf/Boletines/boletin-junio-2026-53.pdf" width="100%" height="600px" style="border: none;"></iframe>
-                </div>
-            </div>
-        </div>
-    </div>
+    <?php endforeach; ?>
 
 
     
