@@ -117,7 +117,8 @@ td { vertical-align:middle!important; }
                         <th>Título / Fecha</th>
                         <th style="width:90px">Estado</th>
                         <th style="width:110px">Orden</th>
-                        <th style="width:130px">Acciones</th>
+                        <th style="width:80px">Enlace</th>
+                    <th style="width:130px">Acciones</th>
                     </tr>
                 </thead>
                 <tbody>
@@ -149,6 +150,12 @@ td { vertical-align:middle!important; }
                         </form>
                     </td>
                     <td>
+                        <?php $link = 'https://ssobq.com/boletines.php?ver=' . urlencode($b['id']); ?>
+                        <button class="btn btn-outline-secondary btn-sm copy-link" data-link="<?= htmlspecialchars($link) ?>" title="Copiar enlace directo">
+                            <i class="fa fa-link"></i>
+                        </button>
+                    </td>
+                    <td>
                         <a href="/admin/editar.php?id=<?= urlencode($b['id']) ?>" class="btn btn-outline-primary btn-sm">
                             <i class="fa fa-pen"></i>
                         </a>
@@ -169,5 +176,24 @@ td { vertical-align:middle!important; }
 
 <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+<script>
+$(function() {
+    $(document).on('click', '.copy-link', function() {
+        var link = $(this).data('link');
+        navigator.clipboard.writeText(link).then(function() {
+            var btn = arguments.length ? arguments[0] : null;
+        });
+        var $btn = $(this);
+        $btn.html('<i class="fa fa-check"></i>').addClass('btn-success').removeClass('btn-outline-secondary');
+        setTimeout(function() {
+            $btn.html('<i class="fa fa-link"></i>').removeClass('btn-success').addClass('btn-outline-secondary');
+        }, 1500);
+        // Also show the link in a toast-style alert
+        var msg = $('<div class="alert alert-info py-2 mt-2" style="font-size:.8rem;position:fixed;bottom:20px;right:20px;z-index:9999;max-width:420px;word-break:break-all;">').text('Copiado: ' + link);
+        $('body').append(msg);
+        setTimeout(function() { msg.remove(); }, 3000);
+    });
+});
+</script>
 </body>
 </html>
