@@ -7,3 +7,9 @@ Desktop.ini
 # Editores
 .vscode/
 *.swp
+
+# Admin: credenciales fuera del repo
+admin/config.php
+
+# Datos del CMS: se editan en el servidor, no en git
+data/boletines.json
