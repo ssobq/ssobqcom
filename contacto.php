@@ -269,7 +269,7 @@
                         <p class="text-muted small mb-3 border-bottom pb-2">Atención para la red nacional.</p>
 
                         <div class="mb-3">
-                            <span class="font-weight-bold d-block text-dark">Sheyla Carrillo</span>
+                            <span class="font-weight-bold d-block text-dark">Bibiana Ospino</span>
                             <span class="small text-secondary">Atención al Usuario</span>
                         </div>
 
