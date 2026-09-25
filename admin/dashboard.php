@@ -159,11 +159,14 @@ td { vertical-align:middle!important; }
                         <a href="/admin/editar.php?id=<?= urlencode($b['id']) ?>" class="btn btn-outline-primary btn-sm">
                             <i class="fa fa-pen"></i>
                         </a>
-                        <a href="/admin/eliminar.php?id=<?= urlencode($b['id']) ?>"
-                           class="btn btn-outline-danger btn-sm ml-1"
-                           onclick="return confirm('¿Eliminar este boletín? Se borrarán el PDF y la portada del servidor.')">
-                            <i class="fa fa-trash"></i>
-                        </a>
+                        <form method="post" action="/admin/eliminar.php" class="d-inline"
+                              onsubmit="return confirm('¿Eliminar este boletín? Se borrarán el PDF y la portada del servidor.')">
+                            <input type="hidden" name="csrf" value="<?= csrf_token() ?>">
+                            <input type="hidden" name="id" value="<?= htmlspecialchars($b['id']) ?>">
+                            <button type="submit" class="btn btn-outline-danger btn-sm ml-1">
+                                <i class="fa fa-trash"></i>
+                            </button>
+                        </form>
                     </td>
                 </tr>
                 <?php endforeach; ?>

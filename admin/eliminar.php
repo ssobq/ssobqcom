@@ -2,7 +2,11 @@
 require_once __DIR__ . '/auth.php';
 check_auth();
 
-$id = $_GET['id'] ?? '';
+if ($_SERVER['REQUEST_METHOD'] !== 'POST' || !verify_csrf($_POST['csrf'] ?? '')) {
+    header('Location: /admin/dashboard.php'); exit;
+}
+
+$id = $_POST['id'] ?? '';
 $datos = leer_datos();
 $idx = null;
 foreach ($datos['boletines'] as $i => $b) {
