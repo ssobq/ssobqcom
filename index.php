@@ -52,7 +52,11 @@
         }
 
         .service-hover-card:hover .title {
-            color: #e10109 !important;
+            color: #ffffff !important;
+        }
+
+        .service-hover-card:hover .description {
+            color: #ffffff !important;
         }
 
         .info-card-hover {
