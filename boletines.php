@@ -64,9 +64,15 @@
         </div>
 
         <?php
-        $json_data = json_decode(file_get_contents(__DIR__ . '/data/boletines.json'), true);
-        $max_vis   = (int)($json_data['max_visibles'] ?? 3);
-        $boletines = array_slice($json_data['boletines'] ?? [], 0, $max_vis);
+            $json_data = [];
+            $ruta_json = __DIR__ . '/data/boletines.json';
+
+            if (file_exists($ruta_json)) {
+                $json_data = json_decode(file_get_contents($ruta_json), true);
+            }
+
+            $max_visibles = (int)($json_data['max_visibles'] ?? 3);
+            $boletines = array_slice($json_data['boletines'] ?? [], 0, $max_visibles);
         ?>
         <div class="row align-items-stretch">
         <?php foreach ($boletines as $idx => $bol): $mid = 'modal_' . htmlspecialchars($bol['id']); ?>
