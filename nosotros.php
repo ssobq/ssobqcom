@@ -37,11 +37,11 @@
             </div>
         </section>
 
-        <section class="row mb-5 text-center">
+<section class="row mb-5 text-center">
             <div class="col-12 mx-auto col-lg-10">
                 <h2 class="font-weight-bold text-uppercase mb-3" style="color: #004085;">¿Quiénes Somos?</h2>
                 <hr class="mx-auto mb-4" style="border: 2px solid #e10109; width: 60px;">
-                <p class="text-justify text-muted lead px-2 px-md-4" style="line-height: 1.7; font-size: 1.15rem;">
+                <p class="text-justify lead px-2 px-md-4" style="line-height: 1.7; font-size: 1.15rem; color: #000000;">
                     Somos una IPS de mediana complejidad cuyo objetivo fundamental es la prestación de servicios integrales de seguridad, salud en el trabajo y seguridad vial con una clara visión profesional y una audaz vocación como elemento importante en el mejoramiento continuo de nuestra institución y colaboradores.
                 </p>
             </div>
@@ -53,7 +53,7 @@
                     <div class="card-body d-flex flex-column align-items-center">
                         <img class="img-fluid mb-3" src="img/nosotros/ICONO-MISION-SSO-CRC.png" alt="Misión SSO" style="max-height: 70px;" loading="lazy">
                         <h3 class="font-weight-bold mb-3" style="color: #004085;">MISIÓN</h3>
-                        <p class="text-justify text-secondary mb-0">
+                        <p class="text-justify mb-0">
                             Somos una IPS de mediana complejidad líder en la Región Caribe, que contribuye con experiencia y conocimiento en la implementación, el desarrollo y el seguimiento de la seguridad, salud en el trabajo y seguridad vial de nuestros clientes.
                         </p>
                     </div>
@@ -65,7 +65,7 @@
                     <div class="card-body d-flex flex-column align-items-center">
                         <img class="img-fluid mb-3" src="img/nosotros/ICONO-VISION-SSO-CRC.png" alt="Visión SSO" style="max-height: 70px;" loading="lazy">
                         <h3 class="font-weight-bold mb-3" style="color: #004085;">VISIÓN</h3>
-                        <p class="text-justify text-secondary mb-0">
+                        <p class="text-justify  mb-0">
                             Ser en el 2027 una IPS líder a nivel nacional en seguridad, salud en el trabajo y seguridad vial, por nuestros servicios innovadores que generan confianza a nuestros usuarios a través de procesos efectivos y confiables.
                         </p>
                     </div>
@@ -89,7 +89,7 @@
                         <img class="img-fluid rounded shadow-xs" src="img/nosotros/icontec-ssobq.jpg" alt="Icontec Certificación" style="max-width: 200px;" loading="lazy">
                     </div>
                     <div class="col-12 col-md-8">
-                        <p class="text-justify text-muted" style="font-size: 1rem; line-height: 1.6;">
+                        <p class="text-justify text" style="font-size: 1rem; line-height: 1.6;">
                             Contribuir con experiencia y conocimiento a nuestras partes interesadas para la implementación, el desarrollo y el seguimiento de la seguridad y salud en el trabajo, a través de la prestación de servicios médicos especializados y SSO formación. Así mismo, realizar las acciones necesarias para identificar las necesidades y requisitos de los candidatos que quieran obtener su certificado de Aptitud Física, Mental y Coordinación Motriz en la categoría requerida dentro de la normatividad vigente, y expedir y/o refrendar su Licencia de Conducción garantizando la satisfacción, confidencialidad e imparcialidad en los servicios prestados.
                             <br><br>
                             Nuestra política tiene como fundamento proporcionar los recursos físicos, tecnológicos y el personal competente necesarios para apuntar siempre a la mejora continua, promover la responsabilidad social preservando el medio ambiente y trabajando de la mano con las comunidades para su beneficio, garantizar el mejoramiento continuo e identificación de riesgos de los procesos que permiten brindar la prestación del servicio en condiciones seguras, y de esta manera asegurar la sostenibilidad y crecimiento de la institución.

@@ -301,11 +301,11 @@
         }); // 'once: true' evita que la animación parpadee al hacer scroll arriba y abajo repetidamente
     </script>
 
-    <script>
+    <!-- <script>
         $(document).ready(function() {
             $('#modalComunicado').modal('show');
         });
-    </script>
+    </script> -->
 
 </body>
 
