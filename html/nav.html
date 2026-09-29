@@ -49,11 +49,17 @@
             >Nosotros</a
           >
         </li>
+        
+        <!-- ELEMENTO SERVICIOS MODIFICADO PARA MÓVIL Y PC -->
         <li class="nav-item dropdown mx-lg-1">
           <a
             class="nav-link font-weight-bold menu-link dropdown-toggle"
             href="/servicios.php"
             id="serviciosNav"
+            role="button"
+            data-toggle="dropdown"
+            aria-haspopup="true"
+            aria-expanded="false"
           >
             Servicios
           </a>
@@ -99,6 +105,7 @@
             >
           </div>
         </li>
+
         <li class="nav-item mx-lg-1">
           <a
             class="nav-link font-weight-bold menu-link"
@@ -140,40 +147,30 @@
 </nav>
 
 <style>
-  /* Transición suave para todos los enlaces */
   .menu-link {
-    color: #00519d !important; /* Azul por defecto */
+    color: #00519d !important;
     position: relative;
     transition: color 0.3s ease;
   }
 
-  /* Efecto Hover: Cambia a rojo al pasar el cursor */
   .menu-link:hover {
     color: #e10109 !important;
   }
 
-  /* Quita el borde feo que sale en los celulares cuando tocas el menú hamburguesa */
   .navbar-toggler:focus,
   .navbar-toggler:active {
     outline: none;
     box-shadow: none;
   }
 
-  /* Al pasar el cursor por el la lista de servicios fondo se coloca azul y la letra en blanco */
-  .dropdown-menu .dropdown-item:hover {
-  background-color: #00519d !important;
-  color: #ffffff !important;
-}
-.dropdown-menu .dropdown-item:focus {
-  background-color: #00519d !important;
-  color: #ffffff !important;
-}
+  .dropdown-menu .dropdown-item:hover,
+  .dropdown-menu .dropdown-item:focus {
+    background-color: #00519d !important;
+    color: #ffffff !important;
+  }
 
-  /* Animación del botón rojo de Resultados */
   .btn-resultados {
-    transition:
-      transform 0.2s ease,
-      box-shadow 0.2s ease;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
   }
   .btn-resultados:hover {
     transform: translateY(-2px);
@@ -181,3 +178,32 @@
     color: white !important;
   }
 </style>
+
+<script>
+document.addEventListener("DOMContentLoaded", function() {
+    const serviciosLink = document.getElementById("serviciosNav");
+    
+    if (serviciosLink) {
+        serviciosLink.addEventListener("click", function(e) {
+            // Solo aplicamos la lógica si estamos en una pantalla móvil/táctil (ancho menor a 992px)
+            if (window.innerWidth < 992) {
+                const parentLi = serviciosLink.closest('.dropdown');
+                const isOpen = parentLi.classList.contains("show");
+
+                // Si el menú desplegable NO está abierto en el móvil:
+                if (!isOpen) {
+                    // Frenamos la redirección para que el usuario pueda ver las opciones del submenú
+                    e.preventDefault();
+                    // Forzamos la apertura mediante la clase que usa Bootstrap 4
+                    parentLi.classList.add("show");
+                    serviciosLink.classList.add("show");
+                    serviciosLink.nextElementSibling.classList.add("show");
+                    serviciosLink.setAttribute("aria-expanded", "true");
+                } 
+                // Si ya está abierto, el script no hace nada (no hay e.preventDefault), 
+                // por lo que el segundo toque redirige correctamente a /servicios.php
+            }
+        });
+    }
+});
+</script>
