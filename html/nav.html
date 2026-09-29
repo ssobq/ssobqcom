@@ -52,12 +52,8 @@
         <li class="nav-item dropdown mx-lg-1">
           <a
             class="nav-link font-weight-bold menu-link dropdown-toggle"
-            href="#"
+            href="/servicios.php"
             id="serviciosNav"
-            role="button"
-            data-toggle="dropdown"
-            aria-haspopup="true"
-            aria-expanded="false"
           >
             Servicios
           </a>
@@ -93,10 +89,10 @@
               >Análisis Puestos Trabajo (APT)</a
             >
             <a class="dropdown-item" href="/servicios/planEstrategico.php"
-              >Plan Estratégico (P.E.S.V.)</a
+              >Plan Estratégico Seguridad Vial</a
             >
             <a class="dropdown-item" href="/servicios/bateria.php"
-              >Riesgos Psicosociales</a
+              >Batería Riesgos Psicosociales</a
             >
             <a class="dropdown-item" href="/servicios/SST.php"
               >Acompañamiento SST</a
@@ -162,6 +158,16 @@
     outline: none;
     box-shadow: none;
   }
+
+  /* Al pasar el cursor por el la lista de servicios fondo se coloca azul y la letra en blanco */
+  .dropdown-menu .dropdown-item:hover {
+  background-color: #00519d !important;
+  color: #ffffff !important;
+}
+.dropdown-menu .dropdown-item:focus {
+  background-color: #00519d !important;
+  color: #ffffff !important;
+}
 
   /* Animación del botón rojo de Resultados */
   .btn-resultados {
