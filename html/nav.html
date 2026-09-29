@@ -177,33 +177,34 @@
     box-shadow: 0 6px 12px #e10109 !important;
     color: white !important;
   }
+
+  /* NUEVO: Abrir submenú al pasar el cursor SOLO en computadoras (pantallas grandes) */
+  @media (min-width: 992px) {
+    .dropdown:hover .dropdown-menu {
+      display: block;
+      margin-top: 0;
+    }
+  }
 </style>
 
 <script>
 document.addEventListener("DOMContentLoaded", function() {
-    const serviciosLink = document.getElementById("serviciosNav");
-    
-    if (serviciosLink) {
-        serviciosLink.addEventListener("click", function(e) {
-            // Solo aplicamos la lógica si estamos en una pantalla móvil/táctil (ancho menor a 992px)
-            if (window.innerWidth < 992) {
-                const parentLi = serviciosLink.closest('.dropdown');
-                const isOpen = parentLi.classList.contains("show");
-
-                // Si el menú desplegable NO está abierto en el móvil:
-                if (!isOpen) {
-                    // Frenamos la redirección para que el usuario pueda ver las opciones del submenú
-                    e.preventDefault();
-                    // Forzamos la apertura mediante la clase que usa Bootstrap 4
-                    parentLi.classList.add("show");
-                    serviciosLink.classList.add("show");
-                    serviciosLink.nextElementSibling.classList.add("show");
-                    serviciosLink.setAttribute("aria-expanded", "true");
-                } 
-                // Si ya está abierto, el script no hace nada (no hay e.preventDefault), 
-                // por lo que el segundo toque redirige correctamente a /servicios.php
-            }
-        });
-    }
+  const serviciosLink = document.getElementById("serviciosNav");
+  
+  if (serviciosLink) {
+    serviciosLink.addEventListener("click", function(e) {
+      if (window.innerWidth < 992) {
+        // --- COMPORTAMIENTO EN MÓVILES ---
+        // Bloqueamos la redirección. Así, al tocar "Servicios", 
+        // NO te llevará a otra página, solo abrirá el menú.
+        e.preventDefault(); 
+      } else {
+        // --- COMPORTAMIENTO EN ESCRITORIO (PC) ---
+        // Prevenimos el bloqueo de Bootstrap y forzamos la redirección.
+        e.preventDefault();
+        window.location.href = this.href;
+      }
+    });
+  }
 });
 </script>
