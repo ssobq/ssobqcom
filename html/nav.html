@@ -89,7 +89,7 @@
               >Salud Visual</a
             >
             <a class="dropdown-item" href="/servicios/CRC.php"
-              >CRC (Conductores)</a
+              >Centro de Reconocimiento de Conductores (CRC)</a
             >
             <a class="dropdown-item" href="/servicios/APT.php"
               >Análisis Puestos Trabajo (APT)</a
@@ -101,7 +101,7 @@
               >Batería Riesgos Psicosociales</a
             >
             <a class="dropdown-item" href="/servicios/SST.php"
-              >Acompañamiento SST</a
+              >Acompañamiento SGSST</a
             >
           </div>
         </li>
@@ -178,7 +178,7 @@
     color: white !important;
   }
 
-  /* NUEVO: Abrir submenú al pasar el cursor SOLO en computadoras (pantallas grandes) */
+  /* Abre submenú al pasar el cursor SOLO en PC */
   @media (min-width: 992px) {
     .dropdown:hover .dropdown-menu {
       display: block;
@@ -194,12 +194,11 @@ document.addEventListener("DOMContentLoaded", function() {
   if (serviciosLink) {
     serviciosLink.addEventListener("click", function(e) {
       if (window.innerWidth < 992) {
-        // --- COMPORTAMIENTO EN MÓVILES ---
-        // Bloqueamos la redirección. Así, al tocar "Servicios", 
-        // NO te llevará a otra página, solo abrirá el menú.
+        // COMPORTAMIENTO EN MÓVILES
+        // Bloqueamos la redirección. Así, al tocar "Servicios", NO redirige a otra página, solo abre el menú.
         e.preventDefault(); 
       } else {
-        // --- COMPORTAMIENTO EN ESCRITORIO (PC) ---
+        // COMPORTAMIENTO EN ESCRITORIO (PC)
         // Prevenimos el bloqueo de Bootstrap y forzamos la redirección.
         e.preventDefault();
         window.location.href = this.href;
