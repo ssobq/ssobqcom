@@ -76,7 +76,7 @@
         <div class="row mb-5 text-center">
             <div class="col-12">
                 <h1 class="display-4 font-weight-bold" style="color: #004085;">Contacto</h1>
-                <p class="lead text-muted mt-3">Estamos aquí para brindarle la mejor atención. Seleccione el área que necesita.</p>
+                <p class="lead mt-3">Estamos aquí para brindarle la mejor atención. Seleccione el área que necesita.</p>
                 <hr class="mx-auto" style="border: 2px solid #e10109; width: 80px;">
             </div>
         </div>
