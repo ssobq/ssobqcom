@@ -63,29 +63,25 @@
 
         <div class="row mb-5 justify-content-center text-center">
             <div class="col-12 col-lg-10">
-                <h1 class="display-4 font-weight-bold mb-4" style="color: #004085; font-size: 2.5rem;">Aplicación de Batería de Riesgo Psicosocial</h1>
-                
-                <div class="card border-0 shadow-sm p-4 p-md-5" style="border-radius: 15px;">
-                    <p class="text-justify text-muted mb-4" style="font-size: 1.1rem; line-height: 1.7;">
-                        <strong>SSO – CRC Servicios de Salud Ocupacional SAS</strong>, cuenta con Psicólogos Especialistas en Seguridad y Salud en el Trabajo para la aplicación de la batería de riesgo psicosocial.
-                    </p>
-                    <p class="text-justify text-muted mb-0" style="font-size: 1.05rem; line-height: 1.7;">
-                        Es una herramienta diseñada para evaluar diversos aspectos relacionados con el entorno laboral que podrían afectar la salud mental y emocional de sus empleados. Algunos de los factores que analizamos incluyen el estrés laboral, la carga de trabajo, el apoyo social en el trabajo y el equilibrio entre la vida laboral y personal, entre otros.
+                <h1 class="display-4 font-weight-bold mb-0" style="color: #004085; font-size: 2.5rem;">Aplicación de Batería de Riesgo Psicosocial</h1>
+                <div class="card border-0 shadow-sm px-4 px-md-5 pb-4 pb-md-5 pt-3" style="border-radius: 15px;">
+                    <p class="mb-0 text-center" style="font-size: 1.1rem; line-height: 1.7;">
+                        En <strong>SSO – CRC</strong>, nuestros Psicólogos Especialistas en Seguridad y Salud en el Trabajo aplican la <strong>Batería de Riesgo Psicosocial</strong>. Esta herramienta evalúa factores del entorno laboral que impactan la salud mental de su equipo, tales como el estrés, la carga de trabajo y el equilibrio personal-laboral.
                     </p>
                 </div>
             </div>
         </div>
 
         <div class="row mb-5 align-items-center">
-            <div class="col-12 col-md-6 mb-4 mb-md-0">
+            <div class="col-12 col-md-6 mb-4 mb-md-1">
                 <img class="img-fluid img-section w-100" src="/img/servicios/bateria/bateriaa-2-sso-crc.jpg" alt="Servicios Psicosociales SSO" loading="lazy">
             </div>
             <div class="col-12 col-md-6 px-lg-5">
                 <h3 class="font-weight-bold text-corporate-blue mb-4">Nuestros servicios:</h3>
-                <div class="text-secondary">
+                <div>
                     <div class="custom-list-item">
                         <i class="fa-solid fa-circle-check text-corporate-red"></i>
-                        <span>Diagnóstico en riesgo psicosocial (aplicación de la batería).</span>
+                        <span>Diagnóstico en riesgo psicosocial (Aplicación de la batería).</span>
                     </div>
                     <div class="custom-list-item">
                         <i class="fa-solid fa-circle-check text-corporate-red"></i>
@@ -106,7 +102,7 @@
         <div class="row mb-5 align-items-center">
             <div class="col-12 col-md-6 px-lg-5 order-2 order-md-1">
                 <h3 class="font-weight-bold text-corporate-blue mb-4">Beneficios para su empresa:</h3>
-                <div class="text-secondary">
+                <div>
                     <div class="custom-list-item">
                         <i class="fa-solid fa-star text-corporate-red"></i>
                         <span>Apoyamos a su empresa en el cumplimiento estricto de la <strong>Resolución 2404 de 2019</strong>.</span>
@@ -135,10 +131,10 @@
         </div>
 
         <div class="row mt-5">
-            <div class="col-12">
-                <div class="card border-0 shadow-sm text-center p-4 p-md-5" style="background-color: #004085; border-radius: 15px;">
+            <div class="col-12 col-md-9 mx-auto">
+                <div class="card border-0 shadow-sm p-4 p-md-5 d-flex flex-column align-items-center text-center" style="background-color: #004085; border-radius: 15px;">
+                    <i class="fa-solid fa-hands-holding-child mb-3" style="color: #ffffff; font-size: 2.5rem;"></i> 
                     <h3 class="text-white font-weight-bold mb-0" style="line-height: 1.5;">
-                        <i class="fa-solid fa-hands-holding-child mr-3 mb-3 mb-md-0 d-block d-md-inline" style="color: #e10109; font-size: 2.5rem;"></i> 
                         En SSO – CRC cuidamos el bienestar de sus colaboradores.
                     </h3>
                 </div>
