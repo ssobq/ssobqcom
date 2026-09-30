@@ -35,12 +35,12 @@
         
         <!-- Bloque de suscripción al boletín -->
         <div class="row justify-content-center mb-5">
-            <div class="col-12 col-lg-8">
+            <div class="col-12 col-lg-6">
                 <div class="card shadow-sm border-0" style="border-radius: 15px; background-color: #004085;">
                     <div class="card-body p-4 text-center text-white">
+                        <br>
                         <h5 class="font-weight-bold mb-2"><i class="fa-solid fa-envelope-open-text mr-2"></i>Suscríbete a nuestro boletín</h5>
                         <p class="mb-3" style="opacity: 0.9;">Recibe cada edición directamente en tu correo, apenas la publiquemos.</p>
-
                         <form action="https://ssobq.us1.list-manage.com/subscribe/post?u=17a096bab8cc3043ce6babf55&amp;id=06342144e3&amp;f_id=0094c2e1f0" method="post" target="_blank" novalidate class="form-inline justify-content-center">
                             <label for="mce-EMAIL" class="sr-only">Correo electrónico</label>
                             <input type="email" name="EMAIL" id="mce-EMAIL" required
@@ -58,6 +58,8 @@
                                 <i class="fa-solid fa-paper-plane mr-1"></i> Suscribirme
                             </button>
                         </form>
+                    
+                        <br>
                     </div>
                 </div>
             </div>
