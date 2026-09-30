@@ -29,14 +29,52 @@
 
         .visual-icon { font-size: 2rem; color: #e10109; margin-bottom: 15px; }
         
-        .item-list { list-style: none; padding: 0; }
-        .item-list li {
-            padding: 8px 0;
-            border-bottom: 1px solid #f8f9fa;
-            color: #495057;
-            font-weight: 500;
+        /* Estilos para los botones del acordeón */
+        .accordion-item-btn {
+            background: #fdfdfd;
+            border: 1px solid #eaeaea;
+            border-left: 4px solid #004085;
+            border-radius: 10px;
+            padding: 14px 18px;
+            width: 100%;
+            text-align: left;
+            font-size: 0.95rem;
+            font-weight: 700;
+            color: #004085;
+            transition: all 0.3s ease;
+            box-shadow: none !important;
+            display: block;
         }
-        .item-list li i { margin-right: 10px; color: #004085; font-size: 0.7rem; }
+
+        .accordion-item-btn:hover {
+            background: #f8f9fa;
+            border-left-color: #e10109;
+            color: #e10109;
+            text-decoration: none;
+        }
+
+        .accordion-item-btn.active-accordion {
+            background: #f1f5fa;
+            border-left-color: #e10109;
+            color: #e10109;
+            border-bottom-left-radius: 0;
+            border-bottom-right-radius: 0;
+        }
+
+        /* Cuerpo colapsable con la descripción */
+        .accordion-item-body {
+            background: #fff;
+            border: 1px solid #eaeaea;
+            border-top: none;
+            border-bottom-left-radius: 10px;
+            border-bottom-right-radius: 10px;
+            padding: 15px 18px;
+            font-size: 0.85rem;
+            color: #6c757d;
+            margin-bottom: 12px;
+            line-height: 1.5;
+            display: none; /* Controlado por JS */
+        }
     </style>
 </head>
 
@@ -60,29 +98,87 @@
 
             <div class="col-lg-8">
                 <div class="row">
+                    <!-- Contenedor 1: Tipos de Lentes -->
                     <div class="col-md-6 mb-4">
                         <div class="card visual-card shadow-sm">
                             <i class="fa-solid fa-glasses visual-icon"></i>
-                            <h4 class="text-corporate-blue font-weight-bold">Tipos de Lentes</h4>
-                            <ul class="item-list">
-                                <li><i class="fa-solid fa-chevron-right"></i> Lentes Monofocales</li>
-                                <li><i class="fa-solid fa-chevron-right"></i> Lentes Bifocales</li>
-                                <li><i class="fa-solid fa-chevron-right"></i> Lentes Progresivos</li>
-                            </ul>
+                            <h4 class="text-corporate-blue font-weight-bold mb-3">Tipos de Lentes</h4>
+                            
+                            <div class="accordion-group" data-group="lentes">
+                                <!-- Ítem 1 -->
+                                <div class="mb-2">
+                                    <button type="button" class="accordion-item-btn" data-target="lente1">Lentes Monofocales</button>
+                                    <div id="lente1" class="accordion-item-body">
+                                        Diseñados para corregir un solo campo de visión (lejos o cerca).
+                                    </div>
+                                </div>
+
+                                <!-- Ítem 2 -->
+                                <div class="mb-2">
+                                    <button type="button" class="accordion-item-btn" data-target="lente2">Lentes Bifocales</button>
+                                    <div id="lente2" class="accordion-item-body">
+                                        Divididos en dos zonas para ver claramente de lejos y de cerca en un solo lente.
+                                    </div>
+                                </div>
+
+                                <!-- Ítem 3 -->
+                                <div class="mb-2">
+                                    <button type="button" class="accordion-item-btn" data-target="lente3">Lentes Progresivos</button>
+                                    <div id="lente3" class="accordion-item-body">
+                                        Transición visual gradual y sin líneas divisorias para todas las distancias.
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
 
+                    <!-- Contenedor 2: Tratamientos -->
                     <div class="col-md-6 mb-4">
                         <div class="card visual-card shadow-sm">
                             <i class="fa-solid fa-shield-halved visual-icon"></i>
-                            <h4 class="text-corporate-blue font-weight-bold">Tratamientos</h4>
-                            <ul class="item-list">
-                                <li><i class="fa-solid fa-chevron-right"></i> Policarbonato</li>
-                                <li><i class="fa-solid fa-chevron-right"></i> Antireflejos</li>
-                                <li><i class="fa-solid fa-chevron-right"></i> Antireflejo Blue</li>
-                                <li><i class="fa-solid fa-chevron-right"></i> Fotocromático</li>
-                                <li><i class="fa-solid fa-chevron-right"></i> Transitions</li>
-                            </ul>
+                            <h4 class="text-corporate-blue font-weight-bold mb-3">Tratamientos</h4>
+                            
+                            <div class="accordion-group" data-group="tratamientos">
+                                <!-- Ítem 1 -->
+                                <div class="mb-2">
+                                    <button type="button" class="accordion-item-btn" data-target="trat1">Policarbonato</button>
+                                    <div id="trat1" class="accordion-item-body">
+                                        Material ultra resistente a impactos, liviano y con protección UV.
+                                    </div>
+                                </div>
+
+                                <!-- Ítem 2 -->
+                                <div class="mb-2">
+                                    <button type="button" class="accordion-item-btn" data-target="trat2">Antireflejos</button>
+                                    <div id="trat2" class="accordion-item-body">
+                                        Elimina molestos brillos y reflejos de luz mejorando la nitidez visual.
+                                    </div>
+                                </div>
+
+                                <!-- Ítem 3 -->
+                                <div class="mb-2">
+                                    <button type="button" class="accordion-item-btn" data-target="trat3">Antireflejo Blue</button>
+                                    <div id="trat3" class="accordion-item-body">
+                                        Bloquea la luz azul nociva emitida por pantallas digitales y dispositivos.
+                                    </div>
+                                </div>
+
+                                <!-- Ítem 4 -->
+                                <div class="mb-2">
+                                    <button type="button" class="accordion-item-btn" data-target="trat4">Fotocromático</button>
+                                    <div id="trat4" class="accordion-item-body">
+                                        Se oscurecen automáticamente al exponerse a la luz del sol al aire libre.
+                                    </div>
+                                </div>
+
+                                <!-- Ítem 5 -->
+                                <div class="mb-2">
+                                    <button type="button" class="accordion-item-btn" data-target="trat5">Transitions</button>
+                                    <div id="trat5" class="accordion-item-body">
+                                        Tecnología inteligente superior de oscurecimiento y adaptación rápida.
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -99,5 +195,37 @@
     </main>
 
     <?php include '../html/footer.html'; ?>
+
+    <!-- Script JavaScript para controlar el acordeón -->
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            const buttons = document.querySelectorAll(".accordion-item-btn");
+
+            buttons.forEach(button => {
+                button.addEventListener("click", function() {
+                    const targetId = this.getAttribute("data-target");
+                    const targetBody = document.getElementById(targetId);
+                    const groupContainer = this.closest(".accordion-group");
+
+                    // Si ya está abierto, lo cerramos
+                    const isOpen = targetBody.style.display === "block";
+
+                    // Cerrar todos los elementos del mismo grupo primero (efecto acordeón exclusivo)
+                    groupContainer.querySelectorAll(".accordion-item-body").forEach(body => {
+                        body.style.display = "none";
+                    });
+                    groupContainer.querySelectorAll(".accordion-item-btn").forEach(btn => {
+                        btn.classList.remove("active-accordion");
+                    });
+
+                    // Si no estaba abierto, lo abrimos
+                    if (!isOpen) {
+                        targetBody.style.display = "block";
+                        this.classList.add("active-accordion");
+                    }
+                });
+            });
+        });
+    </script>
 </body>
 </html>
