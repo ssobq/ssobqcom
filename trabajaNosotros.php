@@ -91,7 +91,7 @@
         <div class="row mb-5 text-center">
             <div class="col-12">
                 <h1 class="display-4 font-weight-bold" style="color: #004085;">Trabaja con Nosotros</h1>
-                <p class="lead text-muted mt-3">Únete a nuestro equipo de profesionales y haz parte de nuestra misión corporativa.</p>
+                <p class="lead mt-3">Únete a nuestro equipo de profesionales y haz parte de nuestra misión corporativa.</p>
                 <hr class="mx-auto" style="border: 2px solid #e10109; width: 80px;">
             </div>
         </div>
