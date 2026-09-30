@@ -66,7 +66,7 @@
         <div class="row mb-5 text-center">
             <div class="col-12">
                 <h1 class="display-4 font-weight-bold" style="color: #004085; font-size: 2.5rem;">Análisis de Puesto de Trabajo (APT)</h1>
-                <p class="lead text-muted mt-3">Evaluación rigurosa y preventiva de su entorno laboral.</p>
+                <p class="lead mt-3">Evaluación rigurosa y preventiva de su entorno laboral.</p>
                 <hr class="mx-auto" style="border: 2px solid #e10109; width: 80px;">
             </div>
         </div>
@@ -76,11 +76,24 @@
             <div class="col-12 col-lg-7 mb-4 mb-lg-0 d-flex">
                 <div class="card border-0 shadow-sm w-100 p-4 p-md-5" style="border-radius: 15px;">
                     
-                    <p class="text-justify text-muted mb-4" style="font-size: 1.05rem; line-height: 1.7;">
-                        El <strong>Análisis de Puestos de Trabajo o APT</strong> es un procedimiento sistemático, participativo, riguroso y ético llevado a cabo por un profesional con licencia en Seguridad y Salud en el trabajo a través del cual se realiza la recolección, evaluación y organización de información del contexto del individuo y de sus actividades laborales.<br><br>
-                        El APT está encaminado a la verificación de las condiciones de los sitios de trabajo, determinando los factores y elementos de riesgo generadores de posibles efectos nocivos en la salud, con el fin de proporcionar recomendaciones certeras en el desarrollo de sus actividades.
+                    <p class="text-justify mb-4" style="font-size: 1.05rem; line-height: 1.7;">
+                        El <strong>Análisis de Puestos de Trabajo (APT)</strong> es un procedimiento sistemático liderado por un profesional con licencia en Seguridad y Salud en el Trabajo (SST), enfocado en:
                     </p>
-
+                    <ul class="list-unstyled">
+                        <li class="mb-3 d-flex align-items-start">
+                            <i class="fa-solid fa-circle-check mt-1 mr-3 text-corporate-red" style="font-size: 1.2rem;"></i>
+                            <span><strong>Evaluar</strong> el entorno y las actividades laborales del trabajador.</span>
+                        </li>
+                        <li class="mb-3 d-flex align-items-start">
+                            <i class="fa-solid fa-circle-check mt-1 mr-3 text-corporate-red" style="font-size: 1.2rem;"></i>
+                            <span><strong>Identificar</strong> factores de riesgo que puedan generar efectos nocivos en la salud.</span>
+                        </li>
+                        <li class="d-flex align-items-start">
+                            <i class="fa-solid fa-circle-check mt-1 mr-3 text-corporate-red" style="font-size: 1.2rem;"></i>
+                            <span><strong>Proporcionar</strong> recomendaciones certeras para mejorar las condiciones del sitio de trabajo.</span>
+                        </li>
+                    </ul>         
+                    
                     <hr class="my-4" style="border-color: #eee;">
 
                     <div class="row">
@@ -89,28 +102,31 @@
                             <ul class="list-unstyled">
                                 <li class="mb-3 d-flex align-items-start">
                                     <i class="fa-solid fa-circle-check mt-1 mr-3 text-corporate-red" style="font-size: 1.2rem;"></i>
-                                    <span class="text-secondary font-weight-bold">Para Calificación de Origen</span>
+                                    <span font-weight-bold">Para Calificación de Origen</span>
                                 </li>
                                 <li class="d-flex align-items-start">
                                     <i class="fa-solid fa-circle-check mt-1 mr-3 text-corporate-red" style="font-size: 1.2rem;"></i>
-                                    <span class="text-secondary font-weight-bold">Para Reincorporación Laboral</span>
+                                    <span font-weight-bold">Para Reincorporación Laboral</span>
                                 </li>
                             </ul>
                         </div>
 
-                        <div class="col-12 col-md-6">
+                       <div class="col-12 col-md-6">
                             <h5 class="font-weight-bold text-corporate-blue mb-3">Tipos de Análisis:</h5>
-                            <div class="d-flex flex-wrap">
-                                <div class="apt-badge mb-2 mr-2 shadow-sm">
-                                    <i class="fa-solid fa-bone mr-2 text-corporate-red"></i> Osteomuscular
-                                </div>
-                                <div class="apt-badge mb-2 mr-2 shadow-sm">
-                                    <i class="fa-solid fa-brain mr-2 text-corporate-red"></i> Psicosocial
-                                </div>
-                                <div class="apt-badge mb-2 mr-2 shadow-sm">
-                                    <i class="fa-solid fa-ear-listen mr-2 text-corporate-red"></i> Auditivo
-                                </div>
-                            </div>
+                            <ul class="list-unstyled">
+                                <li class="mb-3 d-flex align-items-center">
+                                    <i class="fa-solid fa-bone mr-3 text-corporate-red" style="font-size: 1.2rem;"></i>
+                                    <span>Osteomuscular</span>
+                                </li>
+                                <li class="mb-3 d-flex align-items-center">
+                                    <i class="fa-solid fa-brain mr-3 text-corporate-red" style="font-size: 1.2rem;"></i>
+                                    <span>Psicosocial</span>
+                                </li>
+                                <li class="d-flex align-items-center">
+                                    <i class="fa-solid fa-ear-listen mr-3 text-corporate-red" style="font-size: 1.2rem;"></i>
+                                    <span>Auditivo</span>
+                                </li>
+                            </ul>
                         </div>
                     </div>
 
@@ -126,12 +142,12 @@
         </div>
 
         <div class="row mt-5">
-            <div class="col-12">
-                <div class="card border-0 shadow-sm text-center p-4 p-md-5" style="background-color: #004085; border-radius: 15px;">
-                    <h4 class="text-white font-weight-bold mb-0" style="line-height: 1.5;">
-                        <i class="fa-solid fa-user-doctor mr-3 mb-3 mb-md-0 d-block d-md-inline" style="color: #e10109; font-size: 2rem;"></i> 
-                        SSO – CRC Servicios de Salud Ocupacional, cuenta con profesionales especialistas en Seguridad y Salud en el Trabajo para la realización de sus APT.
-                    </h4>
+            <div class="col-9 mx-auto" >
+                <div class="p-4 text-white rounded shadow-sm d-flex flex-column align-items-center justify-content-center text-center" style="background-color: #003a8c;">
+                    <i class="fa-solid fa-user-doctor fa-2x mb-3"></i>
+                    <p class="mb-0" style="font-size: 1.1rem;">
+                        <strong>En SSO – CRC contamos con especialistas en Seguridad y Salud en el Trabajo para la realización de sus APT.</strong>
+                    </p>
                 </div>
             </div>
         </div>
