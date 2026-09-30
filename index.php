@@ -84,7 +84,7 @@
             border-radius: 15px;
             padding: 20px;
             box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
-        }
+        }   
     </style>
 </head>
 
@@ -96,7 +96,7 @@
     <h1 class="sr-only">SSO - CRC Servicios de Salud Ocupacional en Barranquilla</h1>
 
     <header>
-        <div id="carouselExample" class="carousel slide shadow-sm" data-ride="carousel" data-interval="2700">
+        <div id="carouselExample" class="carousel slide shadow-sm w-75 mx-auto" data-ride="carousel" data-interval="2700">
             <ol class="carousel-indicators">
                 <li data-target="#carouselExample" data-slide-to="0" class="active"></li>
                 <li data-target="#carouselExample" data-slide-to="1"></li>
