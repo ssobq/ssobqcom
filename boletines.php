@@ -27,7 +27,7 @@
         <div class="row mb-5 text-center">
             <div class="col-12">
                 <h1 class="display-4 font-weight-bold" style="color: #004085;">Boletines Informativos</h1>
-                <p class="lead text-muted mt-3">Manténgase al día con nuestras últimas publicaciones, normativas y consejos de Salud Ocupacional.</p>
+                <p class="lead mt-3">Manténgase al día con nuestras últimas publicaciones, normativas y consejos de Salud Ocupacional.</p>
                 <hr class="mx-auto" style="border: 2px solid #e10109; width: 80px;">
             </div>
         </div>
