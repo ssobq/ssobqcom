@@ -48,6 +48,12 @@
             box-shadow: 0 4px 10px rgba(0,0,0,0.08);
             transform: translateX(5px);
         }
+        .pesv-list-item:hover i {
+            color: #e10109;
+        }
+         .pesv-list-item:hover span {
+            color:black;
+        }
 
         .pesv-list-item i {
             margin-top: 4px;
@@ -73,7 +79,7 @@
         <div class="row mb-5 text-center">
             <div class="col-12">
                 <h1 class="display-4 font-weight-bold" style="color: #004085; font-size: 2.5rem;">Plan Estratégico de Seguridad Vial (P.E.S.V.)</h1>
-                <p class="lead text-muted mt-3">Cumplimiento normativo y protección para los colaboradores de su empresa.</p>
+                <p class="lead mt-3">Cumplimiento normativo y protección para los colaboradores de su empresa.</p>
                 <hr class="mx-auto" style="border: 2px solid #e10109; width: 80px;">
             </div>
         </div>
@@ -88,12 +94,9 @@
                         <h3 class="font-weight-bold text-corporate-blue mb-0">¿Qué es el P.E.S.V?</h3>
                     </div>
                     
-                    <p class="text-justify text-muted mb-4" style="font-size: 1.05rem; line-height: 1.7;">
-                        Es el instrumento de planificación que, oficialmente consignado en un documento, contiene las acciones, mecanismos, estrategias y medidas que deberán adoptar las diferentes entidades, organizaciones o empresas del sector público y privado existentes en Colombia. 
-                        <br><br>
-                        Está encaminado a alcanzar la Seguridad Vial como algo inherente al ser humano, evitar o reducir la accidentalidad vial de los integrantes de sus compañías y disminuir los efectos que puedan generar los accidentes de tránsito.
+                    <p class="text-justify mb-2" style="font-size: 1.05rem; line-height: 1.7;">
+                        Es un instrumento de planificación obligatorio en Colombia para entidades públicas y privadas. Su propósito principal es definir estrategias y acciones para prevenir y reducir la accidentalidad vial, protegiendo la vida y el bienestar de los colaboradores.
                     </p>
-
                     <hr class="my-4" style="border-color: #eee;">
 
                     <h5 class="font-weight-bold text-corporate-blue mb-4">En SSO – CRC le ofrecemos Asesoría Integral en:</h5>
