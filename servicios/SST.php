@@ -94,8 +94,9 @@
                 </div>
             </div>
         </div>
-         <div class="alert mt-3 text-center w-50 mx-auto" style="background-color: #004085; color: white;">
-            <i class="fa-solid fa-user-doctor mr-2"></i> <strong>Equipo experto a su servicio</strong>
+       <div class="alert mt-3 text-center w-50 mx-auto" style="background-color: #004085; color: white;">
+            <i class="fa-solid fa-user-doctor mr-2" style="font-size: 1.2rem;"></i> 
+            <strong style="font-size: 1.6rem;">Equipo experto a su servicio</strong>
         </div>
     </main>
 
