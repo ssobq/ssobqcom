@@ -54,6 +54,15 @@
         .apt-badge:hover i {
             color: white !important;
         }
+        body {
+            font-family: 'Open Sans', sans-serif;
+        }
+        strong {
+            color: #004085;
+        }
+        .textoanuncio{
+            color:white !important;
+        }
     </style>
 </head>
 
@@ -146,7 +155,7 @@
                 <div class="p-4 text-white rounded shadow-sm d-flex flex-column align-items-center justify-content-center text-center" style="background-color: #003a8c;">
                     <i class="fa-solid fa-user-doctor fa-2x mb-3"></i>
                     <p class="mb-0" style="font-size: 1.1rem;">
-                        <strong>En SSO – CRC contamos con especialistas en Seguridad y Salud en el Trabajo para la realización de sus APT.</strong>
+                        <strong class="textoanuncio">En SSO – CRC contamos con especialistas en Seguridad y Salud en el Trabajo para la realización de sus APT.</strong>
                     </p>
                 </div>
             </div>
