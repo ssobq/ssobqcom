@@ -16,8 +16,7 @@
     <title>Plan Estratégico de Seguridad Vial (PESV) en Barranquilla | SSO</title>
     <meta name="description" content="Diseño e implementación del Plan Estratégico de Seguridad Vial (PESV) en Barranquilla. Cumple la normativa con SSO - CRC.">
 
-</head>
-<style>
+    <style>
         #serviciosNav {
             color: #e10109 !important;
             font-weight: bold;
@@ -69,6 +68,7 @@
             font-weight: 500;
         }
     </style>
+</head>
 
 <body class="bg-light">
 
