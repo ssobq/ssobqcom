@@ -74,6 +74,7 @@
             margin-bottom: 12px;
             line-height: 1.5;
             display: none; /* Controlado por JS */
+            font-family: 'Open Sans', sans-serif;
         }
     </style>
 </head>
@@ -86,7 +87,7 @@
         <div class="row mb-5 text-center">
             <div class="col-12">
                 <h1 class="display-4 font-weight-bold text-corporate-blue">Salud Visual</h1>
-                <p class="lead text-muted mt-3">Las mejores alternativas para tu visión y estilo.</p>
+                <p class="lead mt-3">Las mejores alternativas para tu visión y estilo.</p>
                 <hr class="mx-auto" style="border: 2px solid #e10109; width: 80px;">
             </div>
         </div>
