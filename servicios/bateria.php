@@ -28,16 +28,47 @@
         .text-corporate-red {
             color: #e10109;
         }
-        .custom-list-item {
+
+        /* Estilo interactivo para las listas de servicios y beneficios */
+        .pesv-list-item {
             display: flex;
             align-items: flex-start;
             margin-bottom: 12px;
+            padding: 10px 15px;
+            border-radius: 8px;
+            background-color: #f8f9fa;
+            border-left: 4px solid transparent;
+            transition: all 0.3s ease;
         }
-        .custom-list-item i {
+
+        .pesv-list-item:hover {
+            background-color: #ffffff;
+            border-left-color: #e10109;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+            transform: translateX(5px);
+        }
+
+        .pesv-list-item:hover i {
+            color: #e10109;
+        }
+
+        .pesv-list-item:hover span {
+            color: black;
+        }
+
+        .pesv-list-item i {
             margin-top: 4px;
-            margin-right: 12px;
-            font-size: 1.1rem;
+            margin-right: 15px;
+            font-size: 1.2rem;
+            color: #004085;
         }
+        
+        .pesv-list-item span {
+            font-size: 1.05rem;
+            color: #495057;
+            font-weight: 500;
+        }
+
         /* Ajuste para que las imágenes tengan el mismo alto visual */
         .img-section {
             object-fit: cover;
@@ -79,20 +110,20 @@
             <div class="col-12 col-md-6 px-lg-5">
                 <h3 class="font-weight-bold text-corporate-blue mb-4">Nuestros servicios:</h3>
                 <div>
-                    <div class="custom-list-item">
-                        <i class="fa-solid fa-circle-check text-corporate-red"></i>
+                    <div class="pesv-list-item">
+                        <i class="fa-solid fa-circle-check"></i>
                         <span>Diagnóstico en riesgo psicosocial (Aplicación de la batería).</span>
                     </div>
-                    <div class="custom-list-item">
-                        <i class="fa-solid fa-circle-check text-corporate-red"></i>
+                    <div class="pesv-list-item">
+                        <i class="fa-solid fa-circle-check"></i>
                         <span>Interpretación experta de los resultados.</span>
                     </div>
-                    <div class="custom-list-item">
-                        <i class="fa-solid fa-circle-check text-corporate-red"></i>
+                    <div class="pesv-list-item">
+                        <i class="fa-solid fa-circle-check"></i>
                         <span>Construcción detallada del informe.</span>
                     </div>
-                    <div class="custom-list-item">
-                        <i class="fa-solid fa-circle-check text-corporate-red"></i>
+                    <div class="pesv-list-item">
+                        <i class="fa-solid fa-circle-check"></i>
                         <span>Entrega y socialización del informe.</span>
                     </div>
                 </div>
@@ -103,24 +134,24 @@
             <div class="col-12 col-md-6 px-lg-5 order-2 order-md-1">
                 <h3 class="font-weight-bold text-corporate-blue mb-4">Beneficios para su empresa:</h3>
                 <div>
-                    <div class="custom-list-item">
-                        <i class="fa-solid fa-star text-corporate-red"></i>
+                    <div class="pesv-list-item">
+                        <i class="fa-solid fa-star"></i>
                         <span>Apoyamos a su empresa en el cumplimiento estricto de la <strong class="text-corporate-blue">Resolución 2404 de 2019</strong>.</span>
                     </div>
-                    <div class="custom-list-item">
-                        <i class="fa-solid fa-star text-corporate-red"></i>
+                    <div class="pesv-list-item">
+                        <i class="fa-solid fa-star"></i>
                         <span>Mejora del clima laboral al identificar y abordar áreas problemáticas.</span>
                     </div>
-                    <div class="custom-list-item">
-                        <i class="fa-solid fa-star text-corporate-red"></i>
+                    <div class="pesv-list-item">
+                        <i class="fa-solid fa-star"></i>
                         <span>Reducción de las tasas de ausentismo y la rotación de personal.</span>
                     </div>
-                    <div class="custom-list-item">
-                        <i class="fa-solid fa-star text-corporate-red"></i>
+                    <div class="pesv-list-item">
+                        <i class="fa-solid fa-star"></i>
                         <span>Mejora significativa del compromiso y la satisfacción laboral.</span>
                     </div>
-                    <div class="custom-list-item">
-                        <i class="fa-solid fa-star text-corporate-red"></i>
+                    <div class="pesv-list-item">
+                        <i class="fa-solid fa-star"></i>
                         <span>Aumento de la productividad al promover el bienestar mental de sus empleados.</span>
                     </div>
                 </div>
