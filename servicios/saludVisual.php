@@ -70,7 +70,7 @@
             border-bottom-right-radius: 10px;
             padding: 15px 18px;
             font-size: 0.85rem;
-            color: #6c757d;
+            color: #000000;
             margin-bottom: 12px;
             line-height: 1.5;
             display: none; /* Controlado por JS */
@@ -127,6 +127,13 @@
                                     <button type="button" class="accordion-item-btn" data-target="lente3">Lentes Progresivos</button>
                                     <div id="lente3" class="accordion-item-body">
                                         Transición visual gradual y sin líneas divisorias para todas las distancias.
+                                    </div>
+                                </div>
+                                <!-- Ítem 4 -->
+                                <div class="mb-2">
+                                    <button type="button" class="accordion-item-btn" data-target="lenteSeguridad">Lentes de Seguridad</button>
+                                    <div id="lenteSeguridad" class="accordion-item-body">
+                                        Gafas diseñadas para proteger los ojos de los trabajadores contra impactos, partículas y riesgos en el entorno laboral.
                                     </div>
                                 </div>
                             </div>
