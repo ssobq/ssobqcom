@@ -61,12 +61,12 @@
             </div>
         </div>
 
-        <div class="row mb-5 justify-content-center text-center">
+       <div class="row mb-5 justify-content-center">
             <div class="col-12 col-lg-10">
-                <h1 class="display-4 font-weight-bold mb-0" style="color: #004085; font-size: 2.5rem;">Aplicación de Batería de Riesgo Psicosocial</h1>
-                <div class="card border-0 shadow-sm px-4 px-md-5 pb-4 pb-md-5 pt-3 mt-3" style="border-radius: 15px;">
-                    <p class="mb-0 text-center" style="font-size: 1.1rem; line-height: 1.7;">
-                        En <strong class="text-prymary">SSO – CRC</strong>, nuestros Psicólogos Especialistas en Seguridad y Salud en el Trabajo aplican la <strong>Batería de Riesgo Psicosocial</strong>. Esta herramienta evalúa factores del entorno laboral que impactan la salud mental de su equipo, tales como el estrés, la carga de trabajo y el equilibrio personal-laboral.
+                <h1 class="display-4 font-weight-bold mb-0 text-center" style="color: #004085; font-size: 2.5rem;">Aplicación de Batería de Riesgo Psicosocial</h1>
+                <div class="card border-0 shadow-sm px-4 px-md-5 pb-4 pb-md-3 pt-3 mt-3" style="border-radius: 15px;">
+                    <p class="mb-0 text-justify" style="font-size: 1.1rem; line-height: 1.7; font-family: 'Open Sans', sans-serif;">
+                        En <strong class="text-corporate-blue">SSO – CRC</strong>, nuestros Psicólogos Especialistas en Seguridad y Salud en el Trabajo aplican la <strong class="text-corporate-blue">Batería de Riesgo Psicosocial</strong>. Esta herramienta evalúa factores del entorno laboral que impactan la salud mental de su equipo, tales como el estrés, la carga de trabajo y el equilibrio personal-laboral.
                     </p>
                 </div>
             </div>
@@ -105,7 +105,7 @@
                 <div>
                     <div class="custom-list-item">
                         <i class="fa-solid fa-star text-corporate-red"></i>
-                        <span>Apoyamos a su empresa en el cumplimiento estricto de la <strong>Resolución 2404 de 2019</strong>.</span>
+                        <span>Apoyamos a su empresa en el cumplimiento estricto de la <strong class="text-corporate-blue">Resolución 2404 de 2019</strong>.</span>
                     </div>
                     <div class="custom-list-item">
                         <i class="fa-solid fa-star text-corporate-red"></i>
