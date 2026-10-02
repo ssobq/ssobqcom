@@ -127,7 +127,7 @@
 
             <div class="col-12 col-lg-5 d-flex">
                 <div class="w-100 shadow-sm" style="border-radius: 15px; overflow: hidden; background-color: #fff;">
-                    <img class="img-fluid w-100 h-100" style="object-fit: cover; min-height: 400px;" src="/img/servicios/planEstrategico/PESV2_sso-crc.jpg" alt="Plan Estratégico de Seguridad Vial SSO - CRC" loading="lazy">
+                    <img class="img-fluid w-100 h-100" style="object-fit: cover; min-height: 400px;" src="/img/servicios/planEstrategico/PESV2_sso-crc.webp" alt="Plan Estratégico de Seguridad Vial SSO - CRC" loading="lazy">
                 </div>
             </div>
 

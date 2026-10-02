@@ -90,7 +90,7 @@
 
             <div class="col-lg-5 mt-4 mt-lg-0">
                 <div class="shadow-sm rounded overflow-hidden">
-                    <img class="img-fluid w-100" src="/img/servicios/sst/Ssst_sso-crc.jpg" alt="Especialistas en SST SSO - CRC" loading="lazy">
+                    <img class="img-fluid w-100" src="/img/servicios/sst/Ssst_sso-crc.webp" alt="Especialistas en SST SSO - CRC" loading="lazy">
                 </div>
             </div>
         </div>

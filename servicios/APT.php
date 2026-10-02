@@ -147,7 +147,7 @@
                 <!-- Se agrega position-relative al contenedor y un min-height para móviles -->
                 <div class="w-100 h-100 shadow-sm position-relative" style="border-radius: 15px; overflow: hidden; min-height: 350px;">
                     <!-- Se agrega position-absolute a la imagen para que no dicte la altura de la fila -->
-                    <img class="position-absolute w-100 h-100" style="object-fit: cover; top: 0; left: 0;" src="/img/servicios/APT/Analisis-bateria_sso-crc.jpg" alt="Evaluación APT" loading="lazy">
+                    <img class="position-absolute w-100 h-100" style="object-fit: cover; top: 0; left: 0;" src="/img/servicios/APT/Analisis-bateria_sso-crc.webp" alt="Evaluación APT" loading="lazy">
                 </div>
             </div>
 
