@@ -80,10 +80,11 @@
             </div>
         </div>
 
+        <!-- Agregamos align-items-stretch de nuevo para que ambas columnas midan igual -->
         <div class="row align-items-stretch">
             
-            <div class="col-12 col-lg-7 mb-4 mb-lg-0 d-flex">
-                <div class="card border-0 shadow-sm w-100 p-4 p-md-5" style="border-radius: 15px;">
+            <div class="col-12 col-lg-7 mb-4 mb-lg-0">
+                <div class="card border-0 shadow-sm w-100 h-100 p-4 p-md-5" style="border-radius: 15px;">
                     
                     <p class="text-justify mb-4" style="font-size: 1.05rem; line-height: 1.7;">
                         El <strong>Análisis de Puestos de Trabajo (APT)</strong> es un procedimiento sistemático liderado por un profesional con licencia en Seguridad y Salud en el Trabajo (SST), enfocado en:
@@ -101,7 +102,7 @@
                             <i class="fa-solid fa-circle-check mt-1 mr-3 text-corporate-red" style="font-size: 1.2rem;"></i>
                             <span><strong>Proporcionar</strong> recomendaciones certeras para mejorar las condiciones del sitio de trabajo.</span>
                         </li>
-                    </ul>         
+                    </ul>        
                     
                     <hr class="my-4" style="border-color: #eee;">
 
@@ -111,11 +112,11 @@
                             <ul class="list-unstyled">
                                 <li class="mb-3 d-flex align-items-start">
                                     <i class="fa-solid fa-circle-check mt-1 mr-3 text-corporate-red" style="font-size: 1.2rem;"></i>
-                                    <span font-weight-bold">Para Calificación de Origen</span>
+                                    <span class="font-weight-bold">Para Calificación de Origen</span>
                                 </li>
                                 <li class="d-flex align-items-start">
                                     <i class="fa-solid fa-circle-check mt-1 mr-3 text-corporate-red" style="font-size: 1.2rem;"></i>
-                                    <span font-weight-bold">Para Reincorporación Laboral</span>
+                                    <span class="font-weight-bold">Para Reincorporación Laboral</span>
                                 </li>
                             </ul>
                         </div>
@@ -142,16 +143,18 @@
                 </div>
             </div>
 
-            <div class="col-12 col-lg-5 d-flex">
-                <div class="w-100 shadow-sm" style="border-radius: 15px; overflow: hidden;">
-                    <img class="img-fluid w-100 h-100" style="object-fit: cover;" src="/img/servicios/APT/apt2.jpg" alt="Evaluación APT" loading="lazy">
+            <div class="col-12 col-lg-5">
+                <!-- Se agrega position-relative al contenedor y un min-height para móviles -->
+                <div class="w-100 h-100 shadow-sm position-relative" style="border-radius: 15px; overflow: hidden; min-height: 350px;">
+                    <!-- Se agrega position-absolute a la imagen para que no dicte la altura de la fila -->
+                    <img class="position-absolute w-100 h-100" style="object-fit: cover; top: 0; left: 0;" src="/img/servicios/APT/Analisis-bateria_sso-crc.jpg" alt="Evaluación APT" loading="lazy">
                 </div>
             </div>
 
         </div>
 
-        <div class="row mt-5">
-            <div class="col-9 mx-auto" >
+        <div class="row mt-4">
+            <div class="col-12">
                 <div class="p-4 text-white rounded shadow-sm d-flex flex-column align-items-center justify-content-center text-center" style="background-color: #003a8c;">
                     <i class="fa-solid fa-user-doctor fa-2x mb-3"></i>
                     <p class="mb-0" style="font-size: 1.1rem;">
