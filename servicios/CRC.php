@@ -74,7 +74,7 @@
         
         <div class="row mb-5 text-center">
             <div class="col-12">
-                <img class="img-fluid shadow-sm" src="/img/servicios/CRC/CRC.png" alt="Centro de Reconocimiento de Conductores SSO" style="border-radius: 15px; width: 100%; max-height: 300px; object-fit: cover;" loading="lazy">
+                <img class="img-fluid shadow-sm" src="/img/servicios/CRC/Banner-crc_sso-crc.webp" alt="Centro de Reconocimiento de Conductores SSO" style="border-radius: 15px; width: 100%; max-height: 300px; object-fit: fill;" loading="lazy">
             </div>
         </div>
 
