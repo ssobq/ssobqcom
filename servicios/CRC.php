@@ -149,7 +149,7 @@
             <div class="col-12 col-sm-6 col-lg-3 mb-4">
                 <div class="card bg-white border-0 shadow-sm p-4 exam-card" type="button" data-toggle="collapse" data-target="#collapseMedicina" aria-expanded="false" aria-controls="collapseMedicina" style="cursor: pointer;">
                     <img class="img-fluid mx-auto mb-4" src="/img/servicios/CRC/Examen-medico.png" alt="Medicina General" style="max-height: 80px;" loading="lazy">
-                    <h6 class="font-weight-bold text-corporate-blue mb-2" style="transition: color 0.3s ease;">Medicina General</h6>
+                    <h6 class="font-weight-bold text-corporate-blue mb-2" style="transition: color 0.3s ease;">Medicina</h6>
                     <i class="bi bi-chevron-down text-muted small"></i>
                     
                     <div class="collapse text-start mt-3 pt-3 border-top" id="collapseMedicina" data-parent="#grupoEvaluaciones">
