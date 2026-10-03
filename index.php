@@ -96,7 +96,7 @@
     <h1 class="sr-only">SSO - CRC Servicios de Salud Ocupacional en Barranquilla</h1>
 
     <header>
-        <div id="carouselExample" class="carousel slide shadow-sm w-75 mx-auto" data-ride="carousel" data-interval="2700">
+        <div id="carouselExample" class="carousel slide shadow-sm w-75 mx-auto mt-5" data-ride="carousel" data-interval="2700">
             <ol class="carousel-indicators">
                 <li data-target="#carouselExample" data-slide-to="0" class="active"></li>
                 <li data-target="#carouselExample" data-slide-to="1"></li>
@@ -137,7 +137,7 @@
         </div>
     </header>
 
-    <section id="featured-services" class="featured-services mt-5">
+    <section id="featured-services" class="featured-services mt-3">
         <div class="container" data-aos="fade-up">
             <!-- Agregado justify-content-center para centrar los 5 elementos -->
             <div class="row text-center d-flex align-items-stretch justify-content-center">
@@ -206,7 +206,7 @@
         </div>
     </section>
 
-    <div class="showcase-page mt-3 mb-5">
+    <div class="showcase-page mt-2 mb-5">
         <section class="module-medium" id="demos">
             <div class="container">
                 <div class="row align-items-stretch">
