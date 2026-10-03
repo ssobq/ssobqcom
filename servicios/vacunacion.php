@@ -419,7 +419,7 @@
                     <div id="collapseFaq4" class="collapse">
                         <div class="card-body pt-0 px-3 px-md-4 pb-2">
                             <div class="faq-wrapper mt-1">
-                                <p class="faq-text">De ser posible, debe presentar su carnet en formato físico o digital. Si lo perdió o no puede acceder a él, no es un requisito obligatorio; la persona podrá ser vacunada previa explicación del profesional y la firma de un consentimiento informado.</p>
+                                <p class="faq-text">De ser posible, debe presentar su carnet en formato físico o digital. Si lo perdió o no puede acceder a él, no es un requisito obligatorio; la persona podrá ser vacunada.</p>
                             </div>
                         </div>
                     </div>
@@ -444,7 +444,7 @@
                                 <li><i class="fa-solid fa-circle-exclamation"></i> Informar antecedentes de alergias a alguna vacuna o a alguno de sus componentes.</li>
                                 <li><i class="fa-solid fa-circle-exclamation"></i> No haber presentado fiebre en las últimas 24 horas.</li>
                                 <li><i class="fa-solid fa-circle-exclamation"></i> Informar en caso de presentar enfermedades recientes o crónicas.</li>
-                                <li><i class="fa-solid fa-circle-exclamation"></i> Encontrarse en estado de embarazo o si hay sospechas de estarlo.</li>
+                                <li><i class="fa-solid fa-circle-exclamation"></i> No encontrarse en estado de embarazo o si hay sospechas de estarlo.</li>
                                 <li><i class="fa-solid fa-circle-exclamation"></i> Estar en estado de inmunosupresión (defensas bajas) o estar recibiendo medicamentos inmunosupresores.</li>
                             </ul>
                         </div>
