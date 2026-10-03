@@ -71,6 +71,32 @@
             flex-shrink: 0; 
         }
 
+        /* Estilos clonados para Preguntas Frecuentes para que sean idénticos a las vacunas */
+        .faq-wrapper {
+            padding-left: 5px; 
+            padding-right: 5px; 
+        }
+        
+        .faq-text {
+            color: #050505;
+            font-size: 0.95rem; 
+            padding: 10px 5px; 
+            margin-bottom: 0;
+            line-height: 1.5;
+        }
+        .vac-list li {
+            padding: 10px 5px; 
+            border-bottom: 1px solid #ececec;
+            color: #050505;
+            display: flex;
+            align-items: flex-start;
+            font-size: 0.95rem; 
+        }
+
+        .vac-list li strong {
+            white-space: nowrap; /* Evita que los días de la semana (ej. Martes a Viernes) se corten en dos líneas */
+        }
+
         /* === Ajustes para Tablets y Computadores === */
         @media (min-width: 768px) {
             .vac-list {
@@ -85,6 +111,16 @@
             
             .vac-list li i {
                 margin-right: 15px;
+            }
+
+            .faq-wrapper {
+                padding-left: 15px; 
+                padding-right: 15px;
+            }
+            
+            .faq-text {
+                font-size: 1rem;
+                padding: 12px 10px;
             }
         }
 
@@ -207,7 +243,6 @@
                     </div>
                 </div>
             </div>
-
         </div>
 
         <!-- ================= SECCIÓN 2: BAJO PEDIDO ================= -->
@@ -221,13 +256,12 @@
         </div>
 
         <div class="row">
-           
             <!-- Meningococo B -->
                 <div class="col-12 col-md-6">
                     <div class="card vac-card">
                         <div class="card-header d-flex justify-content-between align-items-center" data-toggle="collapse" data-target="#collapseMeningococo" aria-expanded="false" style="cursor: pointer;">
                             <h4 class="text-corporate-blue font-weight-bold mb-0 d-flex align-items-center">
-                                <i class="fa-solid fa-temperature-low vac-icon"></i> Meningococo B
+                                <i class="fa-solid fa-brain vac-icon"></i> Meningococo B
                             </h4>
                             <i class="fa-solid fa-chevron-down toggle-icon"></i>
                         </div>
@@ -247,7 +281,7 @@
                     <div class="card vac-card">
                         <div class="card-header d-flex justify-content-between align-items-center" data-toggle="collapse" data-target="#collapseVaricela" aria-expanded="false" style="cursor: pointer;">
                             <h4 class="text-corporate-blue font-weight-bold mb-0 d-flex align-items-center">
-                                <i class="fa-solid fa-temperature-low vac-icon"></i> Varicela
+                                <i class="fa-solid fa-disease vac-icon"></i> Varicela
                             </h4>
                             <i class="fa-solid fa-chevron-down toggle-icon"></i>
                         </div>
@@ -255,7 +289,7 @@
                             <div class="card-body pt-0 px-3 px-md-4 pb-4">
                                 <ul class="vac-list mt-3">
                                     <li><i class="fa-solid fa-check"></i> 1ª Dosis: Inicio de esquema.</li>
-                                    <li><i class="fa-solid fa-check"></i> 2ª Dosis: A los 2 meses de la primera.</li>                   
+                                    <li><i class="fa-solid fa-check"></i> 2ª Dosis: A los 2 meses de la primera.</li>                  
                                 </ul>
                             </div>
                         </div>
@@ -267,7 +301,7 @@
                     <div class="card vac-card">
                         <div class="card-header d-flex justify-content-between align-items-center" data-toggle="collapse" data-target="#collapseTripleViral" aria-expanded="false" style="cursor: pointer;">
                             <h4 class="text-corporate-blue font-weight-bold mb-0 d-flex align-items-center">
-                                <i class="fa-solid fa-temperature-low vac-icon"></i> Sarampion / Rubeola o Triple viral
+                                <i class="fa-solid fa-viruses vac-icon"></i> Sarampion / Rubeola o Triple viral
                             </h4>
                             <i class="fa-solid fa-chevron-down toggle-icon"></i>
                         </div>
@@ -286,7 +320,7 @@
                     <div class="card vac-card">
                         <div class="card-header d-flex justify-content-between align-items-center" data-toggle="collapse" data-target="#collapseHepatitisA" aria-expanded="false" style="cursor: pointer;">
                             <h4 class="text-corporate-blue font-weight-bold mb-0 d-flex align-items-center">
-                                <i class="fa-solid fa-temperature-low vac-icon"></i> Hepatitis A
+                                <i class="fa-solid fa-vial-virus vac-icon"></i> Hepatitis A
                             </h4>
                             <i class="fa-solid fa-chevron-down toggle-icon"></i>
                         </div>
@@ -294,19 +328,136 @@
                             <div class="card-body pt-0 px-3 px-md-4 pb-4">
                                 <ul class="vac-list mt-3">
                                     <li><i class="fa-solid fa-check"></i> 1ª Dosis: Inicio de esquema.</li>
-                                    <li><i class="fa-solid fa-check"></i> 2ª Dosis: A los 2 meses de la primera.</li>                                    </ul>
+                                    <li><i class="fa-solid fa-check"></i> 2ª Dosis: A los 2 meses de la primera.</li>                                   </ul>
                             </div>
                         </div>
                     </div>
                 </div>
-
-            
         </div>
+
+        <!-- ================= SECCIÓN 3: PREGUNTAS FRECUENTES ================= -->
+        <div class="row mb-4 mt-5">
+            <div class="col-12">
+                <h3 class="text-corporate-blue border-bottom pb-2 mb-4">
+                    <i class="fa-solid fa-circle-question mr-2"></i>Preguntas Frecuentes
+                </h3>
+            </div>
+        </div>
+
+        <div class="row">
+            <!-- FAQ 1: Brigadas -->
+            <div class="col-12">
+                <div class="card vac-card">
+                    <div class="card-header d-flex justify-content-between align-items-center" data-toggle="collapse" data-target="#collapseFaq1" aria-expanded="false" style="cursor: pointer;">
+                        <h5 class="text-corporate-blue font-weight-bold mb-0 d-flex align-items-center" style="font-size: 1.1rem;">
+                            <i class="fa-solid fa-users vac-icon"></i> ¿Hay un número mínimo de trabajadores para brigadas en empresa?
+                        </h5>
+                        <i class="fa-solid fa-chevron-down toggle-icon"></i>
+                    </div>
+                    <div id="collapseFaq1" class="collapse">
+                        <!-- Usamos exactamente el mismo padding de vac-card -->
+                        <div class="card-body pt-0 px-3 px-md-4 pb-4">
+                            <div class="faq-wrapper mt-3">
+                                <p class="faq-text">No hay un mínimo requerido. La disposición de los profesionales y los costos de los servicios son gestionados directamente con nuestra área comercial.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- FAQ 2: Horarios -->
+            <div class="col-12">
+                <div class="card vac-card">
+                    <div class="card-header d-flex justify-content-between align-items-center" data-toggle="collapse" data-target="#collapseFaq2" aria-expanded="false" style="cursor: pointer;">
+                        <h5 class="text-corporate-blue font-weight-bold mb-0 d-flex align-items-center" style="font-size: 1.1rem;">
+                            <i class="fa-regular fa-clock vac-icon"></i> ¿Cuál es el horario de atención para vacunación?
+                        </h5>
+                        <i class="fa-solid fa-chevron-down toggle-icon"></i>
+                    </div>
+                    <div id="collapseFaq2" class="collapse">
+                        <div class="card-body pt-0 px-3 px-md-4 pb-2">
+                            <div class="faq-wrapper mt-1">
+                                <p class="faq-text" style="padding-bottom: 0; border-bottom: none;">Se maneja el mismo horario de atención de la IPS: </p>
+                            </div>
+                            <ul class="vac-list">
+                                <li><i class="fa-solid fa-check"></i> <strong class="mr-1">Lunes:</strong> 6:40 am - 1:00 pm (Jornada continua)</li>
+                                <li><i class="fa-solid fa-check"></i> <strong class="mr-1">Martes a Viernes:</strong> 6:40 am - 3:30 pm (Jornada continua)</li>
+                                <li><i class="fa-solid fa-check"></i> <strong class="mr-1">Sábados:</strong> 6:40 am - 10:30 am</li>                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- FAQ 3: Precios -->
+            <div class="col-12">
+                <div class="card vac-card">
+                    <div class="card-header d-flex justify-content-between align-items-center" data-toggle="collapse" data-target="#collapseFaq3" aria-expanded="false" style="cursor: pointer;">
+                        <h5 class="text-corporate-blue font-weight-bold mb-0 d-flex align-items-center" style="font-size: 1.1rem;">
+                            <i class="fa-solid fa-hand-holding-dollar vac-icon"></i> ¿Dónde puedo consultar los precios de las vacunas?
+                        </h5>
+                        <i class="fa-solid fa-chevron-down toggle-icon"></i>
+                    </div>
+                    <div id="collapseFaq3" class="collapse">
+                        <div class="card-body pt-0 px-3 px-md-4 pb-2">
+                            <div class="faq-wrapper mt-1">
+                                <p class="faq-text">Para recibir información correspondiente a precios y programación, por favor comuníquese con nuestra área comercial a través de nuestros números de contacto o correo electrónico oficiales.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- FAQ 4: Carnet -->
+            <div class="col-12">
+                <div class="card vac-card">
+                    <div class="card-header d-flex justify-content-between align-items-center" data-toggle="collapse" data-target="#collapseFaq4" aria-expanded="false" style="cursor: pointer;">
+                        <h5 class="text-corporate-blue font-weight-bold mb-0 d-flex align-items-center" style="font-size: 1.1rem;">
+                            <i class="fa-regular fa-id-card vac-icon"></i> ¿Es indispensable presentar el carnet de vacunación?
+                        </h5>
+                        <i class="fa-solid fa-chevron-down toggle-icon"></i>
+                    </div>
+                    <div id="collapseFaq4" class="collapse">
+                        <div class="card-body pt-0 px-3 px-md-4 pb-2">
+                            <div class="faq-wrapper mt-1">
+                                <p class="faq-text">De ser posible, debe presentar su carnet en formato físico o digital. Si lo perdió o no puede acceder a él, no es un requisito obligatorio; la persona podrá ser vacunada previa explicación del profesional y la firma de un consentimiento informado.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- FAQ 5: Restricciones -->
+            <div class="col-12">
+                <div class="card vac-card">
+                    <div class="card-header d-flex justify-content-between align-items-center" data-toggle="collapse" data-target="#collapseFaq5" aria-expanded="false" style="cursor: pointer;">
+                        <h5 class="text-corporate-blue font-weight-bold mb-0 d-flex align-items-center" style="font-size: 1.1rem;">
+                            <i class="fa-solid fa-clipboard-list vac-icon"></i> ¿Existen restricciones médicas o requisitos previos para vacunarse?
+                        </h5>
+                        <i class="fa-solid fa-chevron-down toggle-icon"></i>
+                    </div>
+                    <div id="collapseFaq5" class="collapse">
+                        <div class="card-body pt-0 px-3 px-md-4 pb-2">
+                            <div class="faq-wrapper mt-2">
+                                <p class="faq-text" style="padding-bottom: 0; border-bottom: none;">Antes de la vacunación, es necesario cumplir e informar sobre los siguientes aspectos:</p>
+                            </div>
+                            <ul class="vac-list">
+                                <li><i class="fa-solid fa-circle-exclamation"></i> Informar antecedentes de alergias a alguna vacuna o a alguno de sus componentes.</li>
+                                <li><i class="fa-solid fa-circle-exclamation"></i> No haber presentado fiebre en las últimas 24 horas.</li>
+                                <li><i class="fa-solid fa-circle-exclamation"></i> Informar en caso de presentar enfermedades recientes o crónicas.</li>
+                                <li><i class="fa-solid fa-circle-exclamation"></i> Encontrarse en estado de embarazo o si hay sospechas de estarlo.</li>
+                                <li><i class="fa-solid fa-circle-exclamation"></i> Estar en estado de inmunosupresión (defensas bajas) o estar recibiendo medicamentos inmunosupresores.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
 
         <!-- Banner de Importante -->
         <div class="row mt-5">
             <div class="col-12">
-                <div class="alert alert-danger shadow-sm text-center p-4" style="border-radius: 15px; border: none; background-color: #e10109; color: white;">
+                <div class="alert alert-danger shadow-sm text-center p-4 w-50 mx-auto" style="border-radius: 15px; border: none; background-color: #004085; color: white;">
                     <i class="fa-solid fa-triangle-exclamation fa-2x mb-3"></i>
                     <h4 class="font-weight-bold">IMPORTANTE</h4>
                     <p class="mb-0 font-weight-bold">Para validar su esquema de vacunación, es indispensable presentar su carnet físico al momento de la atención.</p>
