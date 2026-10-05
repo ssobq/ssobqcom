@@ -30,32 +30,45 @@
             color: #e10109;
         }
 
-        /* Estilo interactivo para la lista de exámenes */
+        /* Efecto interactivo unificado para la lista de exámenes */
         .ocu-list-item {
             display: flex;
-            align-items: flex-start;
-            margin-bottom: 8px;
-            padding: 10px 15px;
+            align-items: center;
+            margin-bottom: 12px;
+            padding: 12px 20px;
             border-radius: 8px;
-            transition: background-color 0.2s ease, transform 0.2s ease;
+            background-color: #ffffff;
+            border: 1px solid #f0f0f0;
+            transition: all 0.3s ease;
         }
 
         .ocu-list-item:hover {
-            background-color: #f8f9fa;
-            transform: translateX(5px);
+            background-color: #004085;
+            transform: translateX(8px);
+            border-color: #fff;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+        }
+
+        .ocu-list-item:hover i {
+            color: #fff;
+        }
+
+        .ocu-list-item:hover span {
+            color: #fff;
         }
 
         .ocu-list-item i {
-            margin-top: 4px;
-            margin-right: 15px;
-            font-size: 1.2rem;
+            margin-right: 18px;
+            font-size: 1.4rem;
             color: #e10109;
+            transition: color 0.3s ease;
         }
         
         .ocu-list-item span {
-            font-size: 1.05rem;
-            color: #495057;
+            font-size: 1.1rem;
+            color: #000000;
             font-weight: 500;
+            transition: color 0.3s ease;
         }
     </style>
 </head>
@@ -66,71 +79,73 @@
 
     <main class="container my-5">
         
-        <div class="row mb-5 text-center">
+        <div class="row mb-3 text-center">
             <div class="col-12">
-                <h1 class="display-4 font-weight-bold" style="color: #004085; font-size: 2.5rem;">Exámenes Médicos Ocupacionales</h1>
-                <p class="lead text-muted mt-3">Evaluaciones clínicas integrales para garantizar la salud y seguridad de sus trabajadores.</p>
+                <h1 class="display-4 font-weight-bold text-corporate-blue">Exámenes Médicos Ocupacionales</h1>
+                <p class="lead mt-3">Evaluaciones clínicas integrales para garantizar la salud y seguridad de sus trabajadores.</p>
                 <hr class="mx-auto" style="border: 2px solid #e10109; width: 80px;">
             </div>
         </div>
 
-        <div class="row align-items-center mb-5">
+        <div class="row align-items-center justify-content-center mb-5">
             
-            <div class="col-12 col-lg-7 mb-4 mb-lg-0 d-flex">
-                <div class="card border-0 shadow-sm w-100 p-4 p-md-5" style="border-radius: 15px;">
-                    <h4 class="font-weight-bold text-corporate-blue mb-4 border-bottom pb-3">Nuestras Evaluaciones</h4>
+            <!-- Columna Izquierda: Tarjeta de Lista -->
+            <div class="col-12 col-lg-7 mb-4 mb-lg-0">
+                <div class="card border-0 shadow-sm p-4 p-md-5" style="border-radius: 15px; height: 100%;">
+                    
+                    <h3 class="font-weight-bold text-corporate-blue mb-4 border-bottom pb-3">Nuestras Evaluaciones</h3>
                     
                     <div class="row">
                         <div class="col-12 col-md-6">
                             <div class="ocu-list-item">
-                                <i class="fa-solid fa-stethoscope"></i>
+                                <i class="fa-solid fa-user-plus fa-fw"></i>
                                 <span>Examen médico ocupacional de pre-ingreso.</span>
                             </div>
                             <div class="ocu-list-item">
-                                <i class="fa-solid fa-stethoscope"></i>
+                                <i class="fa-solid fa-calendar-check fa-fw"></i>
                                 <span>Examen médico ocupacional periódico.</span>
                             </div>
                             <div class="ocu-list-item">
-                                <i class="fa-solid fa-stethoscope"></i>
+                                <i class="fa-solid fa-file-export fa-fw"></i>
                                 <span>Examen médico ocupacional de egreso.</span>
                             </div>
                             <div class="ocu-list-item">
-                                <i class="fa-solid fa-stethoscope"></i>
+                                <i class="fa-solid fa-briefcase-medical fa-fw"></i>
                                 <span>Evaluación médica por retorno laboral.</span>
                             </div>
                             <div class="ocu-list-item">
-                                <i class="fa-solid fa-stethoscope"></i>
+                                <i class="fa-solid fa-notes-medical fa-fw"></i>
                                 <span>Examen post incapacidad y/o seguimiento.</span>
                             </div>
                             <div class="ocu-list-item">
-                                <i class="fa-solid fa-stethoscope"></i>
+                                <i class="fa-solid fa-bone fa-fw"></i>
                                 <span>Énfasis osteomuscular.</span>
                             </div>
                         </div>
                         
                         <div class="col-12 col-md-6 mt-2 mt-md-0">
                             <div class="ocu-list-item">
-                                <i class="fa-solid fa-stethoscope"></i>
+                                <i class="fa-solid fa-helmet-safety fa-fw"></i>
                                 <span>Énfasis altura y/o espacios confinados.</span>
                             </div>
                             <div class="ocu-list-item">
-                                <i class="fa-solid fa-stethoscope"></i>
+                                <i class="fa-solid fa-car fa-fw"></i>
                                 <span>Énfasis conductores.</span>
                             </div>
                             <div class="ocu-list-item">
-                                <i class="fa-solid fa-stethoscope"></i>
+                                <i class="fa-solid fa-utensils fa-fw"></i>
                                 <span>Énfasis manipulación de alimentos.</span>
                             </div>
                             <div class="ocu-list-item">
-                                <i class="fa-solid fa-stethoscope"></i>
-                                <span>Énfasis medicamentos y/o sustancias químicas.</span>
+                                <i class="fa-solid fa-flask fa-fw"></i>
+                                <span>Énfasis medicamentos y sustancias químicas.</span>
                             </div>
                             <div class="ocu-list-item">
-                                <i class="fa-solid fa-stethoscope"></i>
+                                <i class="fa-solid fa-bolt fa-fw"></i>
                                 <span>Énfasis riesgo o maniobras eléctricas.</span>
                             </div>
                             <div class="ocu-list-item">
-                                <i class="fa-solid fa-stethoscope"></i>
+                                <i class="fa-solid fa-heart-pulse fa-fw"></i>
                                 <span>Énfasis cardiovascular y/o respiratorio.</span>
                             </div>
                         </div>
@@ -138,9 +153,10 @@
                 </div>
             </div>
 
-            <div class="col-12 col-lg-5 d-flex">
-                <div class="w-100 shadow-sm" style="border-radius: 15px; overflow: hidden; height: 100%;">
-                    <img class="img-fluid w-100 h-100" style="object-fit: cover; min-height: 350px;" src="/img/servicios/examenOcupacional/examen-ocupacional-ssobq.jpg" alt="Exámenes Ocupacionales SSO - CRC" loading="lazy">
+            <!-- Columna Derecha: Imagen -->
+            <div class="col-12 col-lg-5">
+                <div class="shadow-sm overflow-hidden" style="border-radius: 15px;">
+                    <img class="img-fluid w-100" src="/img/servicios/examenOcupacional/examen-ocupacional-ssobq.jpg" alt="Exámenes Ocupacionales SSO - CRC" loading="lazy" style="object-fit: cover; min-height: 400px;">
                 </div>
             </div>
 
