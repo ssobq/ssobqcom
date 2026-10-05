@@ -128,59 +128,65 @@
             </div>
         </div>
 
-        <div class="row justify-content-center mb-5">
-        <div class="col-12 col-lg-8">
-        <div class="card border-0 shadow-sm p-4 p-md-5" style="border-radius: 15px;">
+        <div class="row align-items-center justify-content-center mb-5">
             
-            <h3 class="font-weight-bold text-center text-corporate-blue mb-3 pb-2">Servicios de Apoyo Diagnóstico</h3>
-            
-            <div class="row">
-                <div class="col-12">
-                    <!-- Contenedor centrado para que la lista luzca más ordenada -->
-                    <div class="mx-auto" style="max-width: 480px;">
-                        <div class="para-list-item">
-                            <i class="fa-solid fa-headphones fa-fw text-corporate-red"></i>
-                            <span>Audiometría vía aérea</span>
-                        </div>
-                        <div class="para-list-item">
-                            <i class="fa-solid fa-ear-listen fa-fw text-corporate-red"></i>
-                            <span>Audiometría clínica</span>
-                        </div>
-                        <div class="para-list-item">
-                            <i class="fa-solid fa-eye fa-fw text-corporate-red"></i>
-                            <span>Visiometría</span>
-                        </div>
-                        <div class="para-list-item">
-                            <i class="fa-solid fa-glasses fa-fw text-corporate-red"></i>
-                            <span>Optometría general</span>
-                        </div>
-                        <div class="para-list-item">
-                            <i class="fa-solid fa-heart-pulse fa-fw text-corporate-red"></i>
-                            <span>Electrocardiograma</span>
-                        </div>
-                        <div class="para-list-item">
-                            <i class="fa-solid fa-lungs fa-fw text-corporate-red"></i>
-                            <span>Espirometría</span>
-                        </div>
-                        <div class="para-list-item">
-                            <i class="fa-solid fa-x-ray fa-fw text-corporate-red"></i>
-                            <span>Rayos X, ecografías, radiografías de tórax lectura ILO.</span>
-                        </div>
-                        <div class="para-list-item">
-                            <i class="fa-solid fa-person-walking fa-fw text-corporate-red"></i>
-                            <span>Valoración por fisioterapeuta</span>
-                        </div>
-                        <div class="para-list-item">
-                            <i class="fa-solid fa-comment-medical fa-fw text-corporate-red"></i>
-                            <span>Valoración foniátrica</span>
-                        </div>
+            <!-- Columna Izquierda: Tarjeta de Lista -->
+            <div class="col-12 col-lg-7 mb-4 mb-lg-0">
+                <div class="card border-0 shadow-sm p-4 p-md-5" style="border-radius: 15px; height: 100%;">
+                    
+                    <!-- Título alineado a la izquierda -->
+                    <h3 class="font-weight-bold text-corporate-blue mb-4 border-bottom pb-3">Servicios de Apoyo Diagnóstico</h3>
+                    
+                    <!-- Lista de servicios (sin mx-auto para que fluya hacia los bordes) -->
+                    <div class="para-list-item">
+                        <i class="fa-solid fa-headphones fa-fw text-corporate-red"></i>
+                        <span>Audiometría vía aérea</span>
                     </div>
+                    <div class="para-list-item">
+                        <i class="fa-solid fa-ear-listen fa-fw text-corporate-red"></i>
+                        <span>Audiometría clínica</span>
+                    </div>
+                    <div class="para-list-item">
+                        <i class="fa-solid fa-eye fa-fw text-corporate-red"></i>
+                        <span>Visiometría</span>
+                    </div>
+                    <div class="para-list-item">
+                        <i class="fa-solid fa-glasses fa-fw text-corporate-red"></i>
+                        <span>Optometría general</span>
+                    </div>
+                    <div class="para-list-item">
+                        <i class="fa-solid fa-heart-pulse fa-fw text-corporate-red"></i>
+                        <span>Electrocardiograma</span>
+                    </div>
+                    <div class="para-list-item">
+                        <i class="fa-solid fa-lungs fa-fw text-corporate-red"></i>
+                        <span>Espirometría</span>
+                    </div>
+                    <div class="para-list-item">
+                        <i class="fa-solid fa-x-ray fa-fw text-corporate-red"></i>
+                        <span>Rayos X, ecografías, radiografías de tórax lectura ILO.</span>
+                    </div>
+                    <div class="para-list-item">
+                        <i class="fa-solid fa-person-walking fa-fw text-corporate-red"></i>
+                        <span>Valoración por fisioterapeuta</span>
+                    </div>
+                    <div class="para-list-item">
+                        <i class="fa-solid fa-comment-medical fa-fw text-corporate-red"></i>
+                        <span>Valoración foniátrica</span>
+                    </div>
+                    
+                </div>
+            </div>
+
+            <!-- Columna Derecha: Imagen -->
+            <div class="col-12 col-lg-5">
+                <div class="shadow-sm overflow-hidden" style="border-radius: 15px;">
+                    <!-- Nota: Cambia la ruta en src="" por la imagen que desees usar -->
+                    <img class="img-fluid w-100" src="/img/servicios/examenParaclinico/ExamenParaclinicos.webp" alt="Profesional médico realizando evaluación" loading="lazy" style="object-fit: cover; min-height: 400px;">
                 </div>
             </div>
 
         </div>
-    </div>
-</div>
 
     </main>
 
