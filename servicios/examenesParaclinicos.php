@@ -74,7 +74,29 @@
         .para-list-item:hover {
             background-color: #f8f9fa;
             transform: translateX(8px);
-            border-color: rgba(225, 1, 9, 0.3);
+            border-color: #004085;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+        }
+
+        .para-list-item:hover {
+            background-color: #004085;
+            transform: translateX(8px);
+            border-color: #fff;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+        }
+
+        .para-list-item:hover i {
+            color: #fff;
+        }
+
+        .para-list-item:hover span {
+            color: #fff;
+        }
+
+        .para-list-item:hover {
+            background-color: #004085;
+            transform: translateX(8px);
+            border-color: #fff;
             box-shadow: 0 4px 10px rgba(0,0,0,0.05);
         }
 
@@ -86,7 +108,7 @@
         
         .para-list-item span {
             font-size: 1.1rem;
-            color: #495057;
+            color: #000000;
             font-weight: 500;
         }
     </style>
@@ -97,70 +119,68 @@
     <?php include '../html/nav.html'; ?>
 
     <main class="container my-5">
-        
-        <div class="row">
+
+        <div class="row mb-3 text-center">
             <div class="col-12">
-                <div class="hero-paraclinicos shadow-sm d-flex align-items-center justify-content-center text-center">
-                    <div class="hero-overlay"></div>
-                    <div class="hero-content text-white">
-                        <i class="fa-solid fa-heart-pulse fa-3x mb-3" style="color: #e10109;"></i>
-                        <h1 class="display-4 font-weight-bold mb-3">Exámenes Paraclínicos</h1>
-                        <p class="lead mb-0">Tecnología de precisión para diagnósticos ocupacionales exactos.</p>
-                    </div>
-                </div>
+                <h1 class="display-4 font-weight-bold text-corporate-blue">Exámenes Paraclínicos</h1>
+                <p class="lead mt-3">Tecnología de precisión para diagnósticos ocupacionales exactos.</p>
+                <hr class="mx-auto" style="border: 2px solid #e10109; width: 80px;">
             </div>
         </div>
 
         <div class="row justify-content-center mb-5">
-            <div class="col-12 col-lg-8">
-                <div class="card border-0 shadow-sm p-4 p-md-5" style="border-radius: 15px;">
-                    
-                    <h3 class="font-weight-bold text-center text-corporate-blue mb-4 border-bottom pb-3">Servicios de Apoyo Diagnóstico</h3>
-                    
-                    <div class="row">
-                        <div class="col-12">
-                            <div class="para-list-item">
-                                <i class="fa-solid fa-ear-listen"></i>
-                                <span>Audiometría vía aérea</span>
-                            </div>
-                            <div class="para-list-item">
-                                <i class="fa-solid fa-ear-listen"></i>
-                                <span>Audiometría clínica</span>
-                            </div>
-                            <div class="para-list-item">
-                                <i class="fa-solid fa-eye"></i>
-                                <span>Visiometría</span>
-                            </div>
-                            <div class="para-list-item">
-                                <i class="fa-solid fa-eye"></i>
-                                <span>Optometría general</span>
-                            </div>
-                            <div class="para-list-item">
-                                <i class="fa-solid fa-heart-circle-bolt"></i>
-                                <span>Electrocardiograma</span>
-                            </div>
-                            <div class="para-list-item">
-                                <i class="fa-solid fa-lungs"></i>
-                                <span>Espirometría</span>
-                            </div>
-                            <div class="para-list-item">
-                                <i class="fa-solid fa-x-ray"></i>
-                                <span>Rayos X, ecografías, radiografías de tórax lectura ILO.</span>
-                            </div>
-                            <div class="para-list-item">
-                                <i class="fa-solid fa-person-walking"></i>
-                                <span>Valoración por fisioterapeuta</span>
-                            </div>
-                            <div class="para-list-item">
-                                <i class="fa-solid fa-head-side-cough"></i>
-                                <span>Valoración foniátrica</span>
-                            </div>
+        <div class="col-12 col-lg-8">
+        <div class="card border-0 shadow-sm p-4 p-md-5" style="border-radius: 15px;">
+            
+            <h3 class="font-weight-bold text-center text-corporate-blue mb-3 pb-2">Servicios de Apoyo Diagnóstico</h3>
+            
+            <div class="row">
+                <div class="col-12">
+                    <!-- Contenedor centrado para que la lista luzca más ordenada -->
+                    <div class="mx-auto" style="max-width: 480px;">
+                        <div class="para-list-item">
+                            <i class="fa-solid fa-headphones fa-fw text-corporate-red"></i>
+                            <span>Audiometría vía aérea</span>
+                        </div>
+                        <div class="para-list-item">
+                            <i class="fa-solid fa-ear-listen fa-fw text-corporate-red"></i>
+                            <span>Audiometría clínica</span>
+                        </div>
+                        <div class="para-list-item">
+                            <i class="fa-solid fa-eye fa-fw text-corporate-red"></i>
+                            <span>Visiometría</span>
+                        </div>
+                        <div class="para-list-item">
+                            <i class="fa-solid fa-glasses fa-fw text-corporate-red"></i>
+                            <span>Optometría general</span>
+                        </div>
+                        <div class="para-list-item">
+                            <i class="fa-solid fa-heart-pulse fa-fw text-corporate-red"></i>
+                            <span>Electrocardiograma</span>
+                        </div>
+                        <div class="para-list-item">
+                            <i class="fa-solid fa-lungs fa-fw text-corporate-red"></i>
+                            <span>Espirometría</span>
+                        </div>
+                        <div class="para-list-item">
+                            <i class="fa-solid fa-x-ray fa-fw text-corporate-red"></i>
+                            <span>Rayos X, ecografías, radiografías de tórax lectura ILO.</span>
+                        </div>
+                        <div class="para-list-item">
+                            <i class="fa-solid fa-person-walking fa-fw text-corporate-red"></i>
+                            <span>Valoración por fisioterapeuta</span>
+                        </div>
+                        <div class="para-list-item">
+                            <i class="fa-solid fa-comment-medical fa-fw text-corporate-red"></i>
+                            <span>Valoración foniátrica</span>
                         </div>
                     </div>
-
                 </div>
             </div>
+
         </div>
+    </div>
+</div>
 
     </main>
 
