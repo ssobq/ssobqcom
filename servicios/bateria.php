@@ -86,11 +86,11 @@
 
     <main class="container my-5">
         
-        <div class="row mb-5">
+        <!-- <div class="row mb-5">
             <div class="col-12">
                 <img class="img-fluid w-100 shadow-sm" src="/img/servicios/bateria/Banner-bateria_sso-crc.webp" alt="Batería de riesgo psicosocial" style="border-radius: 15px; object-fit: cover; max-height: 350px;" loading="lazy">
             </div>
-        </div>
+        </div> -->
 
        <div class="row mb-5 justify-content-center">
             <div class="col-12 col-lg-10">
