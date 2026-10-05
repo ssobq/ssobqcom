@@ -132,9 +132,13 @@
                                     <i class="fa-solid fa-brain mr-3 text-corporate-red" style="font-size: 1.2rem;"></i>
                                     <span>Psicosocial</span>
                                 </li>
-                                <li class="d-flex align-items-center">
+                                <li class="mb-3 d-flex align-items-center">
                                     <i class="fa-solid fa-ear-listen mr-3 text-corporate-red" style="font-size: 1.2rem;"></i>
                                     <span>Auditivo</span>
+                                </li>
+                                <li class="mb-3 d-flex align-items-center">
+                                    <i class="fa-solid fa-person-rays mr-3 text-corporate-red" style="font-size: 1.2rem;"></i>
+                                    <span>Biomecánico</span>
                                 </li>
                             </ul>
                         </div>
