@@ -27,8 +27,23 @@
             height: 100%;
         }
 
-        .info-card:hover { transform: translateY(-5px); box-shadow: 0 8px 25px rgba(0,0,0,0.1); }
+        .info-card:hover { 
+            transform: translateY(-5px); 
+            box-shadow: 0 8px 25px rgba(0,0,0,0.1); 
+            background-color: #004085;
+        }
         
+        .info-card:hover li{ 
+            color: #fff;
+        }
+        .info-card:hover i{ 
+            color: #fff;
+        }
+
+        .info-card:hover h4{ 
+            color: #fff;
+        }
+
         .psi-icon {
             font-size: 2.5rem;
             color: #e10109;
@@ -55,7 +70,7 @@
         <div class="row mb-5 text-center">
             <div class="col-12">
                 <h1 class="display-4 font-weight-bold text-corporate-blue">Pruebas Psicológicas</h1>
-                <p class="lead text-muted mt-3">Evaluaciones especializadas para entornos laborales y organizacionales.</p>
+                <p class="lead mt-3">Evaluaciones especializadas para entornos laborales y organizacionales.</p>
                 <hr class="mx-auto" style="border: 2px solid #e10109; width: 80px;">
             </div>
         </div>
@@ -64,42 +79,48 @@
             
             <div class="col-12 col-md-4 mb-4">
                 <div class="card info-card p-4">
-                    <i class="fa-solid fa-user-check psi-icon"></i>
-                    <h4 class="text-corporate-blue font-weight-bold">Valoración Psicológica</h4>
+                    <div class="d-flex align-items-center mb-3">
+                        <i class="fa-solid fa-user-check psi-icon mb-0 mr-3"></i>
+                        <h4 class="text-corporate-blue font-weight-bold mb-0">Valoración Psicológica</h4>
+                    </div>
                     <ul class="psi-list">
-                        <li><i class="fa-solid fa-chevron-right"></i> Altura</li>
-                        <li><i class="fa-solid fa-chevron-right"></i> Ansiedad</li>
-                        <li><i class="fa-solid fa-chevron-right"></i> Cargos medios</li>
-                        <li><i class="fa-solid fa-chevron-right"></i> Conductor</li>
-                        <li><i class="fa-solid fa-chevron-right"></i> Espacios confinados</li>
-                        <li><i class="fa-solid fa-chevron-right"></i> Estudiantil</li>
-                        <li><i class="fa-solid fa-chevron-right"></i> Mental - Social</li>
+                        <li><i class="fa-solid fa-ruler-vertical fa-fw"></i> Altura</li>
+                        <li><i class="fa-solid fa-brain fa-fw"></i> Ansiedad</li>
+                        <li><i class="fa-solid fa-user-tie fa-fw"></i> Cargos medios</li>
+                        <li><i class="fa-solid fa-car fa-fw"></i> Conductor</li>
+                        <li><i class="fa-solid fa-box-archive fa-fw"></i> Espacios confinados</li>
+                        <li><i class="fa-solid fa-graduation-cap fa-fw"></i> Estudiantil</li>
+                        <li><i class="fa-solid fa-users fa-fw"></i> Mental - Social</li>
                     </ul>
                 </div>
             </div>
 
             <div class="col-12 col-md-4 mb-4">
                 <div class="card info-card p-4">
-                    <i class="fa-solid fa-file-contract psi-icon"></i>
-                    <h4 class="text-corporate-blue font-weight-bold">Informe Psicotécnico</h4>
+                    <div class="d-flex align-items-center mb-3">
+                        <i class="fa-solid fa-file-contract psi-icon mb-0 mr-3"></i>
+                        <h4 class="text-corporate-blue font-weight-bold mb-0">Informe Psicotécnico</h4>
+                    </div>
                     <ul class="psi-list">
-                        <li><i class="fa-solid fa-chevron-right"></i> Cargos medios</li>
-                        <li><i class="fa-solid fa-chevron-right"></i> Conductores</li>
-                        <li><i class="fa-solid fa-chevron-right"></i> Especializadas</li>
-                        <li><i class="fa-solid fa-chevron-right"></i> Altura y/o Confinados</li>
+                        <li><i class="fa-solid fa-user-tie fa-fw"></i> Cargos medios</li>
+                        <li><i class="fa-solid fa-car fa-fw"></i> Conductores</li>
+                        <li><i class="fa-solid fa-gears fa-fw"></i> Especializadas</li>
+                        <li><i class="fa-solid fa-ruler-vertical fa-fw"></i> Altura y/o Confinados</li>
                     </ul>
                 </div>
             </div>
 
             <div class="col-12 col-md-4 mb-4">
                 <div class="card info-card p-4">
-                    <i class="fa-solid fa-chart-line psi-icon"></i>
-                    <h4 class="text-corporate-blue font-weight-bold">Desarrollo Organizacional</h4>
+                    <div class="d-flex align-items-center mb-3">
+                        <i class="fa-solid fa-chart-line psi-icon mb-0 mr-3"></i>
+                        <h4 class="text-corporate-blue font-weight-bold mb-0">Desarrollo Organizacional</h4>
+                    </div>
                     <ul class="psi-list">
-                        <li><i class="fa-solid fa-chevron-right"></i> Evaluación de desempeño</li>
-                        <li><i class="fa-solid fa-chevron-right"></i> Programa de bienestar</li>
-                        <li><i class="fa-solid fa-chevron-right"></i> Estudio de clima laboral</li>
-                        <li><i class="fa-solid fa-chevron-right"></i> Evaluación de coordinación motriz</li>
+                        <li><i class="fa-solid fa-clipboard-check fa-fw"></i> Evaluación de desempeño</li>
+                        <li><i class="fa-solid fa-heart-pulse fa-fw"></i> Programa de bienestar</li>
+                        <li><i class="fa-solid fa-comments fa-fw"></i> Estudio de clima laboral</li>
+                        <li><i class="fa-solid fa-hand-fist fa-fw"></i> Evaluación de coordinación motriz</li>
                     </ul>
                 </div>
             </div>
