@@ -37,7 +37,7 @@
             color: #fff;
         }
         .info-card:hover i{ 
-            color: #fff;
+            color: #e10109;
         }
 
         .info-card:hover h4{ 
@@ -53,7 +53,6 @@
         .psi-list { list-style: none; padding: 0; margin-top: 15px; }
         .psi-list li {
             padding: 8px 0;
-            border-bottom: 1px solid #f8f9fa;
             color: #555;
             display: flex;
             align-items: center;
