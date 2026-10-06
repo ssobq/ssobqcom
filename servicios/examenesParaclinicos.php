@@ -152,7 +152,7 @@
                     </div>
                     <div class="para-list-item">
                         <i class="fa-solid fa-glasses fa-fw text-corporate-red"></i>
-                        <span>Optometría general</span>
+                        <span>Optometría</span>
                     </div>
                     <div class="para-list-item">
                         <i class="fa-solid fa-heart-pulse fa-fw text-corporate-red"></i>
