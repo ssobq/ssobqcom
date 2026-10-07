@@ -76,6 +76,21 @@
             display: none; /* Controlado por JS */
             font-family: 'Open Sans', sans-serif;
         }
+
+        .btn-portal {
+            transition: all 0.3s ease;
+            background-color: #25D366;
+            color: white;
+            border: none;
+        }
+        
+        .btn-portal:hover {
+            background-color: #1ebe5d;
+            transform: scale(1.05);
+            box-shadow: 0 4px 10px rgba(37, 211, 102, 0.4);
+            color: white;
+        }
+
     </style>
 </head>
 
@@ -133,7 +148,7 @@
                                 <div class="mb-2">
                                     <button type="button" class="accordion-item-btn" data-target="lenteSeguridad">Lentes de Seguridad</button>
                                     <div id="lenteSeguridad" class="accordion-item-body">
-                                        Gafas diseñadas para proteger los ojos de los trabajadores contra impactos, partículas y riesgos en el entorno laboral.
+                                        Gafas diseñadas para proteger los ojos de los trabajadores contra cualquier tipo de riesgo en el entorno laboral.
                                     </div>
                                 </div>
                             </div>
@@ -163,27 +178,11 @@
                                     </div>
                                 </div>
 
-                                <!-- Ítem 3 -->
-                                <div class="mb-2">
-                                    <button type="button" class="accordion-item-btn" data-target="trat3">Antireflejo Blue</button>
-                                    <div id="trat3" class="accordion-item-body">
-                                        Bloquea la luz azul nociva emitida por pantallas digitales y dispositivos.
-                                    </div>
-                                </div>
-
-                                <!-- Ítem 4 -->
-                                <div class="mb-2">
-                                    <button type="button" class="accordion-item-btn" data-target="trat4">Fotocromático</button>
-                                    <div id="trat4" class="accordion-item-body">
-                                        Se oscurecen automáticamente al exponerse a la luz del sol al aire libre.
-                                    </div>
-                                </div>
-
                                 <!-- Ítem 5 -->
                                 <div class="mb-2">
                                     <button type="button" class="accordion-item-btn" data-target="trat5">Transitions</button>
                                     <div id="trat5" class="accordion-item-body">
-                                        Tecnología inteligente superior de oscurecimiento y adaptación rápida.
+                                        Tecnología inteligente que protege de los rayos UVA y UVB emitidos por el sol.
                                     </div>
                                 </div>
                             </div>
@@ -200,6 +199,15 @@
                 </div>
             </div>
         </div>
+
+        <div class="row mt-4 text-center">
+            <div class="col-12">
+                    <a href="https://wa.me/573018461574?text=Hola,%20deseo%20agendar%20citas%20para%20los%20Paquetes%20Escolares" target="_blank" class="btn btn-lg px-5 py-2 font-weight-bold rounded-pill shadow btn-portal">
+                        <i class="fa-brands fa-whatsapp mr-2"></i> Agendar por WhatsApp
+                    </a>
+            </div>
+        </div>
+
     </main>
 
     <?php include '../html/footer.html'; ?>
