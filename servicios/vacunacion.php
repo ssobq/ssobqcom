@@ -151,6 +151,20 @@
         .card-header[aria-expanded="true"] .toggle-icon {
             transform: rotate(180deg);
         }
+
+        .btn-portal {
+            transition: all 0.3s ease;
+            background-color: #25D366;
+            color: white;
+            border: none;
+        }
+        
+        .btn-portal:hover {
+            background-color: #1ebe5d;
+            transform: scale(1.05);
+            box-shadow: 0 4px 10px rgba(37, 211, 102, 0.4);
+            color: white;
+        }
     </style>
 </head>
 
@@ -233,29 +247,8 @@
                     <div id="collapseAmarilla" class="collapse">
                         <div class="card-body pt-0 px-3 px-md-4 pb-4">
                             <ul class="vac-list mt-3">
-                                <li><i class="fa-solid fa-check"></i> Inmunidad de por vida.</li>
+                                <li><i class="fa-solid fa-check"></i> Dosis Única.</li>
                                 <li><i class="fa-solid fa-check"></i> Recomendada para zonas de riesgo y viajes internacionales.</li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Influenza -->
-            <div class="col-12 col-md-6">
-                <div class="card vac-card">
-                    <div class="card-header d-flex justify-content-between align-items-center" data-toggle="collapse" data-target="#collapseInfluenza" aria-expanded="false" style="cursor: pointer;">
-                        <h4 class="text-corporate-blue font-weight-bold mb-0 d-flex align-items-center card-title-custom">
-                            <i class="fa-solid fa-temperature-low vac-icon"></i> Influenza
-                        </h4>
-                        <i class="fa-solid fa-chevron-down toggle-icon"></i>
-                    </div>
-                    <div id="collapseInfluenza" class="collapse">
-                        <div class="card-body pt-0 px-3 px-md-4 pb-4">
-                            <ul class="vac-list mt-3">
-                                <li><i class="fa-solid fa-check"></i> Dosis Anual.</li>
-                                <li><i class="fa-solid fa-check"></i> La inmunidad se atenúa con el tiempo, requiere refuerzo anual.</li>
-                                <li><i class="fa-solid fa-check"></i> Aprobada para personas con patologías cardiacas.</li>
                             </ul>
                         </div>
                     </div>
@@ -307,7 +300,28 @@
                         <div class="card-body pt-0 px-3 px-md-4 pb-4">
                             <ul class="vac-list mt-3">
                                 <li><i class="fa-solid fa-check"></i> 1ª Dosis: Inicio de esquema.</li>
-                                <li><i class="fa-solid fa-check"></i> 2ª Dosis: A los 2 meses de la primera.</li>                  
+                                <li><i class="fa-solid fa-check"></i> 2ª Dosis: A los 6 meses de la primera.</li>                  
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+                        <!-- Influenza -->
+            <div class="col-12 col-md-6">
+                <div class="card vac-card">
+                    <div class="card-header d-flex justify-content-between align-items-center" data-toggle="collapse" data-target="#collapseInfluenza" aria-expanded="false" style="cursor: pointer;">
+                        <h4 class="text-corporate-blue font-weight-bold mb-0 d-flex align-items-center card-title-custom">
+                            <i class="fa-solid fa-temperature-low vac-icon"></i> Influenza
+                        </h4>
+                        <i class="fa-solid fa-chevron-down toggle-icon"></i>
+                    </div>
+                    <div id="collapseInfluenza" class="collapse">
+                        <div class="card-body pt-0 px-3 px-md-4 pb-4">
+                            <ul class="vac-list mt-3">
+                                <li><i class="fa-solid fa-check"></i> Dosis Anual.</li>
+                                <li><i class="fa-solid fa-check"></i> La inmunidad se atenúa con el tiempo, requiere refuerzo anual.</li>
+                                <li><i class="fa-solid fa-check"></i> Aprobada para personas con patologías cardiacas.</li>
                             </ul>
                         </div>
                     </div>
@@ -326,7 +340,7 @@
                     <div id="collapseTripleViral" class="collapse">
                         <div class="card-body pt-0 px-3 px-md-4 pb-4">
                             <ul class="vac-list mt-3">
-                                <li><i class="fa-solid fa-check"></i> Inmunidad de por vida.</li>                  
+                                <li><i class="fa-solid fa-check"></i> Dosis Única.</li>                  
                             </ul>
                         </div>
                     </div>
@@ -468,6 +482,20 @@
                             </ul>
                         </div>
                     </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row mt-4">
+            <div class="col-12">
+                <div class="p-4 p-md-5 text-white rounded shadow-sm d-flex flex-column align-items-center justify-content-center text-center" style="background-color: #003a8c;">
+                    <h3 class="font-weight-bold mb-3">¿Listo para agendar?</h3>
+                    <p class="mb-4" style="font-size: 1.1rem;">
+                        <strong class="textoanuncio">Escríbenos para reservar tus citas y agilizar el proceso directamente desde WhatsApp.</strong>
+                    </p>
+                    <a href="https://wa.me/573153603621?text=Hola,%20deseo%20agendar%20citas%20para%20los%20Paquetes%20Escolares" target="_blank" class="btn btn-lg px-5 py-2 font-weight-bold rounded-pill shadow btn-portal">
+                        <i class="fa-brands fa-whatsapp mr-2"></i> Agendar por WhatsApp
+                    </a>
                 </div>
             </div>
         </div>
