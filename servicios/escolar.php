@@ -151,6 +151,7 @@
                     <!-- Cinta superior roja de promoción -->
                     <div class="text-white text-center py-2 font-weight-bold" style="background-color: #e10109; letter-spacing: 1px;">
                         <i class="fa-solid fa-gift mr-2"></i> ¡PROMOCIÓN 3X2!
+                        <span class="d-block font-weight-normal mt-1" style="font-size: 0.75rem; letter-spacing: normal;"> ¡Promoción valida hasta el 31 de octubre!</span>
                     </div>
                     <div class="card-body p-4 p-md-5 d-flex flex-column">
                         <h4 class="font-weight-bold text-corporate-blue mb-4 text-center">Paquete Básico</h4>
