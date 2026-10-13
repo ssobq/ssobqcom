@@ -202,7 +202,7 @@
 
         <div class="row mt-4 text-center">
             <div class="col-12">
-                    <a href="https://wa.me/573018461574?text=Hola,%20deseo%20agendar%20citas%20para%20los%20Paquetes%20Escolares" target="_blank" class="btn btn-lg px-5 py-2 font-weight-bold rounded-pill shadow btn-portal">
+                    <a href="https://wa.me/573018461574?text=Hola,%20deseo%20agendar%20una%20cita" target="_blank" class="btn btn-lg px-5 py-2 font-weight-bold rounded-pill shadow btn-portal">
                         <i class="fa-brands fa-whatsapp mr-2"></i> Agendar por WhatsApp
                     </a>
             </div>
