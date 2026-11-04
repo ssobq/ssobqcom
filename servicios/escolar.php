@@ -147,12 +147,7 @@
             
             <!-- TARJETA 1: PAQUETE BÁSICO (CON PROMOCIÓN) -->
             <div class="col-12 col-md-6 mb-4 mb-md-0">
-                <div class="card border-0 shadow-sm w-100 h-100 paquete-card paquete-prom-card">
-                    <!-- Cinta superior roja de promoción -->
-                    <div class="text-white text-center py-2 font-weight-bold" style="background-color: #e10109; letter-spacing: 1px;">
-                        <i class="fa-solid fa-gift mr-2"></i> ¡PROMOCIÓN 3X2!
-                        <span class="d-block font-weight-normal mt-1" style="font-size: 0.75rem; letter-spacing: normal;"> ¡Promoción valida hasta el 31 de octubre!</span>
-                    </div>
+                <div class="card border-0 shadow-sm w-100 h-100 paquete-card paquete-prom-card" style="border-top: 6px solid #e10109 !important;">
                     <div class="card-body p-4 p-md-5 d-flex flex-column">
                         <h4 class="font-weight-bold text-corporate-blue mb-4 text-center">Paquete Básico</h4>
                         
@@ -176,17 +171,9 @@
                                 <span><strong>Visiometría:</strong> Tamizaje visual preventivo.</span>
                             </li>
                         </ul>
-                        
-                        <!-- Caja de destaque de la promoción -->
-                        <div class="p-3 rounded mt-auto">
-                            <p class="mb-0 text-danger text-center font-weight-bold">
-                                <i class="fa-solid fa-users mr-1"></i> ¡Paga 2 paquetes y asisten 3 estudiantes!
-                            </p>
-                        </div>
                     </div>
                 </div>
             </div>
-
             <!-- TARJETA 2: PAQUETE CON OPTOMETRÍA (SIN PROMOCIÓN) -->
             <div class="col-12 col-md-6">
                 <div class="card border-0 shadow-sm w-100 h-100 paquete-card paquete-sin-card" style="border-top: 6px solid #004085 !important;">
@@ -214,16 +201,9 @@
                             </li>
                         </ul>
                         
-                        <!-- Aviso aclaratorio -->
-                        <div class="p-3 rounded mt-auto">
-                            <p class="mb-0 text-center small">
-                                <i class="fa-solid fa-circle-info mr-1"></i> Este paquete es individual y no aplica para la promoción 3x2.
-                            </p>
-                        </div>
                     </div>
                 </div>
             </div>
-
         </div>
 
         <!-- ========================================== -->
