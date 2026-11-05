@@ -209,7 +209,7 @@
                         <p class="text-muted small mb-3 border-bottom pb-2">Atención al cliente Centro de Reconocimiento.</p>
 
                         <div class="mb-3">
-                            <span class="font-weight-bold d-block text-dark">Stiven Barrios</span>
+                            <span class="font-weight-bold d-block text-dark">Stiven Barros</span>
                             <span class="small text-secondary">Atención al usuario</span>
                         </div>
 
