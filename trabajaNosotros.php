@@ -102,7 +102,7 @@
             <!-- Columna Izquierda: Imagen -->
             <div class="col-12 col-lg-6 mb-4 mb-lg-0">
                 <div class="h-100 shadow-sm" style="border-radius: 15px; overflow: hidden;">
-                    <img class="img-fluid w-100 h-100" style="object-fit: cover;" src="img/trabajaNosotros/trabaja-con-nosotros.jpg" alt="Trabaja en SSO - CRC" loading="lazy">
+                    <img class="img-fluid w-100 h-100" style="object-fit: cover;" src="img/trabajaNosotros/trabaja-con-nosotros.webp" alt="Trabaja en SSO - CRC" loading="lazy">
                 </div>
             </div>
 

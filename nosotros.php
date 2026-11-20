@@ -75,7 +75,7 @@
 
         <section class="row mb-5 text-center">
             <div class="col-12">
-                <img class="img-fluid rounded shadow-sm w-100" src="img/nosotros/Valores-sso-crc.jpg" alt="Valores Corporativos SSO - CRC" loading="lazy">
+                <img class="img-fluid rounded shadow-sm w-100" src="img/nosotros/Valores-sso-crc.webp" alt="Valores Corporativos SSO - CRC" loading="lazy">
             </div>
         </section>
 
@@ -86,7 +86,7 @@
                 
                 <div class="row align-items-center mt-4">
                     <div class="col-12 col-md-4 mb-4 mb-md-0 text-center">
-                        <img class="img-fluid rounded shadow-xs" src="img/nosotros/icontec-ssobq.jpg" alt="Icontec Certificación" style="max-width: 200px;" loading="lazy">
+                        <img class="img-fluid rounded shadow-xs" src="img/nosotros/icontec-ssobq.webp" alt="Icontec Certificación" style="max-width: 200px;" loading="lazy">
                     </div>
                     <div class="col-12 col-md-8">
                         <p class="text-justify text" style="font-size: 1rem; line-height: 1.6;">
@@ -102,7 +102,7 @@
         <section class="row mb-4 align-items-center">
 
             <div class="col-12 col-md-6 mb-4 mb-md-0">
-                <img class="img-fluid rounded shadow-sm w-100" src="img/politica/PTD.png" alt="Política de Tratamiento de Datos Personales" loading="lazy">
+                <img class="img-fluid rounded shadow-sm w-100" src="img/politica/PTD.webp" alt="Política de Tratamiento de Datos Personales" loading="lazy">
             </div>
             
             <div class="col-12 col-md-6">
